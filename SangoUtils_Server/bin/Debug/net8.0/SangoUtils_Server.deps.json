@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SangoUtils_Server/1.0.0": {
+        "runtime": {
+          "SangoUtils_Server.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SangoUtils_Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

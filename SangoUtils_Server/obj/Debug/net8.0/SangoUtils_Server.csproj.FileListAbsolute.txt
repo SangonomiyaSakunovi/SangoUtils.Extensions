@@ -1,0 +1,14 @@
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoUtils_Server.exe
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoUtils_Server.deps.json
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoUtils_Server.runtimeconfig.json
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoUtils_Server.dll
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoUtils_Server.pdb
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\SangoUtils_Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\SangoUtils_Server.AssemblyInfoInputs.cache
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\SangoUtils_Server.AssemblyInfo.cs
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\SangoUtils_Server.csproj.CoreCompileInputs.cache
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\SangoUtils_Server.dll
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\refint\SangoUtils_Server.dll
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\SangoUtils_Server.pdb
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\SangoUtils_Server.genruntimeconfig.cache
+E:\FantasyOfSango\SangoUtils_Server\SangoUtils_Server\obj\Debug\net8.0\ref\SangoUtils_Server.dll
