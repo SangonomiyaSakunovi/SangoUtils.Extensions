@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\16022\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FantasyOfSango\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server.csproj",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server.csproj",
       "projectName": "SangoUtils_Server",
-      "projectPath": "E:\\FantasyOfSango\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server.csproj",
-      "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-      "outputPath": "E:\\FantasyOfSango\\SangoUtils_Server\\SangoUtils_Server\\obj\\",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\16022\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
