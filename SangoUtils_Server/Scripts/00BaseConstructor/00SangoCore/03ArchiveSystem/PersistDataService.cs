@@ -1,4 +1,6 @@
-﻿namespace SangoUtils_Server
+﻿using SangoUtils_Server.Core;
+
+namespace SangoUtils_Server
 {
     public class PersistDataService : BaseService<PersistDataService>
     {

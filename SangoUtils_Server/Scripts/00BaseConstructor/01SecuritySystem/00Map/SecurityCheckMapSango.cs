@@ -1,4 +1,4 @@
-﻿namespace SangoUtils_Server
+﻿namespace SangoUtils_Server.Security
 {
     public static class SecurityCheckMapSango
     {
