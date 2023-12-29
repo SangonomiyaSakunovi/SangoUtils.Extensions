@@ -1,0 +1,16 @@
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\bin\Debug\net8.0\SangoScripts_Server.deps.json
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\bin\Debug\net8.0\SangoScripts_Server.dll
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\bin\Debug\net8.0\SangoScripts_Server.pdb
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\bin\Debug\net8.0\SangoUtils_Common.dll
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\bin\Debug\net8.0\SangoUtils_Common.pdb
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.csproj.AssemblyReference.cache
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.sourcelink.json
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.csproj.CopyComplete
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.dll
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\refint\SangoScripts_Server.dll
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\SangoScripts_Server.pdb
+I:\SangoUtils\SangoUtils_Server\SangoScripts_Server\obj\Debug\net8.0\ref\SangoScripts_Server.dll

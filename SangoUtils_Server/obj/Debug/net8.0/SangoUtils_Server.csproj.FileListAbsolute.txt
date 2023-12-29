@@ -47,3 +47,5 @@ I:\SangoUtils\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\protobuf-net.
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\protobuf-net.Core.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoUtils_Common.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoUtils_Common.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoScripts_Server.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Server\bin\Debug\net8.0\SangoScripts_Server.pdb

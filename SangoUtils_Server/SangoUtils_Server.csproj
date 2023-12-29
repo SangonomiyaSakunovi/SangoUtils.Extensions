@@ -8,20 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Scripts\00BaseConstructor\00ConfigInstance\00CommonsConfig\" />
-    <Folder Include="Scripts\00BaseConstructor\00ConfigInstance\02ClientConfig\" />
-    <Folder Include="Scripts\00BaseConstructor\00SangoCore\00Extensions\" />
-    <Folder Include="Scripts\00BaseConstructor\00SangoCore\02CacheSystem\" />
-    <Folder Include="Scripts\00BaseConstructor\00SangoCore\06AsyncSystem\" />
-    <Folder Include="Scripts\00BaseConstructor\01SecuritySystem\00Instance\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
     <PackageReference Include="System.Text.Json" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SangoScripts_Server\SangoScripts_Server.csproj" />
     <ProjectReference Include="..\SangoUtils_Common\SangoUtils_Common.csproj" />
   </ItemGroup>
 

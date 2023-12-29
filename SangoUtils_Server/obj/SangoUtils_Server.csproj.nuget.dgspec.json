@@ -4,6 +4,80 @@
     "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server.csproj": {}
   },
   "projects": {
+    "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoScripts_Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoScripts_Server.csproj",
+        "projectName": "SangoScripts_Server",
+        "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoScripts_Server.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj": {
+                "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -103,6 +177,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoScripts_Server.csproj": {
+                "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoScripts_Server.csproj"
+              },
               "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj": {
                 "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj"
               }
@@ -119,10 +196,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.22.0, )"
-            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[8.0.0, )"

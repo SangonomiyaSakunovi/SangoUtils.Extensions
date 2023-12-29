@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Scripts\00BaseConstructor\00SangoCore\00Extensions\**" />
+    <Compile Remove="Scripts\00BaseConstructor\01SecuritySystem\00Instance\**" />
+    <EmbeddedResource Remove="Scripts\00BaseConstructor\00SangoCore\00Extensions\**" />
+    <EmbeddedResource Remove="Scripts\00BaseConstructor\01SecuritySystem\00Instance\**" />
+    <None Remove="Scripts\00BaseConstructor\00SangoCore\00Extensions\**" />
+    <None Remove="Scripts\00BaseConstructor\01SecuritySystem\00Instance\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Scripts\00BaseConstructor\00SangoCore\06AsyncSystem\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SangoUtils_Common\SangoUtils_Common.csproj" />
+  </ItemGroup>
+
+</Project>
