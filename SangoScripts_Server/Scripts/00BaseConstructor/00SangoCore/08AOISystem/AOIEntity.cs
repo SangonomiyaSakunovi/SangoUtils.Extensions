@@ -1,97 +1,172 @@
-﻿using System.Numerics;
-using System.Text;
+﻿using SangoUtils_Common.Infos;
 
 namespace SangoScripts_Server.AOI
 {
-    public class AOIEntity
+    public class AOIEntity(string entityID, AOIController aoiController, AOIEntityType entityDriverCode)
     {
-        public string _entityID;
-        public AOIController _aoiController;
+        public string EntityID { get; private set; } = entityID;
+        public AOIController AOIController { get; private set; } = aoiController;
+        public AOIEntityType AOIEntityType { get; private set; } = entityDriverCode;
+        private AOIUpdatePacks _aoiEntityOperationUpdatePacks = new(aoiController.AOIConfig.AOIEntityUpdateEnterPacksCount, aoiController.AOIConfig.AOIEntityUpdateMovePacksCount, aoiController.AOIConfig.AOIEntityUpdateExitPacksCount);
 
-        public AOICellIndex _aoiCellIndexHistory = new(0, 0);
-        public AOICellIndex _aoiCellIndex = new(0, 0);
 
-        public string _aoiCellKeyHistory = "";
-        public string _aoiCellKey = "";
+        public Transform Transform { get; private set; } = new();
+        public AOIEntityOperationCode AOIEntityOperationCode { get; private set; }
 
-        private Vector3 _position;
-        private AOIEntityOperationCode _aoiEntityOperationCode;
-        private StringBuilder _stringBuilder = new StringBuilder();
+        public AOICrossDirectionCode AOICrossDirectionCode { get; private set; }
+
+        private AOICellIndex _aoiCellIndexLast = new(0, 0);
+        public AOICellIndex AOICellIndex { get; private set; } = new(0, 0);
+
+        private string _aoiCellKeyLast = "";
+        public string AOICellKey { get; private set; } = "";
 
         private AOICell[]? _aoiAroundCells = null;
+        private List<AOICell> _aoiRemoveCells = new(5);
+        private List<AOICell> _aoiAddCells = new(5);
 
-        private AOIPackController _aoiEntityUpdatePackController;
-
-        public AOIEntity(string entityID, AOIController aoiController)
+        public void OnUpdatePosition(Transform transform, AOIEntityOperationCode operationCode = AOIEntityOperationCode.None)
         {
-            _entityID = entityID;
-            _aoiController = aoiController;
+            Transform = transform;
+            AOIEntityOperationCode = operationCode;
 
-            _aoiEntityUpdatePackController = new(_aoiController.AOIConfig.aoiEntityUpdateEnterPacksCount, _aoiController.AOIConfig.aoiEntityUpdateMovePacksCount, _aoiController.AOIConfig.aoiEntityUpdateExitPacksCount);
-        }
+            int xIndex = (int)Math.Floor(transform.Position.X / AOIController.CellSize);
+            int zIndex = (int)Math.Floor(transform.Position.Z / AOIController.CellSize);
 
-        public Vector3 Position { get { return _position; } }
-        public AOIEntityOperationCode AOIEntityOperationCode { get { return _aoiEntityOperationCode; } }
-
-        public void OnUpdatePosition(Vector3 position, AOIEntityOperationCode operationCode = AOIEntityOperationCode.None)
-        {
-            _position = position;
-            _aoiEntityOperationCode = operationCode;
-
-            int xIndex = (int)Math.Floor(position.X / _aoiController.CellSize);
-            int zIndex = (int)Math.Floor(position.Z / _aoiController.CellSize);
-
-            _stringBuilder.Clear();
-            _stringBuilder.Append(xIndex);
-            _stringBuilder.Append('_');
-            _stringBuilder.Append(zIndex);
-            string aoiCellKeyNew = _stringBuilder.ToString();
-            if (aoiCellKeyNew != _aoiCellKey)
+            string aoiCellKeyNew = AOIController.GetAOICellKey(xIndex, zIndex);
+            if (aoiCellKeyNew != AOICellKey)
             {
-                _aoiCellIndexHistory = _aoiCellIndex;
-                _aoiCellIndex = new(xIndex, zIndex);
-                _aoiCellKeyHistory = _aoiCellKey;
-                _aoiCellKey = aoiCellKeyNew;
+                _aoiCellIndexLast = AOICellIndex;
+                _aoiCellKeyLast = AOICellKey;
 
-                if (_aoiEntityOperationCode != AOIEntityOperationCode.TransferEnterCell && _aoiEntityOperationCode != AOIEntityOperationCode.TransferExitCell)
+                if (AOICellKey != "")
                 {
-                    _aoiEntityOperationCode = AOIEntityOperationCode.MoveCrossCell;
+                    AOIController.MarkExitEntityCell(this);
                 }
-                _aoiController.OnEntityMoveCrossAOICell(this);
+
+                AOICellIndex = new(xIndex, zIndex);
+                AOICellKey = aoiCellKeyNew;
+
+                if (AOIEntityOperationCode != AOIEntityOperationCode.TransferEnterCell && AOIEntityOperationCode != AOIEntityOperationCode.TransferExitCell)
+                {
+                    AOIEntityOperationCode = AOIEntityOperationCode.MoveCrossCell;
+                    if (AOICellIndex.XIndex < _aoiCellIndexLast.XIndex)
+                    {
+                        if (AOICellIndex.ZIndex == _aoiCellIndexLast.ZIndex)
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.Left;
+                        }
+                        else if (AOICellIndex.ZIndex < _aoiCellIndexLast.ZIndex)
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.LeftDown;
+                        }
+                        else
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.LeftUp;
+                        }
+                    }
+                    else if (AOICellIndex.XIndex > _aoiCellIndexLast.XIndex)
+                    {
+                        if (AOICellIndex.ZIndex == _aoiCellIndexLast.ZIndex)
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.Right;
+                        }
+                        else if (AOICellIndex.ZIndex < _aoiCellIndexLast.ZIndex)
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.RightDown;
+                        }
+                        else
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.RightUp;
+                        }
+                    }
+                    else
+                    {
+                        if (AOICellIndex.ZIndex > _aoiCellIndexLast.ZIndex)
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.Up;
+                        }
+                        else
+                        {
+                            AOICrossDirectionCode = AOICrossDirectionCode.Down;
+                        }
+                    }
+                }
+                AOIController.OnEntityMoveCrossAOICell(this);
             }
             else
             {
-                _aoiEntityOperationCode = AOIEntityOperationCode.MoveInsideCell;
-                _aoiController.OnEntityMoveInsideAOICell(this);
+                AOIEntityOperationCode = AOIEntityOperationCode.MoveInsideCell;
+                AOICrossDirectionCode = AOICrossDirectionCode.None;
+                AOIController.OnEntityMoveInsideAOICell(this);
             }
         }
 
         public void AddAOIAroundCells(AOICell[] aoiAroundCells)
         {
-            _aoiAroundCells = aoiAroundCells;
+            if (AOIEntityType == AOIEntityType.Client)
+            {
+                _aoiAroundCells = aoiAroundCells;
+            }
+        }
+
+        public void AddAOIEnterCells(AOICell cell)
+        {
+            if (AOIEntityType == AOIEntityType.Client)
+            {
+                _aoiAddCells.Add(cell);
+            }
+        }
+
+        public void RemoveAOIExitCells(AOICell cell)
+        {
+            if (AOIEntityType == AOIEntityType.Client)
+            {
+                _aoiRemoveCells.Add(cell);
+            }
         }
 
         public void CalcEntityCellAndAroundViewChanged()
         {
-            if (_aoiAroundCells != null)
+            AOICell cell = AOIController.GetOrNewAOICell(this);
+            if (cell.ClientEntityConcernCount > 0 && AOIEntityType == AOIEntityType.Client)
             {
-                for (int i = 0; i < _aoiAroundCells.Length; i++)
+                if (_aoiAroundCells != null)
                 {
-                    HashSet<AOIEntity> set = _aoiAroundCells[i]._holdSet;
-                    foreach (AOIEntity entity in set)
+                    for (int i = 0; i < _aoiAroundCells.Length; i++)
                     {
-                        _aoiEntityUpdatePackController._aoiEntityEnterPacks.Add(new AOIEntityEnterPack(entity._entityID, entity.Position));
+                        foreach (AOIEntity entity in _aoiAroundCells[i].AOIEntityHoldSets)
+                        {
+                            _aoiEntityOperationUpdatePacks.AOIEntityEnterPacks.Add(new AOIEntityEnterPack(entity.EntityID, entity.Transform));
+                        }
                     }
                 }
 
-                if (!_aoiEntityUpdatePackController.IsEmpty)
+                for (int j = 0; j < _aoiAddCells.Count; j++)
                 {
-                    _aoiController.OnEntityCellViewChanged?.Invoke(this, _aoiEntityUpdatePackController);
-                    _aoiEntityUpdatePackController.Reset();
+                    foreach (AOIEntity entity in _aoiAddCells[j].AOIEntityHoldSets)
+                    {
+                        _aoiEntityOperationUpdatePacks.AOIEntityEnterPacks.Add(new AOIEntityEnterPack(entity.EntityID, entity.Transform));
+                    }
                 }
 
-                _aoiAroundCells = null;
+                for (int k = 0; k < _aoiRemoveCells.Count; k++)
+                {
+                    foreach (AOIEntity entity in _aoiRemoveCells[k].AOIEntityHoldSets)
+                    {
+                        _aoiEntityOperationUpdatePacks.AOIEntityExitPacks.Add(new AOIEntityExitPack(entity.EntityID));
+                    }
+                }
+
+                if (!_aoiEntityOperationUpdatePacks.IsEmpty)
+                {
+                    AOIController.OnEntityCellViewChanged?.Invoke(this, _aoiEntityOperationUpdatePacks);
+                    _aoiEntityOperationUpdatePacks.Reset();
+                }
             }
+            _aoiAroundCells = null;
+            _aoiAddCells.Clear();
+            _aoiRemoveCells.Clear();
         }
     }
 
@@ -102,5 +177,25 @@ namespace SangoScripts_Server.AOI
         TransferExitCell,
         MoveCrossCell,
         MoveInsideCell
+    }
+
+    public enum AOICrossDirectionCode
+    {
+        None = 0,
+        Up,
+        Down,
+        Left,
+        Right,
+        LeftUp,
+        RightUp,
+        LeftDown,
+        RightDown
+    }
+
+    public enum AOIEntityType
+    {
+        None = 0,
+        Client,
+        Server
     }
 }

@@ -8,15 +8,15 @@ namespace SangoScripts_Server.Map
 {
     public class MapBaseStage
     {
-        protected ConcurrentDictionary<string, PlayerEntity> _mapEntitysDict = new ConcurrentDictionary<string, PlayerEntity>();
+        protected ConcurrentDictionary<string, PlayerEntity> _mapEntitysDict = new();
 
-        private ConcurrentQueue<PlayerEntity> _playerEntityEnterQueue = new ConcurrentQueue<PlayerEntity>();
-        private ConcurrentQueue<PlayerEntity> _playerEntityExitQueue = new ConcurrentQueue<PlayerEntity>();
-        private ConcurrentQueue<PlayerEntity> _playerEntityMoveQueue = new ConcurrentQueue<PlayerEntity>();
+        private ConcurrentQueue<PlayerEntity> _playerEntityEnterQueue = new();
+        private ConcurrentQueue<PlayerEntity> _playerEntityExitQueue = new();
+        private ConcurrentQueue<PlayerEntity> _playerEntityMoveQueue = new();
 
         protected MapConfig? _currentMapStageConfig;
 
-        public AOIController? AOIController { get; set; }
+        public AOIController? AOIController { get; protected set; }
 
         public virtual void SetConfig(MapConfig currentMapStageConfig)
         {
@@ -42,7 +42,7 @@ namespace SangoScripts_Server.Map
                     }
                     else
                     {
-                        SangoLogger.Error($"EntityID: [ {entity.EntityID} ] is not exist in MapID: [ {_currentMapStageConfig?.mapID} ]");
+                        SangoLogger.Error($"EntityID: [ {entity.EntityID} ] is not exist in MapID: [ {_currentMapStageConfig?.MapID} ]");
                     }
                 }
                 else
@@ -52,7 +52,7 @@ namespace SangoScripts_Server.Map
             }
             while (_playerEntityEnterQueue.TryDequeue(out PlayerEntity? entity))
             {
-                entity.AOIEntity = AOIController?.OnEntityEnterCell(entity.EntityID,entity.TransformInfo.Position);
+                entity.AOIEntity = AOIController?.OnEntityEnterCell(entity.EntityID, entity.Transform, entity.AOIEntityType);
                 if (!_mapEntitysDict.ContainsKey(entity.EntityID))
                 {
                     if (_mapEntitysDict.TryAdd(entity.EntityID, entity))
@@ -61,19 +61,19 @@ namespace SangoScripts_Server.Map
                     }
                     else
                     {
-                        SangoLogger.Error($"EntityID: [ {entity.EntityID} ] can`t add to MapID: [ {_currentMapStageConfig?.mapID} ]");
+                        SangoLogger.Error($"EntityID: [ {entity.EntityID} ] can`t add to MapID: [ {_currentMapStageConfig?.MapID} ]");
                     }
                 }
                 else
                 {
-                    SangoLogger.Error($"EntityID: [ {entity.EntityID} ] is already exist in MapID: [ {_currentMapStageConfig?.mapID} ]");
-                }              
+                    SangoLogger.Error($"EntityID: [ {entity.EntityID} ] is already exist in MapID: [ {_currentMapStageConfig?.MapID} ]");
+                }
             }
             while (_playerEntityMoveQueue.TryDequeue(out PlayerEntity? entity))
             {
                 if (entity.AOIEntity != null)
                 {
-                    AOIController?.OnEntityMove(entity.AOIEntity, entity.TransformInfo.Position);                    
+                    AOIController?.OnEntityMove(entity.AOIEntity, entity.Transform);
                 }
                 else
                 {
@@ -87,11 +87,11 @@ namespace SangoScripts_Server.Map
             if (!_mapEntitysDict.ContainsKey(entity.EntityID))
             {
                 _playerEntityEnterQueue.Enqueue(entity);
-                SangoLogger.Processing($"EntityID: [ {entity.EntityID} ] has enter the MapID: [ {_currentMapStageConfig?.mapID} ]");
+                SangoLogger.Processing($"EntityID: [ {entity.EntityID} ] has enter the MapID: [ {_currentMapStageConfig?.MapID} ]");
             }
             else
             {
-                SangoLogger.Warning($"EntityID: [ {entity.EntityID} ] has already exist in MapID: [ {_currentMapStageConfig?.mapID} ]");
+                SangoLogger.Warning($"EntityID: [ {entity.EntityID} ] has already exist in MapID: [ {_currentMapStageConfig?.MapID} ]");
             }
         }
 
@@ -102,13 +102,13 @@ namespace SangoScripts_Server.Map
                 if (_mapEntitysDict.ContainsKey(entity.EntityID))
                 {
                     _playerEntityMoveQueue.Enqueue(entity);
-                    SangoLogger.Processing($"EntityID: [ {entity.EntityID} ] has enter the MapID: [ {_currentMapStageConfig?.mapID} ]");
+                    SangoLogger.Processing($"EntityID: [ {entity.EntityID} ] has enter the MapID: [ {_currentMapStageConfig?.MapID} ]");
                 }
                 else
                 {
-                    SangoLogger.Warning($"EntityID: [ {entity.EntityID} ] is Not exist in MapID: [ {_currentMapStageConfig?.mapID} ]");
+                    SangoLogger.Warning($"EntityID: [ {entity.EntityID} ] is Not exist in MapID: [ {_currentMapStageConfig?.MapID} ]");
                 }
-            }           
+            }
         }
 
         protected virtual void OnEntityExit(PlayerEntity entity)
@@ -118,11 +118,11 @@ namespace SangoScripts_Server.Map
                 if (_mapEntitysDict.ContainsKey(entity.EntityID))
                 {
                     _playerEntityExitQueue.Enqueue(entity);
-                    SangoLogger.Processing($"EntityID: [ {entity.EntityID} ] has enter the MapID: [ {_currentMapStageConfig?.mapID} ]");
+                    SangoLogger.Processing($"EntityID: [ {entity.EntityID} ] has enter the MapID: [ {_currentMapStageConfig?.MapID} ]");
                 }
                 else
                 {
-                    SangoLogger.Warning($"EntityID: [ {entity.EntityID} ] is Not exist in MapID: [ {_currentMapStageConfig?.mapID} ]");
+                    SangoLogger.Warning($"EntityID: [ {entity.EntityID} ] is Not exist in MapID: [ {_currentMapStageConfig?.MapID} ]");
                 }
             }
         }

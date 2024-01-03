@@ -2,27 +2,27 @@
 {
     public class AOIConfig
     {
-        public string mapID = "";
-        public int cellSize = 20;
-        public int initCount = 200;
+        public string MapID { get; set; } = "";
+        public int CellSize { get; set; } = 20;
+        public int InitCount { get; set; } = 200;
 
-        public int aoiCellOperationEnterPacksCount = 10;
-        public int aoiCellOperationMovePacksCount = 50;
-        public int aoiCellOperationExitPacksCount = 10;
+        public int AOICellOperationEnterPacksCount { get; set; } = 10;
+        public int AOICellOperationMovePacksCount { get; set; } = 50;
+        public int AOICellOperationExitPacksCount { get; set; } = 10;
 
-        public int aoiEntityUpdateEnterPacksCount = 10;
-        public int aoiEntityUpdateMovePacksCount = 20;
-        public int aoiEntityUpdateExitPacksCount = 10;
+        public int AOIEntityUpdateEnterPacksCount { get; set; } = 10;
+        public int AOIEntityUpdateMovePacksCount { get; set; } = 20;
+        public int AOIEntityUpdateExitPacksCount { get; set; } = 10;
     }
 
     public class MapConfig
     {
-        public string mapID = "";
-        public string mapName = "";
+        public string MapID { get; set; } = "";
+        public string MapName { get; set; } = "";
 
-        public int[] mapBorderX = new int[] { 0, 0 };
-        public int[] mapBorderZ = new int[] { 0, 0 };
+        public int[] MapBorderX { get; set; } = new int[] { 0, 0 };
+        public int[] MapBorderZ { get; set; } = new int[] { 0, 0 };
 
-        public AOIConfig aoiConfig = new AOIConfig();
+        public AOIConfig AOIConfig { get; set; } = new AOIConfig();
     }
 }

@@ -1,9 +1,13 @@
-﻿using SangoScripts_Server.AOI;
+﻿using SangoNetProtol;
+using SangoScripts_Server.AOI;
 using SangoScripts_Server.Cache;
+using SangoScripts_Server.IOCP;
 using SangoScripts_Server.Map;
-using SangoUtils_Common;
+using SangoScripts_Server.Utils;
 using SangoUtils_Common.Config;
-using SharpCompress.Common;
+using SangoUtils_Common.Infos;
+using SangoUtils_Common.Messages;
+using System.Numerics;
 
 namespace SangoUtils_Server
 {
@@ -12,7 +16,6 @@ namespace SangoUtils_Server
         public override void OnInit()
         {
             base.OnInit();
-
         }
 
         public override void OnDispose()
@@ -28,85 +31,108 @@ namespace SangoUtils_Server
         public override void SetConfig(MapConfig currentMapStageConfig)
         {
             _currentMapStageConfig = currentMapStageConfig;
-            AOIController = new AOIController(_currentMapStageConfig.aoiConfig);
+            AOIController = new AOIController(_currentMapStageConfig.AOIConfig);
             AOIController.OnEntityCellViewChanged = OnEntityCellViewChanged;
             AOIController.OnCellOperationCombined = OnCellOperationCombined;
         }
 
-        private void OnEntityCellViewChanged(AOIEntity entity, AOIPackController packController)
+        private void OnEntityCellViewChanged(AOIEntity entity, AOIUpdatePacks packController)
         {
-            AOIMessage message = new()
-            {
-                AOIViewEnterEntitys = new(),
-                AOIViewExitEntitys = new()
-            };
+            AOIEventMessage message = new();
 
-            if (packController._aoiEntityEnterPacks.Count > 0)
+            if (packController.AOIEntityEnterPacks.Count > 0)
             {
-                for (int i = 0; i < packController._aoiEntityEnterPacks.Count; i++)
+                for (int i = 0; i < packController.AOIEntityEnterPacks.Count; i++)
                 {
-                    message.AOIViewEnterEntitys.Add(new AOIViewEnterEntity(packController._aoiEntityEnterPacks[i]._entityID, packController._aoiEntityEnterPacks[i]._position));
+                    Vector3Info position = new(packController.AOIEntityEnterPacks[i].Transform.Position.X, packController.AOIEntityEnterPacks[i].Transform.Position.Y, packController.AOIEntityEnterPacks[i].Transform.Position.Z);
+                    QuaternionInfo rotation = new(packController.AOIEntityEnterPacks[i].Transform.Rotation.X, packController.AOIEntityEnterPacks[i].Transform.Rotation.Y, packController.AOIEntityEnterPacks[i].Transform.Rotation.Z, packController.AOIEntityEnterPacks[i].Transform.Rotation.W);
+                    Vector3Info scale = new(packController.AOIEntityEnterPacks[i].Transform.Scale.X, packController.AOIEntityEnterPacks[i].Transform.Scale.Y, packController.AOIEntityEnterPacks[i].Transform.Scale.Z);
+
+                    TransformInfo transformInfo = new(position, rotation, scale);
+                    AOIViewEnterEntity enterEntity = new(packController.AOIEntityEnterPacks[i].EntityID, transformInfo);
+                    message.AOIViewEnterEntitys.Add(enterEntity);
                 }
             }
-            if (packController._aoiEntityExitPacks.Count > 0)
+            if (packController.AOIEntityExitPacks.Count > 0)
             {
-                for (int j = 0; j < packController._aoiEntityExitPacks.Count; j++)
+                for (int j = 0; j < packController.AOIEntityExitPacks.Count; j++)
                 {
-                    message.AOIViewExitEntitys.Add(new AOIViewExitEntity(packController._aoiEntityExitPacks[j]._entityID));
+                    AOIViewExitEntity exitEntity = new(packController.AOIEntityExitPacks[j].EntityID);
+                    message.AOIViewExitEntitys.Add(exitEntity);
                 }
             }
 
-            if (_mapEntitysDict.TryGetValue(entity._entityID, out PlayerEntity? playerEntity))
+            if (_mapEntitysDict.TryGetValue(entity.EntityID, out PlayerEntity? playerEntity))
             {
                 playerEntity.OnUpdateInMap(message);
             }
         }
 
-        private void OnCellOperationCombined(AOICell cell, AOIPackController packController)
+        private void OnCellOperationCombined(AOICell cell, AOIUpdatePacks packController)
         {
-            AOIMessage message = new()
-            {
-                AOIViewEnterEntitys = new(),
-                AOIViewMoveEntitys = new(),
-                AOIViewExitEntitys = new()
-            };
+            AOIEventMessage message = new();
 
-            if (packController._aoiEntityEnterPacks.Count > 0)
+            if (packController.AOIEntityEnterPacks.Count > 0)
             {
-                for (int i = 0; i < packController._aoiEntityEnterPacks.Count; i++)
+                for (int i = 0; i < packController.AOIEntityEnterPacks.Count; i++)
                 {
-                    message.AOIViewEnterEntitys.Add(new AOIViewEnterEntity(packController._aoiEntityEnterPacks[i]._entityID, packController._aoiEntityEnterPacks[i]._position));
+                    Vector3Info position = new(packController.AOIEntityEnterPacks[i].Transform.Position.X, packController.AOIEntityEnterPacks[i].Transform.Position.Y, packController.AOIEntityEnterPacks[i].Transform.Position.Z);
+                    QuaternionInfo rotation = new(packController.AOIEntityEnterPacks[i].Transform.Rotation.X, packController.AOIEntityEnterPacks[i].Transform.Rotation.Y, packController.AOIEntityEnterPacks[i].Transform.Rotation.Z, packController.AOIEntityEnterPacks[i].Transform.Rotation.W);
+                    Vector3Info scale = new(packController.AOIEntityEnterPacks[i].Transform.Scale.X, packController.AOIEntityEnterPacks[i].Transform.Scale.Y, packController.AOIEntityEnterPacks[i].Transform.Scale.Z);
+
+                    TransformInfo transformInfo = new(position, rotation, scale);
+                    AOIViewEnterEntity enterEntity = new(packController.AOIEntityEnterPacks[i].EntityID, transformInfo);
+                    message.AOIViewEnterEntitys.Add(enterEntity);
                 }
             }
-            if (packController._aoiEntityMovePacks.Count>0)
+            if (packController.AOIEntityMovePacks.Count > 0)
             {
-                for(int j = 0;j< packController._aoiEntityMovePacks.Count; j++)
+                for (int j = 0; j < packController.AOIEntityMovePacks.Count; j++)
                 {
-                    message.AOIViewMoveEntitys.Add(new AOIViewMoveEntity(packController._aoiEntityMovePacks[j]._entityID, packController._aoiEntityMovePacks[j]._position));
+                    Vector3Info position = new(packController.AOIEntityMovePacks[j].Transform.Position.X, packController.AOIEntityMovePacks[j].Transform.Position.Y, packController.AOIEntityMovePacks[j].Transform.Position.Z);
+                    QuaternionInfo rotation = new(packController.AOIEntityMovePacks[j].Transform.Rotation.X, packController.AOIEntityMovePacks[j].Transform.Rotation.Y, packController.AOIEntityMovePacks[j].Transform.Rotation.Z, packController.AOIEntityMovePacks[j].Transform.Rotation.W);
+                    Vector3Info scale = new(packController.AOIEntityMovePacks[j].Transform.Scale.X, packController.AOIEntityMovePacks[j].Transform.Scale.Y, packController.AOIEntityMovePacks[j].Transform.Scale.Z);
+
+                    TransformInfo transformInfo = new(position, rotation, scale);
+                    AOIViewMoveEntity moveEntity = new(packController.AOIEntityMovePacks[j].EntityID, transformInfo);
+                    message.AOIViewMoveEntitys.Add(moveEntity);
                 }
             }
-            if (packController._aoiEntityExitPacks.Count > 0)
+            if (packController.AOIEntityExitPacks.Count > 0)
             {
-                for (int k = 0; k < packController._aoiEntityExitPacks.Count; k++)
+                for (int k = 0; k < packController.AOIEntityExitPacks.Count; k++)
                 {
-                    message.AOIViewExitEntitys.Add(new AOIViewExitEntity(packController._aoiEntityExitPacks[k]._entityID));
+                    AOIViewExitEntity exitEntity = new(packController.AOIEntityExitPacks[k].EntityID);
+                    message.AOIViewExitEntitys.Add(exitEntity);
                 }
             }
 
-            foreach (AOIEntity entity in cell._holdSet)
+            string messageJson = JsonUtils.SetJsonString(message);
+            byte[] bytes = IOCPUtils.ConvertNetEventDataPackMessageBytes(NetOperationCode.Aoi, messageJson);
+
+            foreach (AOIEntity entity in cell.AOIEntityHoldSets)
             {
-                if (_mapEntitysDict.TryGetValue(entity._entityID, out PlayerEntity? playerEntity))
+                if (_mapEntitysDict.TryGetValue(entity.EntityID, out PlayerEntity? playerEntity))
                 {
-                    playerEntity.OnUpdateInMap(message);
+                    playerEntity.OnUpdateInMap(bytes);
                 }
             }
         }
 
-        public void OnEntityMove(SyncTransformInfo syncTransformInfo)
+        public void OnEntityEnter(AOIActiveMoveEntity activeMoveEntity)
         {
-            if (_mapEntitysDict.TryGetValue(syncTransformInfo.EntityID, out PlayerEntity? entity))
+            //OnEntityEnter();
+        }
+
+        public void OnEntityMove(AOIActiveMoveEntity activeMoveEntity)
+        {
+            if (_mapEntitysDict.TryGetValue(activeMoveEntity.EntityID, out PlayerEntity? entity))
             {
-                entity.TransformInfo = syncTransformInfo.TransformInfo;
+                Vector3 position = new(activeMoveEntity.TransformInfo.Position.X, activeMoveEntity.TransformInfo.Position.Y, activeMoveEntity.TransformInfo.Position.Z);
+                Quaternion rotation = new(activeMoveEntity.TransformInfo.Rotation.X, activeMoveEntity.TransformInfo.Rotation.Y, activeMoveEntity.TransformInfo.Rotation.Z, activeMoveEntity.TransformInfo.Rotation.W);
+                Vector3 scale = new(activeMoveEntity.TransformInfo.Scale.X, activeMoveEntity.TransformInfo.Scale.Y, activeMoveEntity.TransformInfo.Scale.Z);
+
+                entity.Transform = new(position, rotation, scale);
                 OnEntityMove(entity);
             }
         }

@@ -13,19 +13,19 @@ namespace SangoScripts_Server.Logger
         {
             cfg ??= new LoggerConfig_Sango();
             _config = cfg;
-            switch (_config.loggerType)
+            switch (_config.LoggerType)
             {
                 case LoggerType.OnConsole:
                     _logger = new ConsoleLogger();
                     break;
             }
-            if (_config.enableSaveLog == false) { return; }
-            if (_config.enableCoverLog)
+            if (_config.EnableSaveLog == false) { return; }
+            if (_config.EnableCoverLog)
             {
-                string path = _config.saveLogPath + _config.saveLogName;
+                string path = _config.SaveLogPath + _config.SaveLogName;
                 try
                 {
-                    if (Directory.Exists(_config.saveLogPath))
+                    if (Directory.Exists(_config.SaveLogPath))
                     {
                         if (File.Exists(path))
                         {
@@ -34,7 +34,7 @@ namespace SangoScripts_Server.Logger
                     }
                     else
                     {
-                        Directory.CreateDirectory(_config.saveLogPath);
+                        Directory.CreateDirectory(_config.SaveLogPath);
                     }
                     _logFileWriter = File.AppendText(path);
                     _logFileWriter.AutoFlush = true;
@@ -47,12 +47,12 @@ namespace SangoScripts_Server.Logger
             else
             {
                 string prefix = DateTime.Now.ToString("yyyyMMdd@HH-mm-ss");
-                string path = _config.saveLogPath + prefix + _config.saveLogName;
+                string path = _config.SaveLogPath + prefix + _config.SaveLogName;
                 try
                 {
-                    if (Directory.Exists(_config.saveLogPath) == false)
+                    if (Directory.Exists(_config.SaveLogPath) == false)
                     {
-                        Directory.CreateDirectory(_config.saveLogPath);
+                        Directory.CreateDirectory(_config.SaveLogPath);
                     }
                     _logFileWriter = File.AppendText(path);
                     _logFileWriter.AutoFlush = true;
@@ -69,10 +69,13 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
                 _logger?.Log(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogInfo]{0}", log));
                 }
@@ -83,10 +86,10 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
+                if (_config.EnableSangoLog == false) { return; }
                 string log = DecorateLog(logObj.ToString());
                 _logger?.Log(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogInfo]{0}", log));
                 }
@@ -97,10 +100,13 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
                 _logger?.Log(log, color);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogInfo]{0}", log));
                 }
@@ -111,10 +117,10 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
+                if (_config.EnableSangoLog == false) { return; }
                 string log = DecorateLog(logObj.ToString());
                 _logger?.Log(log, color);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogInfo]{0}", log));
                 }
@@ -125,10 +131,13 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
-                log = DecorateLog(string.Format(log, args), true);
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
                 _logger?.Log(log, LoggerColor.Magenta);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogTraceInfo]{0}", log));
                 }
@@ -139,10 +148,10 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
+                if (_config.EnableSangoLog == false) { return; }
                 string log = DecorateLog(logObj.ToString(), true);
                 _logger?.Log(log, LoggerColor.Magenta);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogTraceInfo]{0}", log));
                 }
@@ -153,10 +162,13 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
                 _logger?.Warn(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogWarn]{0}", log));
                 }
@@ -167,10 +179,10 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
+                if (_config.EnableSangoLog == false) { return; }
                 string log = DecorateLog(logObj.ToString());
                 _logger?.Warn(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogWarn]{0}", log));
                 }
@@ -181,10 +193,13 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
                 _logger?.Error(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogError]{0}", log));
                 }
@@ -195,10 +210,10 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
+                if (_config.EnableSangoLog == false) { return; }
                 string log = DecorateLog(logObj.ToString());
                 _logger?.Error(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogError]{0}", log));
                 }
@@ -209,10 +224,13 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
                 _logger?.Processing(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogProcessing]{0}", log));
                 }
@@ -223,10 +241,10 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
+                if (_config.EnableSangoLog == false) { return; }
                 string log = DecorateLog(logObj.ToString());
                 _logger?.Processing(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogProcessing]{0}", log));
                 }
@@ -237,10 +255,13 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
                 _logger?.Done(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogDone]{0}", log));
                 }
@@ -251,10 +272,10 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null)
             {
-                if (_config.enableSangoLog == false) { return; }
+                if (_config.EnableSangoLog == false) { return; }
                 string log = DecorateLog(logObj.ToString());
                 _logger?.Done(log);
-                if (_config.enableSaveLog)
+                if (_config.EnableSaveLog)
                 {
                     WriteToFile(string.Format("[LogDone]{0}", log));
                 }
@@ -267,16 +288,16 @@ namespace SangoScripts_Server.Logger
         {
             if (_config != null && !string.IsNullOrEmpty(log))
             {
-                StringBuilder sb = new StringBuilder(_config.logPrefix, 100);
-                if (_config.enableTimestamp)
+                StringBuilder sb = new StringBuilder(_config.LogPrefix, 100);
+                if (_config.EnableTimestamp)
                 {
                     sb.AppendFormat(" {0}", DateTime.Now.ToString("hh:mm:ss--fff"));
                 }
-                if (_config.enableThreadID)
+                if (_config.EnableThreadID)
                 {
                     sb.AppendFormat(" {0}", GetThreadID());
                 }
-                sb.AppendFormat(" {0} {1}", _config.logSeparate, log);
+                sb.AppendFormat(" {0} {1}", _config.LogSeparate, log);
                 if (isTraceInfo)
                 {
                     sb.AppendFormat(" \nStackTrace: {0}", GetTraceInfo());

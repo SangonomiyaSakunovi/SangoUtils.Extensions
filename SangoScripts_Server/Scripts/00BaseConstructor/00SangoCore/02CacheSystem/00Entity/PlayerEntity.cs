@@ -1,18 +1,20 @@
-﻿using SangoScripts_Server.AOI;
+﻿using SangoNetProtol;
+using SangoScripts_Server.AOI;
 using SangoScripts_Server.Logger;
 using SangoScripts_Server.Map;
 using SangoScripts_Server.Net;
 using SangoScripts_Server.Utils;
-using SangoUtils_Common;
+using SangoUtils_Common.Messages;
 
 namespace SangoScripts_Server.Cache
 {
-    public class PlayerEntity(string entityID, TransformInfo transformInfo, ClientPeer clientPeer)
+    public class PlayerEntity(string entityID, Transform transform, ClientPeer clientPeer)
     {
         public ClientPeer ClientPeer { get; private set; } = clientPeer;
         public string EntityID { get; private set; } = entityID;
-        public TransformInfo TransformInfo { get; set; } = transformInfo;
+        public Transform Transform { get; set; } = transform;
         public PlayerState PlayerState { get; set; }
+        public AOIEntityType AOIEntityType { get; private set; } = AOIEntityType.Client;
 
         public AOIEntity? AOIEntity { get; set; }
 
@@ -22,12 +24,20 @@ namespace SangoScripts_Server.Cache
             SangoLogger.Processing($"EntityID: [ {EntityID} ] is enter to map.");
         }
 
-        public void OnUpdateInMap(AOIMessage message)
+        public void OnUpdateInMap(AOIEventMessage message)
         {
             if (PlayerState == PlayerState.Online)
             {
                 string messageJson = JsonUtils.SetJsonString(message);
-                ClientPeer.SendEvent(SangoNetProtol.NetOperationCode.Aoi, messageJson);
+                ClientPeer.SendEvent(NetOperationCode.Aoi, messageJson);
+            }
+        }
+
+        public void OnUpdateInMap(byte[] bytes)
+        {
+            if (PlayerState == PlayerState.Online)
+            {
+                ClientPeer.SendPackMessage(bytes);
             }
         }
 

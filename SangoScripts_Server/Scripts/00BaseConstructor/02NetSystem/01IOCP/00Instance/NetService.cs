@@ -6,7 +6,7 @@ namespace SangoScripts_Server.Net
 {
     public class NetService : BaseService<NetService>
     {
-        public IOCPPeer<ClientPeer>? ServerPeerInstance;
+        private IOCPPeer<ClientPeer>? _serverPeerInstance;
 
         private Dictionary<NetOperationCode, BaseNetHandler> _netHandlerDict = new();
         private Dictionary<NetOperationCode, BaseNetController> _netControllerDict = new();
@@ -22,6 +22,21 @@ namespace SangoScripts_Server.Net
             SangoLogger.Done("SangoServer is Run!");
 
             DefaultNetHandler defaultNetHandler = GetNetHandler<DefaultNetHandler>(NetOperationCode.Default);
+        }
+
+        public void SendOperationResponse(NetOperationCode operationCode, string messageStr)
+        {
+            _serverPeerInstance?.ClientPeer?.SendOperationResponse(operationCode, messageStr);
+        }
+
+        public void SendOperationResponse(NetOperationCode operationCode, NetReturnCode returnCode)
+        {
+            _serverPeerInstance?.ClientPeer?.SendOperationResponse(operationCode, returnCode);
+        }
+
+        public void SendEvent(NetOperationCode operationCode, string messageStr)
+        {
+            _serverPeerInstance?.ClientPeer?.SendEvent(operationCode, messageStr);
         }
 
         public void NetRequestMessageBroadcast(SangoNetMessage sangoNetMessage, ClientPeer peer)
@@ -115,13 +130,13 @@ namespace SangoScripts_Server.Net
 
         private void InitClientInstance(string ipAddress, int port, int maxConnectCount)
         {
-            ServerPeerInstance = new IOCPPeer<ClientPeer>();
-            ServerPeerInstance.InitAsServer(ipAddress, port, maxConnectCount);
+            _serverPeerInstance = new IOCPPeer<ClientPeer>();
+            _serverPeerInstance.InitAsServer(ipAddress, port, maxConnectCount);
         }
 
         public void CloseClientInstance()
         {
-            ServerPeerInstance?.CloseServer();
+            _serverPeerInstance?.CloseServer();
         }
     }
 }

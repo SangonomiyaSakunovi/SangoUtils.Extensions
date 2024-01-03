@@ -10,4 +10,8 @@
     <PackageReference Include="System.Text.Json" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Scripts\00BaseConstructor\00Bases\" />
+  </ItemGroup>
+
 </Project>

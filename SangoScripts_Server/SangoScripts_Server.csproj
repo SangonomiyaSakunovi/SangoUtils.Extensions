@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Scripts\00BaseConstructor\00SangoCore\00Extensions\**" />
     <Compile Remove="Scripts\00BaseConstructor\01SecuritySystem\00Instance\**" />
-    <EmbeddedResource Remove="Scripts\00BaseConstructor\00SangoCore\00Extensions\**" />
     <EmbeddedResource Remove="Scripts\00BaseConstructor\01SecuritySystem\00Instance\**" />
-    <None Remove="Scripts\00BaseConstructor\00SangoCore\00Extensions\**" />
     <None Remove="Scripts\00BaseConstructor\01SecuritySystem\00Instance\**" />
   </ItemGroup>
 

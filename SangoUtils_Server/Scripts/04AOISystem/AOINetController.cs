@@ -1,13 +1,13 @@
 ﻿using SangoScripts_Server;
 using SangoUtils_Common;
 using SangoUtils_Common.Config;
+using SangoUtils_Common.Messages;
 
 namespace SangoUtils_Server
 {
     public class AOINetController : BaseNetController
     {
-        SunUpF4LobbyMap sunUpF4LobbyMap = new SunUpF4LobbyMap();
-
+        private SunUpF4LobbyMap _sunUpF4LobbyMap = new();
 
         public override void DefaultOperationEvent()
         {
@@ -16,18 +16,18 @@ namespace SangoUtils_Server
 
         public void Test()
         {
-            sunUpF4LobbyMap.SetConfig(SangoCommonConfig.SunUpF4LobbyMapConfig);
-            sunUpF4LobbyMap.OnInit();
+            _sunUpF4LobbyMap.SetConfig(SangoCommonConfig.SunUpF4LobbyMapConfig);
+            _sunUpF4LobbyMap.OnInit();
         }
 
-        public void UpdateAOIPos(SyncTransformInfo syncTransformInfo)
+        public void UpdateAOIPos(AOIActiveMoveEntity activeMoveEntity)
         {
-            sunUpF4LobbyMap.OnEntityMove(syncTransformInfo);
+            _sunUpF4LobbyMap.OnEntityMove(activeMoveEntity);
         }
 
-        public void ExitAOIPos(SyncTransformInfo syncTransformInfo)
+        public void ExitAOIPos(AOIActiveMoveEntity activeMoveEntity)
         {
-            sunUpF4LobbyMap.OnEntityExit(syncTransformInfo.EntityID);
+            _sunUpF4LobbyMap.OnEntityExit(activeMoveEntity.EntityID);
         }
     }
 }

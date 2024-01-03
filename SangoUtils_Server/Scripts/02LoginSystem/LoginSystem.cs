@@ -1,7 +1,7 @@
 ﻿using SangoNetProtol;
 using SangoScripts_Server;
 using SangoScripts_Server.Net;
-using SangoUtils_Common;
+using SangoUtils_Common.Messages;
 
 namespace SangoUtils_Server
 {
@@ -15,10 +15,10 @@ namespace SangoUtils_Server
             _loginNetHandler = NetService.Instance.GetNetHandler<LoginNetHandler>(NetOperationCode.Login);
         }
 
-        public LoginResCode GetLoginRes(LoginReqInfo loginReqInfo)
+        public LoginResCode GetLoginRes(LoginReqMessage loginReqMessage)
         {
             LoginResCode loginResCode = LoginResCode.None;
-            switch (loginReqInfo.LoginMode)
+            switch (loginReqMessage.LoginMode)
             {
                 case LoginMode.Guest:
                     loginResCode = LoginResCode.LoginSuccess;

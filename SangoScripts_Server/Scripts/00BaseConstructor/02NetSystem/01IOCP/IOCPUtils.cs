@@ -1,4 +1,9 @@
-﻿namespace SangoScripts_Server.IOCP
+﻿using SangoNetProtol;
+using SangoScripts_Server.Converter;
+using SangoScripts_Server.Utils;
+using SangoUtils_Common.Utils;
+
+namespace SangoScripts_Server.IOCP
 {
     public static class IOCPUtils
     {
@@ -27,6 +32,27 @@
             head.CopyTo(package, 0);
             body.CopyTo(package, 4);
             return package;
+        }
+
+        public static byte[] ConvertNetEventDataPackMessageBytes(NetOperationCode operationCode, string messageStr)
+        {
+            NetMessageHead messageHead = new()
+            {
+                NetOperationCode = operationCode,
+                NetMessageCommandCode = NetMessageCommandCode.NetEventData
+            };
+            NetMessageBody messageBody = new()
+            {
+                NetMessageStr = messageStr
+            };
+            SangoNetMessage netMessage = new()
+            {
+                NetMessageHead = messageHead,
+                NetMessageBody = messageBody,
+                NetMessageTimestamp = TimeUtils.GetUnixDateTimeSeconds(DateTime.Now).ToString()
+            };
+            byte[] byteMessage = ProtoUtils.SetProtoBytes(netMessage);
+            return PackMessageLengthInfo(byteMessage);
         }
     }
 }
