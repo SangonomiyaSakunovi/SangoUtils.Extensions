@@ -99,7 +99,7 @@ namespace SangoScripts_Server.AOI
             }
             else
             {
-                SangoLogger.Warning($"AOICellDict can`t find EntityID: [ {entity.EntityID} ].");
+                SangoLogger.Warning($"AOICellDict can`t find AOICellKey: [ {entity.AOICellKey} ].");
             }
         }
 
@@ -119,13 +119,13 @@ namespace SangoScripts_Server.AOI
 
         public void MarkExitEntityCell(AOIEntity entity)
         {
-            if (_aoiCellDict.TryGetValue(entity.EntityID, out AOICell? cell))
+            if (_aoiCellDict.TryGetValue(entity.AOICellKey, out AOICell? cell))
             {
                 cell.ExitTODOAOIEntityHoldSets.Add(entity);
             }
             else
             {
-                SangoLogger.Warning($"AOICellDict can`t find EntityID: [ {entity.EntityID} ].");
+                SangoLogger.Warning($"AOICellDict can`t find AOICellKey when MarkExitEntityCell: [ {entity.AOICellKey} ].");
             }
         }
 
@@ -142,18 +142,18 @@ namespace SangoScripts_Server.AOI
                 for (int j = zIndex - 2; j < zIndex + 3; j++)
                 {
                     string aoiCellKeyNew = GetAOICellKey(i, j);
-                    if (!_aoiCellDict.ContainsKey(aoiCellKeyNew))
+                    if (!_aoiCellDict.TryGetValue(aoiCellKeyNew, out AOICell? aoiCell))
                     {
                         AOICellIndex newAOICellIndex = new(i, j);
-                        AOICell newCell = new AOICell(newAOICellIndex, this);
-                        _aoiCellDict.Add(aoiCellKeyNew, newCell);
-                        if (i > xIndex - 2 && i < xIndex + 2)
+                        aoiCell = new AOICell(newAOICellIndex, this);
+                        _aoiCellDict.Add(aoiCellKeyNew, aoiCell);                       
+                    }
+                    if (i > xIndex - 2 && i < xIndex + 2)
+                    {
+                        if (j > zIndex - 2 && j < zIndex + 2)
                         {
-                            if (j > zIndex - 2 && j < zIndex + 2)
-                            {
-                                cell.AOICellsAround[cellAroundsindex] = newCell;
-                                cellAroundsindex++;
-                            }
+                            cell.AOICellsAround[cellAroundsindex] = aoiCell;
+                            cellAroundsindex++;
                         }
                     }
                 }

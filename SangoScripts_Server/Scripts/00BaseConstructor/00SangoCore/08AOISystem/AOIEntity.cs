@@ -1,4 +1,4 @@
-﻿using SangoUtils_Common.Infos;
+﻿using SangoScripts_Server.Logger;
 
 namespace SangoScripts_Server.AOI
 {
@@ -34,6 +34,9 @@ namespace SangoScripts_Server.AOI
             int zIndex = (int)Math.Floor(transform.Position.Z / AOIController.CellSize);
 
             string aoiCellKeyNew = AOIController.GetAOICellKey(xIndex, zIndex);
+
+            SangoLogger.Log("New AOICell Key in AOIEntity: [ " + aoiCellKeyNew + " ]");
+
             if (aoiCellKeyNew != AOICellKey)
             {
                 _aoiCellIndexLast = AOICellIndex;

@@ -1,5 +1,4 @@
 ﻿using SangoNetProtol;
-using SangoScripts_Server.Cache;
 using SangoScripts_Server.Converter;
 using SangoScripts_Server.IOCP;
 using SangoUtils_Common.Utils;
@@ -8,24 +7,30 @@ namespace SangoScripts_Server.Net
 {
     public class ClientPeer : IClientPeer_IOCP
     {
-        public PlayerEntity? PlayerEntity { get; set; }
+        
 
-        #region private
-        private string _uid = "";
         private long _lastMessageTimestamp = long.MinValue;
-        #endregion
 
-        public string UID { get { return _uid; } }
+        public string EntityID { get; private set; } = "";
+        public Func<ClientPeer,bool>? OnClientPeerDisconnected { get; set; }
+
+        public void SetEntityID(string entityID)
+        {
+            EntityID = entityID;
+        }
 
         protected override void OnConnected()
         {
             IOCPLogger.Info("A new client is Connected.");
-            //TODO Need a map
-            //PlayerEntity = new();
         }
 
         protected override void OnDisconnected()
         {
+            if (!string.IsNullOrEmpty(EntityID))
+            {
+                OnClientPeerDisconnected?.Invoke(this);
+                EntityID = "";
+            }
             IOCPLogger.Info("A client is DisConnected.");
         }
 

@@ -1,8 +1,7 @@
 ﻿using SangoNetProtol;
+using SangoScripts_Server;
 using SangoScripts_Server.AOI;
-using SangoScripts_Server.Cache;
 using SangoScripts_Server.IOCP;
-using SangoScripts_Server.Map;
 using SangoScripts_Server.Utils;
 using SangoUtils_Common.Config;
 using SangoUtils_Common.Infos;
@@ -11,24 +10,9 @@ using System.Numerics;
 
 namespace SangoUtils_Server
 {
-    public class SunUpF4LobbyMap : MapBaseStage
+    public class SceneSangoBase<T> : BaseScene<T> where T : class, new()
     {
-        public override void OnInit()
-        {
-            base.OnInit();
-        }
-
-        public override void OnDispose()
-        {
-
-        }
-
-        public override void OnUpdate()
-        {
-            AOIController?.OnAOIUpdate();
-        }
-
-        public override void SetConfig(MapConfig currentMapStageConfig)
+        public override void SetConfig(SceneConfig currentMapStageConfig)
         {
             _currentMapStageConfig = currentMapStageConfig;
             AOIController = new AOIController(_currentMapStageConfig.AOIConfig);
@@ -62,7 +46,7 @@ namespace SangoUtils_Server
                 }
             }
 
-            if (_mapEntitysDict.TryGetValue(entity.EntityID, out PlayerEntity? playerEntity))
+            if (_mapEntitysDict.TryGetValue(entity.EntityID, out BaseObjectEntity? playerEntity))
             {
                 playerEntity.OnUpdateInMap(message);
             }
@@ -112,21 +96,21 @@ namespace SangoUtils_Server
 
             foreach (AOIEntity entity in cell.AOIEntityHoldSets)
             {
-                if (_mapEntitysDict.TryGetValue(entity.EntityID, out PlayerEntity? playerEntity))
+                if (_mapEntitysDict.TryGetValue(entity.EntityID, out BaseObjectEntity? playerEntity))
                 {
                     playerEntity.OnUpdateInMap(bytes);
                 }
             }
         }
 
-        public void OnEntityEnter(AOIActiveMoveEntity activeMoveEntity)
+        public void OnPlayerEntityEnter(BaseObjectEntity entity)
         {
-            //OnEntityEnter();
+            OnEntityEnter(entity);
         }
 
         public void OnEntityMove(AOIActiveMoveEntity activeMoveEntity)
         {
-            if (_mapEntitysDict.TryGetValue(activeMoveEntity.EntityID, out PlayerEntity? entity))
+            if (_mapEntitysDict.TryGetValue(activeMoveEntity.EntityID, out BaseObjectEntity? entity))
             {
                 Vector3 position = new(activeMoveEntity.TransformInfo.Position.X, activeMoveEntity.TransformInfo.Position.Y, activeMoveEntity.TransformInfo.Position.Z);
                 Quaternion rotation = new(activeMoveEntity.TransformInfo.Rotation.X, activeMoveEntity.TransformInfo.Rotation.Y, activeMoveEntity.TransformInfo.Rotation.Z, activeMoveEntity.TransformInfo.Rotation.W);
@@ -139,7 +123,7 @@ namespace SangoUtils_Server
 
         public void OnEntityExit(string entityID)
         {
-            if (_mapEntitysDict.TryGetValue(entityID, out PlayerEntity? entity))
+            if (_mapEntitysDict.TryGetValue(entityID, out BaseObjectEntity? entity))
             {
                 OnEntityExit(entity);
             }

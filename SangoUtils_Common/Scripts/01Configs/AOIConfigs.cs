@@ -2,7 +2,7 @@
 {
     public class AOIConfig
     {
-        public string MapID { get; set; } = "";
+        public string SceneID { get; set; } = "";
         public int CellSize { get; set; } = 20;
         public int InitCount { get; set; } = 200;
 
@@ -15,13 +15,13 @@
         public int AOIEntityUpdateExitPacksCount { get; set; } = 10;
     }
 
-    public class MapConfig
+    public class SceneConfig
     {
-        public string MapID { get; set; } = "";
-        public string MapName { get; set; } = "";
+        public string SceneID { get; set; } = "";
+        public string SceneName { get; set; } = "";
 
-        public int[] MapBorderX { get; set; } = new int[] { 0, 0 };
-        public int[] MapBorderZ { get; set; } = new int[] { 0, 0 };
+        public int[] SceneBorderX { get; set; } = new int[] { 0, 0 };
+        public int[] SceneBorderZ { get; set; } = new int[] { 0, 0 };
 
         public AOIConfig AOIConfig { get; set; } = new AOIConfig();
     }

@@ -2,7 +2,7 @@
 
 namespace SangoScripts_Server
 {
-    public class Transform
+    public struct Transform
     {
         public Transform() { }
 

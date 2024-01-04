@@ -1,24 +1,23 @@
 ﻿using SangoNetProtol;
 using SangoScripts_Server.AOI;
 using SangoScripts_Server.Logger;
-using SangoScripts_Server.Map;
 using SangoScripts_Server.Net;
 using SangoScripts_Server.Utils;
 using SangoUtils_Common.Messages;
 
-namespace SangoScripts_Server.Cache
+namespace SangoScripts_Server
 {
-    public class PlayerEntity(string entityID, Transform transform, ClientPeer clientPeer)
+    public class BaseObjectEntity(string entityID, Transform transform, ClientPeer clientPeer, AOIEntityType entityType)
     {
         public ClientPeer ClientPeer { get; private set; } = clientPeer;
         public string EntityID { get; private set; } = entityID;
         public Transform Transform { get; set; } = transform;
         public PlayerState PlayerState { get; set; }
-        public AOIEntityType AOIEntityType { get; private set; } = AOIEntityType.Client;
+        public AOIEntityType AOIEntityType { get; private set; } = entityType;
 
         public AOIEntity? AOIEntity { get; set; }
 
-        public void OnEnterToMap(MapBaseStage map)
+        public void OnEnterToMap<T>(BaseScene<T> scene) where T : class, new()
         {
             PlayerState = PlayerState.Online;
             SangoLogger.Processing($"EntityID: [ {EntityID} ] is enter to map.");

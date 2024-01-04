@@ -7,8 +7,6 @@ namespace SangoUtils_Server
 {
     public class AOINetController : BaseNetController
     {
-        private SunUpF4LobbyMap _sunUpF4LobbyMap = new();
-
         public override void DefaultOperationEvent()
         {
             
@@ -16,18 +14,18 @@ namespace SangoUtils_Server
 
         public void Test()
         {
-            _sunUpF4LobbyMap.SetConfig(SangoCommonConfig.SunUpF4LobbyMapConfig);
-            _sunUpF4LobbyMap.OnInit();
+            SceneTestMain.Instance.SetConfig(SangoCommonConfig.SceneTestMainConfig);
+            SceneTestMain.Instance.OnInit();
         }
 
         public void UpdateAOIPos(AOIActiveMoveEntity activeMoveEntity)
         {
-            _sunUpF4LobbyMap.OnEntityMove(activeMoveEntity);
+            SceneTestMain.Instance.OnEntityMove(activeMoveEntity);
         }
 
         public void ExitAOIPos(AOIActiveMoveEntity activeMoveEntity)
         {
-            _sunUpF4LobbyMap.OnEntityExit(activeMoveEntity.EntityID);
+            SceneTestMain.Instance.OnEntityExit(activeMoveEntity.EntityID);
         }
     }
 }

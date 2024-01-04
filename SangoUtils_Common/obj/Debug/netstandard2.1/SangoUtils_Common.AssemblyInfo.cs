@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e53a554c94e88b54787451c17d8d597085792fd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+861117c69defd958b32addea24924096d16b151f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

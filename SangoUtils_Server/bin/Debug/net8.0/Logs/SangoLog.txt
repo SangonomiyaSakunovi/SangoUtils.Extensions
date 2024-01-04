@@ -1,34 +1,88 @@
 [LogDone]SangoServer is Run!
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.630999982,"Y":0.870000005,"Z":-2.13800001},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.826460302,"Y":1.07999992,"Z":-4.18856907},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-2.88449216,"Y":1.07999992,"Z":-2.69856668},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-2.51570106,"Y":1.07999992,"Z":-0.35327363},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.546774089,"Y":1.07999992,"Z":-0.35327363},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.546774089,"Y":1.07999992,"Z":-0.35327363},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.598997653,"Y":1.07999992,"Z":-0.35327363},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.598997653,"Y":1.08000004,"Z":1.81793904},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":-0.449182421,"Y":1.08000004,"Z":6.29224634},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":2.80818462,"Y":1.08000004,"Z":6.61815357},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":2.16229177,"Y":1.08000004,"Z":9.90534019},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":4.42037773,"Y":1.08000004,"Z":12.3236847},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":4.46279001,"Y":1.08000004,"Z":10.8472033},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
-[LogInfo]{"AOIActiveMoveEntitys":[{"EntityID":"SangoTestCapsule001","TransformInfo":{"Position":{"X":3.40121102,"Y":1.08000004,"Z":14.22785},"Rotation":{"X":0,"Y":0,"Z":0,"W":1},"Scale":{"X":1,"Y":1,"Z":1}}}]}
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 0_0 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] is enter to map.
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_1 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_1 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_1 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_1 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_1 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_1 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_1 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_4 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_4 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 1_4 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_4 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_4 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_4 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 3_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 3_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 3_2 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_3 ]
+[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
+[LogInfo]New AOICell Key in AOIEntity: [ 2_3 ]
