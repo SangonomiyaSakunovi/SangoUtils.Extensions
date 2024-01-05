@@ -12,35 +12,33 @@ namespace SangoScripts_Server
         public ClientPeer ClientPeer { get; private set; } = clientPeer;
         public string EntityID { get; private set; } = entityID;
         public Transform Transform { get; set; } = transform;
+        public Transform TransformLast { get; set; } = transform;
         public PlayerState PlayerState { get; set; }
         public AOIEntityType AOIEntityType { get; private set; } = entityType;
 
         public AOIEntity? AOIEntity { get; set; }
 
-        public void OnEnterToMap<T>(BaseScene<T> scene) where T : class, new()
+        public void OnEnterToScene<T>(BaseScene<T> scene) where T : class, new()
         {
             PlayerState = PlayerState.Online;
             SangoLogger.Processing($"EntityID: [ {EntityID} ] is enter to map.");
         }
 
-        public void OnUpdateInMap(AOIEventMessage message)
+        public void OnMoveInMap(AOIEventMessage message)
         {
             if (PlayerState == PlayerState.Online)
             {
                 string messageJson = JsonUtils.SetJsonString(message);
                 ClientPeer.SendEvent(NetOperationCode.Aoi, messageJson);
-            }
+            }       
         }
 
-        public void OnUpdateInMap(byte[] bytes)
+        public void OnMoveInMap(byte[] message)
         {
-            if (PlayerState == PlayerState.Online)
-            {
-                ClientPeer.SendPackMessage(bytes);
-            }
+            ClientPeer.SendPackMessage(message);
         }
 
-        public void OnExitFromMap()
+        public void OnExitFromScene()
         {
             PlayerState = PlayerState.Offline;
             SangoLogger.Processing($"EntityID: [ {EntityID} ] is exit from map.");

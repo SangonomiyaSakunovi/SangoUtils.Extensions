@@ -61,7 +61,7 @@ namespace SangoUtils_Server
 
         private void OnPlayerEntityEnterSceneTestMain(BaseObjectEntity entity)
         {
-            SceneTestMain.Instance.OnPlayerEntityEnter(entity);
+            AOISystem.Instance.OnPlayerEntityEnterInSceneTestMain(entity);
         }
     }
 }

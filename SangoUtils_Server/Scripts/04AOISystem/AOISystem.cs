@@ -1,7 +1,8 @@
 ﻿using SangoNetProtol;
 using SangoScripts_Server;
+using SangoScripts_Server.AOI;
 using SangoScripts_Server.Net;
-using SangoUtils_Common;
+using SangoUtils_Common.Config;
 using SangoUtils_Common.Messages;
 
 namespace SangoUtils_Server
@@ -21,17 +22,26 @@ namespace SangoUtils_Server
 
         public void Test()
         {
-            _aoiNetController?.Test();
+            SceneTestMain.Instance.SetConfig(SangoCommonConfig.SceneTestMainConfig);
+            SceneTestMain.Instance.OnInit();
         }
 
-        public void UpdateAOIPos(AOIActiveMoveEntity activeMoveEntity)
+        public void OnPlayerEntityEnterInSceneTestMain(BaseObjectEntity entity)
         {
-            _aoiNetController?.UpdateAOIPos(activeMoveEntity);
+            SceneTestMain.Instance.OnPlayerEntityEnter(entity);
         }
 
-        public void ExitAOIPos(AOIActiveMoveEntity activeMoveEntity)
+        public void OnPlayerEntityMoveInSceneTestMain(AOIActiveMoveEntity activeMoveEntity)
         {
-            _aoiNetController?.ExitAOIPos(activeMoveEntity);
+            SceneTestMain.Instance.OnEntityMove(activeMoveEntity);
+        }
+
+        public void SendAOIEventMessage(BaseObjectEntity entity, byte[] message)
+        {
+            if (entity.PlayerState == PlayerState.Online)
+            {
+                _aoiNetController?.SendAOIEventMessage(entity,message);
+            }
         }
     }
 }

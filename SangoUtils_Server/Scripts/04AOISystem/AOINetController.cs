@@ -1,7 +1,4 @@
 ﻿using SangoScripts_Server;
-using SangoUtils_Common;
-using SangoUtils_Common.Config;
-using SangoUtils_Common.Messages;
 
 namespace SangoUtils_Server
 {
@@ -9,23 +6,12 @@ namespace SangoUtils_Server
     {
         public override void DefaultOperationEvent()
         {
-            
+
         }
 
-        public void Test()
+        public void SendAOIEventMessage(BaseObjectEntity entity, byte[] message)
         {
-            SceneTestMain.Instance.SetConfig(SangoCommonConfig.SceneTestMainConfig);
-            SceneTestMain.Instance.OnInit();
-        }
-
-        public void UpdateAOIPos(AOIActiveMoveEntity activeMoveEntity)
-        {
-            SceneTestMain.Instance.OnEntityMove(activeMoveEntity);
-        }
-
-        public void ExitAOIPos(AOIActiveMoveEntity activeMoveEntity)
-        {
-            SceneTestMain.Instance.OnEntityExit(activeMoveEntity.EntityID);
+            entity.OnMoveInMap(message);
         }
     }
 }

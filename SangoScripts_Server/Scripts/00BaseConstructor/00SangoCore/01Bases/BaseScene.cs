@@ -44,7 +44,7 @@ namespace SangoScripts_Server
                     AOIController?.OnEntityExitCell(entity.AOIEntity);
                     if (_mapEntitysDict.TryRemove(entity.EntityID, out BaseObjectEntity? e))
                     {
-                        entity.OnExitFromMap();
+                        entity.OnExitFromScene();
                         entity.AOIEntity = null;
                     }
                     else
@@ -64,7 +64,7 @@ namespace SangoScripts_Server
                 {
                     if (_mapEntitysDict.TryAdd(entity.EntityID, entity))
                     {
-                        entity.OnEnterToMap(this);
+                        entity.OnEnterToScene(this);
                     }
                     else
                     {
@@ -108,8 +108,7 @@ namespace SangoScripts_Server
             {
                 if (_mapEntitysDict.ContainsKey(entity.EntityID))
                 {
-                    _playerEntityMoveQueue.Enqueue(entity);
-                    SangoLogger.Processing($"EntityID: [ {entity.EntityID} ] has enter the SceneID: [ {_currentMapStageConfig?.SceneID} ]");
+                    _playerEntityMoveQueue.Enqueue(entity);                    
                 }
                 else
                 {

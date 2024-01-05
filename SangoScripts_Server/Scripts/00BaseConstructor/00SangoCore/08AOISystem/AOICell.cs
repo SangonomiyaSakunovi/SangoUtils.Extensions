@@ -116,10 +116,6 @@ namespace SangoScripts_Server.AOI
                 {
                     AOIController.OnCellOperationCombined?.Invoke(this, _aoiCellOperationUpdatePacks);
                 }
-
-
-
-
                 _aoiCellOperationUpdatePacks.Reset();
             }
         }

@@ -23,7 +23,7 @@ namespace SangoUtils_Server
 
         private void OnPlayerEntityMoveInSceneTestMain(AOIActiveMoveEntity activeMoveEntity)
         {
-            SceneTestMain.Instance.OnEntityMove(activeMoveEntity);
+            AOISystem.Instance.OnPlayerEntityMoveInSceneTestMain(activeMoveEntity);
         }
     }
 }
