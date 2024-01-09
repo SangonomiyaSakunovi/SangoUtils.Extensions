@@ -9,17 +9,17 @@ namespace SangoUtils_Server
 {
     public class LoginSystem : BaseSystem<LoginSystem>
     {
-        private LoginNetHandler? _loginNetHandler;
+        private LoginIOCPHandler? _loginNetHandler;
 
         private StringBuilder _stringBuilder = new StringBuilder();
 
         public override void OnInit()
         {
             base.OnInit();
-            _loginNetHandler = NetService.Instance.GetNetHandler<LoginNetHandler>(NetOperationCode.Login);
+            _loginNetHandler = IOCPService.Instance.GetNetHandler<LoginIOCPHandler>(NetOperationCode.Login);
         }
 
-        public LoginResCode GetLoginRes(LoginReqMessage loginReqMessage, ClientPeer peer)
+        public LoginResCode GetLoginRes(LoginReqMessage loginReqMessage, IOCPClientPeer peer)
         {
             LoginResCode loginResCode = LoginResCode.None;
             switch (loginReqMessage.LoginMode)
@@ -49,12 +49,12 @@ namespace SangoUtils_Server
             return _stringBuilder.ToString();
         }
 
-        private bool OnClientPeerDisConnected(ClientPeer peer)
+        private bool OnClientPeerDisConnected(IOCPClientPeer peer)
         {
             return OnlinePlayerEntityCache.Instance.RemovePlayerEntity(peer);
         }
 
-        private bool AddLoginPlayerEntity(ClientPeer peer, BaseObjectEntity entity)
+        private bool AddLoginPlayerEntity(IOCPClientPeer peer, BaseObjectEntity entity)
         {
             return OnlinePlayerEntityCache.Instance.AddLoginPlayerEntity(peer, entity);
         }

@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 
 namespace SangoScripts_Server
 {
-    public class BaseScene<T> : ServerSingleton<T> where T : class, new()
+    public abstract class BaseScene<T> : ServerSingleton<T> where T : class, new()
     {
         protected ConcurrentDictionary<string, BaseObjectEntity> _mapEntitysDict = new();
 

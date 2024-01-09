@@ -2,8 +2,6 @@
 
 namespace SangoUtils_Common.Infos
 {
-#pragma warning disable CS8618
-
     [Serializable]
     public class TransformInfo
     {
@@ -56,5 +54,4 @@ namespace SangoUtils_Common.Infos
         public float Z { get; set; } = 0;
         public float W { get; set; } = 0;
     }
-#pragma warning restore CS8618
 }

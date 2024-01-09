@@ -7,10 +7,10 @@ namespace SangoUtils_Server
 {
     public class OnlinePlayerEntityCache : BaseCache<OnlinePlayerEntityCache>
     {
-        private ConcurrentDictionary<ClientPeer, BaseObjectEntity> _playerEntityClientPeerDict = new();
+        private ConcurrentDictionary<IOCPClientPeer, BaseObjectEntity> _playerEntityClientPeerDict = new();
         private ConcurrentDictionary<string, BaseObjectEntity> _playerEntityIDDict = new();
 
-        public bool AddLoginPlayerEntity(ClientPeer peer, BaseObjectEntity entity)
+        public bool AddLoginPlayerEntity(IOCPClientPeer peer, BaseObjectEntity entity)
         {
             if (!_playerEntityClientPeerDict.ContainsKey(peer))
             {
@@ -33,7 +33,7 @@ namespace SangoUtils_Server
             }
         }
 
-        public BaseObjectEntity? GetPlayerEntityByClientPeer(ClientPeer peer)
+        public BaseObjectEntity? GetPlayerEntityByClientPeer(IOCPClientPeer peer)
         {
             if (_playerEntityClientPeerDict.TryGetValue(peer, out BaseObjectEntity? entity))
             {
@@ -59,7 +59,7 @@ namespace SangoUtils_Server
             }
         }
 
-        public bool RemovePlayerEntity(ClientPeer peer)
+        public bool RemovePlayerEntity(IOCPClientPeer peer)
         {
             if (_playerEntityClientPeerDict.TryRemove(peer, out BaseObjectEntity? entity))
             {

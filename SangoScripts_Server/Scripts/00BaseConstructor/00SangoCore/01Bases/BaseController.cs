@@ -1,6 +1,6 @@
 ﻿namespace SangoScripts_Server
 {
-    public class BaseController
+    public abstract class BaseController
     {
 
     }

@@ -1,5 +1,4 @@
 ﻿using SangoNetProtol;
-using SangoScripts_Server.Net;
 using SangoScripts_Server.Utils;
 
 namespace SangoScripts_Server
@@ -10,15 +9,15 @@ namespace SangoScripts_Server
 
         public abstract void DefaultOperationEvent();
 
-        public virtual void OnInit(NetOperationCode netOperationCode)
+        public virtual void OnInit<T>(NetOperationCode netOperationCode, BaseNetService<T> instance) where T : class, new()
         {
             NetOperationCode = netOperationCode;
-            NetService.Instance.AddNetController(this);
+            instance.AddNetController(this);
         }
 
-        public virtual void OnDispose()
+        public virtual void OnDispose<T>(BaseNetService<T> instance) where T : class, new()
         {
-            NetService.Instance.RemoveNetController(this);
+            instance.RemoveNetController(this);
         }
 
         protected static string SetJsonString(object ob)

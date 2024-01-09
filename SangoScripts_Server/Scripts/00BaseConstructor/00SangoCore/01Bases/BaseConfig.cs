@@ -1,6 +1,6 @@
 ﻿namespace SangoScripts_Server
 {
-    public class BaseConfig
+    public abstract class BaseConfig
     {
 
     }

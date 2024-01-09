@@ -1,6 +1,6 @@
 ﻿namespace SangoScripts_Server
 {
-    public class BaseConstant
+    public abstract class BaseConstant
     {
     }
 }

@@ -5,26 +5,24 @@ using SangoUtils_Common.Utils;
 
 namespace SangoScripts_Server.Net
 {
-    public class ClientPeer : IClientPeer_IOCP
+    public class IOCPClientPeer : IClientPeer_IOCP
     {
-        
-
         private long _lastMessageTimestamp = long.MinValue;
 
         public string EntityID { get; private set; } = "";
-        public Func<ClientPeer,bool>? OnClientPeerDisconnected { get; set; }
+        public Func<IOCPClientPeer,bool>? OnClientPeerDisconnected { get; set; }
 
         public void SetEntityID(string entityID)
         {
             EntityID = entityID;
         }
 
-        protected override void OnConnected()
+        protected override void OnIOCPOpen()
         {
             IOCPLogger.Info("A new client is Connected.");
         }
 
-        protected override void OnDisconnected()
+        protected override void OnIOCPClosed()
         {
             if (!string.IsNullOrEmpty(EntityID))
             {
@@ -34,19 +32,14 @@ namespace SangoScripts_Server.Net
             IOCPLogger.Info("A client is DisConnected.");
         }
 
-        protected override void OnReceivedMessage(byte[] byteMessages)
+        protected override void OnMessageReceived(byte[] byteMessages)
         {
             SangoNetMessage sangoNetMessage = ProtoUtils.DeProtoBytes<SangoNetMessage>(byteMessages);
             long messageTimestamp = Convert.ToInt64(sangoNetMessage.NetMessageTimestamp);
             if (messageTimestamp > _lastMessageTimestamp)
             {
                 _lastMessageTimestamp = messageTimestamp;
-                switch (sangoNetMessage.NetMessageHead.NetMessageCommandCode)
-                {
-                    case NetMessageCommandCode.NetOperationRequest:
-                        NetService.Instance.NetRequestMessageBroadcast(sangoNetMessage, this);
-                        break;
-                }
+                IOCPService.Instance.OnMessageReceived(sangoNetMessage, this);
             }
         }
 

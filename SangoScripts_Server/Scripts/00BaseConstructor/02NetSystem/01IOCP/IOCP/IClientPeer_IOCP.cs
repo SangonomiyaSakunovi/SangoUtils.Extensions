@@ -23,18 +23,18 @@ namespace SangoScripts_Server.IOCP
             _receiveAsyncEventArgs.SetBuffer(new byte[IOCPConfig.ServerBufferCount], 0, IOCPConfig.ServerBufferCount);
         }
 
-        protected abstract void OnConnected();
+        protected abstract void OnIOCPOpen();
 
-        protected abstract void OnDisconnected();
+        protected abstract void OnIOCPClosed();
 
-        protected abstract void OnReceivedMessage(byte[] byteMessages);
+        protected abstract void OnMessageReceived(byte[] byteMessages);
 
         public void InitClientPeer(Socket skt)
         {
             IOCPLogger.Info("Init Client Peer, starting Recieve Async.");
             _socket = skt;
             _connectionState = ConnectionStateCode.Connected;
-            OnConnected();
+            OnIOCPOpen();
             OnReceiveAsync();
         }
 
@@ -75,7 +75,7 @@ namespace SangoScripts_Server.IOCP
             byte[]? byteMessages = IOCPUtils.SplitLogicBytes(ref _readList);
             if (byteMessages != null)
             {
-                OnReceivedMessage(byteMessages);
+                OnMessageReceived(byteMessages);
                 ProcessByteList();
             }
         }
@@ -141,7 +141,7 @@ namespace SangoScripts_Server.IOCP
             if (_socket != null)
             {
                 _connectionState = ConnectionStateCode.Disconnected;
-                OnDisconnected();
+                OnIOCPClosed();
                 if (OnClientPeerCloseCallBack != null)
                 {
                     OnClientPeerCloseCallBack(PeerId);

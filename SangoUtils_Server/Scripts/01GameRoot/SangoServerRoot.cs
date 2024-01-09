@@ -25,7 +25,7 @@ namespace SangoUtils_Server
         public override void OnDispose()
         {
             base.OnDispose();
-            NetService.Instance.CloseClientInstance();
+            IOCPService.Instance.CloseClientInstance();
         }
 
         private void InitConfig()
@@ -35,7 +35,7 @@ namespace SangoUtils_Server
 
         private void InitService()
         {
-            NetService.Instance.OnInit();
+            IOCPService.Instance.OnInit();
         }
 
         private void InitSystem()

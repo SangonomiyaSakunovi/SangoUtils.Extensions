@@ -2,7 +2,7 @@
 
 namespace SangoUtils_Server
 {
-    public class AOINetController : BaseNetController
+    public class AOIIOCPController : BaseNetController
     {
         public override void DefaultOperationEvent()
         {

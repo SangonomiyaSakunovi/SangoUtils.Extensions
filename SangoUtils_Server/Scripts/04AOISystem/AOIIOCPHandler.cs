@@ -5,9 +5,9 @@ using SangoUtils_Common.Messages;
 
 namespace SangoUtils_Server
 {
-    public class AOINetHandler : BaseNetHandler
+    public class AOIIOCPHandler : BaseIOCPNetHandler
     {
-        public override void OnOperationRequest(string message, ClientPeer peer)
+        public override void OnOperationRequest(string message, IOCPClientPeer peer)
         {
             //SangoLogger.Log(message);
             AOIReqMessage? aoiReqMessage = DeJsonString<AOIReqMessage>(message);

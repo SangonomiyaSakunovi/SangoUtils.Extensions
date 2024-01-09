@@ -9,14 +9,14 @@ namespace SangoUtils_Server
 {
     public class AOISystem : BaseSystem<AOISystem>
     {
-        private AOINetHandler? _aoiNetHandler;
-        private AOINetController? _aoiNetController;
+        private AOIIOCPHandler? _aoiNetHandler;
+        private AOIIOCPController? _aoiNetController;
 
         public override void OnInit()
         {
             base.OnInit();
-            _aoiNetHandler = NetService.Instance.GetNetHandler<AOINetHandler>(NetOperationCode.Aoi);
-            _aoiNetController = NetService.Instance.GetNetController<AOINetController>(NetOperationCode.Aoi);
+            _aoiNetHandler = IOCPService.Instance.GetNetHandler<AOIIOCPHandler>(NetOperationCode.Aoi);
+            _aoiNetController = IOCPService.Instance.GetNetController<AOIIOCPController>(NetOperationCode.Aoi);
             Test();
         }
 

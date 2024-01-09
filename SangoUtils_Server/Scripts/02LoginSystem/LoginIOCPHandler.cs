@@ -5,9 +5,9 @@ using SangoUtils_Common.Messages;
 
 namespace SangoUtils_Server
 {
-    public class LoginNetHandler : BaseNetHandler
+    public class LoginIOCPHandler : BaseIOCPNetHandler
     {
-        public override void OnOperationRequest(string message, ClientPeer peer)
+        public override void OnOperationRequest(string message, IOCPClientPeer peer)
         {
             LoginReqMessage? loginReqMessage = DeJsonString<LoginReqMessage>(message);
             if (loginReqMessage != null)

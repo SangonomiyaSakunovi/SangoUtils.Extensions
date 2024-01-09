@@ -1,6 +1,6 @@
 ﻿namespace SangoScripts_Server
 {
-    public class BaseSystem<T> : ServerSingleton<T> where T : class, new()
+    public abstract class BaseSystem<T> : ServerSingleton<T> where T : class, new()
     {
         public override void Update()
         {

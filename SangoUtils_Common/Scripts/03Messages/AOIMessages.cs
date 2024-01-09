@@ -4,8 +4,6 @@ using System.Collections.Generic;
 
 namespace SangoUtils_Common.Messages
 {
-#pragma warning disable CS8618
-
     [Serializable]
     public class AOIReqMessage
     {
@@ -93,6 +91,5 @@ namespace SangoUtils_Common.Messages
 
         public string EntityID { get; set; } = "";
     }
-#pragma warning restore CS8618
 }
 

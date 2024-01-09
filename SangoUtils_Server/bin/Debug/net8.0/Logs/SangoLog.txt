@@ -1,7 +1,1 @@
 [LogDone]SangoServer is Run!
-[LogProcessing]EntityID: [ _SangoGuest__9998 ] has enter the SceneID: [ SangoTestMain ]
-[LogInfo]New AOICell Key in AOIEntity: [ 0_0 ]
-[LogProcessing]EntityID: [ _SangoGuest__9998 ] is enter to map.
-[LogProcessing]EntityID: [ _SangoGuest__9999 ] has enter the SceneID: [ SangoTestMain ]
-[LogInfo]New AOICell Key in AOIEntity: [ 0_0 ]
-[LogProcessing]EntityID: [ _SangoGuest__9999 ] is enter to map.

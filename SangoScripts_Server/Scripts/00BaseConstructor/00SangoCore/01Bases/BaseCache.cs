@@ -1,6 +1,6 @@
 ﻿namespace SangoScripts_Server
 {
-    public class BaseCache<T> : ServerSingleton<T> where T : class, new()
+    public abstract class BaseCache<T> : ServerSingleton<T> where T : class, new()
     {
         public override void Update()
         {

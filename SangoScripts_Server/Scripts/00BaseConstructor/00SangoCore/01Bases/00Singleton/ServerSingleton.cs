@@ -1,6 +1,6 @@
 ﻿namespace SangoScripts_Server
 {
-    public class ServerSingleton<T> where T : class, new()
+    public abstract class ServerSingleton<T> where T : class, new()
     {
         private  static T? _instance;
 
