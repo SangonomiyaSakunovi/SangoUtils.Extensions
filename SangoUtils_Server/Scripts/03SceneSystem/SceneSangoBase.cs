@@ -116,7 +116,7 @@ namespace SangoUtils_Server
                 Quaternion rotation = new(activeMoveEntity.TransformInfo.Rotation.X, activeMoveEntity.TransformInfo.Rotation.Y, activeMoveEntity.TransformInfo.Rotation.Z, activeMoveEntity.TransformInfo.Rotation.W);
                 Vector3 scale = new(activeMoveEntity.TransformInfo.Scale.X, activeMoveEntity.TransformInfo.Scale.Y, activeMoveEntity.TransformInfo.Scale.Z);
 
-                Transform newTrans = new(position, rotation, scale);
+                TransformData newTrans = new(position, rotation, scale);
                 if(entity.Transform != newTrans)
                 {
                     entity.Transform = newTrans;

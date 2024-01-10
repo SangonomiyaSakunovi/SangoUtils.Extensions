@@ -7,12 +7,12 @@ using SangoUtils_Common.Messages;
 
 namespace SangoScripts_Server
 {
-    public abstract class BaseObjectEntity(string entityID, Transform transform, IOCPClientPeer clientPeer, AOIEntityType entityType)
+    public abstract class BaseObjectEntity(string entityID, TransformData transform, IOCPClientPeer clientPeer, AOIEntityType entityType)
     {
         public IOCPClientPeer ClientPeer { get; private set; } = clientPeer;
         public string EntityID { get; private set; } = entityID;
-        public Transform Transform { get; set; } = transform;
-        public Transform TransformLast { get; set; } = transform;
+        public TransformData Transform { get; set; } = transform;
+        public TransformData TransformLast { get; set; } = transform;
         public PlayerState PlayerState { get; set; }
         public AOIEntityType AOIEntityType { get; private set; } = entityType;
 

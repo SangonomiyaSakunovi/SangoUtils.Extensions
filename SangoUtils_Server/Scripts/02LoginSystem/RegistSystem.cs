@@ -10,6 +10,6 @@ namespace SangoUtils_Server
     public class RegistRegularConfig : BaseConfig
     {
         public string GuestIDPrefix { get; set; } = "_SangoGuest_";
-        public Transform DefaultTransform { get; set; } = new(new(0, 0, 0), new(0, 0, 0, 0), new(1, 1, 1));
+        public TransformData DefaultTransform { get; set; } = new(new(0, 0, 0), new(0, 0, 0, 0), new(1, 1, 1));
     }
 }

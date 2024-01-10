@@ -10,7 +10,7 @@ namespace SangoScripts_Server.AOI
         private AOIUpdatePacks _aoiEntityOperationUpdatePacks = new(aoiController.AOIConfig.AOIEntityUpdateEnterPacksCount, aoiController.AOIConfig.AOIEntityUpdateMovePacksCount, aoiController.AOIConfig.AOIEntityUpdateExitPacksCount);
 
 
-        public Transform Transform { get; private set; } = new();
+        public TransformData Transform { get; private set; } = new();
         public AOIEntityOperationCode AOIEntityOperationCode { get; private set; }
 
         public AOICrossDirectionCode AOICrossDirectionCode { get; private set; }
@@ -25,7 +25,7 @@ namespace SangoScripts_Server.AOI
         private List<AOICell> _aoiRemoveCells = new(5);
         private List<AOICell> _aoiAddCells = new(5);
 
-        public void OnUpdatePosition(Transform transform, AOIEntityOperationCode operationCode = AOIEntityOperationCode.None)
+        public void OnUpdatePosition(TransformData transform, AOIEntityOperationCode operationCode = AOIEntityOperationCode.None)
         {
             Transform = transform;
             AOIEntityOperationCode = operationCode;

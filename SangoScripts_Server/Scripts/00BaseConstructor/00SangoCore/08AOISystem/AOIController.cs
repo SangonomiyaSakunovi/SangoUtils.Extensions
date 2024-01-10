@@ -26,7 +26,7 @@ namespace SangoScripts_Server.AOI
             }
         }
 
-        public AOIEntity OnEntityEnterCell(string entityID, Transform transform, AOIEntityType entityType)
+        public AOIEntity OnEntityEnterCell(string entityID, TransformData transform, AOIEntityType entityType)
         {
             AOIEntity entity = new AOIEntity(entityID, this, entityType);
             entity.OnUpdatePosition(transform, AOIEntityOperationCode.TransferEnterCell);
@@ -34,7 +34,7 @@ namespace SangoScripts_Server.AOI
             return entity;
         }
 
-        public void OnEntityMove(AOIEntity entity, Transform transform)
+        public void OnEntityMove(AOIEntity entity, TransformData transform)
         {
             entity.OnUpdatePosition(transform, AOIEntityOperationCode.MoveCrossCell);
         }

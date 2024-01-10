@@ -32,16 +32,16 @@ namespace SangoScripts_Server.AOI
         }
     }
 
-    public struct AOIEntityEnterPack(string entityID, Transform transform)
+    public struct AOIEntityEnterPack(string entityID, TransformData transform)
     {
         public string EntityID { get;private set; } = entityID;
-        public Transform Transform { get; private set; } = transform;
+        public TransformData Transform { get; private set; } = transform;
     }
 
-    public struct AOIEntityMovePack(string entityID, Transform transform)
+    public struct AOIEntityMovePack(string entityID, TransformData transform)
     {
         public string EntityID { get; private set; } = entityID;
-        public Transform Transform { get; private set; } = transform;
+        public TransformData Transform { get; private set; } = transform;
     }
 
     public struct AOIEntityExitPack(string entityID)

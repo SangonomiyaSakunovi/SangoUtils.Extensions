@@ -4,7 +4,7 @@ using SangoScripts_Server.Net;
 
 namespace SangoUtils_Server
 {
-    public class PlayerEntity(string entityID, Transform transform, IOCPClientPeer clientPeer) : BaseObjectEntity(entityID, transform, clientPeer, AOIEntityType.Client)
+    public class PlayerEntity(string entityID, TransformData transform, IOCPClientPeer clientPeer) : BaseObjectEntity(entityID, transform, clientPeer, AOIEntityType.Client)
     {
 
     }
