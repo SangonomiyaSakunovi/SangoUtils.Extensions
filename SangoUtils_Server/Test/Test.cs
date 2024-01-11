@@ -1,6 +1,6 @@
 ﻿namespace SangoUtils_Server.Test
 {
-    public class Test1
+    internal class Test1Example
     {
         private Action<int>? OnSquare1;
 
@@ -20,7 +20,7 @@
         }
     }
 
-    public class Test2
+    internal class Test2Example
     {
         private Func<int,int>? OnSquare2;
 
