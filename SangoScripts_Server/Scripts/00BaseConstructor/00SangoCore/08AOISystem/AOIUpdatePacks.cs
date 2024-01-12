@@ -1,7 +1,4 @@
-﻿using SangoUtils_Common.Infos;
-using System.Numerics;
-
-namespace SangoScripts_Server.AOI
+﻿namespace SangoScripts_Server.AOI
 {
     public class AOIUpdatePacks(int enterPacksCount, int movePacksCount, int exitPacksCount) : BaseController
     {
@@ -13,7 +10,7 @@ namespace SangoScripts_Server.AOI
         {
             get
             {
-                if (AOIEntityEnterPacks.Count == 0&& AOIEntityMovePacks.Count == 0&& AOIEntityExitPacks.Count == 0)
+                if (AOIEntityEnterPacks.Count == 0 && AOIEntityMovePacks.Count == 0 && AOIEntityExitPacks.Count == 0)
                 {
                     return true;
                 }
@@ -34,7 +31,7 @@ namespace SangoScripts_Server.AOI
 
     public struct AOIEntityEnterPack(string entityID, TransformData transform)
     {
-        public string EntityID { get;private set; } = entityID;
+        public string EntityID { get; private set; } = entityID;
         public TransformData Transform { get; private set; } = transform;
     }
 

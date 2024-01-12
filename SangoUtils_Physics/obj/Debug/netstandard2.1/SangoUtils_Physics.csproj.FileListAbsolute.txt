@@ -1,0 +1,14 @@
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils_Physics.deps.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils_Physics.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils_Physics.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils_FixedNum.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils_FixedNum.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.csproj.AssemblyReference.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.sourcelink.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.csproj.CopyComplete
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils_Physics.pdb

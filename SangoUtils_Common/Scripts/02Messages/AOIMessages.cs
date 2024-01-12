@@ -1,4 +1,4 @@
-﻿using SangoUtils_Common.Infos;
+﻿using SangoUtils_Common.Messages;
 using System;
 using System.Collections.Generic;
 
@@ -39,14 +39,14 @@ namespace SangoUtils_Common.Messages
     {
         public AOIActiveMoveEntity() { }
 
-        public AOIActiveMoveEntity(string entityID, TransformInfo transformInfo)
+        public AOIActiveMoveEntity(string entityID, TransformMessage transformInfo)
         {
             EntityID = entityID;
             TransformInfo = transformInfo;
         }
 
         public string EntityID { get; set; } = "";
-        public TransformInfo TransformInfo { get; set; } = new TransformInfo();
+        public TransformMessage TransformInfo { get; set; } = new TransformMessage();
     }
 
     [Serializable]
@@ -54,14 +54,14 @@ namespace SangoUtils_Common.Messages
     {
         public AOIViewEnterEntity() { }
         
-        public AOIViewEnterEntity(string entityID, TransformInfo transformInfo)
+        public AOIViewEnterEntity(string entityID, TransformMessage transformInfo)
         {
             EntityID = entityID;
             TransformInfo = transformInfo;
         }
 
         public string EntityID { get; set; } = "";
-        public TransformInfo TransformInfo { get; set; } = new TransformInfo();
+        public TransformMessage TransformInfo { get; set; } = new TransformMessage();
     }
 
     [Serializable]
@@ -69,14 +69,14 @@ namespace SangoUtils_Common.Messages
     {
         public AOIViewMoveEntity() { }
 
-        public AOIViewMoveEntity(string entityID, TransformInfo transformInfo)
+        public AOIViewMoveEntity(string entityID, TransformMessage transformInfo)
         {
             EntityID = entityID;
             TransformInfo = transformInfo;
         }
 
         public string EntityID { get; set; } = "";
-        public TransformInfo TransformInfo { get; set; } = new TransformInfo();
+        public TransformMessage TransformInfo { get; set; } = new TransformMessage();
     }
 
     [Serializable]

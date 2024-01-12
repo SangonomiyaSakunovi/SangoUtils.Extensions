@@ -8,7 +8,7 @@ namespace SangoUtils_Server.Test
         {
             get
             {
-                Instance ??= new T();
+                Instance ??= new();
                 return Instance;
             }
             private set { Instance = value; }
@@ -18,14 +18,14 @@ namespace SangoUtils_Server.Test
     public abstract class BaseAnimalExamlpe //Structor Scripts
     {
         public abstract void OnMessage(string message);
-        public void OnInit<T>(T t) where T : BaseAnimalExamlpe
+        public static void OnInit<T>(T t) where T : BaseAnimalExamlpe
         {
             BoxServiceExample.Instance.AddAnimal(t);
         }
     }
     public class BoxServiceExample : SingletonExample<BoxServiceExample> //Structor Scripts
     {
-        private ConcurrentDictionary<int, BaseAnimalExamlpe> _animalDict = new();
+        private readonly ConcurrentDictionary<int, BaseAnimalExamlpe> _animalDict = new();
 
         public bool AddAnimal(BaseAnimalExamlpe animal)
         {
@@ -39,14 +39,13 @@ namespace SangoUtils_Server.Test
             }
             else
             {
-                T t = new T();
-                t.OnInit<T>(t);
+                T t = new();
+                BaseAnimalExamlpe.OnInit(t);
                 return t;
             }
         }
         public void OnMessage<T>(string message) where T : BaseAnimalExamlpe
         {
-            int key = typeof(T).GetHashCode();
             if (_animalDict.TryGetValue(typeof(T).GetHashCode(), out BaseAnimalExamlpe? animal))
             {
                 animal.OnMessage(message);

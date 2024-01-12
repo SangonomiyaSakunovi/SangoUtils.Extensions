@@ -13,7 +13,7 @@
     }
     public class ElephantIntoRefrigeratorExample //Logic Scripts
     {
-        ElephantExample elephant = BoxServiceExample.Instance.GetAnimal<ElephantExample>();
+        private readonly ElephantExample elephant = BoxServiceExample.Instance.GetAnimal<ElephantExample>();
         public void Main()
         {
             elephant.ElephantIntoRefrigerator = this;

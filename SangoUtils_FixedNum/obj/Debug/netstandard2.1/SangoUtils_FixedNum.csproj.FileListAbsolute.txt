@@ -1,0 +1,11 @@
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\bin\Debug\netstandard2.1\SangoUtils_FixedNum.deps.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\bin\Debug\netstandard2.1\SangoUtils_FixedNum.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\bin\Debug\netstandard2.1\SangoUtils_FixedNum.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.sourcelink.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.csproj.AssemblyReference.cache
