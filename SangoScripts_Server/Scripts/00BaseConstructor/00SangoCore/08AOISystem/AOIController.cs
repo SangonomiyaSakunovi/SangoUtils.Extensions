@@ -1,6 +1,5 @@
-﻿using SangoScripts_Server.Logger;
-using SangoUtils_Common.Config;
-using SangoUtils_Common.Infos;
+﻿using SangoUtils_Common.Config;
+using SangoUtils_Logger;
 using System.Text;
 
 namespace SangoScripts_Server.AOI
@@ -146,7 +145,7 @@ namespace SangoScripts_Server.AOI
                     {
                         AOICellIndex newAOICellIndex = new(i, j);
                         aoiCell = new AOICell(newAOICellIndex, this);
-                        _aoiCellDict.Add(aoiCellKeyNew, aoiCell);                       
+                        _aoiCellDict.Add(aoiCellKeyNew, aoiCell);
                     }
                     if (i > xIndex - 2 && i < xIndex + 2)
                     {

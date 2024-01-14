@@ -1,12 +1,10 @@
 ﻿using SangoNetProtol;
 using SangoScripts_Server;
 using SangoScripts_Server.AOI;
-using SangoScripts_Server.IOCP;
 using SangoScripts_Server.Utils;
 using SangoUtils_Common.Config;
-using SangoUtils_Common.Infos;
 using SangoUtils_Common.Messages;
-using System.Numerics;
+using SangoUtils_IOCP;
 
 namespace SangoUtils_Server
 {
@@ -28,11 +26,12 @@ namespace SangoUtils_Server
             {
                 for (int i = 0; i < packController.AOIEntityEnterPacks.Count; i++)
                 {
-                    Vector3Message position = new(packController.AOIEntityEnterPacks[i].Transform.Position.X, packController.AOIEntityEnterPacks[i].Transform.Position.Y, packController.AOIEntityEnterPacks[i].Transform.Position.Z);
-                    QuaternionMessage rotation = new(packController.AOIEntityEnterPacks[i].Transform.Rotation.X, packController.AOIEntityEnterPacks[i].Transform.Rotation.Y, packController.AOIEntityEnterPacks[i].Transform.Rotation.Z, packController.AOIEntityEnterPacks[i].Transform.Rotation.W);
-                    Vector3Message scale = new(packController.AOIEntityEnterPacks[i].Transform.Scale.X, packController.AOIEntityEnterPacks[i].Transform.Scale.Y, packController.AOIEntityEnterPacks[i].Transform.Scale.Z);
+                    //Vector3Message position = new(packController.AOIEntityEnterPacks[i].Transform.Position.X, packController.AOIEntityEnterPacks[i].Transform.Position.Y, packController.AOIEntityEnterPacks[i].Transform.Position.Z);
+                    //QuaternionMessage rotation = new(packController.AOIEntityEnterPacks[i].Transform.Rotation.X, packController.AOIEntityEnterPacks[i].Transform.Rotation.Y, packController.AOIEntityEnterPacks[i].Transform.Rotation.Z, packController.AOIEntityEnterPacks[i].Transform.Rotation.W);
+                    //Vector3Message scale = new(packController.AOIEntityEnterPacks[i].Transform.Scale.X, packController.AOIEntityEnterPacks[i].Transform.Scale.Y, packController.AOIEntityEnterPacks[i].Transform.Scale.Z);
 
-                    TransformMessage transformInfo = new(position, rotation, scale);
+                    //TransformMessage transformInfo = new(position, rotation, scale);
+                    TransformMessage transformInfo = new();
                     AOIViewEnterEntity enterEntity = new(packController.AOIEntityEnterPacks[i].EntityID, transformInfo);
                     message.AOIViewEnterEntitys.Add(enterEntity);
                 }
@@ -60,11 +59,12 @@ namespace SangoUtils_Server
             {
                 for (int i = 0; i < aoiCellOperationUpdatePacks.AOIEntityEnterPacks.Count; i++)
                 {
-                    Vector3Message position = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Position.X, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Position.Y, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Position.Z);
-                    QuaternionMessage rotation = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.X, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.Y, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.Z, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.W);
-                    Vector3Message scale = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.X, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.Y, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.Z);
+                    //Vector3Message position = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Position.X, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Position.Y, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Position.Z);
+                    //QuaternionMessage rotation = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.X, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.Y, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.Z, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Rotation.W);
+                    //Vector3Message scale = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.X, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.Y, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.Z);
 
-                    TransformMessage transformInfo = new(position, rotation, scale);
+                    //TransformMessage transformInfo = new(position, rotation, scale);
+                    TransformMessage transformInfo = new();
                     AOIViewEnterEntity enterEntity = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].EntityID, transformInfo);
                     message.AOIViewEnterEntitys.Add(enterEntity);
                 }
@@ -73,11 +73,12 @@ namespace SangoUtils_Server
             {
                 for (int j = 0; j < aoiCellOperationUpdatePacks.AOIEntityMovePacks.Count; j++)
                 {
-                    Vector3Message position = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Position.X, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Position.Y, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Position.Z);
-                    QuaternionMessage rotation = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.X, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.Y, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.Z, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.W);
-                    Vector3Message scale = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.X, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.Y, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.Z);
+                    //Vector3Message position = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Position.X, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Position.Y, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Position.Z);
+                    //QuaternionMessage rotation = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.X, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.Y, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.Z, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Rotation.W);
+                    //Vector3Message scale = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.X, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.Y, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.Z);
 
-                    TransformMessage transformInfo = new(position, rotation, scale);
+                    //TransformMessage transformInfo = new(position, rotation, scale);
+                    TransformMessage transformInfo = new();
                     AOIViewMoveEntity moveEntity = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].EntityID, transformInfo);
                     message.AOIViewMoveEntitys.Add(moveEntity);
                 }
@@ -92,7 +93,8 @@ namespace SangoUtils_Server
             }
 
             string messageJson = JsonUtils.SetJsonString(message);
-            byte[] bytes = IOCPUtils.ConvertNetEventDataPackMessageBytes(NetOperationCode.Aoi, messageJson);
+            //byte[] bytes = IOCPUtils.ConvertNetEventDataPackMessageBytes(NetOperationCode.Aoi, messageJson);
+            byte[] bytes = new byte[messageJson.Length];
 
             foreach (AOIEntity entity in cell.AOIEntityHoldSets)
             {

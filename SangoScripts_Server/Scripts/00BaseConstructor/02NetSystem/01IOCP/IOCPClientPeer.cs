@@ -1,7 +1,7 @@
 ﻿using SangoNetProtol;
 using SangoScripts_Server.Converter;
-using SangoScripts_Server.IOCP;
 using SangoUtils_Common.Utils;
+using SangoUtils_IOCP;
 
 namespace SangoScripts_Server.Net
 {
@@ -17,12 +17,12 @@ namespace SangoScripts_Server.Net
             EntityID = entityID;
         }
 
-        protected override void OnIOCPOpen()
+        protected override void OnOpen()
         {
             IOCPLogger.Info("A new client is Connected.");
         }
 
-        protected override void OnIOCPClosed()
+        protected override void OnClosed()
         {
             if (!string.IsNullOrEmpty(EntityID))
             {
@@ -32,7 +32,7 @@ namespace SangoScripts_Server.Net
             IOCPLogger.Info("A client is DisConnected.");
         }
 
-        protected override void OnMessageReceived(byte[] byteMessages)
+        protected override void OnBinary(byte[] byteMessages)
         {
             SangoNetMessage sangoNetMessage = ProtoUtils.DeProtoBytes<SangoNetMessage>(byteMessages);
             long messageTimestamp = Convert.ToInt64(sangoNetMessage.NetMessageTimestamp);
@@ -106,7 +106,7 @@ namespace SangoScripts_Server.Net
         private void SendData(SangoNetMessage message)
         {
             byte[] bytes = ProtoUtils.SetProtoBytes(message);
-            SendMessage(bytes);
+            Send(bytes);
         }
     }
 }

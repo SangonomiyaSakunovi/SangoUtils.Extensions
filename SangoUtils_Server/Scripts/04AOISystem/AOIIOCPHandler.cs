@@ -1,5 +1,4 @@
 ﻿using SangoScripts_Server;
-using SangoScripts_Server.Logger;
 using SangoScripts_Server.Net;
 using SangoUtils_Common.Messages;
 
@@ -17,7 +16,7 @@ namespace SangoUtils_Server
                 for (int i = 0; i < aoiActiveMoveEntitys.Count; i++)
                 {
                     OnPlayerEntityMoveInSceneTestMain(aoiActiveMoveEntitys[i]);
-                } 
+                }
             }
         }
 

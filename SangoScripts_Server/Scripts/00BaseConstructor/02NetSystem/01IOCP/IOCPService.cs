@@ -1,6 +1,6 @@
 ﻿using SangoNetProtol;
-using SangoScripts_Server.IOCP;
-using SangoScripts_Server.Logger;
+using SangoUtils_IOCP;
+using SangoUtils_Logger;
 
 namespace SangoScripts_Server.Net
 {
@@ -69,12 +69,12 @@ namespace SangoScripts_Server.Net
         private void InitClientInstance(string ipAddress, int port, int maxConnectCount)
         {
             _serverPeerInstance = new IOCPPeer<IOCPClientPeer>();
-            _serverPeerInstance.InitAsServer(ipAddress, port, maxConnectCount);
+            _serverPeerInstance.OpenAsServer(ipAddress, port, maxConnectCount);
         }
 
         public void CloseClientInstance()
         {
-            _serverPeerInstance?.CloseServer();
+            _serverPeerInstance?.CloseAsServer();
         }
     }
 }

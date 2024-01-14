@@ -1,0 +1,10 @@
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\bin\Debug\netstandard2.1\SangoUtils_Event.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\bin\Debug\netstandard2.1\SangoUtils_Event.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\bin\Debug\netstandard2.1\SangoUtils_Event.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils_Event.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils_Event.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils_Event.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils_Event.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils_Event.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils_Event.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils_Event.pdb

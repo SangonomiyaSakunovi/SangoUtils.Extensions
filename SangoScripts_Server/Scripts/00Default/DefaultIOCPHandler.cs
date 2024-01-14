@@ -1,5 +1,5 @@
-﻿using SangoScripts_Server.Logger;
-using SangoScripts_Server.Net;
+﻿using SangoScripts_Server.Net;
+using SangoUtils_Logger;
 
 namespace SangoScripts_Server
 {

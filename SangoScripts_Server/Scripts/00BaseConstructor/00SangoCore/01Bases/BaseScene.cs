@@ -1,6 +1,6 @@
 ﻿using SangoScripts_Server.AOI;
-using SangoScripts_Server.Logger;
 using SangoUtils_Common.Config;
+using SangoUtils_Logger;
 using System.Collections.Concurrent;
 
 namespace SangoScripts_Server
@@ -108,7 +108,7 @@ namespace SangoScripts_Server
             {
                 if (_mapEntitysDict.ContainsKey(entity.EntityID))
                 {
-                    _playerEntityMoveQueue.Enqueue(entity);                    
+                    _playerEntityMoveQueue.Enqueue(entity);
                 }
                 else
                 {

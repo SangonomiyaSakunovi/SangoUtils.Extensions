@@ -10,6 +10,8 @@
         "dependencies": {
           "MongoDB.Driver": "2.23.1",
           "SangoUtils_Common": "1.0.0",
+          "SangoUtils_IOCP": "1.0.0",
+          "SangoUtils_Logger": "1.0.0",
           "System.Text.Json": "8.0.0"
         },
         "runtime": {
@@ -202,6 +204,16 @@
         "runtime": {
           "SangoUtils_Common.dll": {}
         }
+      },
+      "SangoUtils_IOCP/1.0.0": {
+        "runtime": {
+          "SangoUtils_IOCP.dll": {}
+        }
+      },
+      "SangoUtils_Logger/1.0.0": {
+        "runtime": {
+          "SangoUtils_Logger.dll": {}
+        }
       }
     }
   },
@@ -373,6 +385,16 @@
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
     "SangoUtils_Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SangoUtils_IOCP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SangoUtils_Logger/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

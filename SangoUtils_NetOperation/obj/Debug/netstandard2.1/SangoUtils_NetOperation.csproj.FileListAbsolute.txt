@@ -1,0 +1,11 @@
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\bin\Debug\netstandard2.1\SangoUtils_NetOperation.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\bin\Debug\netstandard2.1\SangoUtils_NetOperation.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\bin\Debug\netstandard2.1\SangoUtils_NetOperation.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.csproj.AssemblyReference.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_NetOperation\obj\Debug\netstandard2.1\SangoUtils_NetOperation.pdb

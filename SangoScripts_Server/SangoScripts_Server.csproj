@@ -24,6 +24,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SangoUtils_Common\SangoUtils_Common.csproj" />
+    <ProjectReference Include="..\SangoUtils_IOCP\SangoUtils_IOCP.csproj" />
+    <ProjectReference Include="..\SangoUtils_Logger\SangoUtils_Logger.csproj" />
   </ItemGroup>
 
 </Project>

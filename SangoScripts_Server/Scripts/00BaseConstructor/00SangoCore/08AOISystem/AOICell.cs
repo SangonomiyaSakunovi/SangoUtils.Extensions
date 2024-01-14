@@ -1,4 +1,4 @@
-﻿using SangoScripts_Server.Logger;
+﻿using SangoUtils_Logger;
 
 namespace SangoScripts_Server.AOI
 {

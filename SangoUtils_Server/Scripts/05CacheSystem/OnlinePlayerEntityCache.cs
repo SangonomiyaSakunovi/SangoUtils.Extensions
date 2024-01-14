@@ -1,6 +1,6 @@
 ﻿using SangoScripts_Server;
-using SangoScripts_Server.Logger;
 using SangoScripts_Server.Net;
+using SangoUtils_Logger;
 using System.Collections.Concurrent;
 
 namespace SangoUtils_Server

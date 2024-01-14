@@ -1,9 +1,9 @@
 ﻿using SangoNetProtol;
 using SangoScripts_Server.AOI;
-using SangoScripts_Server.Logger;
 using SangoScripts_Server.Net;
 using SangoScripts_Server.Utils;
 using SangoUtils_Common.Messages;
+using SangoUtils_Logger;
 
 namespace SangoScripts_Server
 {
@@ -35,7 +35,7 @@ namespace SangoScripts_Server
 
         public void OnMoveInMap(byte[] message)
         {
-            ClientPeer.SendPackMessage(message);
+            ClientPeer.SendPacked(message);
         }
 
         public void OnExitFromScene()

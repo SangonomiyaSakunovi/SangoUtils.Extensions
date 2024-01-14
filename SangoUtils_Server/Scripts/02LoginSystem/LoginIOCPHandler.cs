@@ -1,7 +1,7 @@
 ﻿using SangoScripts_Server;
-using SangoScripts_Server.Logger;
 using SangoScripts_Server.Net;
 using SangoUtils_Common.Messages;
+using SangoUtils_Logger;
 
 namespace SangoUtils_Server
 {

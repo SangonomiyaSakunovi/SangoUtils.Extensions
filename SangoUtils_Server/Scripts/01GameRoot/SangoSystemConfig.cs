@@ -1,4 +1,4 @@
-﻿using SangoScripts_Server.Logger;
+﻿using SangoUtils_Logger;
 
 namespace SangoUtils_Server.Config
 {
@@ -16,7 +16,7 @@ namespace SangoUtils_Server.Config
             EnableCoverLog = true,
             SaveLogPath = string.Format("{0}Logs\\", AppDomain.CurrentDomain.BaseDirectory),
             SaveLogName = "SangoLog.txt",
-            LoggerType = LoggerType.OnConsole
+            LoggerType = LoggerType.OnWindowConsole
         };
 
         public static readonly RegistRegularConfig RegistRegularConfig = new()

@@ -1,0 +1,24 @@
+using SangoNetProtol;
+
+namespace SangoUtils_NetOperation
+{
+    public abstract class BaseNetRequest : BaseNetOperation
+    {
+        public NetOperationCode NetOperationCode { get; protected set; } = NetOperationCode.Default;
+
+        protected abstract void DefaultOperationRequest();
+
+        public abstract void OnOperationResponse(string message);
+
+        public virtual void OnInit(NetOperationCode netOperationCode, NetClientOperationHandler handler)
+        {
+            NetOperationCode = netOperationCode;
+            handler.AddNetRequest(this);
+        }
+
+        public virtual void OnDispose(NetClientOperationHandler handler)
+        {
+            handler.RemoveNetRequest(this);
+        }
+    }
+}

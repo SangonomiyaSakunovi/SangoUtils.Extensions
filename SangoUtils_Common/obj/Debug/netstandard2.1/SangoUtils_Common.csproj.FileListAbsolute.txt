@@ -9,3 +9,14 @@ I:\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\Sango
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.sourcelink.json
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\bin\Debug\netstandard2.1\SangoUtils_Common.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\bin\Debug\netstandard2.1\SangoUtils_Common.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\bin\Debug\netstandard2.1\SangoUtils_Common.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.csproj.AssemblyReference.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Common\obj\Debug\netstandard2.1\SangoUtils_Common.pdb

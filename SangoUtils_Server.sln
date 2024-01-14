@@ -9,9 +9,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Common", "SangoU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoScripts_Server", "SangoScripts_Server\SangoScripts_Server.csproj", "{96A91DDA-C96B-4820-AF22-86D71C59BF4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_FixedNum", "SangoUtils_FixedNum\SangoUtils_FixedNum.csproj", "{6FD05DE5-665D-4128-B14A-7236B2D22FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_FixedNum", "SangoUtils_FixedNum\SangoUtils_FixedNum.csproj", "{6FD05DE5-665D-4128-B14A-7236B2D22FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_Physics", "SangoUtils_Physics\SangoUtils_Physics.csproj", "{2B4C4104-30C6-431F-BBA7-33EE019C3A91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Physics", "SangoUtils_Physics\SangoUtils_Physics.csproj", "{2B4C4104-30C6-431F-BBA7-33EE019C3A91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Logger", "SangoUtils_Logger\SangoUtils_Logger.csproj", "{EAE03B2F-6F79-438C-B167-662A6D60D60E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_IOCP", "SangoUtils_IOCP\SangoUtils_IOCP.csproj", "{F2DC5281-5A5B-4D73-8B38-AF2F8B4006AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Event", "SangoUtils_Event\SangoUtils_Event.csproj", "{0F75ECEC-8206-43C5-A3C9-41107262F102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_FSM", "SangoUtils_FSM\SangoUtils_FSM.csproj", "{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_Extensions_UnityEngine", "SangoUtils_Extensions_UnityEngine\SangoUtils_Extensions_UnityEngine.csproj", "{2D6CCA90-31E3-48A8-886D-7F229B7DF359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_Task", "SangoUtils_Task\SangoUtils_Task.csproj", "{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_NetOperation", "SangoUtils_NetOperation\SangoUtils_NetOperation.csproj", "{4EFA37FE-7B26-489E-9858-55A68FDB7C69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +53,34 @@ Global
 		{2B4C4104-30C6-431F-BBA7-33EE019C3A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B4C4104-30C6-431F-BBA7-33EE019C3A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B4C4104-30C6-431F-BBA7-33EE019C3A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE03B2F-6F79-438C-B167-662A6D60D60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE03B2F-6F79-438C-B167-662A6D60D60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE03B2F-6F79-438C-B167-662A6D60D60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE03B2F-6F79-438C-B167-662A6D60D60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DC5281-5A5B-4D73-8B38-AF2F8B4006AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DC5281-5A5B-4D73-8B38-AF2F8B4006AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DC5281-5A5B-4D73-8B38-AF2F8B4006AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DC5281-5A5B-4D73-8B38-AF2F8B4006AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F75ECEC-8206-43C5-A3C9-41107262F102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F75ECEC-8206-43C5-A3C9-41107262F102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F75ECEC-8206-43C5-A3C9-41107262F102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F75ECEC-8206-43C5-A3C9-41107262F102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
