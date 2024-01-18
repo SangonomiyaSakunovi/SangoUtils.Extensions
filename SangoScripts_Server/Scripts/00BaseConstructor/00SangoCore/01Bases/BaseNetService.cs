@@ -1,7 +1,7 @@
 ﻿using SangoNetProtol;
 using SangoUtils_Logger;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public abstract class BaseNetService<T> : BaseService<T> where T : class, new()
     {
@@ -20,7 +20,7 @@ namespace SangoScripts_Server
             {
                 _netHandlerDict.Add(netHandler.NetOperationCode, netHandler);
             }
-            else
+            else 
             {
                 SangoLogger.Error("Already has this NetHandler.");
             }

@@ -7,15 +7,15 @@ namespace SangoUtils_IOCP
     public abstract class IClientPeer_IOCP
     {
         public int PeerId { get; set; }
-        private SocketAsyncEventArgs _receiveAsyncEventArgs = new SocketAsyncEventArgs();
-        private SocketAsyncEventArgs _sendAsyncEventArgs = new SocketAsyncEventArgs();
+        private readonly SocketAsyncEventArgs _receiveAsyncEventArgs = new SocketAsyncEventArgs();
+        private readonly SocketAsyncEventArgs _sendAsyncEventArgs = new SocketAsyncEventArgs();
 
-        private Socket _socket;
+        private Socket? _socket;
         private List<byte> _readList = new List<byte>();
         private Queue<byte[]> _cacheQueue = new Queue<byte[]>();
         private bool _isWrite = false;
 
-        public Action<int> OnClientPeerClosed { get; set; }
+        public Action<int>? OnClientPeerClosed { get; set; }
         protected ConnectionStateCode _connectionState = ConnectionStateCode.None;
 
         public IClientPeer_IOCP()
@@ -74,7 +74,7 @@ namespace SangoUtils_IOCP
 
         private void ProcessByteList()
         {
-            byte[] byteMessages = IOCPUtils.SplitLogicBytes(ref _readList);
+            byte[]? byteMessages = IOCPUtils.SplitLogicBytes(ref _readList);
             if (byteMessages != null)
             {
                 OnBinary(byteMessages);

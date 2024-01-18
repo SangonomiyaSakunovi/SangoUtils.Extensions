@@ -1,4 +1,4 @@
-﻿namespace SangoScripts_Server.Converter
+﻿namespace SangoUtils_Server_Scripts.Converter
 {
     public static class CharMapSango
     {

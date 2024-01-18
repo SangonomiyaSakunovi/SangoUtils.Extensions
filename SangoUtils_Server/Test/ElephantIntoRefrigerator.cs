@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace SangoUtils_Server.Test
+namespace SangoUtils_Server_App.Test
 {
     public abstract class SingletonExample<T> where T : class, new() //Singleton
     {

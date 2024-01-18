@@ -5,8 +5,8 @@ namespace SangoUtils_Event
 {
     internal class EventMessageMap
     {
-        private Dictionary<int, List<Action<IEventMessageBase>>> _eventMessageHandlerDict = new Dictionary<int, List<Action<IEventMessageBase>>>();
-        private Dictionary<object, List<int>> _eventTargetDict = new Dictionary<object, List<int>>();
+        private readonly Dictionary<int, List<Action<IEventMessageBase>>> _eventMessageHandlerDict = new Dictionary<int, List<Action<IEventMessageBase>>>();
+        private readonly Dictionary<object, List<int>> _eventTargetDict = new Dictionary<object, List<int>>();
 
         public void AddEventMessageListener(int eventId, Action<IEventMessageBase> eventMessage)
         {

@@ -34,7 +34,7 @@ namespace SangoUtils_Logger
         Yellow
     }
 
-    public interface ILogger_Sango
+    internal interface ILogger_Sango
     {
         void Log(string message, LoggerColor color = LoggerColor.None);
         void Processing(string message);

@@ -1,7 +1,7 @@
-﻿using SangoScripts_Server.Converter;
+﻿using SangoUtils_Server_Scripts.Converter;
 using System.Text;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public static class SecuritySignConvertUtilsSango
     {

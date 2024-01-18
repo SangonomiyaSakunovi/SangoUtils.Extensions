@@ -1,6 +1,6 @@
-﻿using SangoScripts_Server.Net;
+﻿using SangoUtils_Server_Scripts.Net;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public abstract class BaseIOCPNetHandler : BaseNetHandler
     {

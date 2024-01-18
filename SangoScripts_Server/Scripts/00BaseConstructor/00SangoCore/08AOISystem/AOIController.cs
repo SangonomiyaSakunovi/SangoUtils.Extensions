@@ -2,7 +2,7 @@
 using SangoUtils_Logger;
 using System.Text;
 
-namespace SangoScripts_Server.AOI
+namespace SangoUtils_Server_Scripts.AOI
 {
     public class AOIController(AOIConfig config) : BaseController
     {

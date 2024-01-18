@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Server", "SangoUtils_Server\SangoUtils_Server.csproj", "{40A95539-52FA-418D-8693-0B8F6244F703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Server_App", "SangoUtils_Server\SangoUtils_Server_App.csproj", "{40A95539-52FA-418D-8693-0B8F6244F703}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Common", "SangoUtils_Common\SangoUtils_Common.csproj", "{D76CA597-ABF6-4A72-B6F9-D181D829B486}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoScripts_Server", "SangoScripts_Server\SangoScripts_Server.csproj", "{96A91DDA-C96B-4820-AF22-86D71C59BF4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Server_Scripts", "SangoScripts_Server\SangoUtils_Server_Scripts.csproj", "{96A91DDA-C96B-4820-AF22-86D71C59BF4C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_FixedNum", "SangoUtils_FixedNum\SangoUtils_FixedNum.csproj", "{6FD05DE5-665D-4128-B14A-7236B2D22FD2}"
 EndProject
@@ -19,13 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_IOCP", "SangoUti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Event", "SangoUtils_Event\SangoUtils_Event.csproj", "{0F75ECEC-8206-43C5-A3C9-41107262F102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_FSM", "SangoUtils_FSM\SangoUtils_FSM.csproj", "{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_FSM", "SangoUtils_FSM\SangoUtils_FSM.csproj", "{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_Extensions_UnityEngine", "SangoUtils_Extensions_UnityEngine\SangoUtils_Extensions_UnityEngine.csproj", "{2D6CCA90-31E3-48A8-886D-7F229B7DF359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Extensions_UnityEngine", "SangoUtils_Extensions_UnityEngine\SangoUtils_Extensions_UnityEngine.csproj", "{2D6CCA90-31E3-48A8-886D-7F229B7DF359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_Task", "SangoUtils_Task\SangoUtils_Task.csproj", "{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Task", "SangoUtils_Task\SangoUtils_Task.csproj", "{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_NetOperation", "SangoUtils_NetOperation\SangoUtils_NetOperation.csproj", "{4EFA37FE-7B26-489E-9858-55A68FDB7C69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_NetOperation", "SangoUtils_NetOperation\SangoUtils_NetOperation.csproj", "{4EFA37FE-7B26-489E-9858-55A68FDB7C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_UDP", "SangoUtils_UDP\SangoUtils_UDP.csproj", "{A9CD4BE2-2C3F-4E92-8774-6F221F842452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

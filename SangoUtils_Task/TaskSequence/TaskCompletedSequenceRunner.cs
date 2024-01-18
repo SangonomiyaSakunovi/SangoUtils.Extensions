@@ -53,8 +53,8 @@ namespace SangoUtils_Task
         {
             public uint taskId;
             public List<uint> prerequisitedTasks;
-            public Action<uint> completeCallBack;
-            public Action<uint> cancelCallBack;
+            public Action<uint>? completeCallBack;
+            public Action<uint>? cancelCallBack;
 
             public CancellationTokenSource cancellationTokenSource;
             public CancellationToken cancellationToken;

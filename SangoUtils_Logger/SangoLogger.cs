@@ -42,5 +42,4 @@ namespace SangoUtils_Logger
             LoggerUtils_Sango.ColorLog(color, log, args);
         }
     }
-
 }

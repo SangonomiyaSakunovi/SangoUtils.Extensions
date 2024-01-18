@@ -9,3 +9,14 @@ D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.sourcelink.json
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.dll
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\bin\Debug\netstandard2.1\SangoUtils_Logger.deps.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\bin\Debug\netstandard2.1\SangoUtils_Logger.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\bin\Debug\netstandard2.1\SangoUtils_Logger.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.csproj.AssemblyReference.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.sourcelink.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Logger\obj\Debug\netstandard2.1\SangoUtils_Logger.pdb

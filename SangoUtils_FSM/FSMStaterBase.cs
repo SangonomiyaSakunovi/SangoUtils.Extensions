@@ -18,7 +18,7 @@ namespace SangoUtils_FSM
             }
         }
 
-        public object GetBlackboardValue(string key)
+        public object? GetBlackboardValue(string key)
         {
             if (_blackboard.TryGetValue(key, out object value))
             {

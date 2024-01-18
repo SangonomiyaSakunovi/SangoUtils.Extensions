@@ -1,6 +1,6 @@
-﻿using SangoScripts_Server.Converter;
+﻿using SangoUtils_Server_Scripts.Converter;
 
-namespace SangoScripts_Server.Security
+namespace SangoUtils_Server_Scripts.Security
 {
     public static class SecurityCheckMapSango
     {

@@ -9,9 +9,9 @@ namespace SangoUtils_Task
         private readonly DateTime _utcInitialDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0);
         private readonly ConcurrentDictionary<uint, TickTimerTask> _taskDict = new ConcurrentDictionary<uint, TickTimerTask>();
         private readonly bool _isSetHandled;
-        private readonly ConcurrentQueue<TickTimerTaskPack> _taskPackQueue;
+        private readonly ConcurrentQueue<TickTimerTaskPack>? _taskPackQueue;
         private const string _taskIdLock = "TaskTickTimer_Lock";
-        private readonly Thread _taskTickTimerThread;
+        private readonly Thread? _taskTickTimerThread;
 
         public TaskTickTimer(int intervalTime = 0, bool isSetHandled = true)
         {
@@ -66,7 +66,7 @@ namespace SangoUtils_Task
                 if (_isSetHandled && task.onCanceledCallBack != null)
                 {
                     LogInfoFunc?.Invoke($"TaskTickTimer RemoveTask Succeed: [ {taskId} ].");
-                    _taskPackQueue.Enqueue(new TickTimerTaskPack(taskId, task.onCanceledCallBack));
+                    _taskPackQueue!.Enqueue(new TickTimerTaskPack(taskId, task.onCanceledCallBack));
                 }
                 else
                 {
@@ -83,15 +83,12 @@ namespace SangoUtils_Task
 
         public override void ResetTask()
         {
-            if (!_taskPackQueue.IsEmpty)
+            if (!_taskPackQueue!.IsEmpty)
             {
                 LogWarnningFunc?.Invoke("TaskTickTimer ResetTask Warnning: TaskCallback Queue is Not Empty.");
             }
             _taskDict.Clear();
-            if (_taskTickTimerThread != null)
-            {
-                _taskTickTimerThread.Abort();
-            }
+            _taskTickTimerThread?.Abort();
         }
 
         public void UpdateTask()
@@ -131,7 +128,7 @@ namespace SangoUtils_Task
             {
                 if (_taskPackQueue.TryDequeue(out TickTimerTaskPack pack))
                 {
-                    pack.taskCallBack.Invoke(pack.taskId);
+                    pack.taskCallBack?.Invoke(pack.taskId);
                 }
                 else
                 {
@@ -153,15 +150,15 @@ namespace SangoUtils_Task
             }
         }
 
-        private void InvokeTaskCallBack(uint taskId, Action<uint> taskCallBack)
+        private void InvokeTaskCallBack(uint taskId, Action<uint>? taskCallBack)
         {
             if (_isSetHandled)
             {
-                _taskPackQueue.Enqueue(new TickTimerTaskPack(taskId, taskCallBack));
+                _taskPackQueue!.Enqueue(new TickTimerTaskPack(taskId, taskCallBack));
             }
             else
             {
-                taskCallBack.Invoke(taskId);
+                taskCallBack?.Invoke(taskId);
             }
         }
 
@@ -196,8 +193,8 @@ namespace SangoUtils_Task
             public uint delayInvokeTime;
             public int repeatCount;
             public double targetTime;
-            public Action<uint> onCompletedCallBack;
-            public Action<uint> onCanceledCallBack;
+            public Action<uint>? onCompletedCallBack;
+            public Action<uint>? onCanceledCallBack;
             public double startTime;
             public ulong loopIndex;
 
@@ -217,8 +214,8 @@ namespace SangoUtils_Task
         private class TickTimerTaskPack
         {
             public uint taskId;
-            public Action<uint> taskCallBack;
-            public TickTimerTaskPack(uint taskId, Action<uint> taskCallBack)
+            public Action<uint>? taskCallBack;
+            public TickTimerTaskPack(uint taskId, Action<uint>? taskCallBack)
             {
                 this.taskId = taskId;
                 this.taskCallBack = taskCallBack;

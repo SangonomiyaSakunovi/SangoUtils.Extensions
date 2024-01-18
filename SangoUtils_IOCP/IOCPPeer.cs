@@ -8,8 +8,8 @@ namespace SangoUtils_IOCP
 {
     public class IOCPPeer<T> where T : IClientPeer_IOCP, new()
     {
-        private Socket _socket;
-        private SocketAsyncEventArgs _socketAsyncEventArgs;
+        private Socket? _socket;
+        private readonly SocketAsyncEventArgs _socketAsyncEventArgs;
 
         public IOCPPeer()
         {
@@ -18,8 +18,8 @@ namespace SangoUtils_IOCP
         }
 
         #region Client
-        private T _clientPeer;
-        public T ClientPeer
+        private T? _clientPeer;
+        public T? ClientPeer
         {
             get
             {
@@ -87,9 +87,9 @@ namespace SangoUtils_IOCP
         private int _backLog = IOCPConfig.ServerBackLogCount;
         //private int _maxConnectCount = IOCPConfig.ServerMaxConnectCount;
 
-        private Semaphore _acceptSeamaphore;
-        private IOCPClientPeerPool<T> _peerPool;
-        private List<T> _peerList;
+        private Semaphore? _acceptSeamaphore;
+        private IOCPClientPeerPool<T>? _peerPool;
+        private List<T>? _peerList;
 
         public void OpenAsServer(string ip, int port, int maxConnectCount)
         {
@@ -210,7 +210,7 @@ namespace SangoUtils_IOCP
             }
         }
 
-        public List<T> GetAllClientPeerList()
+        public List<T>? GetAllClientPeerList()
         {
             return _peerList;
         }

@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-#if UNITY_ENV
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,11 +7,11 @@ namespace SangoUtils_Extensions_UnityEngine.Utils
     [RequireComponent(typeof(Image))]
     public class UGUISpriteAnimation : MonoBehaviour
     {
-        private Image ImageSource;
+        private Image? ImageSource;
         private int mCurFrame = 0;
         private float mDelta = 0;
         public float FPS = 5;
-        public List<Sprite> SpriteFrames;
+        public List<Sprite>? SpriteFrames;
         public bool IsPlaying = false;
         public bool Foward = true;
         public bool AutoPlay = false;
@@ -21,7 +20,11 @@ namespace SangoUtils_Extensions_UnityEngine.Utils
         {
             get
             {
-                return SpriteFrames.Count;
+                if (SpriteFrames != null)
+                {
+                    return SpriteFrames.Count;
+                }
+                return 0;
             }
         }
 
@@ -44,8 +47,11 @@ namespace SangoUtils_Extensions_UnityEngine.Utils
 
         private void SetSprite(int idx)
         {
-            ImageSource.sprite = SpriteFrames[idx];
-            //ImageSource.SetNativeSize();
+            if (ImageSource != null && SpriteFrames != null)
+            {
+                ImageSource.sprite = SpriteFrames[idx];
+                //ImageSource.SetNativeSize();
+            }
         }
 
         public void Play()
@@ -134,4 +140,3 @@ namespace SangoUtils_Extensions_UnityEngine.Utils
         }
     }
 }
-#endif

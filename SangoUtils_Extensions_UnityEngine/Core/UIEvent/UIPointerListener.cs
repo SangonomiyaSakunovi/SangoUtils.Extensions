@@ -1,5 +1,4 @@
 using System;
-#if UNITY_ENV
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -7,45 +6,44 @@ namespace SangoUtils_Extensions_UnityEngine.Core
 {
     public class UIPointerListener : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IDragHandler
     {
-        public GameObject listenerObject { get; set; }
-        public object[] commands { get; set; } = null;
+        public GameObject? ListenerObject { get; set; }
+        public object[]? Commands { get; set; } = null;
 
-        public Vector2 clickDownPosition { get; set; }
-        public Vector2 clickUpPosition { get; set; }
+        public Vector2 ClickDownPosition { get; set; } = Vector2.zero;
+        public Vector2 ClickUpPosition { get; set; } = Vector2.zero;
 
-        public Action<GameObject, object[]> onPointerClickCallBack0 { get; set; }
-        public Action<GameObject, object[]> onPointerDownCallBack0 { get; set; }
-        public Action<GameObject, object[]> onPointerUpCallBack0 { get; set; }
-        public Action<GameObject, object[]> onPointerDragCallBack0 { get; set; }
+        public Action<GameObject?, object[]?>? OnPointerClickCallBack0 { get; set; }
+        public Action<GameObject?, object[]?>? OnPointerDownCallBack0 { get; set; }
+        public Action<GameObject?, object[]?>? OnPointerUpCallBack0 { get; set; }
+        public Action<GameObject?, object[]?>? OnPointerDragCallBack0 { get; set; }
 
-        public Action<PointerEventData, GameObject, object[]> onPointerClickCallBack1 { get; set; }
-        public Action<PointerEventData, GameObject, object[]> onPointerDownCallBack1 { get; set; }
-        public Action<PointerEventData, GameObject, object[]> onPointerUpCallBack1 { get; set; }
-        public Action<PointerEventData, GameObject, object[]> onPointerDragCallBack1 { get; set; }
+        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerClickCallBack1 { get; set; }
+        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerDownCallBack1 { get; set; }
+        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerUpCallBack1 { get; set; }
+        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerDragCallBack1 { get; set; }
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            onPointerClickCallBack0?.Invoke(listenerObject, commands);
-            onPointerClickCallBack1?.Invoke(eventData, listenerObject, commands);
+            OnPointerClickCallBack0?.Invoke(ListenerObject, Commands);
+            OnPointerClickCallBack1?.Invoke(eventData, ListenerObject, Commands);
         }
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            onPointerDownCallBack0?.Invoke(listenerObject, commands);
-            onPointerDownCallBack1?.Invoke(eventData, listenerObject, commands);
+            OnPointerDownCallBack0?.Invoke(ListenerObject, Commands);
+            OnPointerDownCallBack1?.Invoke(eventData, ListenerObject, Commands);
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
-            onPointerUpCallBack0?.Invoke(listenerObject, commands);
-            onPointerUpCallBack1?.Invoke(eventData, listenerObject, commands);
+            OnPointerUpCallBack0?.Invoke(ListenerObject, Commands);
+            OnPointerUpCallBack1?.Invoke(eventData, ListenerObject, Commands);
         }
 
         public void OnDrag(PointerEventData eventData)
         {
-            onPointerDragCallBack0?.Invoke(listenerObject, commands);
-            onPointerDragCallBack1?.Invoke(eventData, listenerObject, commands);
+            OnPointerDragCallBack0?.Invoke(ListenerObject, Commands);
+            OnPointerDragCallBack1?.Invoke(eventData, ListenerObject, Commands);
         }
     }
 }
-#endif

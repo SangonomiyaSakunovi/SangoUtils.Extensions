@@ -5,9 +5,9 @@ namespace SangoUtils_Event
 {
     public class EventListenerHandler
     {
-        private static string _lock = "_eventMessageLock";
-        private Queue<IEventMessageBase> _eventMessageQueue = new Queue<IEventMessageBase>();
-        private EventMessageMap _eventMessageMap = new EventMessageMap();
+        private static readonly string _lock = "_eventMessageLock";
+        private readonly Queue<IEventMessageBase> _eventMessageQueue = new Queue<IEventMessageBase>();
+        private readonly EventMessageMap _eventMessageMap = new EventMessageMap();
 
         public void Init()
         {

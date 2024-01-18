@@ -3,35 +3,27 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-#if UNITY_ENV
-using UnityEngine;
-#endif
-
 namespace SangoUtils_Logger
 {
     public class LoggerUtils_Sango
     {
-        private static LoggerConfig_Sango _config;
-        private static ILogger_Sango logger;
-        private static StreamWriter logFileWriter = null;
+        private static LoggerConfig_Sango? _config;
+        private static ILogger_Sango _logger = new ConsoleLogger();
+        private static StreamWriter? _logFileWriter;
 
-        public static void InitSettings(LoggerConfig_Sango cfg = null)
+        public static void InitSettings(LoggerConfig_Sango? cfg = null)
         {
             cfg ??= new LoggerConfig_Sango();
             _config = cfg;
             switch (_config.LoggerType)
             {
                 case LoggerType.OnWindowConsole:
-                    logger = new ConsoleLogger();
+                    _logger = new ConsoleLogger();
                     break;
 #if UNITY_ENV
                 case LoggerType.OnUnityConsole:
-                    logger = new UnityLogger();
+                    _logger = new UnityLogger();
                     break;
-#else
-            case LoggerType.OnUnityConsole:
-                throw new NotImplementedException();
-                break;
 #endif
             }
             if (_config.EnableSaveLog == false) { return; }
@@ -51,12 +43,12 @@ namespace SangoUtils_Logger
                     {
                         Directory.CreateDirectory(_config.SaveLogPath);
                     }
-                    logFileWriter = File.AppendText(path);
-                    logFileWriter.AutoFlush = true;
+                    _logFileWriter = File.AppendText(path);
+                    _logFileWriter.AutoFlush = true;
                 }
                 catch
                 {
-                    logFileWriter = null;
+                    _logFileWriter = null;
                 }
             }
             else
@@ -69,8 +61,8 @@ namespace SangoUtils_Logger
                     {
                         Directory.CreateDirectory(_config.SaveLogPath);
                     }
-                    logFileWriter = File.AppendText(path);
-                    logFileWriter.AutoFlush = true;
+                    _logFileWriter = File.AppendText(path);
+                    _logFileWriter.AutoFlush = true;
                 }
                 catch
                 {
@@ -82,176 +74,274 @@ namespace SangoUtils_Logger
         #region Log
         public static void LogInfo(string log, params object[] args)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            if (args != null && args.Length > 0)
+            if (_config != null)
             {
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
+                _logger.Log(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogInfo]{0}", log));
+                }
             }
-            logger.Log(log);
-            if (_config.EnableSaveLog)
+            else
             {
-                WriteToFile(string.Format("[LogInfo]{0}", log));
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogInfo(object logObj)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            string log = DecorateLog(logObj.ToString());
-            logger.Log(log);
-            if (_config.EnableSaveLog)
+            if (_config != null)
             {
-                WriteToFile(string.Format("[LogInfo]{0}", log));
+                if (_config.EnableSangoLog == false) { return; }
+                string log = DecorateLog(logObj.ToString());
+                _logger.Log(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogInfo]{0}", log));
+                }
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void ColorLog(LoggerColor color, string log, params object[] args)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            if (args != null && args.Length > 0)
+            if (_config != null)
             {
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
+                _logger.Log(log, color);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogInfo]{0}", log));
+                }
             }
-            logger.Log(log, color);
-            if (_config.EnableSaveLog)
+            else
             {
-                WriteToFile(string.Format("[LogInfo]{0}", log));
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void ColorLog(LoggerColor color, object logObj)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            string log = DecorateLog(logObj.ToString());
-            logger.Log(log, color);
-            if (_config.EnableSaveLog)
+            if (_config != null)
             {
-                WriteToFile(string.Format("[LogInfo]{0}", log));
+                if (_config.EnableSangoLog == false) { return; }
+                string log = DecorateLog(logObj.ToString());
+                _logger.Log(log, color);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogInfo]{0}", log));
+                }
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogTraceInfo(string log, params object[] args)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            if (args != null && args.Length > 0)
+            if (_config != null)
             {
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
+                _logger.Log(log, LoggerColor.Magenta);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogTraceInfo]{0}", log));
+                }
             }
-            logger.Log(log, LoggerColor.Magenta);
-            if (_config.EnableSaveLog)
+            else
             {
-                WriteToFile(string.Format("[LogTraceInfo]{0}", log));
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogTraceInfo(object logObj)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            string log = DecorateLog(logObj.ToString(), true);
-            logger.Log(log, LoggerColor.Magenta);
-            if (_config.EnableSaveLog)
+            if (_config != null)
             {
-                WriteToFile(string.Format("[LogTraceInfo]{0}", log));
+                if (_config.EnableSangoLog == false) { return; }
+                string log = DecorateLog(logObj.ToString(), true);
+                _logger.Log(log, LoggerColor.Magenta);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogTraceInfo]{0}", log));
+                }
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogWarn(string log, params object[] args)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            if (args != null && args.Length > 0)
+            if (_config != null)
             {
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
+                _logger.Warn(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogWarn]{0}", log));
+                }
             }
-            logger.Warn(log);
-            if (_config.EnableSaveLog)
+            else
             {
-                WriteToFile(string.Format("[LogWarn]{0}", log));
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogWarn(object logObj)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            string log = DecorateLog(logObj.ToString());
-            logger.Warn(log);
-            if (_config.EnableSaveLog)
+            if (_config != null)
             {
-                WriteToFile(string.Format("[LogWarn]{0}", log));
+                if (_config.EnableSangoLog == false) { return; }
+                string log = DecorateLog(logObj.ToString());
+                _logger.Warn(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogWarn]{0}", log));
+                }
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogError(string log, params object[] args)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            if (args != null && args.Length > 0)
+            if (_config != null)
             {
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
+                _logger.Error(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogError]{0}", log));
+                }
             }
-            logger.Error(log);
-            if (_config.EnableSaveLog)
+            else
             {
-                WriteToFile(string.Format("[LogError]{0}", log));
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogError(object logObj)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            string log = DecorateLog(logObj.ToString());
-            logger.Error(log);
-            if (_config.EnableSaveLog)
+            if (_config != null)
             {
-                WriteToFile(string.Format("[LogError]{0}", log));
+                if (_config.EnableSangoLog == false) { return; }
+                string log = DecorateLog(logObj.ToString());
+                _logger.Error(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogError]{0}", log));
+                }
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogProcessing(string log, params object[] args)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            if (args != null && args.Length > 0)
+            if (_config != null)
             {
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
+                _logger.Processing(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogProcessing]{0}", log));
+                }
             }
-            logger.Processing(log);
-            if (_config.EnableSaveLog)
+            else
             {
-                WriteToFile(string.Format("[LogProcessing]{0}", log));
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogProcessing(object logObj)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            string log = DecorateLog(logObj.ToString());
-            logger.Processing(log);
-            if (_config.EnableSaveLog)
+            if (_config != null)
             {
-                WriteToFile(string.Format("[LogProcessing]{0}", log));
+                if (_config.EnableSangoLog == false) { return; }
+                string log = DecorateLog(logObj.ToString());
+                _logger.Processing(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogProcessing]{0}", log));
+                }
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogDone(string log, params object[] args)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            if (args != null && args.Length > 0)
+            if (_config != null)
             {
-                log = DecorateLog(string.Format(log, args));
+                if (_config.EnableSangoLog == false) { return; }
+                if (args != null && args.Length > 0)
+                {
+                    log = DecorateLog(string.Format(log, args));
+                }
+                _logger.Done(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogDone]{0}", log));
+                }
             }
-            logger.Done(log);
-            if (_config.EnableSaveLog)
+            else
             {
-                WriteToFile(string.Format("[LogDone]{0}", log));
+                throw new ArgumentNullException(nameof(_config));
             }
         }
 
         public static void LogDone(object logObj)
         {
-            if (_config.EnableSangoLog == false) { return; }
-            string log = DecorateLog(logObj.ToString());
-            logger.Done(log);
-            if (_config.EnableSaveLog)
+            if (_config != null)
             {
-                WriteToFile(string.Format("[LogDone]{0}", log));
+                if (_config.EnableSangoLog == false) { return; }
+                string log = DecorateLog(logObj.ToString());
+                _logger.Done(log);
+                if (_config.EnableSaveLog)
+                {
+                    WriteToFile(string.Format("[LogDone]{0}", log));
+                }
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(_config));
             }
         }
         #endregion
@@ -259,21 +349,28 @@ namespace SangoUtils_Logger
         #region Decorate
         private static string DecorateLog(string log, bool isTraceInfo = false)
         {
-            StringBuilder sb = new StringBuilder(_config.LogPrefix, 100);
-            if (_config.EnableTimestamp)
+            if (_config != null)
             {
-                sb.AppendFormat(" {0}", DateTime.Now.ToString("hh:mm:ss--fff"));
+                StringBuilder sb = new StringBuilder(_config.LogPrefix, 100);
+                if (_config.EnableTimestamp)
+                {
+                    sb.AppendFormat(" {0}", DateTime.Now.ToString("hh:mm:ss--fff"));
+                }
+                if (_config.EnableThreadID)
+                {
+                    sb.AppendFormat(" {0}", GetThreadID());
+                }
+                sb.AppendFormat(" {0} {1}", _config.LogSeparate, log);
+                if (isTraceInfo)
+                {
+                    sb.AppendFormat(" \nStackTrace: {0}", GetTraceInfo());
+                }
+                return sb.ToString();
             }
-            if (_config.EnableThreadID)
+            else
             {
-                sb.AppendFormat(" {0}", GetThreadID());
+                throw new ArgumentNullException(nameof(_config));
             }
-            sb.AppendFormat(" {0} {1}", _config.LogSeparate, log);
-            if (isTraceInfo)
-            {
-                sb.AppendFormat(" \nStackTrace: {0}", GetTraceInfo());
-            }
-            return sb.ToString();
         }
 
         private static string GetThreadID()
@@ -296,15 +393,15 @@ namespace SangoUtils_Logger
 
         private static void WriteToFile(string log)
         {
-            if (logFileWriter != null)
+            if (_logFileWriter != null)
             {
                 try
                 {
-                    logFileWriter.WriteLine(log);
+                    _logFileWriter.WriteLine(log);
                 }
                 catch
                 {
-                    logFileWriter = null;
+                    _logFileWriter = null;
                 }
             }
         }

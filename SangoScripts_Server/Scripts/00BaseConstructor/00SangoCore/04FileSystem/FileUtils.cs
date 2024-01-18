@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace SangoScripts_Server.Utils
+namespace SangoUtils_Server_Scripts.Utils
 {
     public static class JsonUtils
     {

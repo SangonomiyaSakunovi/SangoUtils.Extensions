@@ -1,6 +1,6 @@
 ﻿using SangoUtils_Logger;
 
-namespace SangoUtils_Server.Config
+namespace SangoUtils_Server_App.Config
 {
     public static class SangoSystemConfig
     {

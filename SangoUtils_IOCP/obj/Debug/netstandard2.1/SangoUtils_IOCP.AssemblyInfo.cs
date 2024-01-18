@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_IOCP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e859aa04e9839f88affb14d281abcde73026c76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc79b24206bdd5c1a9c843375338fc10a0f73b27")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_IOCP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_IOCP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

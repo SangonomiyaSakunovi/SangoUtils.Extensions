@@ -5,16 +5,16 @@ namespace SangoUtils_FSM
 {
     public class FSMStater<T> : FSMStaterBase where T : struct
     {
-        private Action<T, T> _transCallBack;
-        public T _currentState { get; private set; }
+        private readonly Action<T, T>? _transCallBack;
+        public T CurrentState { get; private set; }
 
-        private Dictionary<T, List<FSMStaterItem<T>>> _transToOtherStateDict;
-        private List<FSMStaterItem<T>> _transToOneStateList;
+        private readonly Dictionary<T, List<FSMStaterItem<T>>> _transToOtherStateDict;
+        private readonly List<FSMStaterItem<T>> _transToOneStateList;
 
         private bool _isProcessingTransition = false;
-        private Queue<FSMTransCommandBase> _transCommandQueue;
+        private readonly Queue<FSMTransCommandBase> _transCommandQueue;
 
-        public FSMStater(object owner, Action<T, T> transCallBack = null)
+        public FSMStater(object owner, Action<T, T>? transCallBack = null)
         {
             Owner = owner;
             _blackboard = new Dictionary<string, object>();
@@ -46,7 +46,7 @@ namespace SangoUtils_FSM
 
         public void InvokeInitState(T initialState)
         {
-            _currentState = initialState;
+            CurrentState = initialState;
         }
 
         public void InvokeTransition(FSMTransCommandBase command)
@@ -60,7 +60,7 @@ namespace SangoUtils_FSM
 
             bool result = false;
 
-            _transToOtherStateDict.TryGetValue(_currentState, out List<FSMStaterItem<T>> itemList);
+            _transToOtherStateDict.TryGetValue(CurrentState, out List<FSMStaterItem<T>> itemList);
             if (itemList != null)
             {
                 for (int i = 0; i < itemList.Count; i++)
@@ -101,7 +101,7 @@ namespace SangoUtils_FSM
             {
                 if (item.TransCallBack != null)
                 {
-                    result = item.TransCallBack(_currentState, command, item.TargetState);
+                    result = item.TransCallBack(CurrentState, command, item.TargetState);
                 }
                 else
                 {
@@ -110,9 +110,9 @@ namespace SangoUtils_FSM
 
                 if (result)
                 {
-                    T previousState = _currentState;
-                    _currentState = item.TargetState;
-                    _transCallBack?.Invoke(previousState, _currentState);
+                    T previousState = CurrentState;
+                    CurrentState = item.TargetState;
+                    _transCallBack?.Invoke(previousState, CurrentState);
                 }
             }
             return result;

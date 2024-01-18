@@ -1,4 +1,4 @@
-﻿namespace SangoScripts_Server
+﻿namespace SangoUtils_Server_Scripts
 {
     public abstract class BaseCache<T> : ServerSingleton<T> where T : class, new()
     {

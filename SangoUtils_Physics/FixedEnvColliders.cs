@@ -5,7 +5,7 @@ namespace SangoUtils_Physics
     public class FixedEnvColliders
     {
         public List<FixedColliderConfig> EnvColliderConfigs { get; set; } = new List<FixedColliderConfig>();
-        private List<FixedBaseCollider> _envColliders = new List<FixedBaseCollider>();
+        private readonly List<FixedBaseCollider> _envColliders = new List<FixedBaseCollider>();
 
         public void Init()
         {

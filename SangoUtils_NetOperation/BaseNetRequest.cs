@@ -4,8 +4,6 @@ namespace SangoUtils_NetOperation
 {
     public abstract class BaseNetRequest : BaseNetOperation
     {
-        public NetOperationCode NetOperationCode { get; protected set; } = NetOperationCode.Default;
-
         protected abstract void DefaultOperationRequest();
 
         public abstract void OnOperationResponse(string message);

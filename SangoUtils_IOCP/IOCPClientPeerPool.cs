@@ -4,7 +4,7 @@ namespace SangoUtils_IOCP
 {
     public class IOCPClientPeerPool<T> where T : IClientPeer_IOCP, new()
     {
-        private Stack<T> _clientPeerStack;
+        private readonly Stack<T> _clientPeerStack;
         public int Size => _clientPeerStack.Count;
 
         public IOCPClientPeerPool(int capacity)

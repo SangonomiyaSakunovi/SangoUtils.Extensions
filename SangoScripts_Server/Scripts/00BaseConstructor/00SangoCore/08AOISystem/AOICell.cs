@@ -1,6 +1,6 @@
 ﻿using SangoUtils_Logger;
 
-namespace SangoScripts_Server.AOI
+namespace SangoUtils_Server_Scripts.AOI
 {
     public class AOICell(AOICellIndex cellIndex, AOIController aoiController)
     {

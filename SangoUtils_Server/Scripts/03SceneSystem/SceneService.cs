@@ -1,6 +1,6 @@
-﻿using SangoScripts_Server;
+﻿using SangoUtils_Server_Scripts;
 
-namespace SangoUtils_Server
+namespace SangoUtils_Server_App
 {
     public class SceneService : BaseService<SceneService>
     {

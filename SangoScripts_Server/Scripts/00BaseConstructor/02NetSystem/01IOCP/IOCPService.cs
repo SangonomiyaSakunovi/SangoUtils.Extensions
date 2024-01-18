@@ -2,7 +2,7 @@
 using SangoUtils_IOCP;
 using SangoUtils_Logger;
 
-namespace SangoScripts_Server.Net
+namespace SangoUtils_Server_Scripts.Net
 {
     public class IOCPService : BaseNetService<IOCPService>
     {

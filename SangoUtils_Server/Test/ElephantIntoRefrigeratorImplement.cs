@@ -1,4 +1,4 @@
-﻿namespace SangoUtils_Server.Test
+﻿namespace SangoUtils_Server_App.Test
 {
     public class ElephantExample : BaseAnimalExamlpe //Logic Scripts
     {

@@ -9,11 +9,11 @@ namespace SangoUtils_IOCP
 {
     public class IOCPLogger
     {
-        private static BaseIOCPLogger _logger;
+        private static BaseIOCPLogger? _logger;
 
-        public static Action<string> LogInfoCallBack { get; set; }
-        public static Action<string> LogErrorCallBack { get; set; }
-        public static Action<string> LogWarningCallBack { get; set; }
+        public static Action<string>? LogInfoCallBack { get; set; }
+        public static Action<string>? LogErrorCallBack { get; set; }
+        public static Action<string>? LogWarningCallBack { get; set; }
 
         public static void SetLogger(IOCPRunnerType runnerType)
         {
@@ -30,92 +30,141 @@ namespace SangoUtils_IOCP
 
         public static void Info(string message, params object[] arguments)
         {
-            message = string.Format(message, arguments);
-            if (LogInfoCallBack != null)
+            if (_logger!=null)
             {
-                LogInfoCallBack(message);
+                message = string.Format(message, arguments);
+                if (LogInfoCallBack != null)
+                {
+                    LogInfoCallBack(message);
+                }
+                else
+                {
+                    _logger.Log(message, IOCPLogColor.None);
+                }
             }
             else
             {
-                _logger.Log(message, IOCPLogColor.None);
+                throw new ArgumentNullException(nameof(_logger));
             }
         }
 
         public static void Start(string message, params object[] arguments)
         {
-            message = string.Format(message, arguments);
-            if (LogInfoCallBack != null)
+            if (_logger != null)
             {
-                LogInfoCallBack(message);
+                message = string.Format(message, arguments);
+                if (LogInfoCallBack != null)
+                {
+                    LogInfoCallBack(message);
+                }
+                else
+                {
+                    _logger.Log(message, IOCPLogColor.Blue);
+                }
             }
             else
             {
-                _logger.Log(message, IOCPLogColor.Blue);
+                throw new ArgumentNullException(nameof(_logger));
             }
         }
 
         public static void Special(string message, params object[] arguments)
         {
-            message = string.Format(message, arguments);
-            if (LogInfoCallBack != null)
+            if (_logger != null)
             {
-                LogInfoCallBack(message);
+                message = string.Format(message, arguments);
+                if (LogInfoCallBack != null)
+                {
+                    LogInfoCallBack(message);
+                }
+                else
+                {
+                    _logger.Log(message, IOCPLogColor.Magenta);
+                }
             }
             else
             {
-                _logger.Log(message, IOCPLogColor.Magenta);
+                throw new ArgumentNullException(nameof(_logger));
             }
         }
 
         public static void Done(string message, params object[] arguments)
         {
-            message = string.Format(message, arguments);
-            if (LogInfoCallBack != null)
+            if (_logger != null)
             {
-                LogInfoCallBack(message);
+                message = string.Format(message, arguments);
+                if (LogInfoCallBack != null)
+                {
+                    LogInfoCallBack(message);
+                }
+                else
+                {
+                    _logger.Log(message, IOCPLogColor.Green);
+                }
             }
             else
             {
-                _logger.Log(message, IOCPLogColor.Green);
+                throw new ArgumentNullException(nameof(_logger));
             }
         }
 
         public static void Processing(string message, params object[] arguments)
         {
-            message = string.Format(message, arguments);
-            if (LogInfoCallBack != null)
+            if (_logger != null)
             {
-                LogInfoCallBack(message);
+                message = string.Format(message, arguments);
+                if (LogInfoCallBack != null)
+                {
+                    LogInfoCallBack(message);
+                }
+                else
+                {
+                    _logger.Log(message, IOCPLogColor.Cyan);
+                }
             }
             else
             {
-                _logger.Log(message, IOCPLogColor.Cyan);
+                throw new ArgumentNullException(nameof(_logger));
             }
         }
 
         public static void Error(string message, params object[] arguments)
         {
-            message = string.Format(message, arguments);
-            if (LogErrorCallBack != null)
+            if (_logger != null)
             {
-                LogErrorCallBack(message);
+                message = string.Format(message, arguments);
+                if (LogErrorCallBack != null)
+                {
+                    LogErrorCallBack(message);
+                }
+                else
+                {
+                    _logger.Log(message, IOCPLogColor.Red);
+                }
             }
             else
             {
-                _logger.Log(message, IOCPLogColor.Red);
+                throw new ArgumentNullException(nameof(_logger));
             }
         }
 
         public static void Warning(string message, params object[] arguments)
         {
-            message = string.Format(message, arguments);
-            if (LogWarningCallBack != null)
+            if (_logger != null)
             {
-                LogWarningCallBack(message);
+                message = string.Format(message, arguments);
+                if (LogWarningCallBack != null)
+                {
+                    LogWarningCallBack(message);
+                }
+                else
+                {
+                    _logger.Log(message, IOCPLogColor.Yellow);
+                }
             }
             else
             {
-                _logger.Log(message, IOCPLogColor.Yellow);
+                throw new ArgumentNullException(nameof(_logger));
             }
         }
 

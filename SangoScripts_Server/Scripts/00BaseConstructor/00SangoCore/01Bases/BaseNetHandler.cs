@@ -1,7 +1,7 @@
 ﻿using SangoNetProtol;
-using SangoScripts_Server.Utils;
+using SangoUtils_Server_Scripts.Utils;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public abstract class BaseNetHandler
     {

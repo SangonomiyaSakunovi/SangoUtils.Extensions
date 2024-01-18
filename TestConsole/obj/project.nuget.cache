@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "elYLiPgkgeEyeyYq/z01adakT05U85+DYOXQRLGscFMfxrfAzXxRYYkws9gfigEXgjLyPnBDRB4WEzzisezadw==",
+  "success": true,
+  "projectFilePath": "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.text.json\\8.0.1\\system.text.json.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

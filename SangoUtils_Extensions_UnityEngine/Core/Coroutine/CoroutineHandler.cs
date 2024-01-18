@@ -1,5 +1,4 @@
 using System.Collections;
-#if UNITY_ENV
 using UnityEngine.Events;
 
 namespace SangoUtils_Extensions_UnityEngine.Core
@@ -16,7 +15,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
 
     public class CoroutineHandler
     {
-        public IEnumerator Coroutine { get; private set; } = null;
+        public IEnumerator? Coroutine { get; private set; } = null;
 
         public bool Paused { get; private set; } = false;
 
@@ -26,7 +25,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
 
         public class FinishedHandler : UnityEvent<bool> { }
 
-        private FinishedHandler OnCompleted = new FinishedHandler();
+        private readonly FinishedHandler OnCompleted = new FinishedHandler();
 
         public CoroutineHandler(IEnumerator coroutine)
         {
@@ -65,7 +64,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
         private void Complete()
         {
             OnCompleted?.Invoke(Stopped);
-            OnCompleted.RemoveAllListeners();
+            OnCompleted?.RemoveAllListeners();
             Coroutine = null;
         }
 
@@ -78,7 +77,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
         private IEnumerator CallWrapper()
         {
             yield return null;
-            IEnumerator enumerator = Coroutine;
+            IEnumerator? enumerator = Coroutine;
             while (Running)
             {
                 if (Paused)
@@ -101,4 +100,3 @@ namespace SangoUtils_Extensions_UnityEngine.Core
         }
     }
 }
-#endif

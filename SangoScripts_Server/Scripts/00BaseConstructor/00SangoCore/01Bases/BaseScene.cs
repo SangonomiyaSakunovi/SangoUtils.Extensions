@@ -1,9 +1,9 @@
-﻿using SangoScripts_Server.AOI;
+﻿using SangoUtils_Server_Scripts.AOI;
 using SangoUtils_Common.Config;
 using SangoUtils_Logger;
 using System.Collections.Concurrent;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public abstract class BaseScene<T> : ServerSingleton<T> where T : class, new()
     {

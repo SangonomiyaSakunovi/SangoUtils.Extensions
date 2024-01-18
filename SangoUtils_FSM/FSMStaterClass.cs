@@ -17,8 +17,12 @@ namespace SangoUtils_FSM
         {
             if (obj is FSMTransCommandEnum<T>)
             {
-                FSMTransCommandEnum<T> commandEnum = obj as FSMTransCommandEnum<T>;
-                return commandEnum.EnumId.Equals(EnumId);
+                FSMTransCommandEnum<T>? commandEnum = obj as FSMTransCommandEnum<T>;
+                if (commandEnum != null)
+                {
+                    return commandEnum.EnumId.Equals(EnumId);
+                }
+                return false;
             }
             return false;
         }
@@ -69,7 +73,7 @@ namespace SangoUtils_FSM
 
     public class FSMLinkedStaterItemBase
     {
-        protected FSMLinkedStater _fsmLinkedStater;
+        protected FSMLinkedStater? _fsmLinkedStater;
 
         public virtual void OnInit(FSMLinkedStater fsmLinkedStater)
         {

@@ -4,8 +4,6 @@ namespace SangoUtils_NetOperation
 {
     public abstract class BaseNetBroadcast : BaseNetOperation
     {
-        public NetOperationCode NetOperationCode { get; protected set; } = NetOperationCode.Default;
-
         public abstract void DefaultOperationBroadcast();
 
         public abstract void OnBroadcast(string message);

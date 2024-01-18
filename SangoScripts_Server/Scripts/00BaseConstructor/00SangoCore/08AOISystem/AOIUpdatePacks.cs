@@ -1,4 +1,4 @@
-﻿namespace SangoScripts_Server.AOI
+﻿namespace SangoUtils_Server_Scripts.AOI
 {
     public class AOIUpdatePacks(int enterPacksCount, int movePacksCount, int exitPacksCount) : BaseController
     {

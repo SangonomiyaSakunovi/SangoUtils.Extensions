@@ -1,4 +1,4 @@
-﻿namespace SangoUtils_Server.Test
+﻿namespace SangoUtils_Server_App.Test
 {
     internal class Test1Example
     {

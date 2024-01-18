@@ -1,7 +1,7 @@
-﻿using SangoScripts_Server.Net;
+﻿using SangoUtils_Server_Scripts.Net;
 using SangoUtils_Logger;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public class DefaultIOCPHandler : BaseIOCPNetHandler
     {

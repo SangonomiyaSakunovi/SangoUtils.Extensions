@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public static class TimeCryptoUtils
     {

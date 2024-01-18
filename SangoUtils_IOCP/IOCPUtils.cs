@@ -5,7 +5,7 @@ namespace SangoUtils_IOCP
 {
     public static class IOCPUtils
     {
-        public static byte[] SplitLogicBytes(ref List<byte> bytesList)
+        public static byte[]? SplitLogicBytes(ref List<byte> bytesList)
         {
             if (bytesList.Count > 4)
             {

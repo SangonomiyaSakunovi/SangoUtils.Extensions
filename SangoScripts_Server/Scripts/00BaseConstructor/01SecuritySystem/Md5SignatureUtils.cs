@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace SangoScripts_Server.Security
+namespace SangoUtils_Server_Scripts.Security
 {
     public class Md5SignatureUtils
     {

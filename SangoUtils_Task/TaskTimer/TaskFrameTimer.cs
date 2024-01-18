@@ -8,7 +8,7 @@ namespace SangoUtils_Task
         private ulong _currentFrame;
         private readonly Dictionary<uint, FrameTimerTask> _taskDict = new Dictionary<uint, FrameTimerTask>();
         private const string _taskIdLock = "TaskFrameTimer_Lock";
-        private List<uint> _taskIdLts = new List<uint>();
+        private readonly List<uint> _taskIdLts = new List<uint>();
 
         public TaskFrameTimer(ulong frameId = 0)
         {

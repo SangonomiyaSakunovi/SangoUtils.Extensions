@@ -1,9 +1,9 @@
-﻿using SangoScripts_Server;
-using SangoScripts_Server.Net;
+﻿using SangoUtils_Server_Scripts;
+using SangoUtils_Server_Scripts.Net;
 using SangoUtils_Common.Messages;
 using SangoUtils_Logger;
 
-namespace SangoUtils_Server
+namespace SangoUtils_Server_App
 {
     public class LoginIOCPHandler : BaseIOCPNetHandler
     {

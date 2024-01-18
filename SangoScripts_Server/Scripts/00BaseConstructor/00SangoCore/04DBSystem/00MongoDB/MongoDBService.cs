@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace SangoScripts_Server.DB
+namespace SangoUtils_Server_Scripts.DB
 {
     public class MongoDBService : BaseService<MongoDBService>
     {

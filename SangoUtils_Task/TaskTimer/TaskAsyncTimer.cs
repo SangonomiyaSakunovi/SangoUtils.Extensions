@@ -9,7 +9,7 @@ namespace SangoUtils_Task
     {
         private bool _isSetHandled;
         private readonly ConcurrentDictionary<uint, AsyncTimerTask> _taskDict = new ConcurrentDictionary<uint, AsyncTimerTask>();
-        private ConcurrentQueue<AsyncTimerTaskPack> _taskPackQueue;
+        private readonly ConcurrentQueue<AsyncTimerTaskPack>? _taskPackQueue;
         private const string _taskIdLock = "TaskAsyncTimer_Lock";
 
         public TaskAsyncTimer(bool isSetHandled)
@@ -48,7 +48,7 @@ namespace SangoUtils_Task
 
                 if (_isSetHandled && task.onCanceledCallBack != null)
                 {
-                    _taskPackQueue.Enqueue(new AsyncTimerTaskPack(taskId, task.onCanceledCallBack));
+                    _taskPackQueue!.Enqueue(new AsyncTimerTaskPack(taskId, task.onCanceledCallBack));
                 }
                 else
                 {
@@ -130,7 +130,7 @@ namespace SangoUtils_Task
         {
             if (_isSetHandled)
             {
-                _taskPackQueue.Enqueue(new AsyncTimerTaskPack(task.taskId, task.onCompletedCallBack));
+                _taskPackQueue!.Enqueue(new AsyncTimerTaskPack(task.taskId, task.onCompletedCallBack));
             }
             else
             {

@@ -5,7 +5,7 @@ namespace SangoUtils_FSM
 {
     public class FSMLinkedStater : FSMStaterBase
     {
-        private LinkedList<FSMLinkedStaterItemBase> _staterItemLinkedList = new LinkedList<FSMLinkedStaterItemBase>();
+        private readonly LinkedList<FSMLinkedStaterItemBase> _staterItemLinkedList = new LinkedList<FSMLinkedStaterItemBase>();
         private LinkedListNode<FSMLinkedStaterItemBase> _currentNode;
 
         public FSMLinkedStater(object owner)
@@ -31,8 +31,11 @@ namespace SangoUtils_FSM
         public void AddStaterItem<T>() where T : FSMLinkedStaterItemBase
         {
             Type staterItemType = typeof(T);
-            FSMLinkedStaterItemBase instance = Activator.CreateInstance(staterItemType) as FSMLinkedStaterItemBase;
-            AddStaterItem(instance);
+            FSMLinkedStaterItemBase? item = Activator.CreateInstance(staterItemType) as FSMLinkedStaterItemBase;
+            if (item != null)
+            {
+                AddStaterItem(item);
+            }
         }
 
         public void AddStaterItem(FSMLinkedStaterItemBase staterItem)
@@ -60,7 +63,7 @@ namespace SangoUtils_FSM
 
         public void InvokeTargetStaterItem<T>(bool isFirstInvoke = false) where T : FSMLinkedStaterItemBase
         {
-            LinkedListNode<FSMLinkedStaterItemBase> targetNode = FindTargetStaterItemNode<T>();
+            LinkedListNode<FSMLinkedStaterItemBase>? targetNode = FindTargetStaterItemNode<T>();
             if (targetNode != null)
             {
                 if (!isFirstInvoke)
@@ -82,7 +85,7 @@ namespace SangoUtils_FSM
 
         public void UpdateTargetStaterItem<T>() where T : FSMLinkedStaterItemBase
         {
-            LinkedListNode<FSMLinkedStaterItemBase> targetNode = FindTargetStaterItemNode<T>();
+            LinkedListNode<FSMLinkedStaterItemBase>? targetNode = FindTargetStaterItemNode<T>();
             if (targetNode != null)
             {
                 targetNode.Value.OnUpdate();
@@ -101,14 +104,14 @@ namespace SangoUtils_FSM
 
         public void RemoveStaterItem<T>() where T : FSMLinkedStaterItemBase
         {
-            LinkedListNode<FSMLinkedStaterItemBase> targetNode = FindTargetStaterItemNode<T>();
+            LinkedListNode<FSMLinkedStaterItemBase>? targetNode = FindTargetStaterItemNode<T>();
             if (targetNode != null)
             {
                 _staterItemLinkedList.Remove(targetNode);
             }
         }
 
-        private LinkedListNode<FSMLinkedStaterItemBase> FindTargetStaterItemNode<T>() where T : FSMLinkedStaterItemBase
+        private LinkedListNode<FSMLinkedStaterItemBase>? FindTargetStaterItemNode<T>() where T : FSMLinkedStaterItemBase
         {
             Type staterItemType = typeof(T);
             int staterItemId = staterItemType.GetHashCode();

@@ -1,4 +1,4 @@
-﻿namespace SangoScripts_Server
+﻿namespace SangoUtils_Server_Scripts
 {
     public abstract class ServerSingleton<T> where T : class, new()
     {

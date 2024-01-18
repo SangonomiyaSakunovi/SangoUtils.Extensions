@@ -1,11 +1,11 @@
 ﻿using SangoNetProtol;
-using SangoScripts_Server;
-using SangoScripts_Server.AOI;
-using SangoScripts_Server.Net;
+using SangoUtils_Server_Scripts;
+using SangoUtils_Server_Scripts.AOI;
+using SangoUtils_Server_Scripts.Net;
 using SangoUtils_Common.Config;
 using SangoUtils_Common.Messages;
 
-namespace SangoUtils_Server
+namespace SangoUtils_Server_App
 {
     public class AOISystem : BaseSystem<AOISystem>
     {

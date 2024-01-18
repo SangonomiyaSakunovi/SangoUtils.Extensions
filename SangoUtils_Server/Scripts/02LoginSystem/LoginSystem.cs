@@ -1,11 +1,11 @@
 ﻿using SangoNetProtol;
-using SangoScripts_Server;
-using SangoScripts_Server.Net;
+using SangoUtils_Server_Scripts;
+using SangoUtils_Server_Scripts.Net;
 using SangoUtils_Common.Messages;
-using SangoUtils_Server.Config;
+using SangoUtils_Server_App.Config;
 using System.Text;
 
-namespace SangoUtils_Server
+namespace SangoUtils_Server_App
 {
     public class LoginSystem : BaseSystem<LoginSystem>
     {

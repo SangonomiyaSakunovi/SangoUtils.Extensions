@@ -8,3 +8,13 @@ D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.sourcelink.json
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.dll
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\bin\Debug\netstandard2.1\SangoUtils_FSM.deps.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\bin\Debug\netstandard2.1\SangoUtils_FSM.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\bin\Debug\netstandard2.1\SangoUtils_FSM.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.sourcelink.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils_FSM.pdb

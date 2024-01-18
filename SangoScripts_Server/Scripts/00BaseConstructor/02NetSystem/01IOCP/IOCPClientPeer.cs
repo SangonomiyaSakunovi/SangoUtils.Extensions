@@ -1,9 +1,9 @@
 ﻿using SangoNetProtol;
-using SangoScripts_Server.Converter;
+using SangoUtils_Server_Scripts.Converter;
 using SangoUtils_Common.Utils;
 using SangoUtils_IOCP;
 
-namespace SangoScripts_Server.Net
+namespace SangoUtils_Server_Scripts.Net
 {
     public class IOCPClientPeer : IClientPeer_IOCP
     {

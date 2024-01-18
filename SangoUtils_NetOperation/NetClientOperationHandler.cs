@@ -1,12 +1,13 @@
 using SangoNetProtol;
 using SangoUtils_NetOperation;
+using System;
 using System.Collections.Generic;
 
 public class NetClientOperationHandler
 {
-    private Dictionary<NetOperationCode, BaseNetRequest> _netRequestDict = new Dictionary<NetOperationCode, BaseNetRequest>();
-    private Dictionary<NetOperationCode, BaseNetEvent> _netEventDict = new Dictionary<NetOperationCode, BaseNetEvent>();
-    private Dictionary<NetOperationCode, BaseNetBroadcast> _netBroadcastDict = new Dictionary<NetOperationCode, BaseNetBroadcast>();
+    private readonly Dictionary<NetOperationCode, BaseNetRequest> _netRequestDict = new Dictionary<NetOperationCode, BaseNetRequest>();
+    private readonly Dictionary<NetOperationCode, BaseNetEvent> _netEventDict = new Dictionary<NetOperationCode, BaseNetEvent>();
+    private readonly Dictionary<NetOperationCode, BaseNetBroadcast> _netBroadcastDict = new Dictionary<NetOperationCode, BaseNetBroadcast>();
 
     public void NetMessageCommandBroadcast(SangoNetMessage sangoNetMessage)
     {
@@ -88,7 +89,7 @@ public class NetClientOperationHandler
         }
         else
         {
-            T netRequest = new T();
+            T netRequest = Activator.CreateInstance<T>();
             netRequest.OnInit(operationCode, this);
             return netRequest;
         }
@@ -124,7 +125,7 @@ public class NetClientOperationHandler
         }
         else
         {
-            T netEvent = new T();
+            T netEvent = Activator.CreateInstance<T>();
             netEvent.OnInit(operationCode, this);
             return netEvent;
         }
@@ -160,7 +161,7 @@ public class NetClientOperationHandler
         }
         else
         {
-            T netBroadcast = new T();
+            T netBroadcast = Activator.CreateInstance<T>();
             netBroadcast.OnInit(operationCode, this);
             return netBroadcast;
         }

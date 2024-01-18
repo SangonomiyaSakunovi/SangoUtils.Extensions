@@ -1,18 +1,17 @@
 using System.Collections;
-#if UNITY_ENV
 using UnityEngine;
 
 namespace SangoUtils_Extensions_UnityEngine.Core
 {
     public class CoroutineDriver : MonoBehaviour
     {
-        internal static CoroutineDriver _driver;
+        internal static CoroutineDriver? _driver;
 
         internal static CoroutineDriver Driver
         {
             get
             {
-                if (null == _driver)
+                if (_driver == null)
                 {
                     _driver = FindObjectOfType(typeof(CoroutineDriver)) as CoroutineDriver;
                     if (null == _driver)
@@ -40,4 +39,3 @@ namespace SangoUtils_Extensions_UnityEngine.Core
         }
     }
 }
-#endif

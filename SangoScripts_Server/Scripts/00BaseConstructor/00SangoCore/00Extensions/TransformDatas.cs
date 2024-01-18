@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 
-namespace SangoScripts_Server
+namespace SangoUtils_Server_Scripts
 {
     public struct TransformData
     {

@@ -382,23 +382,6 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
-      "SangoScripts_Server/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MongoDB.Driver": "2.23.1",
-          "SangoUtils_Common": "1.0.0",
-          "SangoUtils_IOCP": "1.0.0",
-          "SangoUtils_Logger": "1.0.0",
-          "System.Text.Json": "8.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SangoScripts_Server.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SangoScripts_Server.dll": {}
-        }
-      },
       "SangoUtils_Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -431,6 +414,23 @@
         },
         "runtime": {
           "bin/placeholder/SangoUtils_Logger.dll": {}
+        }
+      },
+      "SangoUtils_Server_Scripts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MongoDB.Driver": "2.23.1",
+          "SangoUtils_Common": "1.0.0",
+          "SangoUtils_IOCP": "1.0.0",
+          "SangoUtils_Logger": "1.0.0",
+          "System.Text.Json": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SangoUtils_Server_Scripts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SangoUtils_Server_Scripts.dll": {}
         }
       }
     }
@@ -1088,11 +1088,6 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "SangoScripts_Server/1.0.0": {
-      "type": "project",
-      "path": "../SangoScripts_Server/SangoScripts_Server.csproj",
-      "msbuildProject": "../SangoScripts_Server/SangoScripts_Server.csproj"
-    },
     "SangoUtils_Common/1.0.0": {
       "type": "project",
       "path": "../SangoUtils_Common/SangoUtils_Common.csproj",
@@ -1107,33 +1102,38 @@
       "type": "project",
       "path": "../SangoUtils_Logger/SangoUtils_Logger.csproj",
       "msbuildProject": "../SangoUtils_Logger/SangoUtils_Logger.csproj"
+    },
+    "SangoUtils_Server_Scripts/1.0.0": {
+      "type": "project",
+      "path": "../SangoScripts_Server/SangoUtils_Server_Scripts.csproj",
+      "msbuildProject": "../SangoScripts_Server/SangoUtils_Server_Scripts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "SangoScripts_Server >= 1.0.0",
       "SangoUtils_Common >= 1.0.0",
+      "SangoUtils_Server_Scripts >= 1.0.0",
       "System.Text.Json >= 8.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\16022\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server.csproj",
-      "projectName": "SangoUtils_Server",
-      "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server.csproj",
-      "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\obj\\",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server_App.csproj",
+      "projectName": "SangoUtils_Server_App",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server_App.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\16022\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1149,11 +1149,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoScripts_Server.csproj": {
-              "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoScripts_Server.csproj"
+            "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj": {
+              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj"
             },
-            "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj": {
-              "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj"
+            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj": {
+              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj"
             }
           }
         }

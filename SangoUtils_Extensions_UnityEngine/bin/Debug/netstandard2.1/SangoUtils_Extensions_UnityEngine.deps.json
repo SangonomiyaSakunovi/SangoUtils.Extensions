@@ -8,8 +8,19 @@
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
       "SangoUtils_Extensions_UnityEngine/1.0.0": {
+        "dependencies": {
+          "Unity.TextMeshPro": "0.0.0.0"
+        },
         "runtime": {
           "SangoUtils_Extensions_UnityEngine.dll": {}
+        }
+      },
+      "Unity.TextMeshPro/0.0.0.0": {
+        "runtime": {
+          "Unity.TextMeshPro.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
         }
       }
     }
@@ -17,6 +28,11 @@
   "libraries": {
     "SangoUtils_Extensions_UnityEngine/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.TextMeshPro/0.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

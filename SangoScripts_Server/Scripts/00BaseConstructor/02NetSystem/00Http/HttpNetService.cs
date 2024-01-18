@@ -1,4 +1,4 @@
-﻿namespace SangoScripts_Server.Http
+﻿namespace SangoUtils_Server_Scripts.Http
 {
     public class HttpNetService : BaseService<HttpNetService>
     {
