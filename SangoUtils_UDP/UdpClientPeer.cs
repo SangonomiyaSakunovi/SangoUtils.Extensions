@@ -48,6 +48,5 @@ namespace SangoUtils_UDP
             };
             _receiveUdpMessageThread.Start();
         }
-
     }
 }
