@@ -17,10 +17,10 @@ namespace SangoUtils_Extensions_UnityEngine.Core
         public Action<GameObject?, object[]?>? OnPointerUpCallBack0 { get; set; }
         public Action<GameObject?, object[]?>? OnPointerDragCallBack0 { get; set; }
 
-        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerClickCallBack1 { get; set; }
-        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerDownCallBack1 { get; set; }
-        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerUpCallBack1 { get; set; }
-        public Action<PointerEventData?, GameObject?, object[]?>? OnPointerDragCallBack1 { get; set; }
+        public Action<PointerEventData, GameObject?, object[]?>? OnPointerClickCallBack1 { get; set; }
+        public Action<PointerEventData, GameObject?, object[]?>? OnPointerDownCallBack1 { get; set; }
+        public Action<PointerEventData, GameObject?, object[]?>? OnPointerUpCallBack1 { get; set; }
+        public Action<PointerEventData, GameObject?, object[]?>? OnPointerDragCallBack1 { get; set; }
 
         public void OnPointerClick(PointerEventData eventData)
         {

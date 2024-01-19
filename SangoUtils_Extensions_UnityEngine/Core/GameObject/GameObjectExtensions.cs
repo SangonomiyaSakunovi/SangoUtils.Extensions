@@ -96,7 +96,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
         }
 
         #region UIPointerListener
-        public static void AddPointerClickListener(this GameObject gameObject, Action<PointerEventData?, GameObject?, object[]?> onPointerClickCallBack, params object[] commands)
+        public static void AddPointerClickListener(this GameObject gameObject, Action<PointerEventData, GameObject?, object[]?> onPointerClickCallBack, params object[] commands)
         {
             UIPointerListener listener = gameObject.GetComponent<UIPointerListener>() ?? gameObject.AddComponent<UIPointerListener>();
             listener.OnPointerClickCallBack1 = onPointerClickCallBack;
@@ -118,7 +118,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
             }
         }
 
-        public static void AddPointerDownListener(this GameObject gameObject, Action<PointerEventData?, GameObject?, object[]?> onPointerDownCallBack, params object[] commands)
+        public static void AddPointerDownListener(this GameObject gameObject, Action<PointerEventData, GameObject?, object[]?> onPointerDownCallBack, params object[] commands)
         {
             UIPointerListener listener = gameObject.GetComponent<UIPointerListener>() ?? gameObject.AddComponent<UIPointerListener>();
             listener.OnPointerDownCallBack1 = onPointerDownCallBack;
@@ -140,7 +140,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
             }
         }
 
-        public static void AddPointerUpListener(this GameObject gameObject, Action<PointerEventData?, GameObject?, object[]?> onPointerUpCallBack, params object[] commands)
+        public static void AddPointerUpListener(this GameObject gameObject, Action<PointerEventData, GameObject?, object[]?> onPointerUpCallBack, params object[] commands)
         {
             UIPointerListener listener = gameObject.GetComponent<UIPointerListener>() ?? gameObject.AddComponent<UIPointerListener>();
             listener.OnPointerUpCallBack1 = onPointerUpCallBack;
@@ -162,7 +162,7 @@ namespace SangoUtils_Extensions_UnityEngine.Core
             }
         }
 
-        public static void AddPointerDragListener(this GameObject gameObject, Action<PointerEventData?, GameObject?, object[]?> onPointerDragCallBack, params object[] commands)
+        public static void AddPointerDragListener(this GameObject gameObject, Action<PointerEventData, GameObject?, object[]?> onPointerDragCallBack, params object[] commands)
         {
             UIPointerListener listener = gameObject.GetComponent<UIPointerListener>() ?? gameObject.AddComponent<UIPointerListener>();
             listener.OnPointerDragCallBack1 = onPointerDragCallBack;
@@ -187,17 +187,17 @@ namespace SangoUtils_Extensions_UnityEngine.Core
         public static void AddPointerSlideListener(this GameObject gameObject, Action<GameObject?, object[]?> onPointerSlideCallBack, Action<GameObject?, object[]?> onPointerClickDoneCallBack, params object[] commands)
         {
 
-            gameObject.AddPointerDownListener((PointerEventData? eventData, GameObject? gameObjectPointerDown, object[]? strs) =>
+            gameObject.AddPointerDownListener((PointerEventData eventData, GameObject? gameObjectPointerDown, object[]? strs) =>
             {
-                if (gameObjectPointerDown != null && eventData != null)
+                if (gameObjectPointerDown != null)
                 {
                     UIPointerListener listener = gameObjectPointerDown.GetComponent<UIPointerListener>() ?? gameObjectPointerDown.AddComponent<UIPointerListener>();
                     listener.ClickDownPosition = eventData.position;
                 }
             });
-            gameObject.AddPointerDragListener((PointerEventData? eventData, GameObject? gameObjectPointerDrag, object[]? strs) =>
+            gameObject.AddPointerDragListener((PointerEventData eventData, GameObject? gameObjectPointerDrag, object[]? strs) =>
             {
-                if (gameObjectPointerDrag != null && eventData != null)
+                if (gameObjectPointerDrag != null)
                 {
                     UIPointerListener listener = gameObjectPointerDrag.GetComponent<UIPointerListener>() ?? gameObjectPointerDrag.AddComponent<UIPointerListener>();
                     Vector2 direction = eventData.position - listener.ClickDownPosition;
@@ -205,9 +205,9 @@ namespace SangoUtils_Extensions_UnityEngine.Core
                 }
             },
             commands);
-            gameObject.AddPointerUpListener((PointerEventData? eventData, GameObject? gameObjectPointerUp, object[]? strs) =>
+            gameObject.AddPointerUpListener((PointerEventData eventData, GameObject? gameObjectPointerUp, object[]? strs) =>
             {
-                if (gameObjectPointerUp != null && eventData != null)
+                if (gameObjectPointerUp != null)
                 {
                     UIPointerListener listener = gameObjectPointerUp.GetComponent<UIPointerListener>() ?? gameObjectPointerUp.AddComponent<UIPointerListener>();
                     Vector2 direction = eventData.position - listener.ClickDownPosition;
