@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SangoUtils_NetAdapter\SangoUtils_NetAdapter.csproj" />
     <ProjectReference Include="..\SangoUtils_UDP\SangoUtils_UDP.csproj" />
   </ItemGroup>
 

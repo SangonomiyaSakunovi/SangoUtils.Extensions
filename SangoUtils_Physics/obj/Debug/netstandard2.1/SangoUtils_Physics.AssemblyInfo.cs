@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_Physics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc79b24206bdd5c1a9c843375338fc10a0f73b27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf66d480cc434a0239e5d56257e57336c01064a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_Physics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_Physics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -43,6 +43,16 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "SangoUtils_NetAdapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SangoUtils_NetAdapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SangoUtils_NetAdapter.dll": {}
+        }
+      },
       "SangoUtils_UDP/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -167,6 +177,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "SangoUtils_NetAdapter/1.0.0": {
+      "type": "project",
+      "path": "../SangoUtils_NetAdapter/SangoUtils_NetAdapter.csproj",
+      "msbuildProject": "../SangoUtils_NetAdapter/SangoUtils_NetAdapter.csproj"
+    },
     "SangoUtils_UDP/1.0.0": {
       "type": "project",
       "path": "../SangoUtils_UDP/SangoUtils_UDP.csproj",
@@ -175,6 +190,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "SangoUtils_NetAdapter >= 1.0.0",
       "SangoUtils_UDP >= 1.0.0"
     ]
   },
@@ -211,6 +227,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj": {
+              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj"
+            },
             "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj": {
               "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj"
             }

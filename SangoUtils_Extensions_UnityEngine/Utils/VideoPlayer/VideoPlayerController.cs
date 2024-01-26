@@ -104,16 +104,16 @@ namespace SangoUtils_Extensions_UnityEngine.Utils
 
         private void AddEvent()
         {
-            _playOrPauseBtn?.onClick.AddListener(OnPlayOrPauseBtnClicked);
-            _fullScreenBtn?.onClick.AddListener(OnFullScreenBtnClicked);
-            _muteBtn?.onClick.AddListener(OnMuteBtnClicked);
-            _audioVolumeSlider?.onValueChanged.AddListener(OnAudioVolumeSliderValueChanged);
-            if (_videoProgressSlider != null)
-            {
-                _videoProgressSlider.onValueChanged.AddListener(OnVideoProgressSliderValueChanged);
-                SetGameObjectDragBeginListener(_videoProgressSlider.gameObject, OnSliderDragBegin);
-                SetGameObjectDragEndListener(_videoProgressSlider.gameObject, OnSliderDragEnd);
-            }
+            //_playOrPauseBtn?.onClick.AddListener(OnPlayOrPauseBtnClicked);
+            //_fullScreenBtn?.onClick.AddListener(OnFullScreenBtnClicked);
+            //_muteBtn?.onClick.AddListener(OnMuteBtnClicked);
+            //_audioVolumeSlider?.onValueChanged.AddListener(OnAudioVolumeSliderValueChanged);
+            //if (_videoProgressSlider != null)
+            //{
+            //    _videoProgressSlider.onValueChanged.AddListener(OnVideoProgressSliderValueChanged);
+            //    SetGameObjectDragBeginListener(_videoProgressSlider.gameObject, OnSliderDragBegin);
+            //    SetGameObjectDragEndListener(_videoProgressSlider.gameObject, OnSliderDragEnd);
+            //}
         }
     }
 }

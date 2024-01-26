@@ -20,5 +20,3 @@ I:\SangoUtils\SangoUtils_Server\SangoUtils_Extensions_UnityEngine\obj\Debug\nets
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Extensions_UnityEngine\obj\Debug\netstandard2.1\SangoUtils_Extensions_UnityEngine.sourcelink.json
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Extensions_UnityEngine\obj\Debug\netstandard2.1\SangoUtils_Extensions_UnityEngine.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Extensions_UnityEngine\obj\Debug\netstandard2.1\SangoUtils_Extensions_UnityEngine.pdb
-I:\SangoUtils\SangoUtils_Server\SangoUtils_Extensions_UnityEngine\bin\Debug\netstandard2.1\Unity.TextMeshPro.dll
-I:\SangoUtils\SangoUtils_Server\SangoUtils_Extensions_UnityEngine\obj\Debug\netstandard2.1\SangoUtils_Extensions_UnityEngine.csproj.CopyComplete

@@ -12,6 +12,7 @@
   <ItemGroup>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>..\libs\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\libs\UnityEngine.dll</HintPath>
@@ -19,9 +20,14 @@
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
       <HintPath>..\libs\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\libs\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\libs\UnityEngine.ImageConversionModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
@@ -34,7 +40,18 @@
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>..\libs\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SangoUtils_Converter\SangoUtils_Converter.csproj">
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
