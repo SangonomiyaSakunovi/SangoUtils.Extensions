@@ -4,14 +4,14 @@ using System.Reflection;
 
 namespace SangoUtils_UDP
 {
-    public abstract class UdpEventBaseListenPortID<T> where T : UdpEventBaseListenPortID<T>
+    public abstract class UdpEventBaseListenPortID
     {
         [UdpEventPortApiKey("ExamplePort")]
-        public const int ExamplePort = 52022;
+        public const int ExamplePort = 52516;
 
         private static readonly Dictionary<int, string> _idDict = new Dictionary<int, string>();
 
-        public UdpEventBaseListenPortID()
+        public static void AddUdpEventApi<T>() where T : UdpEventBaseListenPortID
         {
             FieldInfo[] fields = typeof(T).GetFields();
             Type attributeType = typeof(UdpEventPortApiKey);
@@ -42,6 +42,7 @@ namespace SangoUtils_UDP
         }
     }
 
+    [AttributeUsage(AttributeTargets.Field)]
     public class UdpEventPortApiKey : Attribute
     {
         public string udpEventApi;
