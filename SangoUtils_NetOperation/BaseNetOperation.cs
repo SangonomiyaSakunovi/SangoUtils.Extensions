@@ -8,12 +8,12 @@ namespace SangoUtils_NetOperation
     {
         public NetOperationCode NetOperationCode { get; protected set; } = NetOperationCode.Default;
 
-        protected static string SetJsonString(object obj)
+        protected static string ToJson(object obj)
         {
             return JsonSerializer.Serialize(obj);
         }
 
-        protected static T? DeJsonString<T>(string str) where T : class
+        protected static T? FromJson<T>(string str) where T : class
         {
             T? t;
             try

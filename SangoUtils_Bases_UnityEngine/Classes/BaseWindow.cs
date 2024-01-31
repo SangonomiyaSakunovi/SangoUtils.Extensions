@@ -20,18 +20,13 @@ namespace SangoUtils_Bases_UnityEngine
             }
         }
 
-        protected abstract void OnAwake();
+        public abstract void OnAwake();
 
         protected abstract void OnInit();
 
         protected abstract void OnDispose();
 
-        public WindowLayer WindowLayer { get; set; } = WindowLayer.None;
-
-        private void Awake()
-        {
-            OnAwake();
-        }
+        public WindowLayer WindowLayer { get; protected set; }
 
         protected void AddWindow<T>(T window) where T : BaseWindow
         {

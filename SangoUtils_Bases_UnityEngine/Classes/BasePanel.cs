@@ -20,8 +20,17 @@ namespace SangoUtils_Bases_UnityEngine
             }
         }
 
-        protected virtual void OnInit() { }
+        public abstract void OnAwake();
 
-        protected virtual void OnDispose() { }
+        protected abstract void OnInit();
+
+        protected abstract void OnDispose();
+
+        public PanelLayer PanelLayer { get; protected set; }
+
+        protected void AddPanel<T>(T panel) where T : BasePanel
+        {
+            UIService.Instance.AddPanel<T>(panel);
+        }
     }
 }

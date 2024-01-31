@@ -21,10 +21,7 @@ namespace SangoUtils_Bases_Universal
             OnUpdate();
         }
 
-        protected virtual void OnUpdate()
-        {
-
-        }
+        protected abstract void OnUpdate();
     }
 
     public enum PlayerState

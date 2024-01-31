@@ -8,6 +8,7 @@ namespace SangoUtils_Bases_UnityEngine
         public Action<string>? LogErrorFunc { get; set; }
 
         private readonly Dictionary<int, BaseWindow> _windowsDict = new Dictionary<int, BaseWindow>();
+        private readonly Dictionary<int, BasePanel> _panelsDict = new Dictionary<int, BasePanel>();
 
         public override void OnInit()
         {
@@ -49,6 +50,31 @@ namespace SangoUtils_Bases_UnityEngine
             }
         }
 
+        public void SwitchPanel<T>() where T : BasePanel
+        {
+            Type panelType = typeof(T);
+            int panelId = panelType.GetHashCode();
+            SwitchPanel(panelId);
+        }
+
+        public void SwitchPanel(int panelId)
+        {
+            foreach (var pair in _panelsDict)
+            {
+                if (pair.Value.PanelLayer == PanelLayer.Base)
+                {
+                    if (pair.Key == panelId)
+                    {
+                        pair.Value.SetPanelState(true);
+                    }
+                    else
+                    {
+                        pair.Value.SetPanelState(false);
+                    }
+                }
+            }
+        }
+
         public void AddWindow<T>(T window) where T : BaseWindow
         {
             Type windowType = typeof(T);
@@ -81,9 +107,50 @@ namespace SangoUtils_Bases_UnityEngine
             }
             return null;
         }
+
+        public void AddPanel<T>(T panel) where T : BasePanel
+        {
+            Type panelType = typeof(T);
+            int panelId = panelType.GetHashCode();
+            AddPanel(panelId, panel);
+        }
+
+        public void AddPanel(int panelId, BasePanel panel)
+        {
+            if (_panelsDict.ContainsKey(panelId))
+            {
+                LogErrorFunc?.Invoke($"Panel {panelId} already exists!");
+                return;
+            }
+            _panelsDict.Add(panelId, panel);
+        }
+
+        public BasePanel? GetPanel<T>() where T : BasePanel
+        {
+            Type panelType = typeof(T);
+            int panelId = panelType.GetHashCode();
+            return GetPanel(panelId);
+        }
+
+        public BasePanel? GetPanel(int panelId)
+        {
+            if (_panelsDict.TryGetValue(panelId, out BasePanel panel))
+            {
+                return panel;
+            }
+            return null;
+        }
     }
 
     public enum WindowLayer
+    {
+        None,
+        Base,
+        Pop,
+        Top
+    }
+
+    public enum PanelLayer
     {
         None,
         Base,

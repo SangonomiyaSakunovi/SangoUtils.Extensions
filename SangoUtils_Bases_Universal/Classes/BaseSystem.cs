@@ -2,21 +2,17 @@
 {
     public abstract class BaseSystem<T> where T : class
     {
-        public string SystemID { get; protected set; } = "";
-
         public void Update()
         {
             OnUpdate();
         }
 
-        protected virtual void OnUpdate()
-        {
+        public abstract void OnAwake();
 
-        }
+        public abstract void OnInit();
 
-        public virtual void OnDispose()
-        {
+        protected abstract void OnUpdate();
 
-        }
+        public abstract void OnDispose();
     }
 }

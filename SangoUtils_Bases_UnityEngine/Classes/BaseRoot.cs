@@ -9,19 +9,12 @@ namespace SangoUtils_Bases_UnityEngine
             OnUpdate();
         }
 
-        public virtual void OnInit()
-        {
+        public abstract void OnAwake();
 
-        }
+        public abstract void OnInit();
 
-        protected virtual void OnUpdate()
-        {
+        protected abstract void OnUpdate();
 
-        }
-
-        public virtual void OnDispose()
-        {
-
-        }
+        public abstract void OnDispose(); 
     }
 }

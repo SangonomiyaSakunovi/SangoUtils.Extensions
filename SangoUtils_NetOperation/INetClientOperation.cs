@@ -4,6 +4,10 @@ namespace SangoUtils_NetOperation
 {
     public interface INetClientOperation
     {
+        public void OpenClient();
+
+        public void CloseClient();
+        
         public void SendOperationRequest(NetOperationCode operationCode, string messageStr);
 
         public void SendOperationBroadcast(NetOperationCode operationCode, string messageStr);

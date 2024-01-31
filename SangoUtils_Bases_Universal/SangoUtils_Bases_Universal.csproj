@@ -11,4 +11,8 @@
     </ProjectReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="OS\" />
+  </ItemGroup>
+
 </Project>
