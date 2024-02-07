@@ -63,6 +63,7 @@ namespace SangoNetProtol
         NetOperationResponse = 2,
         NetEventData = 3,
         NetBroadcast = 4,
+        NetUdpMessage = 5,
     }
 
     [global::ProtoBuf.ProtoContract()]

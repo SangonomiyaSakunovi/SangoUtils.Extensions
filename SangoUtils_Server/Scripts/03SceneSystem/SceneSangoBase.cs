@@ -31,7 +31,7 @@ namespace SangoUtils_Server_App
                     //Vector3Message scale = new(packController.AOIEntityEnterPacks[i].Transform.Scale.X, packController.AOIEntityEnterPacks[i].Transform.Scale.Y, packController.AOIEntityEnterPacks[i].Transform.Scale.Z);
 
                     //TransformMessage transformInfo = new(position, rotation, scale);
-                    TransformMessage transformInfo = new();
+                    TransformFixedMessage transformInfo = new();
                     AOIViewEnterEntity enterEntity = new(packController.AOIEntityEnterPacks[i].EntityID, transformInfo);
                     message.AOIViewEnterEntitys.Add(enterEntity);
                 }
@@ -64,7 +64,7 @@ namespace SangoUtils_Server_App
                     //Vector3Message scale = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.X, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.Y, aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].Transform.Scale.Z);
 
                     //TransformMessage transformInfo = new(position, rotation, scale);
-                    TransformMessage transformInfo = new();
+                    TransformFixedMessage transformInfo = new();
                     AOIViewEnterEntity enterEntity = new(aoiCellOperationUpdatePacks.AOIEntityEnterPacks[i].EntityID, transformInfo);
                     message.AOIViewEnterEntitys.Add(enterEntity);
                 }
@@ -78,7 +78,7 @@ namespace SangoUtils_Server_App
                     //Vector3Message scale = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.X, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.Y, aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].Transform.Scale.Z);
 
                     //TransformMessage transformInfo = new(position, rotation, scale);
-                    TransformMessage transformInfo = new();
+                    TransformFixedMessage transformInfo = new();
                     AOIViewMoveEntity moveEntity = new(aoiCellOperationUpdatePacks.AOIEntityMovePacks[j].EntityID, transformInfo);
                     message.AOIViewMoveEntitys.Add(moveEntity);
                 }

@@ -1,14 +1,18 @@
 ﻿using System;
+using System.Text;
 
 namespace SangoUtils_Event
 {
     public class EventService
     {
-        private EventListenerHandler _eventHandler;
+        private EventListenerHandler _listenerHandler;
+        private EventCallBackHandler _callBackHandler;
 
         private static EventService? _instance;
 
-        public Action<string>? LogErrorFunc;
+        private StringBuilder _sb;
+
+        public Action<string>? LogErrorFunc { get; set; }
 
         public static EventService Instance
         {
@@ -24,20 +28,25 @@ namespace SangoUtils_Event
 
         public void OnInit()
         {
-            _eventHandler = new EventListenerHandler();
-            _eventHandler.Init();
+            _listenerHandler = new EventListenerHandler();
+            _listenerHandler.Init();
+            _callBackHandler = new EventCallBackHandler();
+            _callBackHandler.Init();
+
+            _sb = new StringBuilder();
         }
 
         public void OnUpdate()
         {
-            _eventHandler.UpdateEventListenerQueue();
+            _listenerHandler.UpdateEventListenerQueue();
         }
 
         public void OnDispose()
         {
-            _eventHandler.Clear();
+            _listenerHandler.Clear();
         }
 
+        #region EventListener
         public void AddEventListener<T>(Action<IEventMessageBase> eventMessage) where T : IEventMessageBase
         {
             Type eventType = typeof(T);
@@ -47,7 +56,7 @@ namespace SangoUtils_Event
 
         public void AddEventListener(int eventId, Action<IEventMessageBase> eventMessage)
         {
-            _eventHandler.AddEventMessageListener(eventId, eventMessage);
+            _listenerHandler.AddEventMessageListener(eventId, eventMessage);
         }
 
         public void RemoveEventListener<T>() where T : IEventMessageBase
@@ -59,22 +68,66 @@ namespace SangoUtils_Event
 
         public void RemoveEventListener(int eventId)
         {
-            _eventHandler.RemoveEventMessageListenerByEventId(eventId);
+            _listenerHandler.RemoveEventMessageListenerByEventId(eventId);
         }
 
         public void RemoveTargetListener(object target)
         {
-            _eventHandler.RemoveEventMessageListenerByTarget(target);
+            _listenerHandler.RemoveEventMessageListenerByTarget(target);
         }
 
         public void SendEventMessage(IEventMessageBase eventMessage)
         {
-            _eventHandler.SendEventMessage(eventMessage);
+            _listenerHandler.SendEventMessage(eventMessage);
         }
 
         public void PostEventMessage(IEventMessageBase eventMessage)
         {
-            _eventHandler.SendEventMessageAsync(eventMessage);
+            _listenerHandler.SendEventMessageAsync(eventMessage);
         }
+        #endregion
+
+        #region EventCallBack
+        public void AddEventCallBack<T>(Action<string> cb, out string eventId) where T : class
+        {
+            Type eventType = typeof(T);
+            string className = eventType.Name;
+            string cbName = cb.Method.Name;
+            _sb.Append(className);
+            _sb.Append("_");
+            _sb.Append(cbName);
+            eventId = _sb.ToString();
+            _sb.Clear();
+            AddEventCallBack(eventId, cb);
+        }
+
+        public void AddEventCallBack(string eventId, Action<string> cb)
+        {
+            _callBackHandler.AddEventCallBack(eventId, cb);
+        }
+
+        public void RemoveEventCallBack<T>(Action<string> cb) where T : class
+        {
+            Type eventType = typeof(T);
+            string className = eventType.Name;
+            string cbName = cb.Method.Name;
+            _sb.Append(className);
+            _sb.Append("_");
+            _sb.Append(cbName);
+            string eventId = _sb.ToString();
+            _sb.Clear();
+            RemoveEventCallBack(eventId);
+        }
+
+        public void RemoveEventCallBack(string eventId)
+        {
+            _callBackHandler.RemoveEventCallBack(eventId);
+        }
+
+        public void InvokeEventCallBack(string eventId, string param)
+        {
+            _callBackHandler.InvokeEventCallBack(eventId, param);
+        }
+        #endregion
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SangoUtils_Event
 {
-    public class EventListenerHandler
+    internal class EventListenerHandler
     {
         private static readonly string _lock = "_eventMessageLock";
         private readonly Queue<IEventMessageBase> _eventMessageQueue = new Queue<IEventMessageBase>();

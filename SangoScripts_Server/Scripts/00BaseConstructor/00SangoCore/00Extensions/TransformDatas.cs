@@ -15,7 +15,7 @@ namespace SangoUtils_Server_Scripts
             Scale = scale;
         }
 
-        public TransformData(TransformMessage transform)
+        public TransformData(TransformFixedMessage transform)
         {
             Position = new(transform.Position.X, transform.Position.Y, transform.Position.Z);
             Rotation = new(transform.Rotation.X, transform.Rotation.Y, transform.Rotation.Z, transform.Rotation.W);

@@ -8,6 +8,7 @@ public class NetClientOperationHandler
     private readonly Dictionary<NetOperationCode, BaseNetRequest> _netRequestDict = new Dictionary<NetOperationCode, BaseNetRequest>();
     private readonly Dictionary<NetOperationCode, BaseNetEvent> _netEventDict = new Dictionary<NetOperationCode, BaseNetEvent>();
     private readonly Dictionary<NetOperationCode, BaseNetBroadcast> _netBroadcastDict = new Dictionary<NetOperationCode, BaseNetBroadcast>();
+    private readonly Dictionary<NetOperationCode, BaseNetUdpMessage> _netUdpMessagesDict = new Dictionary<NetOperationCode, BaseNetUdpMessage>();
 
     public void NetMessageCommandBroadcast(SangoNetMessage sangoNetMessage)
     {
@@ -26,6 +27,11 @@ public class NetClientOperationHandler
             case NetMessageCommandCode.NetBroadcast:
                 {
                     NetMessageBroadcastBroadcast(sangoNetMessage);
+                }
+                break;
+            case NetMessageCommandCode.NetUdpMessage:
+                {
+                    NetUdpMessageBroadcast(sangoNetMessage);
                 }
                 break;
         }
@@ -67,6 +73,19 @@ public class NetClientOperationHandler
         {
             _netBroadcastDict.TryGetValue(NetOperationCode.Default, out BaseNetBroadcast defaultNetBroadcast);
             defaultNetBroadcast?.OnBroadcast(sangoNetMessage.NetMessageBody.NetMessageStr);
+        }
+    }
+
+    private void NetUdpMessageBroadcast(SangoNetMessage sangoNetMessage)
+    {
+        if (_netUdpMessagesDict.TryGetValue(sangoNetMessage.NetMessageHead.NetOperationCode, out BaseNetUdpMessage netUdpMessage))
+        {
+            netUdpMessage.OnUdpMessage(sangoNetMessage.NetMessageBody.NetMessageStr);
+        }
+        else
+        {
+            _netUdpMessagesDict.TryGetValue(NetOperationCode.Default, out BaseNetUdpMessage defaultNetUdpMessage);
+            defaultNetUdpMessage?.OnUdpMessage(sangoNetMessage.NetMessageBody.NetMessageStr);
         }
     }
 
@@ -172,6 +191,42 @@ public class NetClientOperationHandler
         if (_netBroadcastDict.ContainsKey(netBroadcast.NetOperationCode))
         {
             _netBroadcastDict.Remove(netBroadcast.NetOperationCode);
+        }
+        else
+        {
+        }
+    }
+
+    public void AddNetUdpMessage(BaseNetUdpMessage netUdpMessage)
+    {
+        if (!_netUdpMessagesDict.ContainsKey(netUdpMessage.NetOperationCode))
+        {
+            _netUdpMessagesDict.Add(netUdpMessage.NetOperationCode, netUdpMessage);
+        }
+        else
+        {
+        }
+    }
+
+    public T GetNetUdpMessage<T>(NetOperationCode operationCode) where T : BaseNetUdpMessage, new()
+    {
+        if (_netUdpMessagesDict.ContainsKey(operationCode))
+        {
+            return (T)_netUdpMessagesDict[operationCode];
+        }
+        else
+        {
+            T netUdpMessage = Activator.CreateInstance<T>();
+            netUdpMessage.OnInit(operationCode, this);
+            return netUdpMessage;
+        }
+    }
+
+    public void RemoveNetUdpMessage(BaseNetUdpMessage netUdpMessage)
+    {
+        if (_netUdpMessagesDict.ContainsKey(netUdpMessage.NetOperationCode))
+        {
+            _netUdpMessagesDict.Remove(netUdpMessage.NetOperationCode);
         }
         else
         {

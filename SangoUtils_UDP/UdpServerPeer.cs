@@ -18,6 +18,9 @@ namespace SangoUtils_UDP
         private IPAddress _ipAddress;
         private int _port;
 
+        private UdpClient _udpServer;
+        private IPEndPoint _remotePoint;
+
         public UdpServerPeer(IPAddress udpSendIPAddress, int udpSendPort)
         {
             _ipAddress = udpSendIPAddress;
@@ -25,23 +28,29 @@ namespace SangoUtils_UDP
                                     
             SendPortId = udpSendPort;
             _dataType = typeof(T);
+
+            _udpServer = new UdpClient();
+            _remotePoint = new IPEndPoint(_ipAddress, _port);
+            _udpServer.Connect(_remotePoint);
         }
 
         public override void Send<K>(K message) where K : class
         {
-            IPEndPoint remotePoint = new IPEndPoint(_ipAddress, _port);
-            UdpClient? udpServer = new UdpClient();
+            
             if (typeof(T).Name == "String")
             {
                 string? data = message as string;
                 if (data != null)
                 {
                     byte[] bytes = Encoding.UTF8.GetBytes(data);
-                    udpServer.Send(bytes, bytes.Length, remotePoint);
-                    udpServer.Close();
-                    udpServer = null;
+                    _udpServer.Send(bytes, bytes.Length);
                 }
             }
+        }
+
+        public void Close()
+        {
+            _udpServer.Close();
         }
     }
 }

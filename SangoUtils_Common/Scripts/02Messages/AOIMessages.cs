@@ -1,5 +1,4 @@
-﻿using SangoUtils_Common.Messages;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace SangoUtils_Common.Messages
@@ -8,7 +7,7 @@ namespace SangoUtils_Common.Messages
     public class AOIReqMessage
     {
         public AOIReqMessage() { }
-        
+
         public AOIReqMessage(List<AOIActiveMoveEntity> aOIActiveMoveEntitys)
         {
             AOIActiveMoveEntitys = aOIActiveMoveEntitys;
@@ -21,7 +20,7 @@ namespace SangoUtils_Common.Messages
     public class AOIEventMessage
     {
         public AOIEventMessage() { }
-        
+
         public AOIEventMessage(List<AOIViewEnterEntity> aOIViewEnterEntitys, List<AOIViewMoveEntity> aOIViewMoveEntitys, List<AOIViewExitEntity> aOIViewExitEntitys)
         {
             AOIViewEnterEntitys = aOIViewEnterEntitys;
@@ -39,29 +38,29 @@ namespace SangoUtils_Common.Messages
     {
         public AOIActiveMoveEntity() { }
 
-        public AOIActiveMoveEntity(string entityID, TransformMessage transformInfo)
+        public AOIActiveMoveEntity(string entityID, TransformFixedMessage transformInfo)
         {
             EntityID = entityID;
             TransformInfo = transformInfo;
         }
 
         public string EntityID { get; set; } = "";
-        public TransformMessage TransformInfo { get; set; } = new TransformMessage();
+        public TransformFixedMessage TransformInfo { get; set; } = new TransformFixedMessage();
     }
 
     [Serializable]
     public class AOIViewEnterEntity
     {
         public AOIViewEnterEntity() { }
-        
-        public AOIViewEnterEntity(string entityID, TransformMessage transformInfo)
+
+        public AOIViewEnterEntity(string entityID, TransformFixedMessage transformInfo)
         {
             EntityID = entityID;
             TransformInfo = transformInfo;
         }
 
         public string EntityID { get; set; } = "";
-        public TransformMessage TransformInfo { get; set; } = new TransformMessage();
+        public TransformFixedMessage TransformInfo { get; set; } = new TransformFixedMessage();
     }
 
     [Serializable]
@@ -69,14 +68,14 @@ namespace SangoUtils_Common.Messages
     {
         public AOIViewMoveEntity() { }
 
-        public AOIViewMoveEntity(string entityID, TransformMessage transformInfo)
+        public AOIViewMoveEntity(string entityID, TransformFixedMessage transformInfo)
         {
             EntityID = entityID;
             TransformInfo = transformInfo;
         }
 
         public string EntityID { get; set; } = "";
-        public TransformMessage TransformInfo { get; set; } = new TransformMessage();
+        public TransformFixedMessage TransformInfo { get; set; } = new TransformFixedMessage();
     }
 
     [Serializable]
