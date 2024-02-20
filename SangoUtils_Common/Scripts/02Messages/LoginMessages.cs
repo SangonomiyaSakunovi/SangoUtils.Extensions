@@ -34,6 +34,7 @@ namespace SangoUtils_Common.Messages
         public string EntityID { get; set; } = "";
     }
 
+    [Serializable]
     public enum LoginMode
     {
         None,
@@ -41,6 +42,7 @@ namespace SangoUtils_Common.Messages
         UIDAndPassword
     }
 
+    [Serializable]
     public enum LoginResCode
     {
         None,

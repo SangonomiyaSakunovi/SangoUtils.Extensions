@@ -12,8 +12,8 @@ namespace SangoUtils_Server_Scripts.Net
         {
             base.OnInit();
 
-            string iPAddress = "127.0.0.1";
-            int port = 52037;
+            string iPAddress = "192.168.3.55";
+            int port = 52517;
             int maxConnectCount = 10000;
             InitClientInstance(iPAddress, port, maxConnectCount);
             SangoLogger.Done("SangoServer is Run!");

@@ -19,3 +19,5 @@ I:\SangoUtils\SangoUtils_Server\TestConsole\obj\Debug\net8.0\refint\TestConsole.
 I:\SangoUtils\SangoUtils_Server\TestConsole\obj\Debug\net8.0\TestConsole.pdb
 I:\SangoUtils\SangoUtils_Server\TestConsole\obj\Debug\net8.0\TestConsole.genruntimeconfig.cache
 I:\SangoUtils\SangoUtils_Server\TestConsole\obj\Debug\net8.0\ref\TestConsole.dll
+I:\SangoUtils\SangoUtils_Server\TestConsole\bin\Debug\net8.0\SangoUtils_Socket.dll
+I:\SangoUtils\SangoUtils_Server\TestConsole\bin\Debug\net8.0\SangoUtils_Socket.pdb

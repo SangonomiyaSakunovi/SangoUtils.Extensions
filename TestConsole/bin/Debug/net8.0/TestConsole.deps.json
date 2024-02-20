@@ -9,6 +9,7 @@
       "TestConsole/1.0.0": {
         "dependencies": {
           "SangoUtils_NetAdapter": "1.0.0",
+          "SangoUtils_Socket": "1.0.0",
           "SangoUtils_UDP": "1.0.0"
         },
         "runtime": {
@@ -24,6 +25,11 @@
       "SangoUtils_NetAdapter/1.0.0": {
         "runtime": {
           "SangoUtils_NetAdapter.dll": {}
+        }
+      },
+      "SangoUtils_Socket/1.0.0": {
+        "runtime": {
+          "SangoUtils_Socket.dll": {}
         }
       },
       "SangoUtils_UDP/1.0.0": {
@@ -57,6 +63,11 @@
       "hashPath": "system.text.json.8.0.1.nupkg.sha512"
     },
     "SangoUtils_NetAdapter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SangoUtils_Socket/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

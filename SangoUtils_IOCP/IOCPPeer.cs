@@ -112,10 +112,10 @@ namespace SangoUtils_IOCP
             _socket.Bind(point);
             _socket.Listen(_backLog);
             IOCPLogger.Done("IOCPServer is Init");
-            OnAccept();
+            AsyncAccept();
         }
 
-        private void OnAccept()
+        private void AsyncAccept()
         {
             if (_acceptSeamaphore != null && _socket != null)
             {
@@ -150,7 +150,7 @@ namespace SangoUtils_IOCP
                     peer.OnClientPeerClosed = RecycleClientPeerPool;
                     IOCPLogger.Done("Client Online, allocate ClientId:{0}", peer.PeerId);
                 }
-                OnAccept();
+                AsyncAccept();
             }
             else
             {

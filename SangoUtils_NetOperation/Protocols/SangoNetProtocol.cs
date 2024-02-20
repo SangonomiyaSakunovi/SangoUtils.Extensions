@@ -59,11 +59,12 @@ namespace SangoNetProtol
     [global::ProtoBuf.ProtoContract()]
     public enum NetMessageCommandCode
     {
-        NetOperationRequest = 1,
-        NetOperationResponse = 2,
-        NetEventData = 3,
-        NetBroadcast = 4,
-        NetUdpMessage = 5,
+        Default = 1,
+        NetOperationRequest = 2,
+        NetOperationResponse = 3,
+        NetEventData = 4,
+        NetBroadcast = 5,
+        NetUdpMessage = 6,
     }
 
     [global::ProtoBuf.ProtoContract()]
@@ -83,8 +84,9 @@ namespace SangoNetProtol
     [global::ProtoBuf.ProtoContract()]
     public enum NetReturnCode
     {
-        Succeed = 1,
-        Failed = 2,
+        Default = 1,
+        Succeed = 2,
+        Failed = 3,
     }
 
     [global::ProtoBuf.ProtoContract()]

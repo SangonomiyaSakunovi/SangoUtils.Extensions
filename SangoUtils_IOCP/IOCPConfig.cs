@@ -1,6 +1,6 @@
 namespace SangoUtils_IOCP
 {
-    public class IOCPConfig
+    internal class IOCPConfig
     {
         public const int ServerMaxConnectCount = 10000;
         public const int ServerBackLogCount = 100;

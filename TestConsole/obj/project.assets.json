@@ -53,6 +53,16 @@
           "bin/placeholder/SangoUtils_NetAdapter.dll": {}
         }
       },
+      "SangoUtils_Socket/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SangoUtils_Socket.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SangoUtils_Socket.dll": {}
+        }
+      },
       "SangoUtils_UDP/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -182,6 +192,11 @@
       "path": "../SangoUtils_NetAdapter/SangoUtils_NetAdapter.csproj",
       "msbuildProject": "../SangoUtils_NetAdapter/SangoUtils_NetAdapter.csproj"
     },
+    "SangoUtils_Socket/1.0.0": {
+      "type": "project",
+      "path": "../SangoUtils_Socket/SangoUtils_Socket.csproj",
+      "msbuildProject": "../SangoUtils_Socket/SangoUtils_Socket.csproj"
+    },
     "SangoUtils_UDP/1.0.0": {
       "type": "project",
       "path": "../SangoUtils_UDP/SangoUtils_UDP.csproj",
@@ -191,6 +206,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "SangoUtils_NetAdapter >= 1.0.0",
+      "SangoUtils_Socket >= 1.0.0",
       "SangoUtils_UDP >= 1.0.0"
     ]
   },
@@ -230,6 +246,9 @@
             "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj": {
               "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj"
             },
+            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj": {
+              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj"
+            },
             "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj": {
               "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj"
             }
@@ -261,7 +280,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

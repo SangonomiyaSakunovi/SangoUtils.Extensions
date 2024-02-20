@@ -185,38 +185,6 @@
           }
         }
       },
-      "protobuf-net/3.2.30": {
-        "type": "package",
-        "dependencies": {
-          "protobuf-net.Core": "3.2.30"
-        },
-        "compile": {
-          "lib/net6.0/protobuf-net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/protobuf-net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "protobuf-net.Core/3.2.30": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections.Immutable": "7.0.0"
-        },
-        "compile": {
-          "lib/net6.0/protobuf-net.Core.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/protobuf-net.Core.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "SharpCompress/0.30.1": {
         "type": "package",
         "compile": {
@@ -246,22 +214,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Collections.Immutable/7.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Memory/4.5.5": {
@@ -386,8 +338,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "System.Text.Json": "8.0.0",
-          "protobuf-net": "3.2.30"
+          "System.Text.Json": "8.0.0"
         },
         "compile": {
           "bin/placeholder/SangoUtils_Common.dll": {}
@@ -653,46 +604,6 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-    "protobuf-net/3.2.30": {
-      "sha512": "C/UTlmxEJHAHpqm8xQK1UyJKaIynVCSNG4mVrbLgnZ7ccH28nN49O8iMJvKEodTgVbnimvy+3mIiAdW6mATwnw==",
-      "type": "package",
-      "path": "protobuf-net/3.2.30",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net462/protobuf-net.dll",
-        "lib/net462/protobuf-net.xml",
-        "lib/net6.0/protobuf-net.dll",
-        "lib/net6.0/protobuf-net.xml",
-        "lib/netstandard2.0/protobuf-net.dll",
-        "lib/netstandard2.0/protobuf-net.xml",
-        "lib/netstandard2.1/protobuf-net.dll",
-        "lib/netstandard2.1/protobuf-net.xml",
-        "protobuf-net.3.2.30.nupkg.sha512",
-        "protobuf-net.nuspec",
-        "protobuf-net.png"
-      ]
-    },
-    "protobuf-net.Core/3.2.30": {
-      "sha512": "v2ZxxYrz+X212ukSx+uqkLuPu414bvmSAnTyf+PBUKR9ENJxO4P/csorA/27456MCp1JNoMssDj/f91RDiwBfQ==",
-      "type": "package",
-      "path": "protobuf-net.core/3.2.30",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net462/protobuf-net.Core.dll",
-        "lib/net462/protobuf-net.Core.xml",
-        "lib/net6.0/protobuf-net.Core.dll",
-        "lib/net6.0/protobuf-net.Core.xml",
-        "lib/netstandard2.0/protobuf-net.Core.dll",
-        "lib/netstandard2.0/protobuf-net.Core.xml",
-        "lib/netstandard2.1/protobuf-net.Core.dll",
-        "lib/netstandard2.1/protobuf-net.Core.xml",
-        "protobuf-net.core.3.2.30.nupkg.sha512",
-        "protobuf-net.core.nuspec",
-        "protobuf-net.png"
-      ]
-    },
     "SharpCompress/0.30.1": {
       "sha512": "XqD4TpfyYGa7QTPzaGlMVbcecKnXy4YmYLDWrU+JIj7IuRNl7DH2END+Ll7ekWIY8o3dAMWLFDE1xdhfIWD1nw==",
       "type": "package",
@@ -758,34 +669,6 @@
         "system.buffers.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "System.Collections.Immutable/7.0.0": {
-      "sha512": "dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
-      "type": "package",
-      "path": "system.collections.immutable/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "README.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Collections.Immutable.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Collections.Immutable.targets",
-        "lib/net462/System.Collections.Immutable.dll",
-        "lib/net462/System.Collections.Immutable.xml",
-        "lib/net6.0/System.Collections.Immutable.dll",
-        "lib/net6.0/System.Collections.Immutable.xml",
-        "lib/net7.0/System.Collections.Immutable.dll",
-        "lib/net7.0/System.Collections.Immutable.xml",
-        "lib/netstandard2.0/System.Collections.Immutable.dll",
-        "lib/netstandard2.0/System.Collections.Immutable.xml",
-        "system.collections.immutable.7.0.0.nupkg.sha512",
-        "system.collections.immutable.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "System.Memory/4.5.5": {
@@ -1176,7 +1059,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

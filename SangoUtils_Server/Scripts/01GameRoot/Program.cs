@@ -8,7 +8,7 @@ Task.Run(() =>
     while (true)
     {
         SangoServerRoot.Instance.Update();
-        Thread.Sleep(18);
+        Thread.Sleep(10);
     }
 });
 

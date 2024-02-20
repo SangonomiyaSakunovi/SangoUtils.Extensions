@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace SangoUtils_Common.Utils
+namespace SangoUtils_NetOperation
 {
     public static class ProtoUtils
     {

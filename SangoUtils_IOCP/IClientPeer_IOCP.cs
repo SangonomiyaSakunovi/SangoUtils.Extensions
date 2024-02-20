@@ -16,7 +16,7 @@ namespace SangoUtils_IOCP
         private bool _isWrite = false;
 
         public Action<int>? OnClientPeerClosed { get; set; }
-        protected ConnectionStateCode _connectionState = ConnectionStateCode.None;
+        internal ConnectionStateCode _connectionState = ConnectionStateCode.None;
 
         public IClientPeer_IOCP()
         {
@@ -31,21 +31,21 @@ namespace SangoUtils_IOCP
 
         protected abstract void OnBinary(byte[] byteMessages);
 
-        public void Init(Socket skt)
+        internal void Init(Socket skt)
         {
             IOCPLogger.Info("Init Client Peer, starting Recieve Async.");
             _socket = skt;
             _connectionState = ConnectionStateCode.Connected;
             OnOpen();
-            OnReceiveAsync();
+            AsyncReceive();
         }
 
-        private void OnReceiveAsync()
+        private void AsyncReceive()
         {
             if (_socket != null)
             {
-                bool isConnetWaiting = _socket.ReceiveAsync(_receiveAsyncEventArgs);
-                if (isConnetWaiting == false)
+                bool isReceiveWaiting = _socket.ReceiveAsync(_receiveAsyncEventArgs);
+                if (isReceiveWaiting == false)
                 {
                     ProcessReceive();
                 }
@@ -54,7 +54,7 @@ namespace SangoUtils_IOCP
 
         private void ProcessReceive()
         {
-            if (_receiveAsyncEventArgs.BytesTransferred > 0 && _receiveAsyncEventArgs.SocketError == SocketError.Success)
+            if (_receiveAsyncEventArgs.SocketError == SocketError.Success && _receiveAsyncEventArgs.BytesTransferred > 0)
             {
                 byte[] bytes = new byte[_receiveAsyncEventArgs.BytesTransferred];
                 if (_receiveAsyncEventArgs.Buffer != null)
@@ -63,7 +63,7 @@ namespace SangoUtils_IOCP
                     _readList.AddRange(bytes);
                 }
                 ProcessByteList();
-                OnReceiveAsync();
+                AsyncReceive();
             }
             else
             {
@@ -185,7 +185,7 @@ namespace SangoUtils_IOCP
         }
     }
 
-    public enum ConnectionStateCode
+    internal enum ConnectionStateCode
     {
         None,
         Disconnected,

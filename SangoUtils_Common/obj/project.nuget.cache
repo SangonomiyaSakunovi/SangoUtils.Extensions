@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jKydlFiV8jBXWsLQaQPQ4cWYI5SKtRw5bgAALVVjIV9Hvxr+YTrEpqaF7BHSM8oxvjCmOudWMVYmeMQ/jZAuBw==",
+  "dgSpecHash": "x42IjOOYEJ/+iZjlSV7NR6tVajtYUoDvmJQyNIiYjIRodnsww4n68w+FE2mmmEBj62RcDzvyJo/ZC4uq7w7EVA==",
   "success": true,
   "projectFilePath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils_Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\protobuf-net\\3.2.30\\protobuf-net.3.2.30.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\protobuf-net.core\\3.2.30\\protobuf-net.core.3.2.30.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

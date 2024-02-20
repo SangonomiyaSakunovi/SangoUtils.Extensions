@@ -9,8 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "SangoUtils_Common/1.0.0": {
         "dependencies": {
-          "System.Text.Json": "8.0.0",
-          "protobuf-net": "3.2.30"
+          "System.Text.Json": "8.0.0"
         },
         "runtime": {
           "SangoUtils_Common.dll": {}
@@ -24,45 +23,11 @@
           }
         }
       },
-      "protobuf-net/3.2.30": {
-        "dependencies": {
-          "protobuf-net.Core": "3.2.30"
-        },
-        "runtime": {
-          "lib/netstandard2.1/protobuf-net.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.2.30.709"
-          }
-        }
-      },
-      "protobuf-net.Core/3.2.30": {
-        "dependencies": {
-          "System.Collections.Immutable": "7.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/protobuf-net.Core.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.2.30.709"
-          }
-        }
-      },
       "System.Buffers/4.5.1": {
         "runtime": {
           "lib/netstandard2.0/System.Buffers.dll": {
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "4.6.28619.1"
-          }
-        }
-      },
-      "System.Collections.Immutable/7.0.0": {
-        "dependencies": {
-          "System.Memory": "4.5.5",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
           }
         }
       },
@@ -150,33 +115,12 @@
       "path": "microsoft.bcl.asyncinterfaces/8.0.0",
       "hashPath": "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512"
     },
-    "protobuf-net/3.2.30": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-C/UTlmxEJHAHpqm8xQK1UyJKaIynVCSNG4mVrbLgnZ7ccH28nN49O8iMJvKEodTgVbnimvy+3mIiAdW6mATwnw==",
-      "path": "protobuf-net/3.2.30",
-      "hashPath": "protobuf-net.3.2.30.nupkg.sha512"
-    },
-    "protobuf-net.Core/3.2.30": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-v2ZxxYrz+X212ukSx+uqkLuPu414bvmSAnTyf+PBUKR9ENJxO4P/csorA/27456MCp1JNoMssDj/f91RDiwBfQ==",
-      "path": "protobuf-net.core/3.2.30",
-      "hashPath": "protobuf-net.core.3.2.30.nupkg.sha512"
-    },
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
-    },
-    "System.Collections.Immutable/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
-      "path": "system.collections.immutable/7.0.0",
-      "hashPath": "system.collections.immutable.7.0.0.nupkg.sha512"
     },
     "System.Memory/4.5.5": {
       "type": "package",

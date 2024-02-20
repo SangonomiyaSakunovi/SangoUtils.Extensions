@@ -41,6 +41,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Extensions_Unive
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Converter", "SangoUtils_Converter\SangoUtils_Converter.csproj", "{08EED031-E32B-41A3-A37F-54BEA11E6FE7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Socket", "SangoUtils_Socket\SangoUtils_Socket.csproj", "{9D779539-AFDD-4072-B756-529E30F69C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_NetOperation_Classic", "SangoUtils_NetOperation_Classic\SangoUtils_NetOperation_Classic.csproj", "{34666924-FE30-4A87-AAB4-159377087B4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D779539-AFDD-4072-B756-529E30F69C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D779539-AFDD-4072-B756-529E30F69C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D779539-AFDD-4072-B756-529E30F69C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D779539-AFDD-4072-B756-529E30F69C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34666924-FE30-4A87-AAB4-159377087B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34666924-FE30-4A87-AAB4-159377087B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34666924-FE30-4A87-AAB4-159377087B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34666924-FE30-4A87-AAB4-159377087B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

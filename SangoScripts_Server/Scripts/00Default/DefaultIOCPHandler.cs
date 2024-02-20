@@ -7,7 +7,7 @@ namespace SangoUtils_Server_Scripts
     {
         public override void OnOperationRequest(string message, IOCPClientPeer peer)
         {
-            SangoLogger.Error("A strange message Received.");
+            SangoLogger.Error("A strange message Received: "+ message);
         }
     }
 }
