@@ -13,11 +13,11 @@ namespace SangoUtils_Socket.TCP
         private int _backLog = Socket_TCPConfig.ServerBackLogCount;
         private int _maxConnectCount = Socket_TCPConfig.ServerMaxConnectCount;
 
-        private Semaphore? _acceptSeamaphore;
-        private Socket_TCP_ClientPeerPool<T>? _peerPool;
+        private Semaphore _acceptSeamaphore;
+        private Socket_TCP_ClientPeerPool<T> _peerPool;
         private ConcurrentDictionary<int, T> _peerDict;
 
-        private Socket? _socket;
+        private Socket _socket;
         private IPEndPoint _serverEndPoint;
 
         private SocketAsyncEventArgs _connectToClientSAEA;

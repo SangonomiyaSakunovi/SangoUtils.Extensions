@@ -7,9 +7,9 @@ namespace SangoUtils_Socket.TCP
 {
     public class Socket_TCP_Peer_Client
     {
-        public Action<string>? OnMessage;
+        public Action<string> OnMessage;
 
-        private Socket? _socket;
+        private Socket _socket;
 
         private string _ipAddressServer;
         private int _portServer;
@@ -90,7 +90,7 @@ namespace SangoUtils_Socket.TCP
                 return;
             }
 
-            Socket? socket = sender as Socket;
+            Socket socket = sender as Socket;
             if (socket != null)
             {
                 string ipAddressServer = socket.RemoteEndPoint.ToString();
@@ -104,7 +104,7 @@ namespace SangoUtils_Socket.TCP
         {
             if (socketAsyncEventArgs.SocketError != SocketError.Success) return;
 
-            Socket? socket = sender as Socket;
+            Socket socket = sender as Socket;
             if (socket != null)
             {
                 string message = Encoding.Default.GetString(socketAsyncEventArgs.Buffer);
@@ -126,7 +126,7 @@ namespace SangoUtils_Socket.TCP
                     string message = System.Text.Encoding.Default.GetString(bytes);
                     OnMessage?.Invoke(message);
                 }
-                Socket? socket = sender as Socket;
+                Socket socket = sender as Socket;
                 if (socket != null)
                 {
                     socket.ReceiveAsync(socketAsyncEventArgs);

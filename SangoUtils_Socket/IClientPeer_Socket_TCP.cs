@@ -10,13 +10,13 @@ namespace SangoUtils_Socket.TCP
         private SocketAsyncEventArgs _sendToClientSAEA;
         private SocketAsyncEventArgs _receiveFromClientSAEA;
 
-        private Socket? _socket;
+        private Socket _socket;
 
         protected abstract void OnConnected();
         protected abstract void OnMessage(string message);
         protected abstract void OnClosed();
 
-        internal Action<int>? OnClientPeerResourcesCleaned { get; set; }
+        internal Action<int> OnClientPeerResourcesCleaned { get; set; }
 
         internal ConnectionStateCode _connectionState = ConnectionStateCode.None;
 
@@ -51,7 +51,7 @@ namespace SangoUtils_Socket.TCP
         {
             if (socketAsyncEventArgs.SocketError != SocketError.Success) return;
 
-            Socket? socket = sender as Socket;
+            Socket socket = sender as Socket;
             if (socket != null)
             {
                 string message = Encoding.Default.GetString(socketAsyncEventArgs.Buffer);
@@ -62,7 +62,7 @@ namespace SangoUtils_Socket.TCP
         private void OnReceiveFromClientCompleted(object sender, SocketAsyncEventArgs socketAsyncEventArgs)
         {
             if (socketAsyncEventArgs.SocketError == SocketError.OperationAborted) { SocketLogger.Warning("Abortion!!!!"); return; }
-            Socket? socket = sender as Socket;
+            Socket socket = sender as Socket;
             if (socketAsyncEventArgs.SocketError == SocketError.Success && socketAsyncEventArgs.BytesTransferred > 0)
             {
                 //string ipAddress = socketAsyncEventArgs.RemoteEndPoint.ToString();
