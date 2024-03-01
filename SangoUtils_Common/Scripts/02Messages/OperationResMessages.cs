@@ -48,19 +48,19 @@ namespace SangoUtils_Common.Messages
 
         public string EntityID_Controller { get; set; } = "";
         public string EntityID_BeControlled { get; set; } = "";
-        public OperationResType OperationResType { get; set; } = OperationResType.None;
+        public OperationResType OperationResType { get; set; } = OperationResType.Default;
         public string OperationString { get; set; } = "";
     }
 
     [Serializable]
     public enum OperationResType
     {
-        None,
-        Move,
-        Rotate,
-        Zoom,
-        Trans,
-        ButtonClicked,
-        ToggleValueChanged,
+        Default = 1,
+        Move = 2,
+        Rotate = 3,
+        Zoom = 4,
+        Trans = 5,
+        ButtonClicked = 6,
+        ToggleValueChanged = 7,
     }
 }

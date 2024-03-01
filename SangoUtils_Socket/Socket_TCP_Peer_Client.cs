@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -19,6 +20,10 @@ namespace SangoUtils_Socket.TCP
         private SocketAsyncEventArgs _sendToServerSAEA;
         private SocketAsyncEventArgs _receiveFromServerSAEA;
 
+        private ConcurrentQueue<byte[]> _sendMessageQueue;
+        private ConcurrentQueue<byte[]> _receiveMessageQueue;
+
+        private bool _isWaittingSendRes = false;
         private bool _isNeedReconnect = false;
 
         public void OpenAsConsoleClient(string ip, int port)
@@ -49,11 +54,23 @@ namespace SangoUtils_Socket.TCP
         public void Send(string message)
         {
             byte[] bytes = System.Text.Encoding.Default.GetBytes(message);
+            ProcessingSend(bytes);
+        }
 
-            _sendToServerSAEA.SetBuffer(bytes, 0, bytes.Length);
+        private void ProcessingSend(byte[] bytes)
+        {
             if (_socket != null)
             {
-                _socket.SendAsync(_sendToServerSAEA);
+                if (_isWaittingSendRes)
+                {
+                    _sendMessageQueue.Enqueue(bytes);
+                }
+                else
+                {
+                    _sendToServerSAEA.SetBuffer(bytes, 0, bytes.Length);
+                    _isWaittingSendRes = true;
+                    _socket.SendAsync(_sendToServerSAEA);
+                }
             }
         }
 
@@ -78,6 +95,9 @@ namespace SangoUtils_Socket.TCP
             _receiveFromServerSAEA.SetBuffer(new byte[Socket_TCPConfig.ServerBufferCount], 0, Socket_TCPConfig.ServerBufferCount);
             _receiveFromServerSAEA.Completed += OnReceiveFromServerCompleted;
             _receiveFromServerSAEA.RemoteEndPoint = _serverEndPoint;
+
+            _sendMessageQueue = new ConcurrentQueue<byte[]>();
+            _receiveMessageQueue = new ConcurrentQueue<byte[]>();
 
             _socket.ConnectAsync(_connetToServerSAEA);
         }
@@ -110,6 +130,15 @@ namespace SangoUtils_Socket.TCP
                 string message = Encoding.Default.GetString(socketAsyncEventArgs.Buffer);
                 SocketLogger.Info("Client : Send message" + message + "to Serer" + socket.RemoteEndPoint.ToString());
             }
+
+            _isWaittingSendRes = false;
+            if (_sendMessageQueue.Count > 0)
+            {
+                if (_sendMessageQueue.TryDequeue(out byte[] message))
+                {
+                    ProcessingSend(message);
+                }
+            }
         }
 
         private void OnReceiveFromServerCompleted(object sender, SocketAsyncEventArgs socketAsyncEventArgs)
@@ -123,14 +152,15 @@ namespace SangoUtils_Socket.TCP
                 if (socketAsyncEventArgs.Buffer != null)
                 {
                     Buffer.BlockCopy(socketAsyncEventArgs.Buffer, 0, bytes, 0, socketAsyncEventArgs.BytesTransferred);
-                    string message = System.Text.Encoding.Default.GetString(bytes);
-                    OnMessage?.Invoke(message);
+                    _receiveMessageQueue.Enqueue(bytes);
                 }
                 Socket socket = sender as Socket;
                 if (socket != null)
                 {
                     socket.ReceiveAsync(socketAsyncEventArgs);
                 }
+
+                ProcessingReceive();
             }
             else if (socketAsyncEventArgs.BytesTransferred == 0)
             {
@@ -146,6 +176,19 @@ namespace SangoUtils_Socket.TCP
                 CleanResources();
             }
 
+        }
+
+        private void ProcessingReceive()
+        {
+            if (_receiveMessageQueue.Count > 0)
+            {
+                if (_receiveMessageQueue.TryDequeue(out byte[] bytes))
+                {
+                    string message = System.Text.Encoding.Default.GetString(bytes);
+                    OnMessage?.Invoke(message);
+                }
+            }
+            ProcessingReceive();
         }
 
         private void DisConnect()

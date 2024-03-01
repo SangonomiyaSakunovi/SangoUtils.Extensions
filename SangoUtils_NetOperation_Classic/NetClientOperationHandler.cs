@@ -6,31 +6,31 @@ namespace SangoUtils_NetOperation_Classic
 {
     public class NetClientOperationHandler
     {
-        private readonly Dictionary<NetOperationCode, BaseNetRequest> _netRequestDict = new Dictionary<NetOperationCode, BaseNetRequest>();
-        private readonly Dictionary<NetOperationCode, BaseNetEvent> _netEventDict = new Dictionary<NetOperationCode, BaseNetEvent>();
-        private readonly Dictionary<NetOperationCode, BaseNetBroadcast> _netBroadcastDict = new Dictionary<NetOperationCode, BaseNetBroadcast>();
-        private readonly Dictionary<NetOperationCode, BaseNetUdpMessage> _netUdpMessagesDict = new Dictionary<NetOperationCode, BaseNetUdpMessage>();
+        private readonly Dictionary<int, BaseNetRequest> _netRequestDict = new Dictionary<int, BaseNetRequest>();
+        private readonly Dictionary<int, BaseNetEvent> _netEventDict = new Dictionary<int, BaseNetEvent>();
+        private readonly Dictionary<int, BaseNetBroadcast> _netBroadcastDict = new Dictionary<int, BaseNetBroadcast>();
+        private readonly Dictionary<int, BaseNetUdpMessage> _netUdpMessagesDict = new Dictionary<int, BaseNetUdpMessage>();
 
         public void NetMessageCommandBroadcast(SangoNetMessage sangoNetMessage)
         {
             switch (sangoNetMessage.NetMessageHead.NetMessageCommandCode)
             {
-                case NetMessageCommandCode.NetOperationResponse:
+                case 2:
                     {
                         NetMessageResponsedBroadcast(sangoNetMessage);
                     }
                     break;
-                case NetMessageCommandCode.NetEventData:
+                case 4:
                     {
                         NetMessageEventBroadcast(sangoNetMessage);
                     }
                     break;
-                case NetMessageCommandCode.NetBroadcast:
+                case 5:
                     {
                         NetMessageBroadcastBroadcast(sangoNetMessage);
                     }
                     break;
-                case NetMessageCommandCode.NetUdpMessage:
+                case 6:
                     {
                         NetUdpMessageBroadcast(sangoNetMessage);
                     }
@@ -46,7 +46,7 @@ namespace SangoUtils_NetOperation_Classic
             }
             else
             {
-                _netRequestDict.TryGetValue(NetOperationCode.Default, out BaseNetRequest defaultNetRequest);
+                _netRequestDict.TryGetValue(1, out BaseNetRequest defaultNetRequest);
                 defaultNetRequest?.OnOperationResponse(sangoNetMessage.NetMessageBody.NetMessageStr);
             }
         }
@@ -59,7 +59,7 @@ namespace SangoUtils_NetOperation_Classic
             }
             else
             {
-                _netEventDict.TryGetValue(NetOperationCode.Default, out BaseNetEvent defaultNetEvent);
+                _netEventDict.TryGetValue(1, out BaseNetEvent defaultNetEvent);
                 defaultNetEvent?.OnEventData(sangoNetMessage.NetMessageBody.NetMessageStr);
             }
         }
@@ -72,7 +72,7 @@ namespace SangoUtils_NetOperation_Classic
             }
             else
             {
-                _netBroadcastDict.TryGetValue(NetOperationCode.Default, out BaseNetBroadcast defaultNetBroadcast);
+                _netBroadcastDict.TryGetValue(1, out BaseNetBroadcast defaultNetBroadcast);
                 defaultNetBroadcast?.OnBroadcast(sangoNetMessage.NetMessageBody.NetMessageStr);
             }
         }
@@ -85,7 +85,7 @@ namespace SangoUtils_NetOperation_Classic
             }
             else
             {
-                _netUdpMessagesDict.TryGetValue(NetOperationCode.Default, out BaseNetUdpMessage defaultNetUdpMessage);
+                _netUdpMessagesDict.TryGetValue(1, out BaseNetUdpMessage defaultNetUdpMessage);
                 defaultNetUdpMessage?.OnUdpMessage(sangoNetMessage.NetMessageBody.NetMessageStr);
             }
         }
@@ -101,7 +101,7 @@ namespace SangoUtils_NetOperation_Classic
             }
         }
 
-        public T GetNetRequest<T>(NetOperationCode operationCode) where T : BaseNetRequest, new()
+        public T GetNetRequest<T>(int operationCode) where T : BaseNetRequest, new()
         {
             if (_netRequestDict.ContainsKey(operationCode))
             {
@@ -137,7 +137,7 @@ namespace SangoUtils_NetOperation_Classic
             }
         }
 
-        public T GetNetEvent<T>(NetOperationCode operationCode) where T : BaseNetEvent, new()
+        public T GetNetEvent<T>(int operationCode) where T : BaseNetEvent, new()
         {
             if (_netEventDict.ContainsKey(operationCode))
             {
@@ -173,7 +173,7 @@ namespace SangoUtils_NetOperation_Classic
             }
         }
 
-        public T GetNetBroadcast<T>(NetOperationCode operationCode) where T : BaseNetBroadcast, new()
+        public T GetNetBroadcast<T>(int operationCode) where T : BaseNetBroadcast, new()
         {
             if (_netBroadcastDict.ContainsKey(operationCode))
             {
@@ -209,7 +209,7 @@ namespace SangoUtils_NetOperation_Classic
             }
         }
 
-        public T GetNetUdpMessage<T>(NetOperationCode operationCode) where T : BaseNetUdpMessage, new()
+        public T GetNetUdpMessage<T>(int operationCode) where T : BaseNetUdpMessage, new()
         {
             if (_netUdpMessagesDict.ContainsKey(operationCode))
             {

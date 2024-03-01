@@ -8,7 +8,7 @@ namespace SangoUtils_NetOperation_Classic
 
         public abstract void OnUdpMessage(string message);
 
-        public virtual void OnInit(NetOperationCode netOperationCode, NetClientOperationHandler handler)
+        public virtual void OnInit(int netOperationCode, NetClientOperationHandler handler)
         {
             NetOperationCode = netOperationCode;
             handler.AddNetUdpMessage(this);

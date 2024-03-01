@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {}
+    ".NETStandard,Version=v2.1": {
+      "SangoUtils_FSM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SangoUtils_FSM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SangoUtils_FSM.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SangoUtils_FSM/1.0.0": {
+      "type": "project",
+      "path": "../SangoUtils_FSM/SangoUtils_FSM.csproj",
+      "msbuildProject": "../SangoUtils_FSM/SangoUtils_FSM.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": []
+    ".NETStandard,Version=v2.1": [
+      "SangoUtils_FSM >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Administrator\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FSM\\SangoUtils_FSM.csproj": {
+              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FSM\\SangoUtils_FSM.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

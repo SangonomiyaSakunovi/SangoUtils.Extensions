@@ -24,14 +24,14 @@ namespace SangoNetProtocol_Classic
     {
         public NetMessageHead() { }
 
-        public NetMessageHead(NetMessageCommandCode netMessageCommandCode, NetOperationCode netOperationCode)
+        public NetMessageHead(int netMessageCommandCode, int netOperationCode)
         {
             NetMessageCommandCode = netMessageCommandCode;
             NetOperationCode = netOperationCode;
         }
 
-        public NetMessageCommandCode NetMessageCommandCode { get; set; } = NetMessageCommandCode.Default;
-        public NetOperationCode NetOperationCode { get; set; } = NetOperationCode.Default;
+        public int NetMessageCommandCode { get; set; } = 1;
+        public int NetOperationCode { get; set; } = 1;
     }
 
     [Serializable]
@@ -39,53 +39,41 @@ namespace SangoNetProtocol_Classic
     {
         public NetMessageBody() { }
 
-        public NetMessageBody(NetReturnCode netReturnCode, string netMessageStr)
+        public NetMessageBody(int netReturnCode, string netMessageStr)
         {
             NetReturnCode = netReturnCode;
             NetMessageStr = netMessageStr;
         }
 
-        public NetReturnCode NetReturnCode { get; set; } = NetReturnCode.Default;
+        public int NetReturnCode { get; set; } = 1;
         public string NetMessageStr { get; set; } = "";
     }
 
-    [Serializable]
-    public enum NetMessageCommandCode
-    {
-        Default = 1,
-        NetOperationRequest = 2,
-        NetOperationResponse = 3,
-        NetEventData = 4,
-        NetBroadcast = 5,
-        NetUdpMessage = 6
-    }
+    //NetMessageCommandCode
+        //Default = 1,
+        //NetOperationRequest = 2,
+        //NetOperationResponse = 3,
+        //NetEventData = 4,
+        //NetBroadcast = 5,
+        //NetUdpMessage = 6
 
-    [Serializable]
-    public enum NetOperationCode
-    {
-        Default = 1,
-        Ping = 2,
-        Login = 3,
-        Regist = 4,
-        Select = 5,
-        LoadResource = 6,
-        Aoi = 7,
-        OperationKey = 8,
-        OperationResult = 9
-    }
+    //NetOperationCode
+        //Default = 1,
+        //Ping = 2,
+        //Login = 3,
+        //Regist = 4,
+        //Select = 5,
+        //LoadResource = 6,
+        //Aoi = 7,
+        //OperationKey = 8,
+        //OperationResult = 9
 
-    [Serializable]
-    public enum NetReturnCode
-    {
-        Default = 1,
-        Succeed = 2,
-        Failed = 3
-    }
+    //NetReturnCode
+        //Default = 1,
+        //Succeed = 2,
+        //Failed = 3
 
-    [Serializable]
-    public enum NetErrorCode
-    {
-        UnKnown_Error = 1,
-        Server_Data_Error = 2
-    }
+    //NetErrorCode
+        //UnKnown_Error = 1,
+        //Server_Data_Error = 2
 }

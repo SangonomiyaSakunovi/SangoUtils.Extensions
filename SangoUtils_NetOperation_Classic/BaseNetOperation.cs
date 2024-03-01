@@ -6,7 +6,7 @@ namespace SangoUtils_NetOperation_Classic
 {
     public abstract class BaseNetOperation
     {
-        public NetOperationCode NetOperationCode { get; protected set; } = NetOperationCode.Default;
+        public int NetOperationCode { get; protected set; } = 1;
 
         protected static string ToJson(object obj)
         {

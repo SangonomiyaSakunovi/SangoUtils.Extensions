@@ -5,11 +5,24 @@
       "SangoUtils_FixedNum/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SangoUtils_FSM": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SangoUtils_FixedNum.dll": {}
         },
         "runtime": {
           "bin/placeholder/SangoUtils_FixedNum.dll": {}
+        }
+      },
+      "SangoUtils_FSM/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SangoUtils_FSM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SangoUtils_FSM.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../SangoUtils_FixedNum/SangoUtils_FixedNum.csproj",
       "msbuildProject": "../SangoUtils_FixedNum/SangoUtils_FixedNum.csproj"
+    },
+    "SangoUtils_FSM/1.0.0": {
+      "type": "project",
+      "path": "../SangoUtils_FSM/SangoUtils_FSM.csproj",
+      "msbuildProject": "../SangoUtils_FSM/SangoUtils_FSM.csproj"
     }
   },
   "projectFileDependencyGroups": {

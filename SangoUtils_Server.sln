@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Converter", "San
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Socket", "SangoUtils_Socket\SangoUtils_Socket.csproj", "{9D779539-AFDD-4072-B756-529E30F69C3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_NetOperation_Classic", "SangoUtils_NetOperation_Classic\SangoUtils_NetOperation_Classic.csproj", "{34666924-FE30-4A87-AAB4-159377087B4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_NetOperation_Classic", "SangoUtils_NetOperation_Classic\SangoUtils_NetOperation_Classic.csproj", "{34666924-FE30-4A87-AAB4-159377087B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_Common_Classic", "SangoUtils_Common_Classic\SangoUtils_Common_Classic.csproj", "{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{34666924-FE30-4A87-AAB4-159377087B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34666924-FE30-4A87-AAB4-159377087B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34666924-FE30-4A87-AAB4-159377087B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

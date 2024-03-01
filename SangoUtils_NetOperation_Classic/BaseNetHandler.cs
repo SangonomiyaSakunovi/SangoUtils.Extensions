@@ -8,7 +8,7 @@ namespace SangoUtils_NetOperation_Classic
 
         public abstract void OnOperationRequest(string message, BaseNetClientPeer peer);
 
-        public virtual void OnInit(NetOperationCode netOperationCode, NetServerOperationHandler handler)
+        public virtual void OnInit(int netOperationCode, NetServerOperationHandler handler)
         {
             NetOperationCode = netOperationCode;
             handler.AddNetHandler(this);

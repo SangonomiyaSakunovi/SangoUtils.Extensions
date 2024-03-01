@@ -6,7 +6,7 @@ namespace SangoUtils_NetOperation_Classic
     {
         protected abstract void DefaultOperationEvent(BaseNetClientPeer peer);
 
-        public virtual void OnInit(NetOperationCode netOperationCode, NetServerOperationHandler handler)
+        public virtual void OnInit(int netOperationCode, NetServerOperationHandler handler)
         {
             NetOperationCode = netOperationCode;
             handler.AddNetController(this);

@@ -6,20 +6,20 @@ namespace SangoUtils_NetOperation_Classic
 {
     public class NetServerOperationHandler
     {
-        private readonly Dictionary<NetOperationCode, BaseNetHandler> _netHandlerDict = new Dictionary<NetOperationCode, BaseNetHandler>();
-        private readonly Dictionary<NetOperationCode, BaseNetController> _netControllerDict = new Dictionary<NetOperationCode, BaseNetController>();
-        private readonly Dictionary<NetOperationCode, BaseNetClientBroadcast> _netClientBroadcastDict = new Dictionary<NetOperationCode, BaseNetClientBroadcast>();
+        private readonly Dictionary<int, BaseNetHandler> _netHandlerDict = new Dictionary<int, BaseNetHandler>();
+        private readonly Dictionary<int, BaseNetController> _netControllerDict = new Dictionary<int, BaseNetController>();
+        private readonly Dictionary<int, BaseNetClientBroadcast> _netClientBroadcastDict = new Dictionary<int, BaseNetClientBroadcast>();
 
         public void NetMessageCommandBroadcast(SangoNetMessage sangoNetMessage, BaseNetClientPeer peer)
         {
             switch (sangoNetMessage.NetMessageHead.NetMessageCommandCode)
             {
-                case NetMessageCommandCode.NetOperationRequest:
+                case 2:
                     {
                         NetRequestMessageBroadcast(sangoNetMessage, peer);
                     }
                     break;
-                case NetMessageCommandCode.NetBroadcast:
+                case 5:
                     {
                         NetMessageBroadcastBroadcast(sangoNetMessage, peer);
                     }
@@ -35,7 +35,7 @@ namespace SangoUtils_NetOperation_Classic
             }
             else
             {
-                _netHandlerDict.TryGetValue(NetOperationCode.Default, out BaseNetHandler? defaultNetHandler);
+                _netHandlerDict.TryGetValue(1, out BaseNetHandler? defaultNetHandler);
                 defaultNetHandler?.OnOperationRequest(sangoNetMessage.NetMessageBody.NetMessageStr, peer);
             }
         }
@@ -48,7 +48,7 @@ namespace SangoUtils_NetOperation_Classic
             }
             else
             {
-                _netClientBroadcastDict.TryGetValue(NetOperationCode.Default, out BaseNetClientBroadcast? defaultNetClientBroadcast);
+                _netClientBroadcastDict.TryGetValue(1, out BaseNetClientBroadcast? defaultNetClientBroadcast);
                 defaultNetClientBroadcast?.OnOperationClientBroadcast(sangoNetMessage.NetMessageBody.NetMessageStr, peer);
             }
         }
@@ -64,7 +64,7 @@ namespace SangoUtils_NetOperation_Classic
             }
         }
 
-        public T GetNetHandler<T>(NetOperationCode operationCode) where T : BaseNetHandler, new()
+        public T GetNetHandler<T>(int operationCode) where T : BaseNetHandler, new()
         {
             if (_netHandlerDict.ContainsKey(operationCode))
             {
@@ -100,7 +100,7 @@ namespace SangoUtils_NetOperation_Classic
             }
         }
 
-        public T GetNetController<T>(NetOperationCode operationCode) where T : BaseNetController, new()
+        public T GetNetController<T>(int operationCode) where T : BaseNetController, new()
         {
             if (_netControllerDict.ContainsKey(operationCode))
             {
@@ -136,7 +136,7 @@ namespace SangoUtils_NetOperation_Classic
             }
         }
 
-        public T GetNetClientBroadcast<T>(NetOperationCode operationCode) where T : BaseNetClientBroadcast, new()
+        public T GetNetClientBroadcast<T>(int operationCode) where T : BaseNetClientBroadcast, new()
         {
             if (_netClientBroadcastDict.ContainsKey(operationCode))
             {

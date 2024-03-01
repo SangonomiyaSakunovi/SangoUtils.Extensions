@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_Extensions_Universal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2da89d6a786106f873a060e1974d53a5a272bce3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f76c867ab7142015757dfd63e4d453f098f021")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_Extensions_Universal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_Extensions_Universal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

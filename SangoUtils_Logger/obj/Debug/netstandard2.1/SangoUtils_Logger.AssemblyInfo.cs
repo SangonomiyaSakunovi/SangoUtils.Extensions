@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_Logger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dca2bafe236d5d1cef9e3b7f36832cf8729908fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f76c867ab7142015757dfd63e4d453f098f021")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_Logger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_Logger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
