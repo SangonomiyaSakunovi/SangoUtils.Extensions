@@ -1,0 +1,566 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\SangoUtils\\SangoUtils_Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils_Bases_UnityEngine.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_bases_unityengine\\classes\\basepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils_Bases_UnityEngine.csproj|solutionrelative:sangoutils_bases_unityengine\\classes\\basepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_extensions_unityengine\\core\\eventlistener\\uilistener\\uielementextensions_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|solutionrelative:sangoutils_extensions_unityengine\\core\\eventlistener\\uilistener\\uielementextensions_image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_extensions_unityengine\\core\\eventlistener\\uilistener\\uielementextensions_tmptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|solutionrelative:sangoutils_extensions_unityengine\\core\\eventlistener\\uilistener\\uielementextensions_tmptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_extensions_unityengine\\core\\coroutine\\coroutinedriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|solutionrelative:sangoutils_extensions_unityengine\\core\\coroutine\\coroutinedriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_extensions_unityengine\\core\\coroutine\\coroutinehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|solutionrelative:sangoutils_extensions_unityengine\\core\\coroutine\\coroutinehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_extensions_unityengine\\core\\coroutine\\coroutines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|solutionrelative:sangoutils_extensions_unityengine\\core\\coroutine\\coroutines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_netoperation_classic\\netclientoperationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|solutionrelative:sangoutils_netoperation_classic\\netclientoperationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D779539-AFDD-4072-B756-529E30F69C3D}|SangoUtils_Socket\\SangoUtils_Socket.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_socket\\socket_tcp_peer_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D779539-AFDD-4072-B756-529E30F69C3D}|SangoUtils_Socket\\SangoUtils_Socket.csproj|solutionrelative:sangoutils_socket\\socket_tcp_peer_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_udp\\netudpeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|solutionrelative:sangoutils_udp\\netudpeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation\\basenetoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\basenetoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation\\basenetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\basenetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation\\basenetudpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\basenetudpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation\\inetclientoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\inetclientoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation\\netclientoperationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\netclientoperationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation\\basenetclientpeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\basenetclientpeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation\\basenetclientbroadcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\basenetclientbroadcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_netoperation_classic\\basenetclientpeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|solutionrelative:sangoutils_netoperation_classic\\basenetclientpeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_netoperation_classic\\basenetclientbroadcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|solutionrelative:sangoutils_netoperation_classic\\basenetclientbroadcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation_classic\\iudpclientoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|solutionrelative:sangoutils_netoperation_classic\\iudpclientoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation_classic\\inetclientoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|solutionrelative:sangoutils_netoperation_classic\\inetclientoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_netoperation_classic\\basenetudpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|solutionrelative:sangoutils_netoperation_classic\\basenetudpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D779539-AFDD-4072-B756-529E30F69C3D}|SangoUtils_Socket\\SangoUtils_Socket.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_socket\\iclientpeer_socket_tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D779539-AFDD-4072-B756-529E30F69C3D}|SangoUtils_Socket\\SangoUtils_Socket.csproj|solutionrelative:sangoutils_socket\\iclientpeer_socket_tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D779539-AFDD-4072-B756-529E30F69C3D}|SangoUtils_Socket\\SangoUtils_Socket.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_socket\\socket_tcp_peer_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D779539-AFDD-4072-B756-529E30F69C3D}|SangoUtils_Socket\\SangoUtils_Socket.csproj|solutionrelative:sangoutils_socket\\socket_tcp_peer_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_udp\\udpeventbaselistenportid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|solutionrelative:sangoutils_udp\\udpeventbaselistenportid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_udp\\udpdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|solutionrelative:sangoutils_udp\\udpdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_udp\\udpclientpeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CD4BE2-2C3F-4E92-8774-6F221F842452}|SangoUtils_UDP\\SangoUtils_UDP.csproj|solutionrelative:sangoutils_udp\\udpclientpeer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_netoperation_classic\\protocols\\sangonetprotocol_classic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34666924-FE30-4A87-AAB4-159377087B4B}|SangoUtils_NetOperation_Classic\\SangoUtils_NetOperation_Classic.csproj|solutionrelative:sangoutils_netoperation_classic\\protocols\\sangonetprotocol_classic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_extensions_unityengine\\core\\eventlistener\\uilistener\\uielementextensions_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj|solutionrelative:sangoutils_extensions_unityengine\\core\\eventlistener\\uilistener\\uielementextensions_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}|SangoUtils_Common_Classic\\SangoUtils_Common_Classic.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_common_classic\\02messages\\transformfloatmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}|SangoUtils_Common_Classic\\SangoUtils_Common_Classic.csproj|solutionrelative:sangoutils_common_classic\\02messages\\transformfloatmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}|SangoUtils_Common_Classic\\SangoUtils_Common_Classic.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_common_classic\\02messages\\operationresmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}|SangoUtils_Common_Classic\\SangoUtils_Common_Classic.csproj|solutionrelative:sangoutils_common_classic\\02messages\\operationresmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76CA597-ABF6-4A72-B6F9-D181D829B486}|SangoUtils_Common\\SangoUtils_Common.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_common\\scripts\\02messages\\transformfixedmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D76CA597-ABF6-4A72-B6F9-D181D829B486}|SangoUtils_Common\\SangoUtils_Common.csproj|solutionrelative:sangoutils_common\\scripts\\02messages\\transformfixedmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_netoperation\\protocols\\sangonetprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EFA37FE-7B26-489E-9858-55A68FDB7C69}|SangoUtils_NetOperation\\SangoUtils_NetOperation.csproj|solutionrelative:sangoutils_netoperation\\protocols\\sangonetprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Coroutines.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\Coroutines.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\Coroutines.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\Coroutines.cs",
+              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\Coroutines.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvy4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:49:03.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoroutineHandler.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineHandler.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineHandler.cs",
+              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineHandler.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAmwEMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:49:01.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoroutineDriver.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineDriver.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineDriver.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineDriver.cs",
+              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Core\\Coroutine\\CoroutineDriver.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:48:59.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIElementExtensions_TMPText.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_TMPText.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_TMPText.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_TMPText.cs",
+              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_TMPText.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:48:23.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIElementExtensions_Image.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Image.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Image.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Image.cs",
+              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:48:10.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasePanel.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Classes\\BasePanel.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Classes\\BasePanel.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Classes\\BasePanel.cs",
+              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Classes\\BasePanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:47:54.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NetUdpEventHandler.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\NetUdpEventHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils_UDP\\NetUdpEventHandler.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\NetUdpEventHandler.cs",
+              "RelativeToolTip": "SangoUtils_UDP\\NetUdpEventHandler.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:55.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseNetOperation.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetOperation.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetOperation.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetOperation.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\BaseNetOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:13.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseNetRequest.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetRequest.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetRequest.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetRequest.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\BaseNetRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:12.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseNetUdpMessage.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetUdpMessage.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetUdpMessage.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetUdpMessage.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\BaseNetUdpMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:10.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "INetClientOperation.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\INetClientOperation.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\INetClientOperation.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\INetClientOperation.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\INetClientOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:09.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NetClientOperationHandler.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\NetClientOperationHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\NetClientOperationHandler.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\NetClientOperationHandler.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\NetClientOperationHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:08.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Socket_TCP_Peer_Client.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\Socket_TCP_Peer_Client.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Socket\\Socket_TCP_Peer_Client.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\Socket_TCP_Peer_Client.cs",
+              "RelativeToolTip": "SangoUtils_Socket\\Socket_TCP_Peer_Client.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswCQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:36:41.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetClientOperationHandler.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\NetClientOperationHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\NetClientOperationHandler.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\NetClientOperationHandler.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation_Classic\\NetClientOperationHandler.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAcwFgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T02:22:19.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseNetClientPeer.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetClientPeer.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetClientPeer.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetClientPeer.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\BaseNetClientPeer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:06.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseNetClientBroadcast.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetClientBroadcast.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetClientBroadcast.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetClientBroadcast.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\BaseNetClientBroadcast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:18:04.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUdpClientOperation.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\IUdpClientOperation.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\IUdpClientOperation.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\IUdpClientOperation.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation_Classic\\IUdpClientOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:17:55.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "INetClientOperation.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\INetClientOperation.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\INetClientOperation.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\INetClientOperation.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation_Classic\\INetClientOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:17:52.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseNetUdpMessage.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetUdpMessage.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetUdpMessage.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetUdpMessage.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation_Classic\\BaseNetUdpMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T08:17:49.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IClientPeer_Socket_TCP.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\IClientPeer_Socket_TCP.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Socket\\IClientPeer_Socket_TCP.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\IClientPeer_Socket_TCP.cs",
+              "RelativeToolTip": "SangoUtils_Socket\\IClientPeer_Socket_TCP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T03:59:39.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UdpData.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\UdpData.cs",
+              "RelativeDocumentMoniker": "SangoUtils_UDP\\UdpData.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\UdpData.cs",
+              "RelativeToolTip": "SangoUtils_UDP\\UdpData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:25:56.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseNetClientBroadcast.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetClientBroadcast.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetClientBroadcast.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetClientBroadcast.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation_Classic\\BaseNetClientBroadcast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T02:22:16.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseNetClientPeer.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetClientPeer.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetClientPeer.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetClientPeer.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation_Classic\\BaseNetClientPeer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T02:22:15.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Socket_TCP_Peer_Server.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\Socket_TCP_Peer_Server.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Socket\\Socket_TCP_Peer_Server.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\Socket_TCP_Peer_Server.cs",
+              "RelativeToolTip": "SangoUtils_Socket\\Socket_TCP_Peer_Server.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswF8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:16:02.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UdpEventBaseListenPortID.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\UdpEventBaseListenPortID.cs",
+              "RelativeDocumentMoniker": "SangoUtils_UDP\\UdpEventBaseListenPortID.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\UdpEventBaseListenPortID.cs",
+              "RelativeToolTip": "SangoUtils_UDP\\UdpEventBaseListenPortID.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:27:17.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UdpClientPeer.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\UdpClientPeer.cs",
+              "RelativeDocumentMoniker": "SangoUtils_UDP\\UdpClientPeer.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\UdpClientPeer.cs",
+              "RelativeToolTip": "SangoUtils_UDP\\UdpClientPeer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T01:25:58.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OperationResMessages.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common_Classic\\02Messages\\OperationResMessages.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Common_Classic\\02Messages\\OperationResMessages.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common_Classic\\02Messages\\OperationResMessages.cs",
+              "RelativeToolTip": "SangoUtils_Common_Classic\\02Messages\\OperationResMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T08:43:51.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SangoNetProtocol_Classic.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\Protocols\\SangoNetProtocol_Classic.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\Protocols\\SangoNetProtocol_Classic.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\Protocols\\SangoNetProtocol_Classic.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation_Classic\\Protocols\\SangoNetProtocol_Classic.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T02:45:45.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TransformFloatMessages.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common_Classic\\02Messages\\TransformFloatMessages.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Common_Classic\\02Messages\\TransformFloatMessages.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common_Classic\\02Messages\\TransformFloatMessages.cs",
+              "RelativeToolTip": "SangoUtils_Common_Classic\\02Messages\\TransformFloatMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T08:43:53.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UIElementExtensions_Button.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Button.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Button.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Button.cs",
+              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Button.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T09:42:59.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TransformFixedMessages.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\Scripts\\02Messages\\TransformFixedMessages.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Common\\Scripts\\02Messages\\TransformFixedMessages.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\Scripts\\02Messages\\TransformFixedMessages.cs",
+              "RelativeToolTip": "SangoUtils_Common\\Scripts\\02Messages\\TransformFixedMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T08:43:47.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SangoNetProtocol.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\Protocols\\SangoNetProtocol.cs",
+              "RelativeDocumentMoniker": "SangoUtils_NetOperation\\Protocols\\SangoNetProtocol.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\Protocols\\SangoNetProtocol.cs",
+              "RelativeToolTip": "SangoUtils_NetOperation\\Protocols\\SangoNetProtocol.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T02:45:25.369Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
