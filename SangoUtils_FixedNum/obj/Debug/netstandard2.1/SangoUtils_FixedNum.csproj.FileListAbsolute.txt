@@ -9,3 +9,6 @@ I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\San
 I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.pdb
 I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUtils_FixedNum.csproj.AssemblyReference.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\bin\Debug\netstandard2.1\SangoUtils_FSM.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\bin\Debug\netstandard2.1\SangoUtils_FSM.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_FixedNum\obj\Debug\netstandard2.1\SangoUti.15A27DAD.Up2Date

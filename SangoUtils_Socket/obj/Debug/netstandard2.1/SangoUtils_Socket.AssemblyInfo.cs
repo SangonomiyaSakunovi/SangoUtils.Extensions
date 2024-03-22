@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_Socket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60fae7ca6d13a9c42f39ea712be3d8127c676d33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5784db540b0b00dde553d80336a6148335f63168")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_Socket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_Socket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

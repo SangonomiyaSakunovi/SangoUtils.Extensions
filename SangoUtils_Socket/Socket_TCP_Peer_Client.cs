@@ -45,7 +45,7 @@ namespace SangoUtils_Socket.TCP
         public void OnUpdate()
         {
             if (_isNeedReconnect)
-            {                
+            {
                 OpenAsClient(_ipAddressServer, _portServer);
                 _isNeedReconnect = false;
             }
@@ -89,15 +89,15 @@ namespace SangoUtils_Socket.TCP
             _sendToServerSAEA = new SocketAsyncEventArgs();
             _receiveFromServerSAEA = new SocketAsyncEventArgs();
 
-            _connetToServerSAEA.Completed += new EventHandler<SocketAsyncEventArgs>(OnConnectedServerCompleted);
-            _sendToServerSAEA.Completed += OnSendToServerCompleted;
-
-            _receiveFromServerSAEA.SetBuffer(new byte[Socket_TCPConfig.ServerBufferCount], 0, Socket_TCPConfig.ServerBufferCount);
-            _receiveFromServerSAEA.Completed += OnReceiveFromServerCompleted;
-            _receiveFromServerSAEA.RemoteEndPoint = _serverEndPoint;
-
             _sendMessageQueue = new ConcurrentQueue<byte[]>();
             _receiveMessageQueue = new ConcurrentQueue<byte[]>();
+
+            _connetToServerSAEA.Completed += new EventHandler<SocketAsyncEventArgs>(OnConnectedServerCompleted);
+            _sendToServerSAEA.Completed += new EventHandler<SocketAsyncEventArgs>(OnSendToServerCompleted);
+
+            _receiveFromServerSAEA.SetBuffer(new byte[Socket_TCPConfig.ServerBufferCount], 0, Socket_TCPConfig.ServerBufferCount);
+            _receiveFromServerSAEA.Completed += new EventHandler<SocketAsyncEventArgs>(OnReceiveFromServerCompleted);
+            _receiveFromServerSAEA.RemoteEndPoint = _serverEndPoint;
 
             _socket.ConnectAsync(_connetToServerSAEA);
         }
@@ -122,15 +122,6 @@ namespace SangoUtils_Socket.TCP
 
         private void OnSendToServerCompleted(object sender, SocketAsyncEventArgs socketAsyncEventArgs)
         {
-            if (socketAsyncEventArgs.SocketError != SocketError.Success) return;
-
-            Socket socket = sender as Socket;
-            if (socket != null)
-            {
-                string message = Encoding.Default.GetString(socketAsyncEventArgs.Buffer);
-                SocketLogger.Info("Client : Send message" + message + "to Serer" + socket.RemoteEndPoint.ToString());
-            }
-
             _isWaittingSendRes = false;
             if (_sendMessageQueue.Count > 0)
             {
@@ -144,6 +135,9 @@ namespace SangoUtils_Socket.TCP
         private void OnReceiveFromServerCompleted(object sender, SocketAsyncEventArgs socketAsyncEventArgs)
         {
             if (socketAsyncEventArgs.SocketError == SocketError.OperationAborted) return;
+            {
+                ProcessingReceive();
+            }
 
             if (socketAsyncEventArgs.SocketError == SocketError.Success && socketAsyncEventArgs.BytesTransferred > 0)
             {
@@ -192,7 +186,7 @@ namespace SangoUtils_Socket.TCP
         }
 
         private void DisConnect()
-        {            
+        {
             if (_socket != null)
             {
                 try
@@ -213,12 +207,12 @@ namespace SangoUtils_Socket.TCP
 
         private void CleanResources()
         {
-            if (_sendToServerSAEA!=null)
+            if (_sendToServerSAEA != null)
             {
                 _sendToServerSAEA.Completed -= OnSendToServerCompleted;
                 _sendToServerSAEA.Dispose();
                 _sendToServerSAEA = null;
-            }            
+            }
             if (_receiveFromServerSAEA != null)
             {
                 _receiveFromServerSAEA.Completed -= OnReceiveFromServerCompleted;

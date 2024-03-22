@@ -1,6 +1,6 @@
 ﻿namespace SangoUtils_Bases_Universal
 {
-    public abstract class BaseSystem<T> where T : class
+    public abstract class BaseSystem
     {
         public void Update()
         {

@@ -14,11 +14,21 @@
         "runtime": {
           "SangoUtils_Bases_Universal.dll": {}
         }
+      },
+      "SangoUtils_FSM/1.0.0": {
+        "runtime": {
+          "SangoUtils_FSM.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "SangoUtils_Bases_Universal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SangoUtils_FSM/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

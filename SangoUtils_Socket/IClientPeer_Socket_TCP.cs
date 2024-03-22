@@ -2,7 +2,6 @@
 using System.Collections.Concurrent;
 using System.Net.Sockets;
 using System.Text;
-using UnityEngine;
 
 namespace SangoUtils_Socket.TCP
 {
@@ -33,11 +32,11 @@ namespace SangoUtils_Socket.TCP
             _connectionState = ConnectionStateCode.Connected;
 
             _sendToClientSAEA = new SocketAsyncEventArgs();
-            _sendToClientSAEA.Completed += OnSendToClientCompleted;
+            _sendToClientSAEA.Completed += new EventHandler<SocketAsyncEventArgs>(OnSendToClientCompleted);
 
             _receiveFromClientSAEA = new SocketAsyncEventArgs();
             _receiveFromClientSAEA.SetBuffer(new byte[Socket_TCPConfig.ServerBufferCount], 0, Socket_TCPConfig.ServerBufferCount);
-            _receiveFromClientSAEA.Completed += OnReceiveFromClientCompleted;
+            _receiveFromClientSAEA.Completed += new EventHandler<SocketAsyncEventArgs>(OnReceiveFromClientCompleted);
 
             _sendMessageQueue = new ConcurrentQueue<byte[]>();
             _receiveMessageQueue = new ConcurrentQueue<byte[]>();
@@ -159,7 +158,7 @@ namespace SangoUtils_Socket.TCP
 
                 }
                 finally
-                {                   
+                {
                     _socket.Close();
                     _socket = null;
                 }
@@ -169,7 +168,7 @@ namespace SangoUtils_Socket.TCP
         internal void CleanResources()
         {
             _connectionState = ConnectionStateCode.Disconnected;
-            if (_sendToClientSAEA!=null)
+            if (_sendToClientSAEA != null)
             {
                 _sendToClientSAEA.Completed -= OnSendToClientCompleted;
                 _sendToClientSAEA.Dispose();
@@ -180,7 +179,7 @@ namespace SangoUtils_Socket.TCP
                 _receiveFromClientSAEA.Completed -= OnReceiveFromClientCompleted;
                 _receiveFromClientSAEA.Dispose();
                 _receiveFromClientSAEA = null;
-            }                        
+            }
             if (_socket != null)
             {
                 _socket.Close();
