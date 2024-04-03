@@ -1,10 +1,10 @@
-﻿using SangoUtils_Extensions_UnityEngine.Core;
+﻿using SangoUtils.Extensions_Unity.Core;
 using System;
 using System.Collections;
 using System.IO;
 using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine.Utils
+namespace SangoUtils.Extensions_Unity.Utils
 {
     public class AudioRecordUtils : MonoBehaviour
     {

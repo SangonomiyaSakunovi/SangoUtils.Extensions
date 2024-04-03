@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace SangoUtils_Extensions_UnityEngine.Core
+namespace SangoUtils.Extensions_Unity.Core
 {
     public class UIPointerListener : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler, IDragHandler
     {

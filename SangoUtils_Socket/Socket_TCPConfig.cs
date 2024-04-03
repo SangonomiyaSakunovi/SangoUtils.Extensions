@@ -1,4 +1,4 @@
-﻿namespace SangoUtils_Socket
+﻿namespace SangoUtils.Sockets
 {
     internal class Socket_TCPConfig
     {

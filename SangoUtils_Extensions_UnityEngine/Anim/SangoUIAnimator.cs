@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine.Anim
+namespace SangoUtils.Extensions_Unity.Anim
 {
     public class SangoUIAnimator
     {

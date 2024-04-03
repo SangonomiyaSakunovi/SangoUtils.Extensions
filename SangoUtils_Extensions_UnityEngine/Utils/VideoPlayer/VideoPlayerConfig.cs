@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SangoUtils_Extensions_UnityEngine.Utils
+namespace SangoUtils.Extensions_Unity.Utils
 {
     public class VideoPlayerConfig
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Win32;
 using System.Linq;
 
-namespace SangoUtils_Extensions_Universal.Utils
+namespace SangoUtils.Extensions.Utils
 {
     public class RegistryUtils
     {

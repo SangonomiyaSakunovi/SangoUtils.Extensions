@@ -1,6 +1,6 @@
 using System;
 
-namespace SangoUtils_Task
+namespace SangoUtils.Tasks
 {
     public abstract class TaskBaseTimer
     {

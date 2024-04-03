@@ -1,4 +1,4 @@
-namespace SangoUtils_IOCP
+namespace SangoUtils.IOCP
 {
     internal class IOCPConfig
     {

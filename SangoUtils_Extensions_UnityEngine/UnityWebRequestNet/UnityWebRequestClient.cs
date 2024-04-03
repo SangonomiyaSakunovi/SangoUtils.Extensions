@@ -4,7 +4,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace SangoUtils_Extensions_UnityEngine.UnityWebRequestNet
+namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
 {
     public class UnityWebRequestClient
     {

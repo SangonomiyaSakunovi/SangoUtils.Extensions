@@ -7,7 +7,7 @@ using UnityEngine.UI;
 using UnityEngine.Video;
 using static UnityEngine.EventSystems.EventTrigger;
 
-namespace SangoUtils_Extensions_UnityEngine.Utils
+namespace SangoUtils.Extensions_Unity.Utils
 {
     public class VideoPlayerController : MonoBehaviour
     {

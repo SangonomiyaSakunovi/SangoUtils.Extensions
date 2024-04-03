@@ -79,6 +79,7 @@ namespace SangoNetProtol
         Aoi = 7,
         OperationKey = 8,
         OperationResult = 9,
+        AnchorUpload = 10,
     }
 
     [global::ProtoBuf.ProtoContract()]

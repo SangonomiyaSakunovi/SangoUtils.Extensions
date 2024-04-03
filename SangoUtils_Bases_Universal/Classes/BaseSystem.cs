@@ -1,4 +1,4 @@
-﻿namespace SangoUtils_Bases_Universal
+﻿namespace SangoUtils.Bases
 {
     public abstract class BaseSystem
     {

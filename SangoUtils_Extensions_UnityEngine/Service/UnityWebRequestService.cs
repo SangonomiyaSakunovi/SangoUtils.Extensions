@@ -1,12 +1,12 @@
-﻿using SangoUtils_Extensions_UnityEngine.Core;
-using SangoUtils_Extensions_UnityEngine.UnityWebRequestNet;
+﻿using SangoUtils.Extensions_Unity.Core;
+using SangoUtils.Extensions_Unity.UnityWebRequestNet;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
 using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine.Service
+namespace SangoUtils.Extensions_Unity.Service
 {
     public class UnityWebRequestService : UnitySingleton<UnityWebRequestService>
     {

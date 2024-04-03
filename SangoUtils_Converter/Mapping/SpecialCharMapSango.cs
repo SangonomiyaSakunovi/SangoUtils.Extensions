@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils_Converter.Mapping
+namespace SangoUtils.Converter.Mapping
 {
     internal static class SpecialCharMapSango
     {

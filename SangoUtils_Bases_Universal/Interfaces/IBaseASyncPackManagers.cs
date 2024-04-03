@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SangoUtils_Bases_Universal
+﻿namespace SangoUtils.Bases
 {
     public interface IResourceRawImageLoader
     {

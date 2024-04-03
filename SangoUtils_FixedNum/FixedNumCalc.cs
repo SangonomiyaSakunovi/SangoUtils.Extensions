@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils_FixedNum
+namespace SangoUtils.FixedNum
 {
     public class FixedNumCalc
     {

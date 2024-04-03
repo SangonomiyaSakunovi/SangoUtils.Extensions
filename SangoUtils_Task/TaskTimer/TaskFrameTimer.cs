@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_Task
+namespace SangoUtils.Tasks
 {
     public class TaskFrameTimer : TaskBaseTimer
     {

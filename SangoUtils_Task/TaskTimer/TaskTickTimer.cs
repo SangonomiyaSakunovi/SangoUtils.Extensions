@@ -2,7 +2,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Threading;
 
-namespace SangoUtils_Task
+namespace SangoUtils.Tasks
 {
     public class TaskTickTimer : TaskBaseTimer
     {

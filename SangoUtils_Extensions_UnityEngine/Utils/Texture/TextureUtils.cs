@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine.Utils
+namespace SangoUtils.Extensions_Unity.Utils
 {
     public static class TextureUtils
     {

@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Net.Sockets;
 using System.Text;
 
-namespace SangoUtils_Socket.TCP
+namespace SangoUtils.Sockets.TCP
 {
     public abstract class IClientPeer_Socket_TCP
     {
@@ -77,7 +77,7 @@ namespace SangoUtils_Socket.TCP
             if (socket != null)
             {
                 string message = Encoding.Default.GetString(socketAsyncEventArgs.Buffer);
-                SocketLogger.Info("Client : Send message" + message + "to Client" + socket.RemoteEndPoint.ToString());
+                SocketsLogger.Info("Client : Send message" + message + "to Client" + socket.RemoteEndPoint.ToString());
             }
 
             _isWaittingSendRes = false;
@@ -92,7 +92,7 @@ namespace SangoUtils_Socket.TCP
 
         private void OnReceiveFromClientCompleted(object sender, SocketAsyncEventArgs socketAsyncEventArgs)
         {
-            if (socketAsyncEventArgs.SocketError == SocketError.OperationAborted) { SocketLogger.Warning("Abortion!!!!"); return; }
+            if (socketAsyncEventArgs.SocketError == SocketError.OperationAborted) { SocketsLogger.Warning("Abortion!!!!"); return; }
             Socket socket = sender as Socket;
             if (socketAsyncEventArgs.SocketError == SocketError.Success && socketAsyncEventArgs.BytesTransferred > 0)
             {
@@ -115,18 +115,18 @@ namespace SangoUtils_Socket.TCP
             {
                 if (socketAsyncEventArgs.SocketError == SocketError.Success)
                 {
-                    SocketLogger.Warning("Client Close the connection.");
+                    SocketsLogger.Warning("Client Close the connection.");
                 }
                 else
                 {
-                    SocketLogger.Warning("Server Close the connection.");
+                    SocketsLogger.Warning("Server Close the connection.");
                     DisConnect();
                 }
                 CleanResources();
             }
             else
             {
-                SocketLogger.Error("Something Wrong Happened.");
+                SocketsLogger.Error("Something Wrong Happened.");
                 DisConnect();
                 CleanResources();
             }
@@ -188,7 +188,7 @@ namespace SangoUtils_Socket.TCP
 
             OnClientPeerResourcesCleaned?.Invoke(PeerID);
 
-            SocketLogger.Start($"Socket_TCP_Peer: [ {PeerID} ] is Offline, bye.");
+            SocketsLogger.Start($"Socket_TCP_Peer: [ {PeerID} ] is Offline, bye.");
             OnClosed();
         }
     }

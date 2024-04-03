@@ -1,11 +1,11 @@
-﻿using SangoUtils_Extensions_UnityEngine.Core;
+﻿using SangoUtils.Extensions_Unity.Core;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace SangoUtils_Extensions_UnityEngine.ObjectPools
+namespace SangoUtils.Extensions_Unity.ObjectPools
 {
     public class ObjectPoolService : UnitySingleton<ObjectPoolService>
     {

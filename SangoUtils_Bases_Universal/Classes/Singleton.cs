@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils_Bases_Universal
+namespace SangoUtils.Bases
 {
     public abstract class Singleton<T> where T : class
     {

@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace SangoUtils_Common_Classic.Messages
+namespace SangoUtils.CommonClassic.Messages
 {
     [Serializable]
     public class OperationResReqMessage
@@ -48,13 +47,13 @@ namespace SangoUtils_Common_Classic.Messages
         public int OperationResType { get; set; } = 1;
         public string OperationString { get; set; } = "";
     }
-    
+
     //OperationResType
-        //Default = 1,
-        //Move = 2,
-        //Rotate = 3,
-        //Zoom = 4,
-        //Trans = 5,
-        //ButtonClicked = 6,
-        //ToggleValueChanged = 7,
+    //Default = 1,
+    //Move = 2,
+    //Rotate = 3,
+    //Zoom = 4,
+    //Trans = 5,
+    //ButtonClicked = 6,
+    //ToggleValueChanged = 7,
 }

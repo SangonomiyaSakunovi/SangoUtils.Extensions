@@ -1,6 +1,6 @@
 ﻿using SangoNetProtol;
 
-namespace SangoUtils_NetOperation
+namespace SangoUtils.NetOperation
 {
     public abstract class BaseNetClientBroadcast : BaseNetOperation
     {

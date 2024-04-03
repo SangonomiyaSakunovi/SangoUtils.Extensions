@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace SangoUtils_Common.Utils
+namespace SangoUtils.Common.Utils
 {
 #pragma warning disable CS8603
     public class NullableEnumConverter<TEnum> : JsonConverter<TEnum> where TEnum : struct, Enum

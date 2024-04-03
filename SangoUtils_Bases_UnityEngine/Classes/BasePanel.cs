@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SangoUtils_Bases_UnityEngine
+namespace SangoUtils.Bases_Unity
 {
     public abstract class BasePanel : MonoBehaviour
     {

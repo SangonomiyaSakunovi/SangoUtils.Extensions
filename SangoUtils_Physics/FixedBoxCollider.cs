@@ -1,7 +1,7 @@
-﻿using SangoUtils_FixedNum;
+﻿using SangoUtils.FixedNum;
 using System;
 
-namespace SangoUtils_Physics
+namespace SangoUtils.Physics
 {
     public class FixedBoxCollider : FixedBaseCollider
     {

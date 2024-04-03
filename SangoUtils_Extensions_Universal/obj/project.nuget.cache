@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "c5Rqp87zzTHHokakmyxVu26ZnhDFyiqM+boyymz//0u/XZFWj6djqtlPbFlcwydKNhUnqXhrkjHavflI7l2EDw==",
+  "dgSpecHash": "bShDVi0V/eP5Y7B8n1xWK8QVg6jCOkyiGb2GoAhpPxqJ3uuL9Y5E1A5zfS2B8WGbxVi0wprwZZ+o7nf6fz/KGA==",
   "success": true,
   "projectFilePath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\SangoUtils_Extensions_Universal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",

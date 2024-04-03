@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SangoUtils_Bases_UnityEngine
+namespace SangoUtils.Bases_Unity
 {
     public abstract class BaseWindow : MonoBehaviour
     {
@@ -27,10 +27,5 @@ namespace SangoUtils_Bases_UnityEngine
         protected abstract void OnDispose();
 
         public WindowLayer WindowLayer { get; protected set; }
-
-        protected void AddWindow<T>(T window) where T : BaseWindow
-        {
-            UIService.Instance.AddWindow<T>(window);
-        }
     }
 }

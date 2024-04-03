@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-namespace SangoUtils_Extensions_UnityEngine.UnityWebRequestNet
+namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
 {
     public enum UnityWebResourceType
     {

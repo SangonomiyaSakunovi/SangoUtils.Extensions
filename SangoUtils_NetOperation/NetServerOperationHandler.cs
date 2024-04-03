@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_NetOperation
+namespace SangoUtils.NetOperation
 {
     public class NetServerOperationHandler
     {

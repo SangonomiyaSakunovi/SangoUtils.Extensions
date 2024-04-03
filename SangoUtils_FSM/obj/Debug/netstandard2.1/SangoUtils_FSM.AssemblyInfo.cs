@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_FSM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5784db540b0b00dde553d80336a6148335f63168")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+587809ef9b962b71765bf00fc42fa8a95533ff5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_FSM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_FSM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

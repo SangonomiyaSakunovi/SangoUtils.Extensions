@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace SangoUtils_Extensions_UnityEngine.UnityWebRequestNet
+namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
 {
     public abstract class UnityWebRequestBaseId
     {

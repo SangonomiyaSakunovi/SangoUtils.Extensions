@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_Event
+namespace SangoUtils.Event
 {
     internal class EventListenerHandler
     {

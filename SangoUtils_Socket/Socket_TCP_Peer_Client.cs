@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace SangoUtils_Socket.TCP
+namespace SangoUtils.Sockets.TCP
 {
     public class Socket_TCP_Peer_Client
     {
@@ -28,7 +28,7 @@ namespace SangoUtils_Socket.TCP
 
         public void OpenAsConsoleClient(string ip, int port)
         {
-            SocketLogger.SetLogger(SocketRunnerType.ConsoleProject);
+            SocketsLogger.SetLogger(SocketRunnerType.ConsoleProject);
             _ipAddressServer = ip;
             _portServer = port;
             OpenAsClient(ip, port);
@@ -36,7 +36,7 @@ namespace SangoUtils_Socket.TCP
 
         public void OpenAsUnityClient(string ip, int port)
         {
-            SocketLogger.SetLogger(SocketRunnerType.UnityProject);
+            SocketsLogger.SetLogger(SocketRunnerType.UnityProject);
             _ipAddressServer = ip;
             _portServer = port;
             OpenAsClient(ip, port);
@@ -82,7 +82,7 @@ namespace SangoUtils_Socket.TCP
 
         private void OpenAsClient(string ip, int port)
         {
-            SocketLogger.Start("Socket_TCP_Peer Init as Client, hello to the world.");
+            SocketsLogger.Start("Socket_TCP_Peer Init as Client, hello to the world.");
             _socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             _serverEndPoint = new IPEndPoint(IPAddress.Parse(ip), port);
             _connetToServerSAEA = new SocketAsyncEventArgs { RemoteEndPoint = _serverEndPoint };
@@ -114,7 +114,7 @@ namespace SangoUtils_Socket.TCP
             if (socket != null)
             {
                 string ipAddressServer = socket.RemoteEndPoint.ToString();
-                SocketLogger.Info("Connected to Server: {0}", ipAddressServer);
+                SocketsLogger.Info("Connected to Server: {0}", ipAddressServer);
 
                 socket.ReceiveAsync(_receiveFromServerSAEA);
             }
@@ -160,12 +160,12 @@ namespace SangoUtils_Socket.TCP
             {
                 if (socketAsyncEventArgs.SocketError == SocketError.Success)
                 {
-                    SocketLogger.Warning("Client Close the connection.");
+                    SocketsLogger.Warning("Client Close the connection.");
                     DisConnect();
                 }
                 else
                 {
-                    SocketLogger.Warning("Server Close the connection.");
+                    SocketsLogger.Warning("Server Close the connection.");
                 }
                 CleanResources();
             }
@@ -231,7 +231,7 @@ namespace SangoUtils_Socket.TCP
                 _socket = null;
             }
 
-            SocketLogger.Start("Socket_TCP_Peer is Offline, bye.");
+            SocketsLogger.Start("Socket_TCP_Peer is Offline, bye.");
         }
     }
 }

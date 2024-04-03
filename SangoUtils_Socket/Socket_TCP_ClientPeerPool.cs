@@ -1,7 +1,7 @@
-﻿using SangoUtils_Socket.TCP;
+﻿using SangoUtils.Sockets.TCP;
 using System.Collections.Generic;
 
-namespace SangoUtils_Socket
+namespace SangoUtils.Sockets
 {
     public class Socket_TCP_ClientPeerPool<T> where T : IClientPeer_Socket_TCP, new()
     {
@@ -25,7 +25,7 @@ namespace SangoUtils_Socket
         {
             if (peer == null)
             {
-                SocketLogger.Error("The clientPeer to pool can`t be null");
+                SocketsLogger.Error("The clientPeer to pool can`t be null");
                 return;
             }
             lock (_clientPeerStack)

@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 
-namespace SangoUtils_NetAdapter
+namespace SangoUtils.NetAdapter
 {
     public class NetInterface : NetworkInterface
     {

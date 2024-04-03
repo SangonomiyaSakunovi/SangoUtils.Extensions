@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
 
-namespace SangoUtils_UDP
+namespace SangoUtils.UDPClients
 {
     public class NetUdpEventHandler
     {

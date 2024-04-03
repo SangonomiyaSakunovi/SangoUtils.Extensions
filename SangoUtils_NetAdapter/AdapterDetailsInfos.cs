@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace SangoUtils_NetAdapter
+namespace SangoUtils.NetAdapter
 {
     public class IPv4AddressInfo
     {

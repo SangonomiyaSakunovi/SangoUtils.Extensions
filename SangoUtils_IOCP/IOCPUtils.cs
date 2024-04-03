@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_IOCP
+namespace SangoUtils.IOCP
 {
     public static class IOCPUtils
     {

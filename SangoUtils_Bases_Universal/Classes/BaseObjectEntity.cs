@@ -1,6 +1,6 @@
-﻿using SangoUtils_FixedNum;
+﻿using SangoUtils.FixedNum;
 
-namespace SangoUtils_Bases_Universal
+namespace SangoUtils.Bases
 {
     public abstract class BaseObjectEntity
     {

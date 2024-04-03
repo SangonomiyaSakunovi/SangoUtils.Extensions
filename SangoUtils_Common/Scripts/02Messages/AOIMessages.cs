@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_Common.Messages
+namespace SangoUtils.Common.Messages
 {
     [Serializable]
     public class AOIReqMessage

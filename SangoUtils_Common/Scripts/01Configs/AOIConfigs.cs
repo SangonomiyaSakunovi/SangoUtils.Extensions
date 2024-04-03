@@ -1,4 +1,4 @@
-﻿namespace SangoUtils_Common.Config
+﻿namespace SangoUtils.Common.Config
 {
     public class AOIConfig
     {

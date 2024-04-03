@@ -1,7 +1,7 @@
-﻿using SangoUtils_Extensions_UnityEngine.Core;
+﻿using SangoUtils.Extensions_Unity.Core;
 using System;
 
-namespace SangoUtils_Extensions_UnityEngine.Anim
+namespace SangoUtils.Extensions_Unity.Anim
 {
     public class UIAnimationService : UnitySingleton<UIAnimationService>
     {

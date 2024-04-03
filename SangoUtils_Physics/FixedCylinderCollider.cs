@@ -1,8 +1,8 @@
-﻿using SangoUtils_FixedNum;
+﻿using SangoUtils.FixedNum;
 using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_Physics
+namespace SangoUtils.Physics
 {
     public class FixedCylinderCollider : FixedBaseCollider
     {

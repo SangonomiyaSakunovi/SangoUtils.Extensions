@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SangoUtils_Task
+namespace SangoUtils.Tasks
 {
     public class TaskAsyncTimer : TaskBaseTimer
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_FSM
+namespace SangoUtils.FSM
 {
     public class FSMLinkedStater : FSMStaterBase
     {

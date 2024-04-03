@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace SangoUtils_Converter
+namespace SangoUtils.Converter
 {
     public static class Md5SignatureUtils
     {

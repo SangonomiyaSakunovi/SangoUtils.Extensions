@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace SangoUtils_IOCP
+namespace SangoUtils.IOCP
 {
     public class IOCPPeer<T> where T : IClientPeer_IOCP, new()
     {

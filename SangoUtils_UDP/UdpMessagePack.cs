@@ -4,7 +4,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Text.Json;
 
-namespace SangoUtils_UDP
+namespace SangoUtils.UDPClients
 {
     internal abstract class UdpMessagePack
     {

@@ -1,6 +1,6 @@
 ﻿using SangoNetProtocol_Classic;
 
-namespace SangoUtils_NetOperation_Classic
+namespace SangoUtils.NetOperationClassic
 {
     public interface INetClientOperation
     {

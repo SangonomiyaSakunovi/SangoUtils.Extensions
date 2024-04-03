@@ -1,7 +1,7 @@
 ﻿using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace SangoUtils_Extensions_UnityEngine.Core
+namespace SangoUtils.Extensions_Unity.Core
 {
     public static class UIElementExtensions_Toggle
     {

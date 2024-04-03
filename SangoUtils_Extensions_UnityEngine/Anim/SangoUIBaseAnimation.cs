@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine.Anim
+namespace SangoUtils.Extensions_Unity.Anim
 {
     public abstract class SangoUIBaseAnimation : MonoBehaviour
     {

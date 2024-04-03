@@ -1,10 +1,10 @@
-﻿using SangoUtils_Extensions_UnityEngine.Service;
+﻿using SangoUtils.Extensions_Unity.Service;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SangoUtils_Extensions_UnityEngine.UnityWebRequestNet
+namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
 {
     internal class UnityWebResourceLoader_RawImage
     {

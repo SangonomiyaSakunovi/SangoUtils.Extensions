@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_Bases_Universal
+namespace SangoUtils.Bases
 {
     public abstract class BaseCache
     {

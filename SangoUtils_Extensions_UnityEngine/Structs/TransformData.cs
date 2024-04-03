@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine
+namespace SangoUtils.Extensions_Unity
 {
     public struct TransformData
     {

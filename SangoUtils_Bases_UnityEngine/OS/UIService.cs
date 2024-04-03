@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 
-namespace SangoUtils_Bases_UnityEngine
+namespace SangoUtils.Bases_Unity
 {
     public class UIService : BaseService<UIService>
     {
@@ -36,6 +37,7 @@ namespace SangoUtils_Bases_UnityEngine
         {            
             foreach(var pair in _windowsDict)
             {
+                
                 if (pair.Value.WindowLayer == WindowLayer.Base)
                 {
                     if (pair.Key == windowId)
@@ -64,7 +66,7 @@ namespace SangoUtils_Bases_UnityEngine
                 if (pair.Value.PanelLayer == PanelLayer.Base)
                 {
                     if (pair.Key == panelId)
-                    {
+                    {                        
                         pair.Value.SetPanelState(true);
                     }
                     else
@@ -90,6 +92,23 @@ namespace SangoUtils_Bases_UnityEngine
                 return;
             }
             _windowsDict.Add(windowId, window);
+        }
+
+        public void AddWindows(GameObject windowRoot)
+        {
+            BaseWindow[] windows = windowRoot.GetComponentsInChildren<BaseWindow>(true);
+            foreach (var window in windows)
+            {
+                if (Attribute.IsDefined(window.GetType(), typeof(TrackableWindowAttribute)))
+                {
+                    Type windowType = window.GetType();
+                    int windowId = windowType.GetHashCode();
+                    if (!_windowsDict.ContainsKey(windowId))
+                    {
+                        _windowsDict.Add(windowId, window);
+                    }
+                }
+            }
         }
 
         public BaseWindow? GetWindow<T>() where T : BaseWindow
@@ -125,6 +144,23 @@ namespace SangoUtils_Bases_UnityEngine
             _panelsDict.Add(panelId, panel);
         }
 
+        public void AddPanels(GameObject panelRoot)
+        {
+            BasePanel[] panels = panelRoot.GetComponentsInChildren<BasePanel>(true);
+            foreach (var panel in panels)
+            {
+                if (Attribute.IsDefined(panel.GetType(), typeof(TrackablePanelAttribute)))
+                {
+                    Type panelType = panel.GetType();
+                    int panelId = panelType.GetHashCode();
+                    if (!_panelsDict.ContainsKey(panelId))
+                    {
+                        _panelsDict.Add(panelId, panel);
+                    }
+                }
+            }
+        }
+
         public BasePanel? GetPanel<T>() where T : BasePanel
         {
             Type panelType = typeof(T);
@@ -157,4 +193,10 @@ namespace SangoUtils_Bases_UnityEngine
         Pop,
         Top
     }
+
+    [AttributeUsage(AttributeTargets.Class)] 
+    public class TrackableWindowAttribute : Attribute { }
+
+    [AttributeUsage(AttributeTargets.Class)]
+    public class TrackablePanelAttribute : Attribute { }
 }

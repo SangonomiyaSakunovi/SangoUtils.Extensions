@@ -67,6 +67,7 @@ namespace SangoNetProtocol_Classic
         //Aoi = 7,
         //OperationKey = 8,
         //OperationResult = 9
+        //AnchorUpload = 10,
 
     //NetReturnCode
         //Default = 1,

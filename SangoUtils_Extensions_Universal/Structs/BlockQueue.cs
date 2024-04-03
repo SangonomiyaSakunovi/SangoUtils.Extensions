@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils_Extensions_Universal
+namespace SangoUtils.Extensions
 {
     public class BlockQueue<T>
     {

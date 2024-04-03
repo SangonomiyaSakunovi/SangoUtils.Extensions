@@ -1,4 +1,4 @@
-﻿namespace SangoUtils_UDP
+﻿namespace SangoUtils.UDPClients
 {
     public abstract class BaseUdpEvent
     {

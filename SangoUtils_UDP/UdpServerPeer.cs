@@ -3,7 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace SangoUtils_UDP
+namespace SangoUtils.UDPClients
 {
     public abstract class UdpServerPeer
     {

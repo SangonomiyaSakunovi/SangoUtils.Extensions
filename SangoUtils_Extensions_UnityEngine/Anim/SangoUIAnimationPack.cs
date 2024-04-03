@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils_Extensions_UnityEngine.Anim
+namespace SangoUtils.Extensions_Unity.Anim
 {
     public class SangoUIAnimationPack
     {

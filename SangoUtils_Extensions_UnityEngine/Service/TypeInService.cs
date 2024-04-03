@@ -1,8 +1,8 @@
-﻿using SangoUtils_Extensions_UnityEngine.Core;
+﻿using SangoUtils.Extensions_Unity.Core;
 using System;
 using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine.Service
+namespace SangoUtils.Extensions_Unity.Service
 {
     public class TypeInService : UnitySingleton<TypeInService>
     {

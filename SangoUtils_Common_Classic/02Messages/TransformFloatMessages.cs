@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils_Common_Classic.Messages
+namespace SangoUtils.CommonClassic.Messages
 {
     [Serializable]
     public class TransformFloatMessage

@@ -1,6 +1,6 @@
-﻿using SangoUtils_FixedNum;
+﻿using SangoUtils.FixedNum;
 
-namespace SangoUtils_Physics
+namespace SangoUtils.Physics
 {
     public class FixedColliderConfig
     {

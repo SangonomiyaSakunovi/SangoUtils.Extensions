@@ -1,10 +1,10 @@
-﻿using SangoUtils_Extensions_UnityEngine.Core;
+﻿using SangoUtils.Extensions_Unity.Core;
 using System.Collections.Generic;
 using UnityEngine.Video;
 using UnityEngine;
-using SangoUtils_Extensions_UnityEngine.Utils;
+using SangoUtils.Extensions_Unity.Utils;
 
-namespace SangoUtils_Extensions_UnityEngine.Service
+namespace SangoUtils.Extensions_Unity.Service
 {
     public class VideoPlayerService : UnitySingleton<VideoPlayerService>
     {

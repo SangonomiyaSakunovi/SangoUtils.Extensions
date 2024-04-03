@@ -1,0 +1,6 @@
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Common_Classic\obj\Debug\netstandard2.0\SangoUtils_Common_Classic.csproj.AssemblyReference.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Common_Classic\obj\Debug\netstandard2.0\SangoUtils_Common_Classic.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Common_Classic\obj\Debug\netstandard2.0\SangoUtils_Common_Classic.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Common_Classic\obj\Debug\netstandard2.0\SangoUtils_Common_Classic.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Common_Classic\obj\Debug\netstandard2.0\SangoUtils_Common_Classic.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Common_Classic\obj\Debug\netstandard2.0\SangoUtils_Common_Classic.sourcelink.json

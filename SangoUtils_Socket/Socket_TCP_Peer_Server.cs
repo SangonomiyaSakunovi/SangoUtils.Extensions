@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace SangoUtils_Socket.TCP
+namespace SangoUtils.Sockets.TCP
 {
     public class Socket_TCP_Peer_Server<T> where T : IClientPeer_Socket_TCP, new()
     {
@@ -24,8 +24,8 @@ namespace SangoUtils_Socket.TCP
 
         public void OpenAsServer(string ip, int port, int maxConnectCount)
         {
-            SocketLogger.SetLogger(SocketRunnerType.ConsoleProject);
-            SocketLogger.Start("Socket_TCP ClientPeer Init as Server, hello to the world.");
+            SocketsLogger.SetLogger(SocketRunnerType.ConsoleProject);
+            SocketsLogger.Start("Socket_TCP ClientPeer Init as Server, hello to the world.");
             _currentConnectCount = 0;
             _acceptSeamaphore = new Semaphore(maxConnectCount, maxConnectCount);
             _peerPool = new Socket_TCP_ClientPeerPool<T>(maxConnectCount);
@@ -69,7 +69,7 @@ namespace SangoUtils_Socket.TCP
             }
             else
             {
-                SocketLogger.Error("IClientPeer Error: socket or seamaphore is null.");
+                SocketsLogger.Error("IClientPeer Error: socket or seamaphore is null.");
             }
         }
 
@@ -91,7 +91,7 @@ namespace SangoUtils_Socket.TCP
             }
             else
             {
-                SocketLogger.Error("IClientPeer Error: peerDict or peerPool is null.");
+                SocketsLogger.Error("IClientPeer Error: peerDict or peerPool is null.");
             }
         }
 
@@ -107,12 +107,12 @@ namespace SangoUtils_Socket.TCP
                 }
                 else
                 {
-                    SocketLogger.Error($"IClientPeer: [ {peerId} ] can`t find in server peerList.");
+                    SocketsLogger.Error($"IClientPeer: [ {peerId} ] can`t find in server peerList.");
                 }
             }
             else
             {
-                SocketLogger.Error("IClientPeer Error: peerDict or peerPool or seamaphore is null.");
+                SocketsLogger.Error("IClientPeer Error: peerDict or peerPool or seamaphore is null.");
             }
         }
 

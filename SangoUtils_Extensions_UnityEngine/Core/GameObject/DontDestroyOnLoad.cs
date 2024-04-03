@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SangoUtils_Extensions_UnityEngine.Core
+namespace SangoUtils.Extensions_Unity.Core
 {
     public class DontDestroyOnLoad : MonoBehaviour
     {
