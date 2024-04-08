@@ -13,9 +13,12 @@ namespace SangoUtils.Extensions_Unity.Service
         private UnityWebRequestClient _httpClient = new UnityWebRequestClient();
         private Dictionary<int, BaseUnityWebRequestRequest> _requestDict = new Dictionary<int, BaseUnityWebRequestRequest>();
 
+        private StringBuilder _stringBuilder = new StringBuilder();
+
         public void OnInit()
         {
             _httpClient.Init();
+            _stringBuilder.Clear();
         }
 
         protected void OnUpdate()
@@ -35,7 +38,6 @@ namespace SangoUtils.Extensions_Unity.Service
                 getParameStr = null;
             else
             {
-                StringBuilder stringBuilder = new StringBuilder();
                 bool isFirst = true;
                 foreach (var item in getParameDic)
                 {
@@ -45,13 +47,14 @@ namespace SangoUtils.Extensions_Unity.Service
                     }
                     else
                     {
-                        stringBuilder.Append('&');
+                        _stringBuilder.Append('&');
                     }
-                    stringBuilder.Append(Uri.EscapeDataString(item.Key));
-                    stringBuilder.Append('=');
-                    stringBuilder.Append(Uri.EscapeDataString(item.Value));
+                    _stringBuilder.Append(Uri.EscapeDataString(item.Key));
+                    _stringBuilder.Append('=');
+                    _stringBuilder.Append(Uri.EscapeDataString(item.Value));
                 }
-                getParameStr = stringBuilder.ToString();
+                getParameStr = _stringBuilder.ToString();
+                _stringBuilder.Clear();
             }
             _httpClient.SendHttpRequest<T>(httpId, UnityWebRequestType.Get, getParameStr);
         }

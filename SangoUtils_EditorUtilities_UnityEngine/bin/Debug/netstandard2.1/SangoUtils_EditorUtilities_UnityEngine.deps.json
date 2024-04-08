@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "SangoUtils_EditorUtilities_UnityEngine/1.0.0": {
+        "runtime": {
+          "SangoUtils_EditorUtilities_UnityEngine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SangoUtils_EditorUtilities_UnityEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
