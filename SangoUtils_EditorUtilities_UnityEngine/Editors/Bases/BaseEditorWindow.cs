@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace SangoUtils.Editors
 {
-    public class BaseEditorWindow : EditorWindow
+    public abstract class BaseEditorWindow : EditorWindow
     {
         private FieldInfo[]? _fieldInfos;
         private MethodInfo[]? _methodInfos;
@@ -24,11 +24,17 @@ namespace SangoUtils.Editors
                 {
                     if (field.GetCustomAttributes(typeof(EditorTextFieldAttribute), true).Length > 0)
                     {
-                        field.SetValue(this, EditorGUILayout.TextField(field.Name, (string)field.GetValue(this)));
+                        EditorTextFieldAttribute attribute = (EditorTextFieldAttribute)field.GetCustomAttributes(typeof(EditorTextFieldAttribute), true)[0];
+                        string name = string.IsNullOrEmpty(attribute.Text) ? ObjectNames.NicifyVariableName(field.Name) : attribute.Text;
+                        
+                        field.SetValue(this, EditorGUILayout.TextField(name, (string)field.GetValue(this)));
                     }
                     else if (field.GetCustomAttributes(typeof(EditorObjectFieldAttribute), true).Length > 0)
                     {
-                        field.SetValue(this, EditorGUILayout.ObjectField(field.Name, (GameObject)field.GetValue(this), typeof(GameObject), true));
+                        EditorObjectFieldAttribute attribute = (EditorObjectFieldAttribute)field.GetCustomAttributes(typeof(EditorObjectFieldAttribute), true)[0];
+                        string name = string.IsNullOrEmpty(attribute.Text) ? ObjectNames.NicifyVariableName(field.Name) : attribute.Text;
+                        
+                        field.SetValue(this, EditorGUILayout.ObjectField(name, (GameObject)field.GetValue(this), typeof(GameObject), true));
                     }
                 }
             }
@@ -39,7 +45,10 @@ namespace SangoUtils.Editors
                 {
                     if (method.GetCustomAttributes(typeof(EditorButtonAttribute), true).Length > 0)
                     {
-                        if (GUILayout.Button(method.Name))
+                        EditorButtonAttribute attribute = (EditorButtonAttribute)method.GetCustomAttributes(typeof(EditorButtonAttribute), true)[0];
+                        string name = string.IsNullOrEmpty(attribute.Text) ? ObjectNames.NicifyVariableName(method.Name) : attribute.Text;
+
+                        if (GUILayout.Button(name))
                         {
                             method.Invoke(this, null);
                         }

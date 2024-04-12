@@ -1,14 +1,12 @@
-﻿using SangoNetProtocol_Classic;
-
-namespace SangoUtils.NetOperationClassic
+﻿namespace SangoUtils.NetOperation
 {
     public abstract class BaseNetEvent : BaseNetOperation
     {
         public abstract void OnEventData(string message);
 
-        public virtual void OnInit(int netOperationCode, NetClientOperationHandler handler)
+        public virtual void OnInit(int opCode, NetClientOperationHandler handler)
         {
-            NetOperationCode = netOperationCode;
+            OpCode = opCode;
             handler.AddNetEvent(this);
         }
 

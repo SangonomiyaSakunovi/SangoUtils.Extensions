@@ -1,100 +1,61 @@
-﻿using SangoNetProtocol_Classic;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils.NetOperationClassic
+namespace SangoUtils.NetOperation
 {
     public class NetClientOperationHandler
     {
         private readonly Dictionary<int, BaseNetRequest> _netRequestDict = new Dictionary<int, BaseNetRequest>();
         private readonly Dictionary<int, BaseNetEvent> _netEventDict = new Dictionary<int, BaseNetEvent>();
-        private readonly Dictionary<int, BaseNetBroadcast> _netBroadcastDict = new Dictionary<int, BaseNetBroadcast>();
-        private readonly Dictionary<int, BaseNetUdpMessage> _netUdpMessagesDict = new Dictionary<int, BaseNetUdpMessage>();
 
-        public void NetMessageCommandBroadcast(SangoNetMessage sangoNetMessage)
+        public void NetMessageCommandBroadcast(NetOpMessage message)
         {
-            switch (sangoNetMessage.NetMessageHead.NetMessageCommandCode)
+            switch (message.OpCMD)
             {
                 case 2:
                     {
-                        NetMessageResponsedBroadcast(sangoNetMessage);
+                        NetMessageResponsedBroadcast(message);
                     }
                     break;
-                case 4:
+                case 3:
                     {
-                        NetMessageEventBroadcast(sangoNetMessage);
-                    }
-                    break;
-                case 5:
-                    {
-                        NetMessageBroadcastBroadcast(sangoNetMessage);
-                    }
-                    break;
-                case 6:
-                    {
-                        NetUdpMessageBroadcast(sangoNetMessage);
+                        NetMessageEventBroadcast(message);
                     }
                     break;
             }
         }
 
-        private void NetMessageResponsedBroadcast(SangoNetMessage sangoNetMessage)
+        private void NetMessageResponsedBroadcast(NetOpMessage message)
         {
-            if (_netRequestDict.TryGetValue(sangoNetMessage.NetMessageHead.NetOperationCode, out BaseNetRequest netRequest))
+            if (_netRequestDict.TryGetValue(message.OpCode, out BaseNetRequest netRequest))
             {
-                netRequest.OnOperationResponse(sangoNetMessage.NetMessageBody.NetMessageStr);
+                netRequest.OnOperationResponse(message.Message);
             }
             else
             {
-                _netRequestDict.TryGetValue(1, out BaseNetRequest defaultNetRequest);
-                defaultNetRequest?.OnOperationResponse(sangoNetMessage.NetMessageBody.NetMessageStr);
+                _netRequestDict.TryGetValue(0, out BaseNetRequest defaultNetRequest);
+                defaultNetRequest?.OnOperationResponse(message.Message);
             }
         }
 
-        private void NetMessageEventBroadcast(SangoNetMessage sangoNetMessage)
+        private void NetMessageEventBroadcast(NetOpMessage message)
         {
-            if (_netEventDict.TryGetValue(sangoNetMessage.NetMessageHead.NetOperationCode, out BaseNetEvent netEvent))
+            if (_netEventDict.TryGetValue(message.OpCode, out BaseNetEvent netEvent))
             {
-                netEvent.OnEventData(sangoNetMessage.NetMessageBody.NetMessageStr);
+                netEvent.OnEventData(message.Message);
             }
             else
             {
-                _netEventDict.TryGetValue(1, out BaseNetEvent defaultNetEvent);
-                defaultNetEvent?.OnEventData(sangoNetMessage.NetMessageBody.NetMessageStr);
-            }
-        }
-
-        private void NetMessageBroadcastBroadcast(SangoNetMessage sangoNetMessage)
-        {
-            if (_netBroadcastDict.TryGetValue(sangoNetMessage.NetMessageHead.NetOperationCode, out BaseNetBroadcast netBroadcast))
-            {
-                netBroadcast.OnBroadcast(sangoNetMessage.NetMessageBody.NetMessageStr);
-            }
-            else
-            {
-                _netBroadcastDict.TryGetValue(1, out BaseNetBroadcast defaultNetBroadcast);
-                defaultNetBroadcast?.OnBroadcast(sangoNetMessage.NetMessageBody.NetMessageStr);
-            }
-        }
-
-        private void NetUdpMessageBroadcast(SangoNetMessage sangoNetMessage)
-        {
-            if (_netUdpMessagesDict.TryGetValue(sangoNetMessage.NetMessageHead.NetOperationCode, out BaseNetUdpMessage netUdpMessage))
-            {
-                netUdpMessage.OnUdpMessage(sangoNetMessage.NetMessageBody.NetMessageStr);
-            }
-            else
-            {
-                _netUdpMessagesDict.TryGetValue(1, out BaseNetUdpMessage defaultNetUdpMessage);
-                defaultNetUdpMessage?.OnUdpMessage(sangoNetMessage.NetMessageBody.NetMessageStr);
+                _netEventDict.TryGetValue(0, out BaseNetEvent defaultNetEvent);
+                defaultNetEvent?.OnEventData(message.Message);
             }
         }
 
         public void AddNetRequest(BaseNetRequest netRequest)
         {
-            if (!_netRequestDict.ContainsKey(netRequest.NetOperationCode))
+            if (!_netRequestDict.ContainsKey(netRequest.OpCode))
             {
-                _netRequestDict.Add(netRequest.NetOperationCode, netRequest);
+                _netRequestDict.Add(netRequest.OpCode, netRequest);
             }
             else
             {
@@ -117,9 +78,9 @@ namespace SangoUtils.NetOperationClassic
 
         public void RemoveNetRequest(BaseNetRequest netRequest)
         {
-            if (_netRequestDict.ContainsKey(netRequest.NetOperationCode))
+            if (_netRequestDict.ContainsKey(netRequest.OpCode))
             {
-                _netRequestDict.Remove(netRequest.NetOperationCode);
+                _netRequestDict.Remove(netRequest.OpCode);
             }
             else
             {
@@ -128,9 +89,9 @@ namespace SangoUtils.NetOperationClassic
 
         public void AddNetEvent(BaseNetEvent netEvent)
         {
-            if (!_netEventDict.ContainsKey(netEvent.NetOperationCode))
+            if (!_netEventDict.ContainsKey(netEvent.OpCode))
             {
-                _netEventDict.Add(netEvent.NetOperationCode, netEvent);
+                _netEventDict.Add(netEvent.OpCode, netEvent);
             }
             else
             {
@@ -153,81 +114,9 @@ namespace SangoUtils.NetOperationClassic
 
         public void RemoveNetEvent(BaseNetEvent netEvent)
         {
-            if (_netEventDict.ContainsKey(netEvent.NetOperationCode))
+            if (_netEventDict.ContainsKey(netEvent.OpCode))
             {
-                _netEventDict.Remove(netEvent.NetOperationCode);
-            }
-            else
-            {
-            }
-        }
-
-        public void AddNetBroadcast(BaseNetBroadcast netBroadcast)
-        {
-            if (!_netBroadcastDict.ContainsKey(netBroadcast.NetOperationCode))
-            {
-                _netBroadcastDict.Add(netBroadcast.NetOperationCode, netBroadcast);
-            }
-            else
-            {
-            }
-        }
-
-        public T GetNetBroadcast<T>(int operationCode) where T : BaseNetBroadcast, new()
-        {
-            if (_netBroadcastDict.ContainsKey(operationCode))
-            {
-                return (T)_netBroadcastDict[operationCode];
-            }
-            else
-            {
-                T netBroadcast = Activator.CreateInstance<T>();
-                netBroadcast.OnInit(operationCode, this);
-                return netBroadcast;
-            }
-        }
-
-        public void RemoveNetBroadcast(BaseNetBroadcast netBroadcast)
-        {
-            if (_netBroadcastDict.ContainsKey(netBroadcast.NetOperationCode))
-            {
-                _netBroadcastDict.Remove(netBroadcast.NetOperationCode);
-            }
-            else
-            {
-            }
-        }
-
-        public void AddNetUdpMessage(BaseNetUdpMessage netUdpMessage)
-        {
-            if (!_netUdpMessagesDict.ContainsKey(netUdpMessage.NetOperationCode))
-            {
-                _netUdpMessagesDict.Add(netUdpMessage.NetOperationCode, netUdpMessage);
-            }
-            else
-            {
-            }
-        }
-
-        public T GetNetUdpMessage<T>(int operationCode) where T : BaseNetUdpMessage, new()
-        {
-            if (_netUdpMessagesDict.ContainsKey(operationCode))
-            {
-                return (T)_netUdpMessagesDict[operationCode];
-            }
-            else
-            {
-                T netUdpMessage = Activator.CreateInstance<T>();
-                netUdpMessage.OnInit(operationCode, this);
-                return netUdpMessage;
-            }
-        }
-
-        public void RemoveNetUdpMessage(BaseNetUdpMessage netUdpMessage)
-        {
-            if (_netUdpMessagesDict.ContainsKey(netUdpMessage.NetOperationCode))
-            {
-                _netUdpMessagesDict.Remove(netUdpMessage.NetOperationCode);
+                _netEventDict.Remove(netEvent.OpCode);
             }
             else
             {

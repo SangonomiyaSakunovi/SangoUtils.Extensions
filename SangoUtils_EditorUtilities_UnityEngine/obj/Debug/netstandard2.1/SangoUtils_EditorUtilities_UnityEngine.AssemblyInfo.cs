@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_EditorUtilities_UnityEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+584453253223dded36fb4f48ee9a2df1129a0b76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+591fe9576442c0a591de02bfd1431adfc89e7219")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_EditorUtilities_UnityEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_EditorUtilities_UnityEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

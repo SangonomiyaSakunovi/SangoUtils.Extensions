@@ -1,4 +1,4 @@
-﻿namespace SangoUtils.NetOperationClassic
+﻿namespace SangoUtils.NetOperation
 {
     public abstract class BaseNetClientPeer
     {

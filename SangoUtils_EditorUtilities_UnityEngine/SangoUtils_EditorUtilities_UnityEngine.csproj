@@ -32,4 +32,9 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Messages\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
 </Project>

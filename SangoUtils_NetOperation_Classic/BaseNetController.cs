@@ -1,14 +1,12 @@
-﻿using SangoNetProtocol_Classic;
-
-namespace SangoUtils.NetOperationClassic
+﻿namespace SangoUtils.NetOperation
 {
     public abstract class BaseNetController : BaseNetOperation
     {
         protected abstract void DefaultOperationEvent(BaseNetClientPeer peer);
 
-        public virtual void OnInit(int netOperationCode, NetServerOperationHandler handler)
+        public virtual void OnInit(int opCode, NetServerOperationHandler handler)
         {
-            NetOperationCode = netOperationCode;
+            OpCode = opCode;
             handler.AddNetController(this);
         }
 

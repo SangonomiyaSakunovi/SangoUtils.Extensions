@@ -1,6 +1,4 @@
-﻿using SangoNetProtocol_Classic;
-
-namespace SangoUtils.NetOperationClassic
+﻿namespace SangoUtils.NetOperation
 {
     public abstract class BaseNetRequest : BaseNetOperation
     {
@@ -8,9 +6,9 @@ namespace SangoUtils.NetOperationClassic
 
         public abstract void OnOperationResponse(string message);
 
-        public virtual void OnInit(int netOperationCode, NetClientOperationHandler handler)
+        public virtual void OnInit(int opCode, NetClientOperationHandler handler)
         {
-            NetOperationCode = netOperationCode;
+            OpCode = opCode;
             handler.AddNetRequest(this);
         }
 
