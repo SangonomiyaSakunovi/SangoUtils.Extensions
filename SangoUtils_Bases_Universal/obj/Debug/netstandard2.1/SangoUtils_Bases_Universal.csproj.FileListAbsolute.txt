@@ -1,7 +1,6 @@
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils_Bases_Universal.deps.json
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils_Bases_Universal.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils_Bases_Universal.pdb
-I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils_Bases_Universal.csproj.AssemblyReference.cache
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils_Bases_Universal.GeneratedMSBuildEditorConfig.editorconfig
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils_Bases_Universal.AssemblyInfoInputs.cache
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils_Bases_Universal.AssemblyInfo.cs
@@ -9,6 +8,3 @@ I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils_Bases_Universal.sourcelink.json
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils_Bases_Universal.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils_Bases_Universal.pdb
-I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils_FSM.dll
-I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils_FSM.pdb
-I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUti.1F5D5F2E.Up2Date

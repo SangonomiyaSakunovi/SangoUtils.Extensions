@@ -1,6 +1,4 @@
-﻿using SangoUtils.FixedNum;
-
-namespace SangoUtils.Bases
+﻿namespace SangoUtils.Bases
 {
     public abstract class BaseObjectEntity
     {
@@ -11,9 +9,7 @@ namespace SangoUtils.Bases
         }
 
         public string EntityID { get; private set; } = "";
-        public FixedVector3 LogicDirection { get; set; } = FixedVector3.Zero;
-        public FixedVector3 LogicPosition { get; set; } = FixedVector3.Zero;
-        public FixedVector3 LogicPositionLast { get; set; } = FixedVector3.Zero;
+
         public PlayerState PlayerState { get; set; } = PlayerState.None;
 
         public void Update()

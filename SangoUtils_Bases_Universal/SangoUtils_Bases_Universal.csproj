@@ -6,12 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SangoUtils_FixedNum\SangoUtils_FixedNum.csproj">
-      <Private>False</Private>
-    </ProjectReference>
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="OS\" />
   </ItemGroup>
 
