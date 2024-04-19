@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SangoUtils.FSM
+namespace SangoUtils.FSMs
 {
     public class FSMStaterBase
     {

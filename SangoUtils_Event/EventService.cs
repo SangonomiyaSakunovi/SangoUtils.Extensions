@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace SangoUtils.Event
+namespace SangoUtils.Events
 {
     public class EventService
     {

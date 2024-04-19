@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils_NetOperation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8f548edf112da8c76a55926f3b703213ad8164a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c456d66945528580482f7b49397e3ef955f42343")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils_NetOperation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils_NetOperation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

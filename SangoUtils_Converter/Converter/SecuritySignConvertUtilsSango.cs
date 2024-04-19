@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace SangoUtils.Converter
+namespace SangoUtils.Converters
 {
     public static class SecuritySignConvertUtilsSango
     {

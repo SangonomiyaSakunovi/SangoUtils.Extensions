@@ -1,7 +1,7 @@
 ﻿#if UNITY_EDITOR
 using System;
 
-namespace SangoUtils.Editors
+namespace SangoUtils.EditorWindows_Unity
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public class EditorButtonAttribute : Attribute

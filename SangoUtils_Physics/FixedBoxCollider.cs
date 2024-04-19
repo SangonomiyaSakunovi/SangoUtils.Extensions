@@ -1,4 +1,4 @@
-﻿using SangoUtils.FixedNum;
+﻿using SangoUtils.FixedNums;
 using System;
 
 namespace SangoUtils.Physics

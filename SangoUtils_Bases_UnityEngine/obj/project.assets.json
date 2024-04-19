@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils_Bases_UnityEngine.csproj",
-      "projectName": "SangoUtils_Bases_UnityEngine",
-      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils_Bases_UnityEngine.csproj",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+      "projectName": "SangoUtils.Bases_Unity",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\obj\\",
       "projectStyle": "PackageReference",

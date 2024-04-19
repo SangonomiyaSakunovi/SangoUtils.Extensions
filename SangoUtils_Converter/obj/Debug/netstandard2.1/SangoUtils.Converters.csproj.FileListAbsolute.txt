@@ -1,0 +1,10 @@
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\bin\Debug\netstandard2.1\SangoUtils.Converters.deps.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\bin\Debug\netstandard2.1\SangoUtils.Converters.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\bin\Debug\netstandard2.1\SangoUtils.Converters.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\obj\Debug\netstandard2.1\SangoUtils.Converters.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\obj\Debug\netstandard2.1\SangoUtils.Converters.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\obj\Debug\netstandard2.1\SangoUtils.Converters.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\obj\Debug\netstandard2.1\SangoUtils.Converters.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\obj\Debug\netstandard2.1\SangoUtils.Converters.sourcelink.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\obj\Debug\netstandard2.1\SangoUtils.Converters.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Converter\obj\Debug\netstandard2.1\SangoUtils.Converters.pdb

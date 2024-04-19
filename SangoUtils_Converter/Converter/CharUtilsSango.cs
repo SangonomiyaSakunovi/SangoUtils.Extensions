@@ -1,6 +1,6 @@
-﻿using SangoUtils.Converter.Mapping;
+﻿using SangoUtils.Converters.Mapping;
 
-namespace SangoUtils.Converter
+namespace SangoUtils.Converters
 {
     public static class CharUtilsSango
     {

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\SangoUtils_EditorUtilities_UnityEngine.csproj",
-      "projectName": "SangoUtils_EditorUtilities_UnityEngine",
-      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\SangoUtils_EditorUtilities_UnityEngine.csproj",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\SangoUtils.EditorWindows_Unity.csproj",
+      "projectName": "SangoUtils.EditorWindows_Unity",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\SangoUtils.EditorWindows_Unity.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\obj\\",
       "projectStyle": "PackageReference",

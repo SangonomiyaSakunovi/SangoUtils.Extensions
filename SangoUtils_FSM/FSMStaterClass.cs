@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.FSM
+namespace SangoUtils.FSMs
 {
     public abstract class FSMTransCommandBase { }
 

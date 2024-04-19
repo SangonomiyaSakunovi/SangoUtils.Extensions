@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj",
-      "projectName": "SangoUtils_FixedNum",
-      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
+      "projectName": "SangoUtils.FixedNums",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\obj\\",
       "projectStyle": "PackageReference",

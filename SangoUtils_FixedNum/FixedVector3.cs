@@ -2,7 +2,7 @@
 using UnityEngine;
 #endif
 
-namespace SangoUtils.FixedNum
+namespace SangoUtils.FixedNums
 {
     public class FixedVector3
     {

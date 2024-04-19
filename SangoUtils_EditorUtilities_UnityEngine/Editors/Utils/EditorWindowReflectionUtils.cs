@@ -2,7 +2,7 @@
 using System.Reflection;
 using UnityEngine;
 
-namespace SangoUtils.Editors
+namespace SangoUtils.EditorWindows_Unity
 {
     internal static class EditorWindowReflectionUtils
     {

@@ -1,4 +1,4 @@
-﻿namespace SangoUtils.FixedNum
+﻿namespace SangoUtils.FixedNums
 {
     public class ArcCosTable
     {

@@ -1,0 +1,10 @@
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils.Bases.deps.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils.Bases.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\bin\Debug\netstandard2.1\SangoUtils.Bases.pdb
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils.Bases.GeneratedMSBuildEditorConfig.editorconfig
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils.Bases.AssemblyInfoInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils.Bases.AssemblyInfo.cs
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils.Bases.csproj.CoreCompileInputs.cache
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils.Bases.sourcelink.json
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils.Bases.dll
+I:\SangoUtils\SangoUtils_Server\SangoUtils_Bases_Universal\obj\Debug\netstandard2.1\SangoUtils.Bases.pdb

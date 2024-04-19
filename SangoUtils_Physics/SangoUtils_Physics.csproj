@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SangoUtils_FixedNum\SangoUtils_FixedNum.csproj" />
+    <ProjectReference Include="..\SangoUtils_FixedNum\SangoUtils.FixedNums.csproj" />
   </ItemGroup>
 
 </Project>

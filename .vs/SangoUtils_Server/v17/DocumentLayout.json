@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "I:\\SangoUtils\\SangoUtils_Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_bases_universal\\classes\\baseobjectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B31A5397-FE33-4674-925C-D5D1F10B64E9}|SangoUtils_EditorUtilities_UnityEngine\\SangoUtils.EditorWindows_Unity.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_editorutilities_unityengine\\editors\\bases\\baseeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31A5397-FE33-4674-925C-D5D1F10B64E9}|SangoUtils_EditorUtilities_UnityEngine\\SangoUtils.EditorWindows_Unity.csproj|solutionrelative:sangoutils_editorutilities_unityengine\\editors\\bases\\baseeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_bases_universal\\classes\\baseobjectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj|solutionrelative:sangoutils_bases_universal\\classes\\baseobjectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_server\\scripts\\04aoisystem\\aoisystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_server\\scripts\\04aoisystem\\aoisystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|solutionrelative:sangoutils_server\\scripts\\04aoisystem\\aoisystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_server\\scripts\\04aoisystem\\aoiiocphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_server\\scripts\\04aoisystem\\aoiiocphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|solutionrelative:sangoutils_server\\scripts\\04aoisystem\\aoiiocphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_server\\scripts\\04aoisystem\\aoiiocpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_server\\scripts\\04aoisystem\\aoiiocpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40A95539-52FA-418D-8693-0B8F6244F703}|SangoUtils_Server\\SangoUtils_Server_App.csproj|solutionrelative:sangoutils_server\\scripts\\04aoisystem\\aoiiocpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_bases_universal\\sangoutils_bases_universal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj|solutionrelative:sangoutils_bases_universal\\sangoutils_bases_universal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B31A5397-FE33-4674-925C-D5D1F10B64E9}|SangoUtils_EditorUtilities_UnityEngine\\SangoUtils_EditorUtilities_UnityEngine.csproj|i:\\sangoutils\\sangoutils_server\\sangoutils_editorutilities_unityengine\\editors\\bases\\baseeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B31A5397-FE33-4674-925C-D5D1F10B64E9}|SangoUtils_EditorUtilities_UnityEngine\\SangoUtils_EditorUtilities_UnityEngine.csproj|solutionrelative:sangoutils_editorutilities_unityengine\\editors\\bases\\baseeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B31A5397-FE33-4674-925C-D5D1F10B64E9}|SangoUtils_EditorUtilities_UnityEngine\\SangoUtils_EditorUtilities_UnityEngine.csproj|I:\\SangoUtils\\SangoUtils_Server\\sangoutils_editorutilities_unityengine\\editors\\utils\\editorwindowreflectionutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -205,73 +201,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 34,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AOISystem.cs",
-              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
-              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
-              "RelativeToolTip": "SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAUwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T01:53:56.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AOIIOCPHandler.cs",
-              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
-              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
-              "RelativeToolTip": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T01:53:54.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AOIIOCPController.cs",
-              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
-              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
-              "RelativeToolTip": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T01:53:53.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseObjectEntity.cs",
-              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
-              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
-              "RelativeToolTip": "SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T01:51:50.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SangoUtils_Bases_Universal",
-              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj",
-              "RelativeDocumentMoniker": "SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj",
-              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj",
-              "RelativeToolTip": "SangoUtils_Bases_Universal\\SangoUtils_Bases_Universal.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-18T01:51:22.947Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -286,7 +217,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "AOIIOCPHandler.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
+              "RelativeToolTip": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T01:53:54.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AOIIOCPController.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
+              "RelativeToolTip": "SangoUtils_Server\\Scripts\\04AOISystem\\AOIIOCPController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T01:53:53.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseObjectEntity.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
+              "RelativeToolTip": "SangoUtils_Bases_Universal\\Classes\\BaseObjectEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T01:51:50.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EditorWindowReflectionUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\Editors\\Utils\\EditorWindowReflectionUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_EditorUtilities_UnityEngine\\Editors\\Utils\\EditorWindowReflectionUtils.cs",
@@ -298,20 +265,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "BaseEditorWindow.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\Editors\\Bases\\BaseEditorWindow.cs",
               "RelativeDocumentMoniker": "SangoUtils_EditorUtilities_UnityEngine\\Editors\\Bases\\BaseEditorWindow.cs",
               "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\Editors\\Bases\\BaseEditorWindow.cs",
               "RelativeToolTip": "SangoUtils_EditorUtilities_UnityEngine\\Editors\\Bases\\BaseEditorWindow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T08:06:59.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "AOISystem.cs",
+              "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
+              "ToolTip": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
+              "RelativeToolTip": "SangoUtils_Server\\Scripts\\04AOISystem\\AOISystem.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T01:53:56.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PlayerPrefsUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Utils\\PlayerPrefs\\PlayerPrefsUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Utils\\PlayerPrefs\\PlayerPrefsUtils.cs",
@@ -323,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CharMapSango.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\Mapping\\CharMapSango.cs",
               "RelativeDocumentMoniker": "SangoUtils_Converter\\Mapping\\CharMapSango.cs",
@@ -335,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "NumberMapSango.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\Mapping\\NumberMapSango.cs",
               "RelativeDocumentMoniker": "SangoUtils_Converter\\Mapping\\NumberMapSango.cs",
@@ -347,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "SpecialCharMapSango.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\Mapping\\SpecialCharMapSango.cs",
               "RelativeDocumentMoniker": "SangoUtils_Converter\\Mapping\\SpecialCharMapSango.cs",
@@ -359,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "DateTimeUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\Utils\\Time\\DateTimeUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_Universal\\Utils\\Time\\DateTimeUtils.cs",
@@ -371,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "UIElementExtensions_Button.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Button.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\EventListener\\UIListener\\UIElementExtensions_Button.cs",
@@ -383,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "UGUISpriteAnimation.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Utils\\UGUI\\UGUISpriteAnimation.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Utils\\UGUI\\UGUISpriteAnimation.cs",
@@ -395,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "TypeInService.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Service\\TypeInService.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Service\\TypeInService.cs",
@@ -407,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "TypeInBaseSystem.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\Core\\Input\\TypeInBaseSystem.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\Input\\TypeInBaseSystem.cs",
@@ -419,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "INetClientOperation.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\INetClientOperation.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\INetClientOperation.cs",
@@ -431,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "NetOpMessage.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\NetOpMessage.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\NetOpMessage.cs",
@@ -443,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "BaseNetClientPeer.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetClientPeer.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetClientPeer.cs",
@@ -455,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "BaseNetController.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetController.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetController.cs",
@@ -467,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "BaseNetEvent.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetEvent.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetEvent.cs",
@@ -479,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "BaseNetHandler.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetHandler.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetHandler.cs",
@@ -491,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "BaseNetOperation.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetOperation.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetOperation.cs",
@@ -503,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "SangoNetProtocol.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\Protocols\\SangoNetProtocol.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation\\Protocols\\SangoNetProtocol.cs",
@@ -515,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "NetServerOperationHandler.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\NetServerOperationHandler.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation\\NetServerOperationHandler.cs",
@@ -527,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "BaseNetRequest.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\BaseNetRequest.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation_Classic\\BaseNetRequest.cs",
@@ -539,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "BaseNetUdpMessage.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetUdpMessage.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetUdpMessage.cs",
@@ -551,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "BaseNetController.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetController.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetController.cs",
@@ -563,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "BaseNetBroadcast.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\BaseNetBroadcast.cs",
               "RelativeDocumentMoniker": "SangoUtils_NetOperation\\BaseNetBroadcast.cs",
@@ -575,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "EventCache.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\EventCache.cs",
               "RelativeDocumentMoniker": "SangoUtils_Event\\EventCache.cs",
@@ -587,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "EventMessageMap.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\EventMessageMap.cs",
               "RelativeDocumentMoniker": "SangoUtils_Event\\EventMessageMap.cs",
@@ -599,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "EventListenerHandler.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\EventListenerHandler.cs",
               "RelativeDocumentMoniker": "SangoUtils_Event\\EventListenerHandler.cs",
@@ -611,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "EventService.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\EventService.cs",
               "RelativeDocumentMoniker": "SangoUtils_Event\\EventService.cs",
@@ -623,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "BasePrefab.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Classes\\BasePrefab.cs",
               "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Classes\\BasePrefab.cs",
@@ -635,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "BaseObjectBehaviour.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Classes\\BaseObjectBehaviour.cs",
               "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Classes\\BaseObjectBehaviour.cs",
@@ -647,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "MonobehaviorReflectionUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Utils\\MonobehaviorReflectionUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Utils\\MonobehaviorReflectionUtils.cs",
@@ -659,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "BaseObjectController.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Classes\\BaseObjectController.cs",
               "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Classes\\BaseObjectController.cs",
@@ -671,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "RelevantComponentAttribute.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Core\\RelevantComponentAttribute.cs",
               "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Core\\RelevantComponentAttribute.cs",
@@ -683,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "UIService.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\OS\\UIService.cs",
               "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\OS\\UIService.cs",
@@ -695,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "ComponentReflectionUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\Utils\\ComponentReflectionUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Utils\\ComponentReflectionUtils.cs",
@@ -707,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "EditorButtonAttribute.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\Core\\EditorAttributes\\EditorButtonAttribute.cs",
               "RelativeDocumentMoniker": "SangoUtils_EditorUtilities_UnityEngine\\Core\\EditorAttributes\\EditorButtonAttribute.cs",
@@ -719,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "GUIDrawerPropertyUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\Editors\\Utils\\GUIDrawerPropertyUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Editors\\Utils\\GUIDrawerPropertyUtils.cs",
@@ -731,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "EditorObjectFieldAttribute.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_EditorUtilities_UnityEngine\\Core\\EditorAttributes\\EditorObjectFieldAttribute.cs",
               "RelativeDocumentMoniker": "SangoUtils_EditorUtilities_UnityEngine\\Core\\EditorAttributes\\EditorObjectFieldAttribute.cs",
@@ -743,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "GUIDrawerReflectionUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\Editors\\Utils\\GUIDrawerReflectionUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Editors\\Utils\\GUIDrawerReflectionUtils.cs",
@@ -755,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "JsonUtils.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\Utils\\Files\\JsonUtils.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_Universal\\Utils\\Files\\JsonUtils.cs",
@@ -767,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "JsonNewton.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\Utils\\Files\\JsonNewton.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_Universal\\Utils\\Files\\JsonNewton.cs",
@@ -779,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "API_Login.cs",
               "DocumentMoniker": "I:\\SangoProjects\\UnityProjects\\\u6DF1\u804C\u9662\\SZY_Project\\SZY_Project\\Assets\\Scripts\\tongxin\\API_Login.cs",
               "RelativeDocumentMoniker": "..\\..\\SangoProjects\\UnityProjects\\\u6DF1\u804C\u9662\\SZY_Project\\SZY_Project\\Assets\\Scripts\\tongxin\\API_Login.cs",
@@ -791,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "UnityWebRequestClient.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\UnityWebRequestNet\\UnityWebRequestClient.cs",
               "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\UnityWebRequestNet\\UnityWebRequestClient.cs",
@@ -803,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "GUIDropdownPropertyDrawer.cs",
               "DocumentMoniker": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\Editors\\PropertyDrawers\\GUIDropdownPropertyDrawer.cs",
               "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Editors\\PropertyDrawers\\GUIDropdownPropertyDrawer.cs",

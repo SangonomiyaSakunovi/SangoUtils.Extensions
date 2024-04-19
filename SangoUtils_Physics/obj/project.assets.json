@@ -2,17 +2,17 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "SangoUtils_FixedNum/1.0.0": {
+      "SangoUtils.FixedNums/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "SangoUtils_FSM": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SangoUtils_FixedNum.dll": {}
+          "bin/placeholder/SangoUtils.FixedNums.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SangoUtils_FixedNum.dll": {}
+          "bin/placeholder/SangoUtils.FixedNums.dll": {}
         }
       },
       "SangoUtils_FSM/1.0.0": {
@@ -28,10 +28,10 @@
     }
   },
   "libraries": {
-    "SangoUtils_FixedNum/1.0.0": {
+    "SangoUtils.FixedNums/1.0.0": {
       "type": "project",
-      "path": "../SangoUtils_FixedNum/SangoUtils_FixedNum.csproj",
-      "msbuildProject": "../SangoUtils_FixedNum/SangoUtils_FixedNum.csproj"
+      "path": "../SangoUtils_FixedNum/SangoUtils.FixedNums.csproj",
+      "msbuildProject": "../SangoUtils_FixedNum/SangoUtils.FixedNums.csproj"
     },
     "SangoUtils_FSM/1.0.0": {
       "type": "project",
@@ -41,7 +41,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "SangoUtils_FixedNum >= 1.0.0"
+      "SangoUtils.FixedNums >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,8 +77,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj": {
-              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj"
+            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj": {
+              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj"
             }
           }
         }

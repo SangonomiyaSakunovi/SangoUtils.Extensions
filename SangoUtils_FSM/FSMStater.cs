@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils.FSM
+namespace SangoUtils.FSMs
 {
     public class FSMStater<T> : FSMStaterBase where T : struct
     {

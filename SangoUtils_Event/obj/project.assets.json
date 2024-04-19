@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\SangoUtils_Event.csproj",
-      "projectName": "SangoUtils_Event",
-      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\SangoUtils_Event.csproj",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\SangoUtils.Events.csproj",
+      "projectName": "SangoUtils.Events",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\SangoUtils.Events.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Event\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils.Event
+namespace SangoUtils.Events
 {
     internal class EventCallBackHandler
     {

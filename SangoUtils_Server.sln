@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Common", "SangoU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Server_Scripts", "SangoScripts_Server\SangoUtils_Server_Scripts.csproj", "{96A91DDA-C96B-4820-AF22-86D71C59BF4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_FixedNum", "SangoUtils_FixedNum\SangoUtils_FixedNum.csproj", "{6FD05DE5-665D-4128-B14A-7236B2D22FD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.FixedNums", "SangoUtils_FixedNum\SangoUtils.FixedNums.csproj", "{6FD05DE5-665D-4128-B14A-7236B2D22FD2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Physics", "SangoUtils_Physics\SangoUtils_Physics.csproj", "{2B4C4104-30C6-431F-BBA7-33EE019C3A91}"
 EndProject
@@ -17,11 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Logger", "SangoU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_IOCP", "SangoUtils_IOCP\SangoUtils_IOCP.csproj", "{F2DC5281-5A5B-4D73-8B38-AF2F8B4006AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Event", "SangoUtils_Event\SangoUtils_Event.csproj", "{0F75ECEC-8206-43C5-A3C9-41107262F102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Events", "SangoUtils_Event\SangoUtils.Events.csproj", "{0F75ECEC-8206-43C5-A3C9-41107262F102}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_FSM", "SangoUtils_FSM\SangoUtils_FSM.csproj", "{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Extensions_UnityEngine", "SangoUtils_Extensions_UnityEngine\SangoUtils_Extensions_UnityEngine.csproj", "{2D6CCA90-31E3-48A8-886D-7F229B7DF359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Extensions_Unity", "SangoUtils_Extensions_UnityEngine\SangoUtils.Extensions_Unity.csproj", "{2D6CCA90-31E3-48A8-886D-7F229B7DF359}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Task", "SangoUtils_Task\SangoUtils_Task.csproj", "{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}"
 EndProject
@@ -33,13 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_NetAdapter", "SangoUtils_NetAdapter\SangoUtils_NetAdapter.csproj", "{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Bases_UnityEngine", "SangoUtils_Bases_UnityEngine\SangoUtils_Bases_UnityEngine.csproj", "{56EB783B-0489-4FF5-93B0-98507A366007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Bases_Unity", "SangoUtils_Bases_UnityEngine\SangoUtils.Bases_Unity.csproj", "{56EB783B-0489-4FF5-93B0-98507A366007}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Bases_Universal", "SangoUtils_Bases_Universal\SangoUtils_Bases_Universal.csproj", "{8BED06BC-6900-4A01-B007-F40A83D4D083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Bases", "SangoUtils_Bases_Universal\SangoUtils.Bases.csproj", "{8BED06BC-6900-4A01-B007-F40A83D4D083}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Extensions_Universal", "SangoUtils_Extensions_Universal\SangoUtils_Extensions_Universal.csproj", "{10A70B57-57F7-42D8-91F0-4E7407BFE69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Extensions", "SangoUtils_Extensions_Universal\SangoUtils.Extensions.csproj", "{10A70B57-57F7-42D8-91F0-4E7407BFE69C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Converter", "SangoUtils_Converter\SangoUtils_Converter.csproj", "{08EED031-E32B-41A3-A37F-54BEA11E6FE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Converters", "SangoUtils_Converter\SangoUtils.Converters.csproj", "{08EED031-E32B-41A3-A37F-54BEA11E6FE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Socket", "SangoUtils_Socket\SangoUtils_Socket.csproj", "{9D779539-AFDD-4072-B756-529E30F69C3D}"
 EndProject
@@ -47,9 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_NetOperation_Cla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Common_Classic", "SangoUtils_Common_Classic\SangoUtils_Common_Classic.csproj", "{4B7477FD-3AC7-4BE4-BBE3-819FBEF46EB3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils_Editors_UnityEngine", "SangoUtils_Editors_UnityEngine\SangoUtils_Editors_UnityEngine.csproj", "{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Editors_Unity", "SangoUtils_Editors_UnityEngine\SangoUtils.Editors_Unity.csproj", "{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils_EditorUtilities_UnityEngine", "SangoUtils_EditorUtilities_UnityEngine\SangoUtils_EditorUtilities_UnityEngine.csproj", "{B31A5397-FE33-4674-925C-D5D1F10B64E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.EditorWindows_Unity", "SangoUtils_EditorUtilities_UnityEngine\SangoUtils.EditorWindows_Unity.csproj", "{B31A5397-FE33-4674-925C-D5D1F10B64E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

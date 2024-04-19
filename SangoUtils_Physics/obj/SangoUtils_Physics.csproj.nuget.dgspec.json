@@ -4,12 +4,12 @@
     "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Physics\\SangoUtils_Physics.csproj": {}
   },
   "projects": {
-    "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj": {
+    "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj",
-        "projectName": "SangoUtils_FixedNum",
-        "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj",
+        "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
+        "projectName": "SangoUtils.FixedNums",
+        "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\obj\\",
         "projectStyle": "PackageReference",
@@ -167,8 +167,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj": {
-                "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils_FixedNum.csproj"
+              "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj": {
+                "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj"
               }
             }
           }

@@ -130,14 +130,14 @@
           }
         }
       },
-      "SangoUtils_Converter/1.0.0": {
+      "SangoUtils.Converters/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/SangoUtils_Converter.dll": {}
+          "bin/placeholder/SangoUtils.Converters.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SangoUtils_Converter.dll": {}
+          "bin/placeholder/SangoUtils.Converters.dll": {}
         }
       }
     }
@@ -434,15 +434,15 @@
         "version.txt"
       ]
     },
-    "SangoUtils_Converter/1.0.0": {
+    "SangoUtils.Converters/1.0.0": {
       "type": "project",
-      "path": "../SangoUtils_Converter/SangoUtils_Converter.csproj",
-      "msbuildProject": "../SangoUtils_Converter/SangoUtils_Converter.csproj"
+      "path": "../SangoUtils_Converter/SangoUtils.Converters.csproj",
+      "msbuildProject": "../SangoUtils_Converter/SangoUtils.Converters.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "SangoUtils_Converter >= 1.0.0",
+      "SangoUtils.Converters >= 1.0.0",
       "System.Text.Json >= 8.0.1"
     ]
   },
@@ -453,9 +453,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj",
-      "projectName": "SangoUtils_Extensions_UnityEngine",
-      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\SangoUtils_Extensions_UnityEngine.csproj",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj",
+      "projectName": "SangoUtils.Extensions_Unity",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_UnityEngine\\obj\\",
       "projectStyle": "PackageReference",
@@ -479,8 +479,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils_Converter.csproj": {
-              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils_Converter.csproj"
+            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj": {
+              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj"
             }
           }
         }

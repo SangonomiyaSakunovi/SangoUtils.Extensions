@@ -3,7 +3,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace SangoUtils.Editors
+namespace SangoUtils.EditorWindows_Unity
 {
     public abstract class BaseEditorWindow : EditorWindow
     {

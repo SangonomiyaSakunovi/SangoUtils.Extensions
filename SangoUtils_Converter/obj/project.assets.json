@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils_Converter.csproj",
-      "projectName": "SangoUtils_Converter",
-      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils_Converter.csproj",
+      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
+      "projectName": "SangoUtils.Converters",
+      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\obj\\",
       "projectStyle": "PackageReference",
