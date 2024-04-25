@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Authors>SangonomiyaSakunovi</Authors>
+    <Company></Company>
+    <Product>SangoUtils.Extensions</Product>
   </PropertyGroup>
 
   <ItemGroup>

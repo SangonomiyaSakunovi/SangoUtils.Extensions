@@ -1,4 +1,4 @@
-namespace SangoUtils.Logger
+namespace SangoUtils.Loggers
 {
     public static class SangoLogger
     {

@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SangoUtils_NetAdapter\SangoUtils_NetAdapter.csproj" />
-    <ProjectReference Include="..\SangoUtils_Socket\SangoUtils_Socket.csproj" />
-    <ProjectReference Include="..\SangoUtils_UDP\SangoUtils_UDP.csproj" />
+    <ProjectReference Include="..\SangoUtils_NetAdapter\SangoUtils.NetAdapters.csproj" />
+    <ProjectReference Include="..\SangoUtils_Socket\SangoUtils.Sockets.csproj" />
+    <ProjectReference Include="..\SangoUtils_UDP\SangoUtils.UDPClients.csproj" />
   </ItemGroup>
 
 </Project>

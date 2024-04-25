@@ -8,3 +8,13 @@ I:\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoU
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.sourcelink.json
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\bin\Debug\netstandard2.1\SangoUtils.Events.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\bin\Debug\netstandard2.1\SangoUtils.Events.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\bin\Debug\netstandard2.1\SangoUtils.Events.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Event\obj\Debug\netstandard2.1\SangoUtils.Events.pdb

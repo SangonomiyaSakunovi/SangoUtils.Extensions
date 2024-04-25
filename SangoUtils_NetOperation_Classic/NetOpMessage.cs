@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.NetOperation
+namespace SangoUtils.NetOperations
 {
     [Serializable]
     public class NetOpMessage

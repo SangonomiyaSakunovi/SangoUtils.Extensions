@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-namespace SangoUtils.Logger
+namespace SangoUtils.Loggers
 {
     public class LoggerUtils_Sango
     {

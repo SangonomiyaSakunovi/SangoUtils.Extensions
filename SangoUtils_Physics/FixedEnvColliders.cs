@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace SangoUtils.Physics
+namespace SangoUtils.PhysicExtensions_Unity
 {
     public class FixedEnvColliders
     {

@@ -43,37 +43,37 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "SangoUtils_NetAdapter/1.0.0": {
+      "SangoUtils.NetAdapters/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/SangoUtils_NetAdapter.dll": {}
+          "bin/placeholder/SangoUtils.NetAdapters.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SangoUtils_NetAdapter.dll": {}
+          "bin/placeholder/SangoUtils.NetAdapters.dll": {}
         }
       },
-      "SangoUtils_Socket/1.0.0": {
+      "SangoUtils.Sockets/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/SangoUtils_Socket.dll": {}
+          "bin/placeholder/SangoUtils.Sockets.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SangoUtils_Socket.dll": {}
+          "bin/placeholder/SangoUtils.Sockets.dll": {}
         }
       },
-      "SangoUtils_UDP/1.0.0": {
+      "SangoUtils.UDPClients/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "System.Text.Json": "8.0.1"
         },
         "compile": {
-          "bin/placeholder/SangoUtils_UDP.dll": {}
+          "bin/placeholder/SangoUtils.UDPClients.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SangoUtils_UDP.dll": {}
+          "bin/placeholder/SangoUtils.UDPClients.dll": {}
         }
       }
     }
@@ -187,47 +187,47 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "SangoUtils_NetAdapter/1.0.0": {
+    "SangoUtils.NetAdapters/1.0.0": {
       "type": "project",
-      "path": "../SangoUtils_NetAdapter/SangoUtils_NetAdapter.csproj",
-      "msbuildProject": "../SangoUtils_NetAdapter/SangoUtils_NetAdapter.csproj"
+      "path": "../SangoUtils_NetAdapter/SangoUtils.NetAdapters.csproj",
+      "msbuildProject": "../SangoUtils_NetAdapter/SangoUtils.NetAdapters.csproj"
     },
-    "SangoUtils_Socket/1.0.0": {
+    "SangoUtils.Sockets/1.0.0": {
       "type": "project",
-      "path": "../SangoUtils_Socket/SangoUtils_Socket.csproj",
-      "msbuildProject": "../SangoUtils_Socket/SangoUtils_Socket.csproj"
+      "path": "../SangoUtils_Socket/SangoUtils.Sockets.csproj",
+      "msbuildProject": "../SangoUtils_Socket/SangoUtils.Sockets.csproj"
     },
-    "SangoUtils_UDP/1.0.0": {
+    "SangoUtils.UDPClients/1.0.0": {
       "type": "project",
-      "path": "../SangoUtils_UDP/SangoUtils_UDP.csproj",
-      "msbuildProject": "../SangoUtils_UDP/SangoUtils_UDP.csproj"
+      "path": "../SangoUtils_UDP/SangoUtils.UDPClients.csproj",
+      "msbuildProject": "../SangoUtils_UDP/SangoUtils.UDPClients.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "SangoUtils_NetAdapter >= 1.0.0",
-      "SangoUtils_Socket >= 1.0.0",
-      "SangoUtils_UDP >= 1.0.0"
+      "SangoUtils.NetAdapters >= 1.0.0",
+      "SangoUtils.Sockets >= 1.0.0",
+      "SangoUtils.UDPClients >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\16022\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
+      "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
       "projectName": "TestConsole",
-      "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\obj\\",
+      "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
+      "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\16022\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -243,14 +243,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj": {
-              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj"
+            "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj": {
+              "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj"
             },
-            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj": {
-              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj"
+            "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
+              "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj"
             },
-            "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj": {
-              "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj"
+            "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj": {
+              "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj"
             }
           }
         }
@@ -285,7 +285,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

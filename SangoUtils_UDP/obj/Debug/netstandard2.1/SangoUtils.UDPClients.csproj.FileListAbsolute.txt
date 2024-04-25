@@ -1,0 +1,11 @@
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\bin\Debug\netstandard2.1\SangoUtils.UDPClients.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\bin\Debug\netstandard2.1\SangoUtils.UDPClients.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\bin\Debug\netstandard2.1\SangoUtils.UDPClients.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.csproj.AssemblyReference.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\obj\Debug\netstandard2.1\SangoUtils.UDPClients.pdb

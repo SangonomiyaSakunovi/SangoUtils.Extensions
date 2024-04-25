@@ -11,10 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SangoUtils.Extensions")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SangonomiyaSakunovi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c456d66945528580482f7b49397e3ef955f42343")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2bab11fed3f95b54d9df02a2288ee1d7d625985")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils.Extensions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

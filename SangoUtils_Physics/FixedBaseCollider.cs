@@ -1,6 +1,6 @@
 ﻿using SangoUtils.FixedNums;
 
-namespace SangoUtils.Physics
+namespace SangoUtils.PhysicExtensions_Unity
 {
     public abstract class FixedBaseCollider
     {

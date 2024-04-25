@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Net.Sockets;
 
-namespace SangoUtils.IOCP
+namespace SangoUtils.IOCPs
 {
     public abstract class IClientPeer_IOCP
     {

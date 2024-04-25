@@ -2,7 +2,7 @@
 using System;
 using System.Text.Json;
 
-namespace SangoUtils.NetOperation
+namespace SangoUtils.NetOperations
 {
     public abstract class BaseNetOperation
     {

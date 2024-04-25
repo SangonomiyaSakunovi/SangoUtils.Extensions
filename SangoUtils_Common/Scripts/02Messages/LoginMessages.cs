@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.Common.Messages
+namespace SangoUtils.Commons.Messages
 {
     [Serializable]
     public class LoginReqMessage

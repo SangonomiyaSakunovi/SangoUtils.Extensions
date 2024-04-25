@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SangoScripts_Server\SangoUtils_Server_Scripts.csproj" />
-    <ProjectReference Include="..\SangoUtils_Common\SangoUtils_Common.csproj" />
+    <ProjectReference Include="..\SangoUtils_Common\SangoUtils.Commons.csproj" />
   </ItemGroup>
 
 </Project>

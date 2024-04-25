@@ -1,6 +1,6 @@
 using SangoNetProtol;
 
-namespace SangoUtils.NetOperation
+namespace SangoUtils.NetOperations
 {
     public abstract class BaseNetRequest : BaseNetOperation
     {

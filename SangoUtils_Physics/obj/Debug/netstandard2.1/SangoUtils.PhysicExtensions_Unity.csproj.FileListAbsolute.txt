@@ -1,0 +1,11 @@
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\bin\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.csproj.AssemblyReference.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\obj\Debug\netstandard2.1\SangoUtils.PhysicExtensions_Unity.pdb

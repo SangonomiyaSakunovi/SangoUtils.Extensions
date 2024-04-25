@@ -1,6 +1,6 @@
 using System;
 
-namespace SangoUtils.Logger
+namespace SangoUtils.Loggers
 {
     public class LoggerConfig_Sango
     {

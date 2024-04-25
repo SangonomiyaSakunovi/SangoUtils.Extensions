@@ -5,7 +5,7 @@ using System.Threading;
 using UnityEngine;
 #endif
 
-namespace SangoUtils.IOCP
+namespace SangoUtils.IOCPs
 {
     public class IOCPLogger
     {

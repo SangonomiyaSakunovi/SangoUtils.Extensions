@@ -9,3 +9,14 @@ I:\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug
 I:\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.sourcelink.json
 I:\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.dll
 I:\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\bin\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\bin\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\bin\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.csproj.AssemblyReference.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_EditorUtilities_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.EditorWindows_Unity.pdb

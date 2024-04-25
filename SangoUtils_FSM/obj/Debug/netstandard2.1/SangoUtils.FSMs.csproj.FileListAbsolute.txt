@@ -1,0 +1,10 @@
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\bin\Debug\netstandard2.1\SangoUtils.FSMs.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\bin\Debug\netstandard2.1\SangoUtils.FSMs.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\bin\Debug\netstandard2.1\SangoUtils.FSMs.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils.FSMs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils.FSMs.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils.FSMs.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils.FSMs.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils.FSMs.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils.FSMs.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_FSM\obj\Debug\netstandard2.1\SangoUtils.FSMs.pdb

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj": {}
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj": {}
   },
   "projects": {
-    "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj": {
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj",
-        "projectName": "SangoUtils_NetAdapter",
-        "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\obj\\",
+        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
+        "projectName": "SangoUtils.NetAdapters",
+        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
+        "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16022\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj": {
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj",
-        "projectName": "SangoUtils_Socket",
-        "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\obj\\",
+        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj",
+        "projectName": "SangoUtils.Sockets",
+        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj",
+        "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16022\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -130,24 +130,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj": {
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj",
-        "projectName": "SangoUtils_UDP",
-        "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\obj\\",
+        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
+        "projectName": "SangoUtils.UDPClients",
+        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
+        "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16022\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -201,24 +201,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj": {
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
+        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
         "projectName": "TestConsole",
-        "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "I:\\SangoUtils\\SangoUtils_Server\\TestConsole\\obj\\",
+        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\TestConsole.csproj",
+        "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\TestConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16022\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -234,14 +234,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj": {
-                "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils_NetAdapter.csproj"
+              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj": {
+                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj"
               },
-              "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj": {
-                "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj"
+              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
+                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj"
               },
-              "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj": {
-                "projectPath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils_UDP.csproj"
+              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj": {
+                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj"
               }
             }
           }
@@ -276,7 +276,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

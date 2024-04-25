@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n0uyBkCjkqwTVETn4XVbGJu2Q7Vz9R+Vg50fx/unMPRpnIMXfgpj6k9keFV7tfl4ZfU5lU8NVKFi1eY+/yJLBg==",
+  "dgSpecHash": "0n43/JNHah/lJS/9KHexOyRWzCZqRDNeDBOAy29234PjKYfOe7dH1pPZs5mhMpbLD/+mbiT9jg0q972fGup44Q==",
   "success": true,
-  "projectFilePath": "I:\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils_Socket.csproj",
+  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

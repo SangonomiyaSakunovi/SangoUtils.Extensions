@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils.CommonClassic.Messages
+namespace SangoUtils.CommonsClassic.Messages
 {
     [Serializable]
     public class OperationResReqMessage

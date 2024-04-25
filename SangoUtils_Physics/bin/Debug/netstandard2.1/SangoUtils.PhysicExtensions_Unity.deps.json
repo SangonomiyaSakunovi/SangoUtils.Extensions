@@ -1,0 +1,27 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "SangoUtils.PhysicExtensions_Unity/1.0.0": {
+        "dependencies": {
+          "SangoUtils.FixedNums": "1.0.0"
+        },
+        "runtime": {
+          "SangoUtils.PhysicExtensions_Unity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SangoUtils.PhysicExtensions_Unity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

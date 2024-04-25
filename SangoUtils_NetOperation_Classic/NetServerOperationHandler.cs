@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SangoUtils.NetOperation
+namespace SangoUtils.NetOperations
 {
     public class NetServerOperationHandler
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SangoUtils.IOCP
+namespace SangoUtils.IOCPs
 {
     public class IOCPClientPeerPool<T> where T : IClientPeer_IOCP, new()
     {

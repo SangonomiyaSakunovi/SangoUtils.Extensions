@@ -1,0 +1,11 @@
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\bin\Debug\netstandard2.1\SangoUtils.Sockets.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\bin\Debug\netstandard2.1\SangoUtils.Sockets.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\bin\Debug\netstandard2.1\SangoUtils.Sockets.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.csproj.AssemblyReference.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Socket\obj\Debug\netstandard2.1\SangoUtils.Sockets.pdb

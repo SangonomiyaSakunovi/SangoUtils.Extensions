@@ -11,7 +11,7 @@
         "dependencies": {
           "Microsoft.Win32.Registry": "5.0.0",
           "Newtonsoft.Json": "13.0.3",
-          "SangoUtils_Converter": "1.0.0",
+          "SangoUtils.Converters": "1.0.0",
           "System.Text.Json": "8.0.1"
         },
         "runtime": {
