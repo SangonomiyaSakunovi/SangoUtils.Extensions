@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using TestConsole;
+using TestConsole.Test;
 
-ServerPeerInstance instance = new();
-instance.OpenAsServer("192.168.3.55", 52517, 100);
-Console.ReadKey();
+//TestForAttributeUsing.Test();
+
+TestForAttributeUsing.TestNew();
