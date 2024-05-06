@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server_App.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Server\\SangoUtils_Server_App.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj",
         "projectName": "SangoUtils_Server_Scripts",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoScripts_Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils.Commons.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils.Commons.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\SangoUtils.Commons.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\SangoUtils.Commons.csproj"
               },
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj"
               },
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Logger\\SangoUtils.Loggers.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Logger\\SangoUtils.Loggers.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Logger\\SangoUtils.Loggers.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Logger\\SangoUtils.Loggers.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils.Commons.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\SangoUtils.Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils.Commons.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\SangoUtils.Commons.csproj",
         "projectName": "SangoUtils.Commons",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils.Commons.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\SangoUtils.Commons.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -160,14 +160,14 @@
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj",
         "projectName": "SangoUtils.IOCPs",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_IOCP\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_IOCP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -225,14 +225,14 @@
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Logger\\SangoUtils.Loggers.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Logger\\SangoUtils.Loggers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Logger\\SangoUtils.Loggers.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Logger\\SangoUtils.Loggers.csproj",
         "projectName": "SangoUtils.Loggers",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Logger\\SangoUtils.Loggers.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Logger\\SangoUtils.Loggers.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Logger\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Logger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -290,14 +290,14 @@
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server_App.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Server\\SangoUtils_Server_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server_App.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Server\\SangoUtils_Server_App.csproj",
         "projectName": "SangoUtils_Server_App",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\SangoUtils_Server_App.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Server\\SangoUtils_Server_App.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Server\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -319,11 +319,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj"
               },
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils.Commons.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Common\\SangoUtils.Commons.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\SangoUtils.Commons.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Common\\SangoUtils.Commons.csproj"
               }
             }
           }

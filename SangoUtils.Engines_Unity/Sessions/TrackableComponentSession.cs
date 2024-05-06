@@ -1,9 +1,10 @@
-﻿using System;
+﻿using SangoUtils.Bases_Unity.Trackables;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace SangoUtils.Bases_Unity
+namespace SangoUtils.Engines_Unity
 {
     public class TrackableComponentSession : MonoBehaviour
     {
@@ -15,33 +16,42 @@ namespace SangoUtils.Bases_Unity
         private readonly Dictionary<int, TrackabeWindow> _windowsDict = new Dictionary<int, TrackabeWindow>();
         private readonly Dictionary<int, TrackablePanel> _panelsDict = new Dictionary<int, TrackablePanel>();
 
-        public void InitSession()
+        /// <summary>
+        /// Warning: You must call this API before using any other APIs.
+        /// </summary>
+        public void Initialize()
         {
+            if (Instance != null)
+            {
+                LogErrorFunc("TrackableComponentSession is already initialized.");
+                return;
+            }
+
             Instance = this;
         }
 
-        public void AddTrackableComponent()
+        public void AddComponent()
         {
             Scene scene = SceneManager.GetActiveScene();
             GameObject[] rootObjects = scene.GetRootGameObjects();
-            AddTrackableComponent(rootObjects);
+            AddComponent(rootObjects);
         }
 
-        public void AddTrackableComponent(GameObject[] rootObjects)
+        public void AddComponent(GameObject[] rootObjects)
         {
             for (int i = 0; i < rootObjects.Length; i++)
             {
-                AddTrackableComponent(rootObjects[i]);
+                AddComponent(rootObjects[i]);
             }
         }
 
-        public void AddTrackableComponent(GameObject rootObject)
+        public void AddComponent(GameObject rootObject)
         {
             Component[] components = rootObject.GetComponentsInChildren<Component>(true);
-            AddTrackableComponent(components);
+            AddComponent(components);
         }
 
-        public void AddTrackableComponent(Component[] components)
+        public void AddComponent(Component[] components)
         {
             foreach (var component in components)
             {

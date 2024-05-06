@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
         "projectName": "SangoUtils.FixedNums",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FixedNum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj",
         "projectName": "SangoUtils.PhysicExtensions_Unity",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Physics\\SangoUtils.PhysicExtensions_Unity.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Physics\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Physics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj"
               }
             }
           }

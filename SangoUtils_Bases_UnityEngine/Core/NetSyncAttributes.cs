@@ -14,9 +14,9 @@ namespace SangoUtils.Bases_Unity
     }
     
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
-    public class NetSyncObjectAttribute : NetSyncComponentAttribute
+    public class NetSyncSubspaceObjectAttribute : NetSyncComponentAttribute
     {
-        public NetSyncObjectAttribute(int netSyncGroupID = 0) : base(netSyncGroupID)
+        public NetSyncSubspaceObjectAttribute(int netSyncGroupID = 0) : base(netSyncGroupID)
         {
         }
     }

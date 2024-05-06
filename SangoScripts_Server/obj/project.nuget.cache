@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rXu8Uou5mrGdLFvj952g5dV5jEjqrvhtKluwhZ+A/rQy6Vby1kOVaiQCNtHTXn4K45zdbAkW2niVX0NxBK/p8Q==",
+  "dgSpecHash": "ngKiqp115lOkhox9HpefkhH+14iHuhLrt2/Uv7K5yfm9V6IynKTWlgBgH5nbWNyehS1Uudz9GqFVjnAuySIbBA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoScripts_Server\\SangoUtils_Server_Scripts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\16022\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

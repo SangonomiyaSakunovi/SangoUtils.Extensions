@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UKg65VYq4aKz77Bup7sNTjT9zswYyoAGxYy0tJESgpNHhVS8fRgoZnyjjCNkqo3VPimlvoFXK6ezW/8PJpTppA==",
+  "dgSpecHash": "hHuo71S2r2Dy8xWuitUPBWvANH6o7kztniEmRb9M45THIYqY6oz4ibTWmngc+mpb4636LO7BAkHTPnirnQGVNA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\16022\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

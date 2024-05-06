@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
         "projectName": "SangoUtils.NetOperations",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

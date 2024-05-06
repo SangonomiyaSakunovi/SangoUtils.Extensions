@@ -13,7 +13,7 @@
         void OnNetSyncMessage(params object[] messages);
     }
     
-    public interface INetSyncObject : INetSyncComponent
+    public interface INetSyncSubspaceObject : INetSyncComponent
     {
         
     }

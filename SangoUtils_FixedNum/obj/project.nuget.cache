@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jjsb9SC0jOTmOdkC7XkTvDaDzTLjzV5d2+M5IdXuiuf817BcRlH5fHQhxFTGhd+z7g/hZ0g1zEYqD7OBlXVl+g==",
+  "dgSpecHash": "MbdbJk+Zoam6s9v1mx9MOZG4Ig8nVrKmBkeSjO2xUt8fXdDEh+FW5IWe9AeCOP/MFBO0qgC7aYqVNam56R3r6w==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FixedNum\\SangoUtils.FixedNums.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

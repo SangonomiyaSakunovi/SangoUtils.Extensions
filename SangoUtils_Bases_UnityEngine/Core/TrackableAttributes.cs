@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.Bases_Unity
+namespace SangoUtils.Bases_Unity.Trackables
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
     public class TrackableComponentAttribute : Attribute

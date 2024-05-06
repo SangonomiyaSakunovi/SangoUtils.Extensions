@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\SangoUtils.Converters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
         "projectName": "SangoUtils.Converters",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
         "projectName": "SangoUtils.Extensions",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\SangoUtils.Converters.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\SangoUtils.Converters.csproj"
               }
             }
           }

@@ -1,4 +1,4 @@
-﻿namespace SangoUtils.Bases_Unity
+﻿namespace SangoUtils.Bases_Unity.Trackables
 {
     public interface ITrackableComponent
     {

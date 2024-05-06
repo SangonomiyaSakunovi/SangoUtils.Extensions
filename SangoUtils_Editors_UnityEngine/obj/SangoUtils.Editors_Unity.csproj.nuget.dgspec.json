@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj",
         "projectName": "SangoUtils.Editors_Unity",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\SangoUtils.Editors_Unity.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Editors_UnityEngine\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

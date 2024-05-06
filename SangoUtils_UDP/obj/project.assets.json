@@ -437,11 +437,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
       "projectName": "SangoUtils.UDPClients",
-      "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\obj\\",
+      "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_UDP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rkM7MjIw7mT5EA2u7Wrtx5ZGYgYNfH5W4i+3yxfCdipPXoBHxZb4iG6MZPTRkCH7HQ+9S1IJ1Jt88AIQ9xIdOA==",
+  "dgSpecHash": "mlUNvHYz164N80FntOTFBd5Njk6NZp4eoR/mP2ssI/MOWgq2EHhj3Ut7E8ZHNq4/lmcsijB+EYN0lmd7DsNAIg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_UDP\\SangoUtils.UDPClients.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\16022\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

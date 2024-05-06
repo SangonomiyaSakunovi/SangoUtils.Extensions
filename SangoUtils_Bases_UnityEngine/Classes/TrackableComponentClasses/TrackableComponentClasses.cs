@@ -1,8 +1,18 @@
 ﻿using UnityEngine;
 
-namespace SangoUtils.Bases_Unity
+namespace SangoUtils.Bases_Unity.Trackables
 {
-    internal class TrackabeWindow : BaseTrackableClass
+    public class TrackableComponent : BaseTrackableComponent
+    {
+        public TrackableComponent(int trackableID, int trackableGroupID, GameObject trackableObject)
+        {
+            this.TrackableID = trackableID;
+            this.TrackableGroupID = trackableGroupID;
+            this.TrackableObject = trackableObject;
+        }
+    }
+
+    public class TrackabeWindow : BaseTrackableComponent
     {
         public TrackabeWindow(int trackableID, int trackableGroupID, GameObject trackableObject)
         {
@@ -12,7 +22,7 @@ namespace SangoUtils.Bases_Unity
         }
     }
 
-    internal class TrackablePanel : BaseTrackableClass
+    public class TrackablePanel : BaseTrackableComponent
     {
         public TrackablePanel(int trackableID, int trackableGroupID, GameObject trackableObject)
         {

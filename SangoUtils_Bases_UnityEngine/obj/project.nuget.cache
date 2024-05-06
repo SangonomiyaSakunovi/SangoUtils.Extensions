@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w9DAKF7kAZUdgtEKSCBhrgLy/lQG+FFfqiQET5cYG03uyYrg61wCOA7BLYYIn0ffQO+p0AlYTvf3FqUKK7mklg==",
+  "dgSpecHash": "khUkiBFBsB8O6U9apYpwqKB+GXdilGsJsoKyKGOcVWxWl+gWuiK+3D7ecGv7XRdev/91SzR+d4lpt6/mOJF/Lw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

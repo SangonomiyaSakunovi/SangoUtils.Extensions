@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8yx6+qwkBPSewpfeVGGUZuTIUCSx1HB+rF+ZL1fyV4mOW1KR1WLXNQ4DKfM5QxCVnYc8AGteQG8STvrzjjIOuA==",
+  "dgSpecHash": "1hGc9lNNpdJfKu+Ue1ounP0eG67gCah1jdKJf/VhIViXfRLCgT7Oq4iSoxB+7mZak6k/zWhY7xONQb3lLRhraw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\16022\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

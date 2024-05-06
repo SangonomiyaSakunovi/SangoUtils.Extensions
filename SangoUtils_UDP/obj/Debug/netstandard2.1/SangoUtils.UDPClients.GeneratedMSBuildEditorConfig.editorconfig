@@ -1,5 +1,5 @@
 is_global = true
 build_property.RootNamespace = SangoUtils.UDPClients
-build_property.ProjectDir = D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_UDP\
+build_property.ProjectDir = D:\SangoUtils\SangoUtils.Extensions\SangoUtils_UDP\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

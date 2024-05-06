@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-namespace SangoUtils.Bases_Unity
+namespace SangoUtils.Bases_Unity.Trackables
 {
-    internal class BaseTrackableClass
+    public class BaseTrackableComponent
     {
         public int TrackableID { get; protected set; } = 0;
         public int TrackableGroupID { get; protected set; } = 0;

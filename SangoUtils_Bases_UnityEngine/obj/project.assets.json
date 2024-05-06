@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
       "projectName": "SangoUtils.Bases_Unity",
-      "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\obj\\",
+      "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
