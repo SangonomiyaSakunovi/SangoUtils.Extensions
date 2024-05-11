@@ -1,0 +1,11 @@
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\bin\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.deps.json
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\bin\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.dll
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\bin\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.pdb
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.csproj.AssemblyReference.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.GeneratedMSBuildEditorConfig.editorconfig
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.AssemblyInfoInputs.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.AssemblyInfo.cs
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.csproj.CoreCompileInputs.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.sourcelink.json
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.dll
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils.SangoHolographySpace\obj\Debug\netstandard2.1\SangoUtils.HolographySpace_Unity.pdb

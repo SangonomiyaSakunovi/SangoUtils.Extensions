@@ -12,12 +12,13 @@ namespace SangoUtils.Bases_Unity
             NetSyncGroupID = netSyncGroupID;
         }
     }
-    
+
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
     public class NetSyncSubspaceObjectAttribute : NetSyncComponentAttribute
     {
         public NetSyncSubspaceObjectAttribute(int netSyncGroupID = 0) : base(netSyncGroupID)
         {
+
         }
     }
 

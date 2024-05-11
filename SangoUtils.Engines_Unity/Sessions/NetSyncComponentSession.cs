@@ -2,8 +2,8 @@
 using SangoUtils.Bases_Unity.NetSyncs;
 using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace SangoUtils.Engines_Unity
 {
@@ -14,7 +14,7 @@ namespace SangoUtils.Engines_Unity
 #pragma warning restore CS8618
         public Action<string> LogErrorFunc { get; set; } = Debug.LogError;
 
-        private readonly ConcurrentDictionary<int, NetSyncSubspaceObject> _syncSubspaceObjectDict = new ConcurrentDictionary<int, NetSyncSubspaceObject>();
+        private readonly ConcurrentDictionary<int, NetSyncSubspaceObjectPack> _syncSubspaceObjectDict_Locals = new ConcurrentDictionary<int, NetSyncSubspaceObjectPack>();
 
         /// <summary>
         /// Warning: You must call this API before using any other APIs.
@@ -30,17 +30,78 @@ namespace SangoUtils.Engines_Unity
             Instance = this;
         }
 
-        public void AddComponent(Component[] components)
+        public void AddComponent()
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            GameObject[] rootObjects = scene.GetRootGameObjects();
+            AddComponent(rootObjects);
+        }
+
+        public void AddComponent(GameObject[] rootObjects)
+        {
+            for (int i = 0; i < rootObjects.Length; i++)
+            {
+                AddComponent(rootObjects[i]);
+            }
+        }
+
+        public void AddComponent(GameObject rootObject)
+        {
+            Component[] components = rootObject.GetComponentsInChildren<Component>(true);
+            AddComponentAsNetSyncs(components);
+        }
+
+        public void AddComponentAsNetSyncs(Component[] components)
         {
             foreach (var component in components)
             {
-                Type type = component.GetType();
-                if(Attribute.IsDefined(type,typeof(NetSyncSubspaceObject)) && typeof(INetSyncSubspaceObject).IsAssignableFrom(type))
+                if(component != null)
                 {
-                    int entityID = type.GetHashCode();
-                    NetSyncSubspaceObjectAttribute attribute = (NetSyncSubspaceObjectAttribute)Attribute.GetCustomAttribute(type, typeof(NetSyncSubspaceObjectAttribute));
+                    Type type = component.GetType();
+                    AddComponentAsNetSyncSubspaceObject(component, type);
                 }
             }
+        }
+
+        public void AddComponentAsNetSyncSubspaceObject(Component component, Type type)
+        {
+            if (Attribute.IsDefined(type, typeof(NetSyncSubspaceObjectPack)) && typeof(INetSyncSubspaceObject).IsAssignableFrom(type))
+            {
+                GameObject entityObject = component.gameObject;
+                int entityID = entityObject.GetInstanceID();
+                NetSyncSubspaceObjectAttribute attribute = (NetSyncSubspaceObjectAttribute)Attribute.GetCustomAttribute(type, typeof(NetSyncSubspaceObjectAttribute));
+                int entityGroupID = attribute.NetSyncGroupID;
+                
+                if (!_syncSubspaceObjectDict_Locals.ContainsKey(entityID))
+                {
+                    NetSyncSubspaceObjectPack pack = new NetSyncSubspaceObjectPack(entityID, entityGroupID, entityObject);
+                    INetSyncSubspaceObject? meta = component as INetSyncSubspaceObject;
+                    if (meta != null)
+                    {
+
+                    }
+                    _syncSubspaceObjectDict_Locals.TryAdd(entityID, pack);
+                }
+            }
+        }
+
+        public void SyncSubspaceObject(GameObject gameObject)
+        {
+            int entityID = gameObject.GetInstanceID();
+            SyncSubspaceObject(entityID);
+        }
+
+        public void SyncSubspaceObject(int entityID)
+        {
+            if (_syncSubspaceObjectDict_Locals.TryGetValue(entityID, out NetSyncSubspaceObjectPack subspaceObject))
+            {
+                
+            }
+        }
+
+        public void SyncSubspaceObjectAll()
+        {
+
         }
     }
 }

@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/SangoUtils.Bases_Unity.dll": {}
         }
+      },
+      "SangoUtils.Sockets/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SangoUtils.Sockets.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SangoUtils.Sockets.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../SangoUtils_Bases_UnityEngine/SangoUtils.Bases_Unity.csproj",
       "msbuildProject": "../SangoUtils_Bases_UnityEngine/SangoUtils.Bases_Unity.csproj"
+    },
+    "SangoUtils.Sockets/1.0.0": {
+      "type": "project",
+      "path": "../SangoUtils_Socket/SangoUtils.Sockets.csproj",
+      "msbuildProject": "../SangoUtils_Socket/SangoUtils.Sockets.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "SangoUtils.Bases_Unity >= 1.0.0"
+      "SangoUtils.Bases_Unity >= 1.0.0",
+      "SangoUtils.Sockets >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +77,9 @@
           "projectReferences": {
             "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj": {
               "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj"
+            },
+            "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
+              "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj"
             }
           }
         }

@@ -13,8 +13,8 @@ namespace SangoUtils.Engines_Unity
 #pragma warning restore CS8618
         public Action<string> LogErrorFunc { get; set; } = Debug.LogError;
 
-        private readonly Dictionary<int, TrackabeWindow> _windowsDict = new Dictionary<int, TrackabeWindow>();
-        private readonly Dictionary<int, TrackablePanel> _panelsDict = new Dictionary<int, TrackablePanel>();
+        private readonly Dictionary<int, TrackabeWindowPack> _windowsDict = new Dictionary<int, TrackabeWindowPack>();
+        private readonly Dictionary<int, TrackablePanelPack> _panelsDict = new Dictionary<int, TrackablePanelPack>();
 
         /// <summary>
         /// Warning: You must call this API before using any other APIs.
@@ -48,81 +48,96 @@ namespace SangoUtils.Engines_Unity
         public void AddComponent(GameObject rootObject)
         {
             Component[] components = rootObject.GetComponentsInChildren<Component>(true);
-            AddComponent(components);
+            AddComponentAsTrackables(components);
         }
 
-        public void AddComponent(Component[] components)
+        public void AddComponentAsTrackables(Component[] components)
         {
             foreach (var component in components)
             {
-                Type type = component.GetType();
-                if (Attribute.IsDefined(type, typeof(TrackableWindowAttribute)) && typeof(ITrackableWindow).IsAssignableFrom(type))
+                if (component != null)
                 {
-                    int trackableID = type.GetHashCode();
-                    TrackableWindowAttribute attribute = (TrackableWindowAttribute)Attribute.GetCustomAttribute(type, typeof(TrackableWindowAttribute));
-                    int trackableGroupID = attribute.TrackableGroupID;
-                    GameObject trackableObject = component.gameObject;
-                    if (!_windowsDict.ContainsKey(trackableID))
-                    {
-                        TrackabeWindow trackabeWindow = new TrackabeWindow(trackableID, trackableGroupID, trackableObject);
-                        ITrackableWindow? trackableInterface = component as ITrackableWindow;
-                        if (trackableInterface != null)
-                        {
-                            trackabeWindow.OnTrackableAwake = trackableInterface.OnTrackableAwake;
-                            trackabeWindow.OnTrackbaleEnable = trackableInterface.OnTrackbaleEnable;
-                            trackabeWindow.OnTrackableDisable = trackableInterface.OnTrackableDisable;
-                            trackabeWindow.OnTrackableDestroy = trackableInterface.OnTrackableDestroy;
-                            trackabeWindow.OnTrackableMessage = trackableInterface.OnTrackableMessage;
-                        }
-                        _windowsDict.Add(trackableID, trackabeWindow);
-                    }
+                    Type type = component.GetType();
+                    AddComponentAsTrackableWindow(component, type);
+                    AddComponentAsTrackablePanel(component, type);
                 }
-                else if (Attribute.IsDefined(type, typeof(TrackablePanelAttribute)) && typeof(ITrackablePanel).IsAssignableFrom(type))
+            }
+        }
+
+        public void AddComponentAsTrackableWindow(Component component, Type type)
+        {
+            if (Attribute.IsDefined(type, typeof(TrackableWindowAttribute)) && typeof(ITrackableWindow).IsAssignableFrom(type))
+            {
+                GameObject trackableObject = component.gameObject;
+                int trackableID = type.GetHashCode();
+                TrackableWindowAttribute attribute = (TrackableWindowAttribute)Attribute.GetCustomAttribute(type, typeof(TrackableWindowAttribute));
+                int trackableGroupID = attribute.TrackableGroupID;
+                
+                if (!_windowsDict.ContainsKey(trackableID))
                 {
-                    int trackableID = type.GetHashCode();
-                    TrackablePanelAttribute attribute = (TrackablePanelAttribute)Attribute.GetCustomAttribute(type, typeof(TrackablePanelAttribute));
-                    int trackableGroupID = attribute.TrackableGroupID;
-                    GameObject trackableObject = component.gameObject;
-                    if (!_panelsDict.ContainsKey(trackableID))
+                    TrackabeWindowPack pack = new TrackabeWindowPack(trackableID, trackableGroupID, trackableObject);
+                    ITrackableWindow? meta = component as ITrackableWindow;
+                    if (meta != null)
                     {
-                        TrackablePanel trackablePanel = new TrackablePanel(trackableID, trackableGroupID, trackableObject);
-                        ITrackablePanel? trackableInterface = component as ITrackablePanel;
-                        if (trackableInterface != null)
-                        {
-                            trackablePanel.OnTrackableAwake = trackableInterface.OnTrackableAwake;
-                            trackablePanel.OnTrackbaleEnable = trackableInterface.OnTrackbaleEnable;
-                            trackablePanel.OnTrackableDisable = trackableInterface.OnTrackableDisable;
-                            trackablePanel.OnTrackableDestroy = trackableInterface.OnTrackableDestroy;
-                            trackablePanel.OnTrackableMessage = trackableInterface.OnTrackableMessage;
-                        }
-                        _panelsDict.Add(trackableID, trackablePanel);
+                        pack.OnTrackableAwake = meta.OnTrackableAwake;
+                        pack.OnTrackbaleEnable = meta.OnTrackbaleEnable;
+                        pack.OnTrackableDisable = meta.OnTrackableDisable;
+                        pack.OnTrackableDestroy = meta.OnTrackableDestroy;
+                        pack.OnTrackableMessage = meta.OnTrackableMessage;
                     }
+                    _windowsDict.Add(trackableID, pack);
+                }
+            }
+        }
+
+        public void AddComponentAsTrackablePanel(Component component, Type type)
+        {
+            if (Attribute.IsDefined(type, typeof(TrackablePanelAttribute)) && typeof(ITrackablePanel).IsAssignableFrom(type))
+            {
+                GameObject trackableObject = component.gameObject;
+                int trackableID = type.GetHashCode();
+                TrackablePanelAttribute attribute = (TrackablePanelAttribute)Attribute.GetCustomAttribute(type, typeof(TrackablePanelAttribute));
+                int trackableGroupID = attribute.TrackableGroupID;
+                
+                if (!_panelsDict.ContainsKey(trackableID))
+                {
+                    TrackablePanelPack pack = new TrackablePanelPack(trackableID, trackableGroupID, trackableObject);
+                    ITrackablePanel? meta = component as ITrackablePanel;
+                    if (meta != null)
+                    {
+                        pack.OnTrackableAwake = meta.OnTrackableAwake;
+                        pack.OnTrackbaleEnable = meta.OnTrackbaleEnable;
+                        pack.OnTrackableDisable = meta.OnTrackableDisable;
+                        pack.OnTrackableDestroy = meta.OnTrackableDestroy;
+                        pack.OnTrackableMessage = meta.OnTrackableMessage;
+                    }
+                    _panelsDict.Add(trackableID, pack);
                 }
             }
         }
 
         public void OpenWindow<T>(bool isCloseOther = true, params object[] messages) where T : ITrackableWindow
         {
-            Type windowType = typeof(T);
-            int windowId = windowType.GetHashCode();
+            Type type = typeof(T);
+            int windowId = type.GetHashCode();
             OpenWindow(windowId, isCloseOther, messages);
         }
 
         public void OpenPanel<T>(bool isCloseOther = true, params object[] messages) where T : ITrackablePanel
         {
-            Type panelType = typeof(T);
-            int panelId = panelType.GetHashCode();
+            Type type = typeof(T);
+            int panelId = type.GetHashCode();
             OpenPanel(panelId, isCloseOther, messages);
         }
 
-        public void OpenWindow(int windowId, bool isCloseOther = true, params object[] messages)
+        public void OpenWindow(int windowID, bool isCloseOther = true, params object[] messages)
         {
             if (isCloseOther)
             {
                 CloseWindowAll();
             }
 
-            if (_windowsDict.TryGetValue(windowId, out TrackabeWindow trackabeWindow))
+            if (_windowsDict.TryGetValue(windowID, out TrackabeWindowPack trackabeWindow))
             {
                 if (trackabeWindow.TrackableObject?.activeSelf != true)
                 {
@@ -137,14 +152,14 @@ namespace SangoUtils.Engines_Unity
             }
         }
 
-        public void OpenPanel(int panelId, bool isCloseOther = true, params object[] messages)
+        public void OpenPanel(int panelID, bool isCloseOther = true, params object[] messages)
         {
             if (isCloseOther)
             {
                 ClosePanelAll();
             }
 
-            if (_panelsDict.TryGetValue(panelId, out TrackablePanel trackablePanel))
+            if (_panelsDict.TryGetValue(panelID, out TrackablePanelPack trackablePanel))
             {
                 if (trackablePanel.TrackableObject?.activeSelf != true)
                 {
@@ -173,9 +188,9 @@ namespace SangoUtils.Engines_Unity
             ClosePanel(panelId, messages);
         }
 
-        public void CloseWindow(int windowId, params object[] messages)
+        public void CloseWindow(int windowID, params object[] messages)
         {
-            if (_windowsDict.TryGetValue(windowId, out TrackabeWindow trackabeWindow))
+            if (_windowsDict.TryGetValue(windowID, out TrackabeWindowPack trackabeWindow))
             {
                 if (trackabeWindow.TrackableObject?.activeSelf != false)
                 {
@@ -190,9 +205,9 @@ namespace SangoUtils.Engines_Unity
             }
         }
 
-        public void ClosePanel(int panelId, params object[] messages)
+        public void ClosePanel(int panelID, params object[] messages)
         {
-            if (_panelsDict.TryGetValue(panelId, out TrackablePanel trackablePanel))
+            if (_panelsDict.TryGetValue(panelID, out TrackablePanelPack trackablePanel))
             {
                 if (trackablePanel.TrackableObject?.activeSelf != false)
                 {
