@@ -9,18 +9,18 @@ namespace SangoUtils.Tasks
     {
         private readonly ConcurrentDictionary<uint, CompletedSequenceTask> _taskDict = new ConcurrentDictionary<uint, CompletedSequenceTask>();
 
-        private uint _taskId = 1;
+        private uint _taskID = 1;
         private const string _taskIdLock = "TaskCompleteSequence_Lock";
 
         public uint AddTask(List<uint> prerequisitedTasks, Action<uint> doneTaskCallBack, Action<uint> cancelTaskCallBack, int repeatTaskCount = 1)
         {
-            uint taskId = GenerateTaskId();
+            uint taskID = GenerateTaskId();
             //CompleteSequenceTask task = new CompleteSequenceTask();
             return 0;
 
         }
 
-        public bool RemoveTask(uint taskId)
+        public bool RemoveTask(uint taskID)
         {
             throw new NotImplementedException();
         }
@@ -36,14 +36,14 @@ namespace SangoUtils.Tasks
             {
                 while (true)
                 {
-                    ++_taskId;
-                    if (_taskId == uint.MaxValue)
+                    ++_taskID;
+                    if (_taskID == uint.MaxValue)
                     {
-                        _taskId = 1;
+                        _taskID = 1;
                     }
-                    if (!_taskDict.ContainsKey(_taskId))
+                    if (!_taskDict.ContainsKey(_taskID))
                     {
-                        return _taskId;
+                        return _taskID;
                     }
                 }
             }
@@ -51,7 +51,7 @@ namespace SangoUtils.Tasks
 
         private class CompletedSequenceTask
         {
-            public uint taskId;
+            public uint taskID;
             public List<uint> prerequisitedTasks;
             public Action<uint>? completeCallBack;
             public Action<uint>? cancelCallBack;
@@ -61,7 +61,7 @@ namespace SangoUtils.Tasks
 
             public CompletedSequenceTask(uint taskId, List<uint> prerequisitedTasks)
             {
-                this.taskId = taskId;
+                this.taskID = taskId;
                 this.prerequisitedTasks = prerequisitedTasks;
                 cancellationTokenSource = new CancellationTokenSource();
                 cancellationToken = cancellationTokenSource.Token;

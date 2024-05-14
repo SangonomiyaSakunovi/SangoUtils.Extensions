@@ -1,164 +1,191 @@
 using System;
 using System.Collections.Concurrent;
+using System.Runtime.CompilerServices;
 using System.Threading;
 
 namespace SangoUtils.Tasks
 {
     public class TaskTickTimer : TaskBaseTimer
     {
-        private readonly DateTime _utcInitialDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0);
-        private readonly ConcurrentDictionary<uint, TickTimerTask> _taskDict = new ConcurrentDictionary<uint, TickTimerTask>();
+        private readonly ConcurrentDictionary<uint, TickTimerTask> _taskDict;
+        /// <summary>
+        /// If true, you need call the HandleTask method in Main Thread to handle the task callback.
+        /// If false, all the tasks will invoke in the task thread, and you don't need to call the HandleTask method.
+        /// </summary>
         private readonly bool _isSetHandled;
+        private readonly DateTime _utcInitialDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0);
         private readonly ConcurrentQueue<TickTimerTaskPack>? _taskPackQueue;
-        private const string _taskIdLock = "TaskTickTimer_Lock";
         private readonly Thread? _taskTickTimerThread;
 
-        public TaskTickTimer(int intervalTime = 0, bool isSetHandled = true)
+        private int _taskMaxCount;
+
+        public TaskTickTimer(bool isSetHandled = true, int updateLoopTime = 10, int taskConcurrencyLevel = -1, int taskMaxCount = 10000)
         {
-            _isSetHandled = isSetHandled;
+            _isSetHandled = isSetHandled;           
             if (isSetHandled)
             {
                 _taskPackQueue = new ConcurrentQueue<TickTimerTaskPack>();
             }
-            if (intervalTime != 0)
+            _taskDict = new ConcurrentDictionary<uint, TickTimerTask>(taskConcurrencyLevel, taskMaxCount);
+            _taskMaxCount = taskMaxCount;
+
+            void StartTickTimerTaskInThread()
             {
-                void StartTickTimerTaskInThread()
+                try
                 {
-                    try
+                    while (true)
                     {
-                        while (true)
-                        {
-                            UpdateTask();
-                            Thread.Sleep(intervalTime);
-                        }
-                    }
-                    catch (ThreadAbortException e)
-                    {
-                        LogWarnningFunc?.Invoke($"TaskTickTimer Thread Warinning: Thread Abort Error, Reason: {e}.");
+                        UpdateTask();
+                        Thread.Sleep(updateLoopTime);
                     }
                 }
-                _taskTickTimerThread = new Thread(new ThreadStart(StartTickTimerTaskInThread));
-                _taskTickTimerThread.Start();
+                catch (ThreadAbortException e)
+                {
+                    LogWarningFunc?.Invoke($"TaskTickTimer Thread Warinning: Thread Abort Error, Reason: {e}.");
+                }
             }
+            _taskTickTimerThread = new Thread(new ThreadStart(StartTickTimerTaskInThread));
+            _taskTickTimerThread.Start();
         }
 
-        public override uint AddTask(uint delayedInvokeTaskTime, Action<uint> completeTaskCallBack, Action<uint> cancelTaskCallBack, int repeatTaskCount = 1)
+        public override uint AddTask(uint intervalTime, Action<uint> onTaskUpdated, Action<uint> onTaskCompleted, Action<uint> onTaskCanceled, int repeatTaskCount = 1)
         {
-            uint taskId = GenerateTaskId();
+            uint taskID = GenerateTaskID();
             double startTime = GetUTCMilliseconds();
-            double targetTime = startTime + delayedInvokeTaskTime;
-            TickTimerTask tickTimerTask = new TickTimerTask(taskId, delayedInvokeTaskTime, repeatTaskCount, targetTime, completeTaskCallBack, cancelTaskCallBack, startTime);
-            if (_taskDict.TryAdd(taskId, tickTimerTask))
+            double targetTime = startTime + intervalTime;
+            TickTimerTask tickTimerTask = new TickTimerTask(taskID, intervalTime, repeatTaskCount, startTime, targetTime, onTaskUpdated, onTaskCompleted, onTaskCanceled);
+
+            if (taskID == 0)
             {
-                return taskId;
+                LogErrorFunc?.Invoke($"TaskTickTimer AddTask Error: Dict is Full.");
+                return 0;
+            }
+            else if (_taskDict.TryAdd(taskID, tickTimerTask))
+            {
+                return taskID;
             }
             else
             {
-                LogWarnningFunc?.Invoke($"TaskTickTimer AddTask Warnning: [ {taskId} ] already Exist.");
+                LogWarningFunc?.Invoke($"TaskTickTimer AddTask Warnning: [ {taskID} ] already Exist.");
                 return 0;
             }
         }
 
-        public override bool RemoveTask(uint taskId)
+        public override bool RemoveTask(uint taskID)
         {
-            if (_taskDict.TryRemove(taskId, out TickTimerTask task))
+            if (_taskDict.TryRemove(taskID, out TickTimerTask task))
             {
-                if (_isSetHandled && task.onCanceledCallBack != null)
-                {
-                    LogInfoFunc?.Invoke($"TaskTickTimer RemoveTask Succeed: [ {taskId} ].");
-                    _taskPackQueue!.Enqueue(new TickTimerTaskPack(taskId, task.onCanceledCallBack));
-                }
-                else
-                {
-                    task.onCanceledCallBack?.Invoke(taskId);
-                }
+                OnTaskCanceled(taskID, task.OnTaskCanceled);
+                LogInfoFunc?.Invoke($"TaskTickTimer RemoveTask Succeed: [ {taskID} ].");
                 return true;
             }
             else
             {
-                LogWarnningFunc?.Invoke($"TaskTickTimer RemoveTask Warnning: Remove [ {taskId} ] Failed.");
+                LogWarningFunc?.Invoke($"TaskTickTimer RemoveTask Warnning: Remove [ {taskID} ] Failed.");
                 return false;
             }
         }
 
-        public override void ResetTask()
+        public override bool ResetTaskTimer()
         {
             if (!_taskPackQueue!.IsEmpty)
             {
-                LogWarnningFunc?.Invoke("TaskTickTimer ResetTask Warnning: TaskCallback Queue is Not Empty.");
+                LogWarningFunc?.Invoke("TaskTickTimer ResetTask Warnning: TaskCallback Queue is Not Empty.");
             }
             _taskDict.Clear();
             _taskTickTimerThread?.Abort();
+            return true;
         }
 
-        public void UpdateTask()
-        {
-            double nowTime = GetUTCMilliseconds();
-            foreach (TickTimerTask task in _taskDict.Values)
-            {
-                if (nowTime < task.targetTime)
-                {
-                    continue;
-                }
-
-                ++task.loopIndex;
-                if (task.repeatCount > 0)
-                {
-                    --task.repeatCount;
-                    if (task.repeatCount == 0)
-                    {
-                        RunTask(task.taskId);
-                    }
-                    else
-                    {
-                        task.targetTime = task.startTime + task.delayInvokeTime * (task.loopIndex + 1);
-                        InvokeTaskCallBack(task.taskId, task.onCompletedCallBack);
-                    }
-                }
-                else
-                {
-                    task.targetTime = task.startTime + task.delayInvokeTime * (task.loopIndex + 1);
-                    InvokeTaskCallBack(task.taskId, task.onCompletedCallBack);
-                }
-            }
-        }
-        public void HandleTask()
+        public override void HandleTask()
         {
             while (_taskPackQueue != null && _taskPackQueue.Count > 0)
             {
                 if (_taskPackQueue.TryDequeue(out TickTimerTaskPack pack))
                 {
-                    pack.taskCallBack?.Invoke(pack.taskId);
+                    pack.OnTask!.Invoke(pack.TaskID);
                 }
                 else
                 {
-                    LogErrorFunc?.Invoke("TaskTickTimer Handle Error: TickTaskPack Queue Dequeue Failed.");
+                    LogWarningFunc?.Invoke("TaskTickTimer HandleTask Warnning: TickTaskPack Queue Dequeue Failed.");
                 }
             }
         }
 
-        private void RunTask(uint taskId)
+        private void UpdateTask()
         {
-            if (_taskDict.TryRemove(taskId, out TickTimerTask task))
+            double nowTime = GetUTCMilliseconds();
+            foreach (TickTimerTask task in _taskDict.Values)
             {
-                InvokeTaskCallBack(taskId, task.onCompletedCallBack);
-                task.onCompletedCallBack = null;
-            }
-            else
-            {
-                LogWarnningFunc?.Invoke($"TaskTickTimer Done Warnning: Remove [ {taskId} ] in TaskDict Failed.");
+                if (nowTime < task.TargetTime)
+                {
+                    continue;
+                }
+
+                ++task.LoopIndex;
+                if (task.RepeatTaskCount > 0)
+                {
+                    --task.RepeatTaskCount;
+                    if (task.RepeatTaskCount == 0)
+                    {
+                        OnTaskUpdated(task.TaskID, task.OnTaskUpdated);
+                        OnTaskCompleted(task.TaskID, task.OnTaskCompleted);
+                    }
+                    else
+                    {
+                        task.TargetTime = task.StartTime + task.DelayedInvokeTaskTime * (task.LoopIndex + 1);
+                        OnTaskUpdated(task.TaskID, task.OnTaskUpdated);
+                    }
+                }
+                else
+                {
+                    task.TargetTime = task.StartTime + task.DelayedInvokeTaskTime * (task.LoopIndex + 1);
+                    OnTaskUpdated(task.TaskID, task.OnTaskUpdated);
+                }
             }
         }
 
-        private void InvokeTaskCallBack(uint taskId, Action<uint>? taskCallBack)
+        protected override void OnTaskUpdated(uint taskID, Action<uint>? action)
         {
-            if (_isSetHandled)
+            if (_isSetHandled && action != null)
             {
-                _taskPackQueue!.Enqueue(new TickTimerTaskPack(taskId, taskCallBack));
+                _taskPackQueue!.Enqueue(new TickTimerTaskPack(taskID, action));
             }
             else
             {
-                taskCallBack?.Invoke(taskId);
+                action?.Invoke(taskID);
+            }
+        }
+
+        protected override void OnTaskCompleted(uint taskID, Action<uint>? action)
+        {
+            if (_taskDict.TryRemove(taskID, out TickTimerTask task))
+            {
+
+                if (_isSetHandled && action != null)
+                {
+                    _taskPackQueue!.Enqueue(new TickTimerTaskPack(taskID, action));
+                }
+                else
+                {
+                    action?.Invoke(taskID);
+                }
+            }
+            else
+            {
+                LogErrorFunc?.Invoke($"TaskTickTimer Done Error: Remove [ {taskID} ] in TaskDict Failed.");
+            }
+        }
+
+        protected override void OnTaskCanceled(uint taskID, Action<uint>? action)
+        {
+            if (_isSetHandled && action != null)
+            {
+                _taskPackQueue!.Enqueue(new TickTimerTaskPack(taskID, action));
+            }
+            else
+            {
+                action?.Invoke(taskID);
             }
         }
 
@@ -168,57 +195,53 @@ namespace SangoUtils.Tasks
             return timeSpan.TotalMilliseconds;
         }
 
-        protected override uint GenerateTaskId()
+        [MethodImpl(MethodImplOptions.Synchronized)]
+        protected override uint GenerateTaskID()
         {
-            lock (_taskIdLock)
+            int counter = 0;
+            while (true)
             {
-                while (true)
+                ++_taskID;
+                ++counter;
+                if (_taskID == uint.MaxValue)
                 {
-                    ++_taskId;
-                    if (_taskId == uint.MaxValue)
+                    _taskID = 1;
+                }
+                if (counter < _taskMaxCount)
+                {
+                    if (!_taskDict.ContainsKey(_taskID))
                     {
-                        _taskId = 1;
+                        return _taskID;
                     }
-                    if (!_taskDict.ContainsKey(_taskId))
-                    {
-                        return _taskId;
-                    }
+                }
+                else
+                {
+                    return 0;
                 }
             }
         }
 
-        private class TickTimerTask
+        private class TickTimerTask : BaseTimerTask
         {
-            public uint taskId;
-            public uint delayInvokeTime;
-            public int repeatCount;
-            public double targetTime;
-            public Action<uint>? onCompletedCallBack;
-            public Action<uint>? onCanceledCallBack;
-            public double startTime;
-            public ulong loopIndex;
+            public double TargetTime;
+            public double StartTime;
+            public ulong LoopIndex;
 
-            public TickTimerTask(uint taskId, uint delayInvokeTime, int repeatCount, double targetTime, Action<uint> completeCallBack, Action<uint> cancelCallBack, double startTime)
+            public TickTimerTask(uint taskID, uint delayInvokeTime, int repeatCount, double startTime, double targetTime, Action<uint> onTaskUpdated, Action<uint> onTaskCompleted, Action<uint> onTaskCanceled) :
+                base(taskID, delayInvokeTime, repeatCount, onTaskUpdated, onTaskCompleted, onTaskCanceled)
             {
-                this.taskId = taskId;
-                this.delayInvokeTime = delayInvokeTime;
-                this.repeatCount = repeatCount;
-                this.targetTime = targetTime;
-                onCompletedCallBack = completeCallBack;
-                onCanceledCallBack = cancelCallBack;
-                this.startTime = startTime;
-                loopIndex = 0;
+                TargetTime = targetTime;
+                StartTime = startTime;
+                LoopIndex = 0;
             }
         }
 
-        private class TickTimerTaskPack
+        private class TickTimerTaskPack : BaseTimerTaskPack
         {
-            public uint taskId;
-            public Action<uint>? taskCallBack;
-            public TickTimerTaskPack(uint taskId, Action<uint>? taskCallBack)
+            public TickTimerTaskPack(uint taskID, Action<uint> onTask) :
+                base(taskID, onTask)
             {
-                this.taskId = taskId;
-                this.taskCallBack = taskCallBack;
+
             }
         }
     }

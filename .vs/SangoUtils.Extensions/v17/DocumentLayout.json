@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\SangoUtils\\SangoUtils.Extensions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.engines_unity\\editor\\sessionshelpereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|solutionrelative:sangoutils.engines_unity\\editor\\sessionshelpereditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_task\\tasktimer\\taskasynctimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|solutionrelative:sangoutils_task\\tasktimer\\taskasynctimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.engines_unity\\sangoutils.engines_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|solutionrelative:sangoutils.engines_unity\\sangoutils.engines_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.engines_unity\\services\\tasktimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|solutionrelative:sangoutils.engines_unity\\services\\tasktimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.SangoHolographySpace.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.sangoholographyspace\\ultility\\spacegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.SangoHolographySpace.csproj|solutionrelative:sangoutils.sangoholographyspace\\ultility\\spacegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_task\\tasktimer\\taskframetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|solutionrelative:sangoutils_task\\tasktimer\\taskframetimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.SangoHolographySpace.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.sangoholographyspace\\ultility\\spacepointutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.SangoHolographySpace.csproj|solutionrelative:sangoutils.sangoholographyspace\\ultility\\spacepointutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_task\\tasktimer\\taskticktimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|solutionrelative:sangoutils_task\\tasktimer\\taskticktimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.sangoholographyspace\\sangoutils.holographyspace_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj|solutionrelative:sangoutils.sangoholographyspace\\sangoutils.holographyspace_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.sangoholographyspace\\sangoutils.holographyspace_unity.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6F91D711-B146-439F-B5DB-2207816795E6}|SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj|solutionrelative:sangoutils.sangoholographyspace\\sangoutils.holographyspace_unity.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_bases_unityengine\\bases\\baseobjectbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|solutionrelative:sangoutils_bases_unityengine\\bases\\baseobjectbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_task\\tasktimer\\basetimertaskpacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|solutionrelative:sangoutils_task\\tasktimer\\basetimertaskpacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,71 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 34,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseTimerTaskPacks.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\BaseTimerTaskPacks.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Task\\TaskTimer\\BaseTimerTaskPacks.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\BaseTimerTaskPacks.cs",
+              "RelativeToolTip": "SangoUtils_Task\\TaskTimer\\BaseTimerTaskPacks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:34:17.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SessionsHelperEditor.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Editor\\SessionsHelperEditor.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Editor\\SessionsHelperEditor.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Editor\\SessionsHelperEditor.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Editor\\SessionsHelperEditor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Title": "TaskAsyncTimer.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskAsyncTimer.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Task\\TaskTimer\\TaskAsyncTimer.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskAsyncTimer.cs",
+              "RelativeToolTip": "SangoUtils_Task\\TaskTimer\\TaskAsyncTimer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T09:30:25.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SangoUtils.Engines_Unity",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-11T09:29:40.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SpacePointUtils.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\Ultility\\SpacePointUtils.cs",
-              "RelativeDocumentMoniker": "SangoUtils.SangoHolographySpace\\Ultility\\SpacePointUtils.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\Ultility\\SpacePointUtils.cs",
-              "RelativeToolTip": "SangoUtils.SangoHolographySpace\\Ultility\\SpacePointUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T07:22:57.827Z",
+              "WhenOpened": "2024-05-14T08:33:26.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SpaceGenerator.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\Ultility\\SpaceGenerator.cs",
-              "RelativeDocumentMoniker": "SangoUtils.SangoHolographySpace\\Ultility\\SpaceGenerator.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\Ultility\\SpaceGenerator.cs",
-              "RelativeToolTip": "SangoUtils.SangoHolographySpace\\Ultility\\SpaceGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Title": "TaskFrameTimer.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskFrameTimer.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Task\\TaskTimer\\TaskFrameTimer.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskFrameTimer.cs",
+              "RelativeToolTip": "SangoUtils_Task\\TaskTimer\\TaskFrameTimer.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADwv5oAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T07:21:14.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SangoUtils.HolographySpace_Unity.csproj",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "RelativeDocumentMoniker": "SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "RelativeToolTip": "SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-11T07:18:52.204Z",
+              "WhenOpened": "2024-05-13T10:30:07.28Z",
               "EditorCaption": ""
             },
             {
@@ -119,27 +85,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SangoUtils.SangoHolographySpace",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "RelativeDocumentMoniker": "SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "RelativeToolTip": "SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-11T07:19:01.649Z",
+              "DocumentIndex": 3,
+              "Title": "TaskTickTimer.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "RelativeToolTip": "SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:55:22.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseObjectBehaviour.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Bases\\BaseObjectBehaviour.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Bases\\BaseObjectBehaviour.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Bases\\BaseObjectBehaviour.cs",
-              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Bases\\BaseObjectBehaviour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
+              "DocumentIndex": 1,
+              "Title": "TaskTimerService.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Services\\TaskTimerService.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Services\\TaskTimerService.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Services\\TaskTimerService.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Services\\TaskTimerService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAcwA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T07:07:31.128Z",
+              "WhenOpened": "2024-05-14T08:13:39.939Z",
               "EditorCaption": ""
             }
           ]

@@ -21,6 +21,16 @@
         "runtime": {
           "bin/placeholder/SangoUtils.Sockets.dll": {}
         }
+      },
+      "SangoUtils.Tasks/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SangoUtils.Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SangoUtils.Tasks.dll": {}
+        }
       }
     }
   },
@@ -34,12 +44,18 @@
       "type": "project",
       "path": "../SangoUtils_Socket/SangoUtils.Sockets.csproj",
       "msbuildProject": "../SangoUtils_Socket/SangoUtils.Sockets.csproj"
+    },
+    "SangoUtils.Tasks/1.0.0": {
+      "type": "project",
+      "path": "../SangoUtils_Task/SangoUtils.Tasks.csproj",
+      "msbuildProject": "../SangoUtils_Task/SangoUtils.Tasks.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "SangoUtils.Bases_Unity >= 1.0.0",
-      "SangoUtils.Sockets >= 1.0.0"
+      "SangoUtils.Sockets >= 1.0.0",
+      "SangoUtils.Tasks >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -80,6 +96,9 @@
             },
             "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
               "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj"
+            },
+            "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj": {
+              "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj"
             }
           }
         }

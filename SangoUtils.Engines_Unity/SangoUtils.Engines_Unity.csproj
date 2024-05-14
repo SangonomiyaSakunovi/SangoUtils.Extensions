@@ -14,6 +14,9 @@
     <ProjectReference Include="..\SangoUtils_Socket\SangoUtils.Sockets.csproj">
       <Private>False</Private>
     </ProjectReference>
+    <ProjectReference Include="..\SangoUtils_Task\SangoUtils.Tasks.csproj">
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>
@@ -373,6 +376,10 @@
       <HintPath>..\libs\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Systems\" />
   </ItemGroup>
 
 </Project>

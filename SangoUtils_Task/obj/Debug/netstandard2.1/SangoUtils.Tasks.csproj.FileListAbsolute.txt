@@ -8,3 +8,13 @@ D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Task\obj\Debug\netstandard2.
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.sourcelink.json
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.dll
 D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.pdb
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\bin\Debug\netstandard2.1\SangoUtils.Tasks.deps.json
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\bin\Debug\netstandard2.1\SangoUtils.Tasks.dll
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\bin\Debug\netstandard2.1\SangoUtils.Tasks.pdb
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.AssemblyInfoInputs.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.AssemblyInfo.cs
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.csproj.CoreCompileInputs.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.sourcelink.json
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.dll
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Task\obj\Debug\netstandard2.1\SangoUtils.Tasks.pdb

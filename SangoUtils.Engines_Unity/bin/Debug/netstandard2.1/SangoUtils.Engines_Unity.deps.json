@@ -10,7 +10,8 @@
       "SangoUtils.Engines_Unity/1.0.0": {
         "dependencies": {
           "SangoUtils.Bases_Unity": "1.0.0",
-          "SangoUtils.Sockets": "1.0.0"
+          "SangoUtils.Sockets": "1.0.0",
+          "SangoUtils.Tasks": "1.0.0"
         },
         "runtime": {
           "SangoUtils.Engines_Unity.dll": {}

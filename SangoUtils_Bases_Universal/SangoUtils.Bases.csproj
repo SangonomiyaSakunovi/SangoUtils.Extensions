@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="OS\" />
+    <Compile Remove="OS\**" />
+    <EmbeddedResource Remove="OS\**" />
+    <None Remove="OS\**" />
   </ItemGroup>
 
 </Project>
