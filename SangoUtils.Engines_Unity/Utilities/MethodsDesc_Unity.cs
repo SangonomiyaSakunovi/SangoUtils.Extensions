@@ -1,43 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SangoUtils.Engines_Unity.Utilities
+﻿namespace SangoUtils.Engines_Unity.Utilities
 {
-    public enum ParameterType
+    public enum MethodParameterType
     {
-        Int,
-        Float,
-        String,
-        Object,
-        None
+        None = 0,
+        Int = 1,
+        Float = 2,
+        String = 3,
+        Object = 4
     }
 
-    public class MethodDesc
+    public class MethodDesc_BasicParam_1
     {
         public string name;
-        public ParameterType type;
+        public MethodParameterType type;
         public bool isOverload;
         public override string ToString()
         {
             return string.Format("{0}({1})", name, ParameterTypeToString());
         }
 
-        public string ParameterTypeToString()
+        public string ParameterTypeToString() => type switch
         {
-            switch (type)
-            {
-                case ParameterType.Int:
-                    return "int";
-                case ParameterType.Float:
-                    return "float";
-                case ParameterType.Object:
-                    return "Object";
-                case ParameterType.String:
-                    return "string";
-                default:
-                    return string.Empty;
-            }
+            MethodParameterType.Int => "int",
+            MethodParameterType.Float => "float",
+            MethodParameterType.Object => "Object",
+            MethodParameterType.String => "string",
+            _ => string.Empty
+        };
+
+        public MethodDesc_BasicParam_1()
+        {
+
+        }
+
+        public MethodDesc_BasicParam_1(string name, MethodParameterType type)
+        {
+            this.name = name;
+            this.type = type;
+        }
+
+        public MethodDesc_BasicParam_1(string name, MethodParameterType type, bool isOverload)
+        {
+            this.name = name;
+            this.type = type;
+            this.isOverload = isOverload;
         }
     }
 }

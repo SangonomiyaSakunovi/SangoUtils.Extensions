@@ -9,13 +9,26 @@ namespace SangoUtils.Engines_Unity.Editor
         private static void AddInteractableObjectSession()
         {
             GameObject session = new GameObject("InteractableObjectSession");
-            if(Selection.activeTransform != null)
+            if (Selection.activeTransform != null)
             {
                 session.transform.SetParent(Selection.activeTransform);
             }
             Undo.RegisterCreatedObjectUndo(session, "Add InteractableObjectSession");
             Selection.activeObject = session;
             session.AddComponent<InteractableObjectSession>();
+        }
+
+        [MenuItem("GameObject/SangoUtils/Sessions/AddRecognizableObjectSession", false, 10)]
+        private static void AddRecognizableObjectSession()
+        {
+            GameObject session = new GameObject("RecognizableObjectSession");
+            if (Selection.activeTransform != null)
+            {
+                session.transform.SetParent(Selection.activeTransform);
+            }
+            Undo.RegisterCreatedObjectUndo(session, "Add RecognizableObjectSession");
+            Selection.activeObject = session;
+            session.AddComponent<RecognizableObjectSession>();
         }
     }
 }

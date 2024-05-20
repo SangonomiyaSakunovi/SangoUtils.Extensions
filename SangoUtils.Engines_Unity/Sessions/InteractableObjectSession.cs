@@ -17,7 +17,8 @@ namespace SangoUtils.Engines_Unity
 
         private readonly ConcurrentDictionary<int, PressedInteractableObjectPack> _pressedObjectsDict = new ConcurrentDictionary<int, PressedInteractableObjectPack>();
         private readonly ConcurrentDictionary<int, GrabInteractableObjectPack> _grabObjectsDict = new ConcurrentDictionary<int, GrabInteractableObjectPack>();
-
+        
+        public ICollection<PressedInteractableObjectPack> GetPressedInteractableObjectPacks() => _pressedObjectsDict.Values;
 
         /// <summary>
         /// Warning: You must call this API before using any other APIs.
@@ -111,21 +112,6 @@ namespace SangoUtils.Engines_Unity
                     _grabObjectsDict.TryAdd(entityID, pack);
                 }
             }
-        }
-
-        public ICollection<PressedInteractableObjectPack> GetPressedInteractableObjectPacks()
-        {
-            return _pressedObjectsDict.Values;
-        }
-
-        public void InitGrabInteractableObject()
-        {
-
-        }
-
-        private void Start()
-        {
-
         }
     }
 }

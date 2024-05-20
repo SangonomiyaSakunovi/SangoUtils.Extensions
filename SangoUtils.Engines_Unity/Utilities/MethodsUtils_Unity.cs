@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
@@ -7,75 +8,98 @@ namespace SangoUtils.Engines_Unity.Utilities
 {
     public static class MethodsUtils_Unity
     {
-        public static IEnumerable<MethodDesc> CollectSupportedMethods(GameObject gameObject)
+        public static IEnumerable<MethodDesc_BasicParam_1> CollectMethods_BasicParam(GameObject gameObject)
         {
             if (gameObject == null)
-                return Enumerable.Empty<MethodDesc>();
+            {
+                return Enumerable.Empty<MethodDesc_BasicParam_1>();
+            }
 
-            var supportedMethods = new List<MethodDesc>();
-            var behaviours = gameObject.GetComponents<MonoBehaviour>();
+            List<MethodDesc_BasicParam_1> collectedMethods = new List<MethodDesc_BasicParam_1>();
+            MonoBehaviour[] behaviours = gameObject.GetComponents<MonoBehaviour>();
 
             foreach (var behaviour in behaviours)
             {
                 if (behaviour == null)
+                {
                     continue;
+                }
 
-                var type = behaviour.GetType();
+                Type type = behaviour.GetType();
                 while (type != typeof(MonoBehaviour) && type != null)
                 {
-                    var methods = type.GetMethods(
+                    MethodInfo[] methods = type.GetMethods(
                         BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly);
-                    foreach (var method in methods)
+                    foreach (MethodInfo method in methods)
                     {
-                        var name = method.Name;
+                        string name = method.Name;
 
-                        if (!IsSupportedMethodName(name))
+                        if (IsMonobehaviorMethod(name))
+                        {
                             continue;
-
-                        var parameters = method.GetParameters();
-                        if (parameters.Length > 1) //methods with multiple parameters are not supported
+                        }
+                        if (!Attribute.IsDefined(method, typeof(CollectedMethodAttribute)))
+                        {
                             continue;
+                        }
 
-                        var parameterType = ParameterType.None;
+                        ParameterInfo[] parameters = method.GetParameters();
+                        if (parameters.Length > 1)
+                        {
+                            continue;
+                        }
+
+                        MethodParameterType parameterType = MethodParameterType.None;
                         if (parameters.Length == 1)
                         {
-                            var paramType = parameters[0].ParameterType;
+                            Type paramType = parameters[0].ParameterType;
+
                             if (paramType == typeof(string))
-                                parameterType = ParameterType.String;
+                                parameterType = MethodParameterType.String;
                             else if (paramType == typeof(float))
-                                parameterType = ParameterType.Float;
+                                parameterType = MethodParameterType.Float;
                             else if (paramType == typeof(int))
-                                parameterType = ParameterType.Int;
+                                parameterType = MethodParameterType.Int;
                             else if (paramType == typeof(UnityEngine.Object) || paramType.IsSubclassOf(typeof(UnityEngine.Object)))
-                                parameterType = ParameterType.Object;
+                                parameterType = MethodParameterType.Object;
                             else
                                 continue;
                         }
 
-                        var supportedMethod = new MethodDesc { name = name, type = parameterType };
+                        MethodDesc_BasicParam_1 supportedMethod = new MethodDesc_BasicParam_1(name, parameterType);
 
                         // Since AnimationEvents only stores method name, it can't handle functions with multiple overloads.
                         // Only retrieve first found function, but discard overloads.
-                        var existingMethodIndex = supportedMethods.FindIndex(m => m.name == name);
+                        var existingMethodIndex = collectedMethods.FindIndex(m => m.name == name);
                         if (existingMethodIndex != -1)
                         {
                             // The method is only ambiguous if it has a different signature to the one we saw before
-                            var existingMethod = supportedMethods[existingMethodIndex];
+                            MethodDesc_BasicParam_1 existingMethod = collectedMethods[existingMethodIndex];
                             existingMethod.isOverload = existingMethod.type != parameterType;
                         }
                         else
-                            supportedMethods.Add(supportedMethod);
+                            collectedMethods.Add(supportedMethod);
                     }
                     type = type.BaseType;
                 }
             }
 
-            return supportedMethods;
+            return collectedMethods;
         }
 
-        static bool IsSupportedMethodName(string name)
+        private static bool IsMonobehaviorMethod(string name) => name switch
         {
-            return name != "Main" && name != "Start" && name != "Awake" && name != "Update";
-        }
+            "Main" => true,
+            "Awake" => true,
+            "OnEnable" => true,
+            "Reset" => true,
+            "Start" => true,
+            "FixedUpdate" => true,
+            "Update" => true,
+            "LateUpdate" => true,
+            "OnDisable" => true,
+            "OnDestroy" => true,
+            _ => false
+        };
     }
 }
