@@ -1,15 +1,13 @@
 ﻿using SangoUtils.Editors_Unity;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Reflection;
-using System.Text;
-using UnityEditor.SceneManagement;
-using UnityEditor;
-using UnityEngine;
 using System.Linq;
+using System.Reflection;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     internal static class GUIDrawerInspectorEditorUtils
     {

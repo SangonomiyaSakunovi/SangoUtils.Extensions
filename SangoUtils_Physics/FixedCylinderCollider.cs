@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SangoUtils.PhysicExtensions_Unity
+namespace SangoUtils.Physics_Unity
 {
     public class FixedCylinderCollider : FixedBaseCollider
     {

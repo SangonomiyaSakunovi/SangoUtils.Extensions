@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     public class GUIValidatorAttribute : Attribute, ISangoGUIDrawerAttribute
     {

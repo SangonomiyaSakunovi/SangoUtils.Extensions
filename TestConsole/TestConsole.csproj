@@ -13,4 +13,8 @@
     <ProjectReference Include="..\SangoUtils_UDP\SangoUtils.UDPClients.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Test\" />
+  </ItemGroup>
+
 </Project>

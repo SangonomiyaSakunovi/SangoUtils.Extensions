@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [CustomPropertyDrawer(typeof(GUIInputAxisAttribute))]
     public class GUIInputAxisPropertyDrawer : BaseGUIPropertyDrawer

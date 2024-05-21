@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.Bases_Unity.ComponentHelpers
+namespace SangoUtils.Bases_Unity.ComponentsHelpers
 {
     public interface IComponentsHelper
     {

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
     public class GUIDropdownAttribute : SangoGUIDrawerAttribute

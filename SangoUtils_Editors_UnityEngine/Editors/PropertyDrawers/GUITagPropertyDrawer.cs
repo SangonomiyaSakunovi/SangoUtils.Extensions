@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [CustomPropertyDrawer(typeof(GUITagAttribute))]
     public class GUITagPropertyDrawer : BaseGUIPropertyDrawer

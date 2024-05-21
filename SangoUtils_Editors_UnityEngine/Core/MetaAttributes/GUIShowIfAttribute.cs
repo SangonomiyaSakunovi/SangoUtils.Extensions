@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public class GUIShowIfAttribute : GUIShowIfAttributeBase

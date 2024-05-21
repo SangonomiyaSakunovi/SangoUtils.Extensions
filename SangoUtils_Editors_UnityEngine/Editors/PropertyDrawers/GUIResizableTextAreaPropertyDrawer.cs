@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [CustomPropertyDrawer(typeof(GUITextFieldAttribute))]
     public class GUIResizableTextAreaPropertyDrawer : BaseGUIPropertyDrawer

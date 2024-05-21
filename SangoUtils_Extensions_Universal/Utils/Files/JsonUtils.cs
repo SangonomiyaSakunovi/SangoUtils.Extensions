@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text.Json;
 
-namespace SangoUtils.Extensions.Utils
+namespace SangoUtils.Utilitys
 {
     public static class JsonUtils
     {

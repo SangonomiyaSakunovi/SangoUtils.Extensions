@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace SangoUtils.Extensions.Utils
+namespace SangoUtils.Utilitys
 {
     public static class JsonNewton
     {

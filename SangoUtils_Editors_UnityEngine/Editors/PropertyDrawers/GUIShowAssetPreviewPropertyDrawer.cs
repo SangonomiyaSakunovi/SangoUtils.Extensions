@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [CustomPropertyDrawer(typeof(GUIShowAssetsAttribute))]
     public class GUIShowAssetPreviewPropertyDrawer : BaseGUIPropertyDrawer

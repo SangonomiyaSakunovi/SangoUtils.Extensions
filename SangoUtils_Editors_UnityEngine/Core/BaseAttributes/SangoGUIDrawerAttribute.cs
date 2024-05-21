@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     public class SangoGUIDrawerAttribute : PropertyAttribute, ISangoGUIDrawerAttribute
     {

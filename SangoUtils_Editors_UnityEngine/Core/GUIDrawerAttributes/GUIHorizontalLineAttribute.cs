@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [AttributeUsage(AttributeTargets.Field, AllowMultiple = true, Inherited = true)]
     public class GUIHorizontalLineAttribute : SangoGUIDrawerAttribute

@@ -2,7 +2,7 @@
 using System.Reflection;
 using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     internal static class GUIDrawerInspectorButtonUtils
     {

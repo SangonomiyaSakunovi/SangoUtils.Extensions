@@ -710,9 +710,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
-      "projectName": "SangoUtils.Extensions",
-      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Extensions.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Utilitys.csproj",
+      "projectName": "SangoUtils.Utilitys",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\SangoUtils.Utilitys.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
       "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_Universal\\obj\\",
       "projectStyle": "PackageReference",

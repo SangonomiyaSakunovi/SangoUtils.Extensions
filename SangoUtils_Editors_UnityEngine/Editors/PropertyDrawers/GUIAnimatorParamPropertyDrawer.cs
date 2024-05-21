@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     [CustomPropertyDrawer(typeof(GUIAnimatorParamAttribute))]
     public class GUIAnimatorParamPropertyDrawer : BaseGUIPropertyDrawer

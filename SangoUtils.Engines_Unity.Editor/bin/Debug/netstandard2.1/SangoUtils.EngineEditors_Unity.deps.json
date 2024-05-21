@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "SangoUtils.EngineEditors_Unity/1.0.0": {
+        "dependencies": {
+          "SangoUtils.Engines_Unity": "1.0.0"
+        },
+        "runtime": {
+          "SangoUtils.EngineEditors_Unity.dll": {}
+        }
+      },
+      "SangoUtils.Bases_Unity/1.0.0": {
+        "runtime": {
+          "SangoUtils.Bases_Unity.dll": {}
+        }
+      },
+      "SangoUtils.Sockets/1.0.0": {
+        "runtime": {
+          "SangoUtils.Sockets.dll": {}
+        }
+      },
+      "SangoUtils.Tasks/1.0.0": {
+        "runtime": {
+          "SangoUtils.Tasks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SangoUtils.EngineEditors_Unity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SangoUtils.Bases_Unity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SangoUtils.Sockets/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SangoUtils.Tasks/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

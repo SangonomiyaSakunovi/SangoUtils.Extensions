@@ -1,6 +1,6 @@
 ﻿using UnityEditor;
 
-namespace SangoUtils.Editors_Unity
+namespace SangoUtils.CustomEditors_Unity
 {
     public abstract class BaseGUIDrawerPropertyValidator
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace SangoUtils.Extensions.Utils
+namespace SangoUtils.Utilitys
 {
     public static class DateTimeUtils
     {
