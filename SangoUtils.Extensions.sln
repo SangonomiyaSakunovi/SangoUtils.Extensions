@@ -45,13 +45,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Engines_Unity", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.HolographySpace_Unity", "SangoUtils.SangoHolographySpace\SangoUtils.HolographySpace_Unity.csproj", "{6F91D711-B146-439F-B5DB-2207816795E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.EngineEditors_Unity", "SangoUtils.Engines_Unity.Editor\SangoUtils.EngineEditors_Unity.csproj", "{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.EngineEditors_Unity", "SangoUtils.Engines_Unity.Editor\SangoUtils.EngineEditors_Unity.csproj", "{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.BasesEditor_Unity", "SangoUtils.BasesEditor_Unity\SangoUtils.BasesEditor_Unity.csproj", "{5A5986F8-90E7-4DAF-AE97-52ADC58F6A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.BasesEditor_Unity", "SangoUtils.BasesEditor_Unity\SangoUtils.BasesEditor_Unity.csproj", "{5A5986F8-90E7-4DAF-AE97-52ADC58F6A78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.AOICells", "SangoUtils.AOICells\SangoUtils.AOICells.csproj", "{3607B967-39EF-4B3C-A250-98E108016463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.AOICells", "SangoUtils.AOICells\SangoUtils.AOICells.csproj", "{3607B967-39EF-4B3C-A250-98E108016463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.SQLServices", "SangoUtils.SQLServices\SangoUtils.SQLServices.csproj", "{406DFCE0-F0D4-4D34-B539-40FE17170457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.SQLServices", "SangoUtils.SQLServices\SangoUtils.SQLServices.csproj", "{406DFCE0-F0D4-4D34-B539-40FE17170457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRequests_Unity", "WebRequests_Unity\WebRequests_Unity.csproj", "{A9CCA632-4305-4F87-93A7-4247A6E245E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{406DFCE0-F0D4-4D34-B539-40FE17170457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406DFCE0-F0D4-4D34-B539-40FE17170457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406DFCE0-F0D4-4D34-B539-40FE17170457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CCA632-4305-4F87-93A7-4247A6E245E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CCA632-4305-4F87-93A7-4247A6E245E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CCA632-4305-4F87-93A7-4247A6E245E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CCA632-4305-4F87-93A7-4247A6E245E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

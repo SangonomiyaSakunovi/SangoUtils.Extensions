@@ -4,7 +4,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
+namespace SangoUtils.WebRequests_Unity
 {
     public class UnityWebRequestClient
     {
@@ -47,7 +47,7 @@ namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
         {
             UnityWebRequestPack<T> pack = new UnityWebRequestPack<T>();
             pack.Id = httpId;
-            string apiKey = UnityWebRequestBaseId.GetHttpApi(httpId); 
+            string apiKey = UnityWebRequestBaseId.GetHttpApi(httpId);
             string serviceHost = _serviceHost;
 
             pack.Url = serviceHost + apiKey;

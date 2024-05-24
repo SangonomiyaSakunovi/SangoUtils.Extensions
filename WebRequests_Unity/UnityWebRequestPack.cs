@@ -1,10 +1,9 @@
-﻿using SangoUtils.Extensions_Unity.Service;
-using System;
+﻿using System;
 using System.Text.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
+namespace SangoUtils.WebRequests_Unity
 {
     public enum UnityWebRequestType
     {

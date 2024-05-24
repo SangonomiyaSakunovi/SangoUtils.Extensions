@@ -1,19 +1,47 @@
-﻿using SangoUtils.Extensions_Unity.Core;
-using SangoUtils.Extensions_Unity.UnityWebRequestNet;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
 using UnityEngine;
 
-namespace SangoUtils.Extensions_Unity.Service
+namespace SangoUtils.WebRequests_Unity
 {
-    public class UnityWebRequestService : UnitySingleton<UnityWebRequestService>
+    public class UnityWebRequestService : MonoBehaviour
     {
         private UnityWebRequestClient _httpClient = new UnityWebRequestClient();
         private Dictionary<int, BaseUnityWebRequestRequest> _requestDict = new Dictionary<int, BaseUnityWebRequestRequest>();
 
         private StringBuilder _stringBuilder = new StringBuilder();
+
+        private static UnityWebRequestService? _instance;
+
+        public static UnityWebRequestService Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = FindObjectOfType(typeof(UnityWebRequestService)) as UnityWebRequestService;
+                    if (_instance == null)
+                    {
+                        GameObject gameObject = new GameObject("[" + typeof(UnityWebRequestService).FullName + "]");
+                        _instance = gameObject.AddComponent<UnityWebRequestService>();
+                        gameObject.hideFlags = HideFlags.HideInHierarchy;
+                        DontDestroyOnLoad(gameObject);
+
+                    }
+                }
+                return _instance;
+            }
+        }
+
+        private void Awake()
+        {
+            if (null != _instance && _instance != this)
+            {
+                Destroy(gameObject);
+            }
+        }
 
         public void OnInit()
         {

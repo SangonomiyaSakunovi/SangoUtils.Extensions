@@ -1,7 +1,6 @@
-﻿using SangoUtils.Extensions_Unity.Service;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace SangoUtils.Extensions_Unity.UnityWebRequestNet
+namespace SangoUtils.WebRequests_Unity
 {
     public abstract class BaseUnityWebRequestRequest
     {
