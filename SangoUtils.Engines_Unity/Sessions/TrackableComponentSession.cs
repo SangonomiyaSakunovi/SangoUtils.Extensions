@@ -70,8 +70,8 @@ namespace SangoUtils.Engines_Unity
             {
                 GameObject trackableObject = component.gameObject;
                 int trackableID = type.GetHashCode();
-                TrackableWindowAttribute attribute = (TrackableWindowAttribute)Attribute.GetCustomAttribute(type, typeof(TrackableWindowAttribute));
-                int trackableGroupID = attribute.TrackableGroupID;
+                TrackableWindowAttribute? attribute = Attribute.GetCustomAttribute(type, typeof(TrackableWindowAttribute)) as TrackableWindowAttribute;
+                int trackableGroupID = attribute!.TrackableGroupID;
                 
                 if (!_windowsDict.ContainsKey(trackableID))
                 {
@@ -96,8 +96,8 @@ namespace SangoUtils.Engines_Unity
             {
                 GameObject trackableObject = component.gameObject;
                 int trackableID = type.GetHashCode();
-                TrackablePanelAttribute attribute = (TrackablePanelAttribute)Attribute.GetCustomAttribute(type, typeof(TrackablePanelAttribute));
-                int trackableGroupID = attribute.TrackableGroupID;
+                TrackablePanelAttribute? attribute = Attribute.GetCustomAttribute(type, typeof(TrackablePanelAttribute)) as TrackablePanelAttribute;
+                int trackableGroupID = attribute!.TrackableGroupID;
                 
                 if (!_panelsDict.ContainsKey(trackableID))
                 {

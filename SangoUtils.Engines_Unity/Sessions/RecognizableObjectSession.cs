@@ -68,8 +68,8 @@ namespace SangoUtils.Engines_Unity
             {
                 GameObject entityObject = component.gameObject;
                 int entityID = entityObject.GetInstanceID();
-                MarkerRecognizableObjectAttribute attribute = (MarkerRecognizableObjectAttribute)Attribute.GetCustomAttribute(type, typeof(MarkerRecognizableObjectAttribute));
-                int entityGroupID = attribute.RecognizableObjectGroupID;
+                MarkerRecognizableObjectAttribute? attribute = Attribute.GetCustomAttribute(type, typeof(MarkerRecognizableObjectAttribute)) as MarkerRecognizableObjectAttribute;
+                int entityGroupID = attribute!.RecognizableObjectGroupID;
 
                 if (!_recognizableObjectsDict.ContainsKey(entityID))
                 {

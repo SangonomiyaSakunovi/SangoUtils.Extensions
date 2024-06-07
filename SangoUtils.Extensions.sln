@@ -23,8 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.NetOperations", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.UDPClients", "SangoUtils_UDP\SangoUtils.UDPClients.csproj", "{A9CD4BE2-2C3F-4E92-8774-6F221F842452}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.NetAdapters", "SangoUtils_NetAdapter\SangoUtils.NetAdapters.csproj", "{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Bases_Unity", "SangoUtils_Bases_UnityEngine\SangoUtils.Bases_Unity.csproj", "{56EB783B-0489-4FF5-93B0-98507A366007}"
@@ -53,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.AOICells", "Sang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.SQLServices", "SangoUtils.SQLServices\SangoUtils.SQLServices.csproj", "{406DFCE0-F0D4-4D34-B539-40FE17170457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRequests_Unity", "WebRequests_Unity\WebRequests_Unity.csproj", "{A9CCA632-4305-4F87-93A7-4247A6E245E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.WebRequests_Unity", "WebRequests_Unity\SangoUtils.WebRequests_Unity.csproj", "{A9CCA632-4305-4F87-93A7-4247A6E245E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00TestConsoleProject", "00TestConsoleProject\00TestConsoleProject.csproj", "{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,10 +101,6 @@ Global
 		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09EF293B-7CB6-49A1-B2DD-D0693C591AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -165,6 +161,10 @@ Global
 		{A9CCA632-4305-4F87-93A7-4247A6E245E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9CCA632-4305-4F87-93A7-4247A6E245E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9CCA632-4305-4F87-93A7-4247A6E245E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

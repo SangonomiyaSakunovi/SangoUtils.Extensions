@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -8,9 +7,11 @@ namespace SangoUtils.WebRequests_Unity
 {
     public class UnityWebRequestClient
     {
-        private const int _webReqTimeout = 15;
-        private const int _webReqTryCount = 3;
-        private const string _serviceHost = "localhost";
+        private int _webReqTimeout = 15;
+        private int _webReqTryCount = 3;
+        private string _serviceHost = "localhost";
+
+        private string _requestHeader = "application/json";
 
         private List<UnityWebRequestPack> _sendHttpPacks = new List<UnityWebRequestPack>(10);
         private List<UnityWebRequestPack> _receivedHttpPacks = new List<UnityWebRequestPack>(10);
@@ -18,8 +19,12 @@ namespace SangoUtils.WebRequests_Unity
         private List<UnityWebResourceBasePack> _sendHttpResourcePacks = new List<UnityWebResourceBasePack>(10);
         private List<UnityWebResourceBasePack> _receivedHttpResourcePacks = new List<UnityWebResourceBasePack>(10);
 
-        public void Init()
+        public void Init(string serverHost, string requestHeader = "application/json", int webReqTimeout = 15, int webReqTryCount = 3)
         {
+            _serviceHost = serverHost;
+            _requestHeader = requestHeader;
+            _webReqTimeout = webReqTimeout;
+            _webReqTryCount = webReqTryCount;
         }
         public void Clear()
         {
@@ -35,7 +40,7 @@ namespace SangoUtils.WebRequests_Unity
 
         public void SendHttpRequest<T>(int httpId, UnityWebRequestType httpType, string parame) where T : class
         {
-            AddHttpRequest<T>(httpId, httpType, parame, typeof(T));
+            AddHttpRequest<T>(httpId, httpType, parame);
         }
 
         public void SendHttpResourceRequest(UnityWebResourceBasePack httpBaseResourcePack)
@@ -43,16 +48,17 @@ namespace SangoUtils.WebRequests_Unity
             AddHttpResourceRequest(httpBaseResourcePack);
         }
 
-        private void AddHttpRequest<T>(int httpId, UnityWebRequestType httpType, string parame, Type dataType) where T : class
+        private void AddHttpRequest<T>(int httpId, UnityWebRequestType httpType, string parame) where T : class
         {
-            UnityWebRequestPack<T> pack = new UnityWebRequestPack<T>();
-            pack.Id = httpId;
-            string apiKey = UnityWebRequestBaseId.GetHttpApi(httpId);
-            string serviceHost = _serviceHost;
+            UnityWebRequestPack pack = new UnityWebRequestPack<T>
+            {
+                HttpID = httpId
+            };
+            string api = UnityWebRequestService.Instance.GetHttpApi(httpId);
 
-            pack.Url = serviceHost + apiKey;
-            pack.HttpType = httpType;
-            pack.DataType = dataType;
+            pack.HttpAPI = _serviceHost + api;
+            pack.HttpRequestType = httpType;
+
             pack.Parame = parame;
             pack.TryCount = _webReqTryCount;
 
@@ -66,50 +72,50 @@ namespace SangoUtils.WebRequests_Unity
             for (int i = 0; i < _sendHttpPacks.Count; i++)
             {
                 UnityWebRequestPack pack = _sendHttpPacks[i];
-                switch (pack.HttpType)
+                switch (pack.HttpRequestType)
                 {
                     case UnityWebRequestType.Get:
                         {
                             if (!string.IsNullOrEmpty(pack.Parame))
                             {
-                                pack.Url = string.Format("{0}?{1}", pack.Url, pack.Parame);
+                                pack.HttpAPI = string.Format("{0}?{1}", pack.HttpAPI, pack.Parame);
                             }
-                            pack.WebRequest = new UnityWebRequest(pack.Url, UnityWebRequest.kHttpVerbGET);
-                            pack.WebRequest.downloadHandler = new DownloadHandlerBuffer();
-                            pack.WebRequest.timeout = _webReqTimeout;
-                            pack.WebRequest.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                            pack.WebRequest.SetRequestHeader("token", "");
-                            pack.WebRequest.SendWebRequest();
+                            pack.UnityWebRequest = new UnityWebRequest(pack.HttpAPI, UnityWebRequest.kHttpVerbGET);
+                            pack.UnityWebRequest.downloadHandler = new DownloadHandlerBuffer();
+                            pack.UnityWebRequest.timeout = _webReqTimeout;
+                            pack.UnityWebRequest.SetRequestHeader("Content-Type", _requestHeader);
+                            pack.UnityWebRequest.SetRequestHeader("token", "");
+                            pack.UnityWebRequest.SendWebRequest();
                         }
                         break;
                     case UnityWebRequestType.Post:
                         {
-                            pack.WebRequest = new UnityWebRequest(pack.Url, UnityWebRequest.kHttpVerbPOST);
+                            pack.UnityWebRequest = new UnityWebRequest(pack.HttpAPI, UnityWebRequest.kHttpVerbPOST);
                             if (!string.IsNullOrEmpty(pack.Parame))
                             {
                                 byte[] databyte = Encoding.UTF8.GetBytes(pack.Parame);
-                                pack.WebRequest.uploadHandler = new UploadHandlerRaw(databyte);
+                                pack.UnityWebRequest.uploadHandler = new UploadHandlerRaw(databyte);
                             }
-                            pack.WebRequest.downloadHandler = new DownloadHandlerBuffer();
-                            pack.WebRequest.timeout = _webReqTimeout;
-                            pack.WebRequest.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                            pack.WebRequest.SetRequestHeader("token", "");
-                            pack.WebRequest.SendWebRequest();
+                            pack.UnityWebRequest.downloadHandler = new DownloadHandlerBuffer();
+                            pack.UnityWebRequest.timeout = _webReqTimeout;
+                            pack.UnityWebRequest.SetRequestHeader("Content-Type", _requestHeader);
+                            pack.UnityWebRequest.SetRequestHeader("token", "");
+                            pack.UnityWebRequest.SendWebRequest();
                         }
                         break;
                     case UnityWebRequestType.Put:
                         {
-                            pack.WebRequest = new UnityWebRequest(pack.Url, UnityWebRequest.kHttpVerbPUT);
+                            pack.UnityWebRequest = new UnityWebRequest(pack.HttpAPI, UnityWebRequest.kHttpVerbPUT);
                             if (!string.IsNullOrEmpty(pack.Parame))
                             {
                                 byte[] databyte = Encoding.UTF8.GetBytes(pack.Parame);
-                                pack.WebRequest.uploadHandler = new UploadHandlerRaw(databyte);
+                                pack.UnityWebRequest.uploadHandler = new UploadHandlerRaw(databyte);
                             }
-                            pack.WebRequest.downloadHandler = new DownloadHandlerBuffer();
-                            pack.WebRequest.timeout = _webReqTimeout;
-                            pack.WebRequest.SetRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                            pack.WebRequest.SetRequestHeader("token", "");
-                            pack.WebRequest.SendWebRequest();
+                            pack.UnityWebRequest.downloadHandler = new DownloadHandlerBuffer();
+                            pack.UnityWebRequest.timeout = _webReqTimeout;
+                            pack.UnityWebRequest.SetRequestHeader("Content-Type", _requestHeader);
+                            pack.UnityWebRequest.SetRequestHeader("token", "");
+                            pack.UnityWebRequest.SendWebRequest();
                         }
                         break;
                 }
@@ -126,27 +132,26 @@ namespace SangoUtils.WebRequests_Unity
             for (int i = _receivedHttpPacks.Count - 1; i >= 0; i--)
             {
                 UnityWebRequestPack pack = _receivedHttpPacks[i];
-                if (pack.WebRequest == null)
+                if (pack.UnityWebRequest == null)
                 {
                     _receivedHttpPacks.Remove(pack);
                     continue;
                 }
 
-                if (pack.WebRequest.isDone)
+                if (pack.UnityWebRequest.isDone)
                 {
-                    int responseCode = (int)pack.WebRequest.responseCode;
-                    string responseJson = pack.WebRequest.downloadHandler.text;
+                    int responseCode = (int)pack.UnityWebRequest.responseCode;
+                    string responseJson = pack.UnityWebRequest.downloadHandler.text;
                     if (responseCode != 200 && --pack.TryCount > 0)
                     {
-                        Debug.Log("Try reconnect Id: [" + pack.Id + " ], try times: " + pack.TryCount);
+                        Debug.Log("Try reconnect Id: [" + pack.HttpID + " ], try times: " + pack.TryCount);
 
                         _sendHttpPacks.Add(pack);
                         continue;
                     }
-                    CheckResponseCode(pack.Id, responseCode, responseJson);
-                    pack.OnDataReceived(responseJson, responseCode, pack.Id);
+                    pack.OnDataReceived(responseJson, responseCode, pack.HttpID);
                 }
-                else if (pack.WebRequest.result == UnityWebRequest.Result.ProtocolError || pack.WebRequest.result == UnityWebRequest.Result.ConnectionError)
+                else if (pack.UnityWebRequest.result == UnityWebRequest.Result.ProtocolError || pack.UnityWebRequest.result == UnityWebRequest.Result.ConnectionError)
                 {
 
                 }
@@ -154,33 +159,10 @@ namespace SangoUtils.WebRequests_Unity
                 {
                     continue;
                 }
-                pack.WebRequest.Abort();
-                pack.WebRequest.Dispose();
-                pack.WebRequest = null;
+                pack.UnityWebRequest.Abort();
+                pack.UnityWebRequest.Dispose();
+                pack.UnityWebRequest = null;
                 _receivedHttpPacks.Remove(pack);
-            }
-        }
-
-        private void CheckResponseCode(int httpId, int responseCode, string responseJson)
-        {
-            if (responseCode == 200)
-                return;
-
-            int codeType = responseCode / 100;
-            string apiKey = UnityWebRequestBaseId.GetHttpApi(httpId);
-
-            switch (codeType)
-            {
-                case 4:
-                    Debug.LogWarning(string.Format("{0} : {1} : ClientError", responseCode, apiKey));
-                    break;
-                case 5:
-                case 6:
-                    Debug.LogWarning(string.Format("{0} : {1} : ServerError", responseCode, apiKey));
-                    break;
-                default:
-                    Debug.LogWarning(string.Format("{0} : {1} : UnknownError", responseCode, apiKey));
-                    break;
             }
         }
 

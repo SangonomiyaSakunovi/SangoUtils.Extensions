@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text.Json;
-using UnityEngine;
+﻿using System.Text.Json;
 using UnityEngine.Networking;
 
 namespace SangoUtils.WebRequests_Unity
@@ -14,13 +12,12 @@ namespace SangoUtils.WebRequests_Unity
 
     public abstract class UnityWebRequestPack
     {
-        public int Id { get; set; }
-        public string Url { get; set; }
-        public UnityWebRequestType HttpType { get; set; }
-        public Type DataType { get; set; }
+        public int HttpID { get; set; }
+        public string HttpAPI { get; set; }
+        public UnityWebRequestType HttpRequestType { get; set; }
         public string Parame { get; set; }
         public int TryCount { get; set; }
-        public UnityWebRequest WebRequest { get; set; }
+        public UnityWebRequest UnityWebRequest { get; set; }
 
         public abstract void OnDataReceived(string dataStr, int code, int messageId);
     }
@@ -29,45 +26,11 @@ namespace SangoUtils.WebRequests_Unity
     {
         public override void OnDataReceived(string dataStr, int code, int messageId)
         {
-            Debug.Log("HttpMessageId:[" + messageId + "], ReceivedStr: " + dataStr);
-            UnityWebRequestResponseData dataInfo = JsonSerializer.Deserialize<UnityWebRequestResponseData>(dataStr);
+            T? dataInfo = JsonSerializer.Deserialize<T>(dataStr);
             if (dataInfo != null)
             {
-                if (dataInfo.res == 0)
-                {
-                    if (!string.IsNullOrEmpty(dataInfo.data))
-                    {
-                        T data;
-                        if (typeof(T).Name == "String")
-                        {
-                            data = dataInfo.data as T;
-                        }
-                        else
-                        {
-                            data = JsonSerializer.Deserialize<T>(dataInfo.data);
-                        }
-                        if (data != null)
-                        {
-                            UnityWebRequestService.Instance?.HttpBroadcast<T>(data, messageId, dataInfo.res);
-                        }
-                    }
-                    else
-                    {
-                        UnityWebRequestService.Instance?.HttpBroadcast<T>(null, messageId, dataInfo.res);
-                    }
-                }
-                else
-                {
-                    UnityWebRequestService.Instance?.HttpBroadcast<T>(null, messageId, dataInfo.res);
-                }
+                UnityWebRequestService.Instance?.SendHttpBroadcast<T>(messageId, dataInfo);
             }
-
         }
-    }
-
-    public class UnityWebRequestResponseData
-    {
-        public int res { get; set; } = 0;
-        public string data { get; set; } = "";
     }
 }

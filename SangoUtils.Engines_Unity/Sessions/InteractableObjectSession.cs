@@ -74,8 +74,8 @@ namespace SangoUtils.Engines_Unity
             {
                 GameObject entityObject = component.gameObject;
                 int entityID = entityObject.GetInstanceID();
-                PressedInteractableObjectAttribute attribute = (PressedInteractableObjectAttribute)Attribute.GetCustomAttribute(type, typeof(PressedInteractableObjectAttribute));
-                int entityGroupID = attribute.InteractableObjectGroupID;
+                PressedInteractableObjectAttribute? attribute = Attribute.GetCustomAttribute(type, typeof(PressedInteractableObjectAttribute)) as PressedInteractableObjectAttribute;           
+                int entityGroupID = attribute!.InteractableObjectGroupID;
 
                 if (!_pressedObjectsDict.ContainsKey(entityID))
                 {
@@ -97,8 +97,8 @@ namespace SangoUtils.Engines_Unity
             {
                 GameObject entityObject = component.gameObject;
                 int entityID = entityObject.GetInstanceID();
-                GrabInteractableObjectAttribute attribute = (GrabInteractableObjectAttribute)Attribute.GetCustomAttribute(type, typeof(GrabInteractableObjectAttribute));
-                int entityGroupID = attribute.InteractableObjectGroupID;
+                GrabInteractableObjectAttribute? attribute = Attribute.GetCustomAttribute(type, typeof(GrabInteractableObjectAttribute)) as GrabInteractableObjectAttribute;
+                int entityGroupID = attribute!.InteractableObjectGroupID;
 
                 if (!_grabObjectsDict.ContainsKey(entityID))
                 {

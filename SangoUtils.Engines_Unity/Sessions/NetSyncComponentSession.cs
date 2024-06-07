@@ -69,8 +69,8 @@ namespace SangoUtils.Engines_Unity
             {
                 GameObject entityObject = component.gameObject;
                 int entityID = entityObject.GetInstanceID();
-                NetSyncSubspaceObjectAttribute attribute = (NetSyncSubspaceObjectAttribute)Attribute.GetCustomAttribute(type, typeof(NetSyncSubspaceObjectAttribute));
-                int entityGroupID = attribute.NetSyncGroupID;
+                NetSyncSubspaceObjectAttribute? attribute = Attribute.GetCustomAttribute(type, typeof(NetSyncSubspaceObjectAttribute)) as NetSyncSubspaceObjectAttribute;
+                int entityGroupID = attribute!.NetSyncGroupID;
                 
                 if (!_syncSubspaceObjectDict_Locals.ContainsKey(entityID))
                 {
