@@ -1,17 +1,12 @@
 ﻿using SangoUtils.Extensions_Unity.Core;
-using SangoUtils.Extensions_Unity.UnityWebRequestNet;
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace SangoUtils.Extensions_Unity.Service
 {
     public class ResourceService : UnitySingleton<ResourceService>
     {
-        private UnityWebResourceLoader_RawImage _resourceRawImageLoader = new UnityWebResourceLoader_RawImage();
-
         private Dictionary<string, AudioClip> _audioClipDict = new Dictionary<string, AudioClip>();
         private Dictionary<string, Sprite> _spriteDict = new Dictionary<string, Sprite>();
         private Dictionary<string, GameObject> _prefabDict = new Dictionary<string, GameObject>();
@@ -94,31 +89,6 @@ namespace SangoUtils.Extensions_Unity.Service
             return font;
         }
 
-        public uint LoadAndSetRawImageOnlineAsync(RawImage targetRawImage, string urlPath, bool isCahce, Action<object[]> completeCallBack, Action<object[]> canceledCallBack, Action<object[]> erroredCallBack)
-        {
-            uint packId = 0;
-            _rawImageTextureDict.TryGetValue(urlPath, out Texture texture);
-            {
-                if (texture == null)
-                {
-                    packId = _resourceRawImageLoader.AddPack(targetRawImage, urlPath, isCahce, AddRawImageTextureCacheCB, completeCallBack, canceledCallBack, erroredCallBack);
-                }
-                else
-                {
-                    if (targetRawImage != null)
-                    {
-                        targetRawImage.texture = texture;
-                        completeCallBack?.Invoke(null);
-                    }
-                }
-            }
-            return packId;
-        }
-
-        public bool RemoveRawImageOnlineAsyncPack(uint packId)
-        {
-            return _resourceRawImageLoader.RemovePack(packId);
-        }
 
         private void AddRawImageTextureCacheCB(string urlPath, Texture texture)
         {

@@ -12,6 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Classes\**" />
+    <EmbeddedResource Remove="Classes\**" />
+    <None Remove="Classes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Unity.Cecil">
       <HintPath>..\libs\Unity.Cecil.dll</HintPath>
       <Private>False</Private>
@@ -308,10 +314,6 @@
       <HintPath>..\libs\YooAsset.dll</HintPath>
       <Private>False</Private>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Classes\" />
   </ItemGroup>
 
   <ItemGroup>
