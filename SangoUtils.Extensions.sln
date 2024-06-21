@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Events", "SangoU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.FSMs", "SangoUtils_FSM\SangoUtils.FSMs.csproj", "{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Extensions_Unity", "SangoUtils_Extensions_UnityEngine\SangoUtils.Extensions_Unity.csproj", "{2D6CCA90-31E3-48A8-886D-7F229B7DF359}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Tasks", "SangoUtils_Task\SangoUtils.Tasks.csproj", "{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.NetOperations", "SangoUtils_NetOperation\SangoUtils.NetOperations.csproj", "{4EFA37FE-7B26-489E-9858-55A68FDB7C69}"
@@ -28,8 +26,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Bases_Unity", "SangoUtils_Bases_UnityEngine\SangoUtils.Bases_Unity.csproj", "{56EB783B-0489-4FF5-93B0-98507A366007}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Bases", "SangoUtils_Bases_Universal\SangoUtils.Bases.csproj", "{8BED06BC-6900-4A01-B007-F40A83D4D083}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Utilitys", "SangoUtils_Extensions_Universal\SangoUtils.Utilitys.csproj", "{10A70B57-57F7-42D8-91F0-4E7407BFE69C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Converters", "SangoUtils_Converter\SangoUtils.Converters.csproj", "{08EED031-E32B-41A3-A37F-54BEA11E6FE7}"
 EndProject
@@ -54,6 +50,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.WebRequests_Unity", "WebRequests_Unity\SangoUtils.WebRequests_Unity.csproj", "{A9CCA632-4305-4F87-93A7-4247A6E245E1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00TestConsoleProject", "00TestConsoleProject\00TestConsoleProject.csproj", "{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours", "SangoUtils.Behaviours\SangoUtils.Behaviours.csproj", "{A22001D2-2AA1-4126-82DA-B78BC54FC430}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_Unity", "SangoUtils.Behaviours_Unity\SangoUtils.Behaviours_Unity.csproj", "{38662486-6C7D-4812-AB95-E5BB2D38AFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.Behaviours_Win", "SangoUtils.Behaviours_Win\SangoUtils.Behaviours_Win.csproj", "{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoServers.Bases_ASPNet", "SangoServers.Bases_ASPNet\SangoServers.Bases_ASPNet.csproj", "{DF67FBE7-E2FD-4A61-8665-35106152D502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,10 +89,6 @@ Global
 		{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D6CCA90-31E3-48A8-886D-7F229B7DF359}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -113,10 +113,6 @@ Global
 		{8BED06BC-6900-4A01-B007-F40A83D4D083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BED06BC-6900-4A01-B007-F40A83D4D083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BED06BC-6900-4A01-B007-F40A83D4D083}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10A70B57-57F7-42D8-91F0-4E7407BFE69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10A70B57-57F7-42D8-91F0-4E7407BFE69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10A70B57-57F7-42D8-91F0-4E7407BFE69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10A70B57-57F7-42D8-91F0-4E7407BFE69C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -165,6 +161,22 @@ Global
 		{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AEB7E5B-1632-4B43-BF6A-8233CC7BC155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22001D2-2AA1-4126-82DA-B78BC54FC430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22001D2-2AA1-4126-82DA-B78BC54FC430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22001D2-2AA1-4126-82DA-B78BC54FC430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22001D2-2AA1-4126-82DA-B78BC54FC430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38662486-6C7D-4812-AB95-E5BB2D38AFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38662486-6C7D-4812-AB95-E5BB2D38AFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38662486-6C7D-4812-AB95-E5BB2D38AFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38662486-6C7D-4812-AB95-E5BB2D38AFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF67FBE7-E2FD-4A61-8665-35106152D502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF67FBE7-E2FD-4A61-8665-35106152D502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF67FBE7-E2FD-4A61-8665-35106152D502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF67FBE7-E2FD-4A61-8665-35106152D502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

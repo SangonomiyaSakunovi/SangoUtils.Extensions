@@ -3,92 +3,176 @@
   "WorkspaceRootPath": "D:\\SangoUtils\\SangoUtils.Extensions\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.behaviours_win\\netops\\webrequestop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|solutionrelative:sangoutils.behaviours_win\\netops\\webrequestop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoservers.bases_aspnet\\services\\webviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|solutionrelative:sangoservers.bases_aspnet\\services\\webviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoservers.bases_aspnet\\services\\endpointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|solutionrelative:sangoservers.bases_aspnet\\services\\endpointservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoservers.bases_aspnet\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|solutionrelative:sangoservers.bases_aspnet\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoservers.bases_aspnet\\interfaces\\iwebview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|solutionrelative:sangoservers.bases_aspnet\\interfaces\\iwebview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoservers.bases_aspnet\\interfaces\\iendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|solutionrelative:sangoservers.bases_aspnet\\interfaces\\iendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoservers.bases_aspnet\\sangoservers.bases_aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF67FBE7-E2FD-4A61-8665-35106152D502}|SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj|solutionrelative:sangoservers.bases_aspnet\\sangoservers.bases_aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.behaviours_win\\sangoutils.behaviours_win.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|solutionrelative:sangoutils.behaviours_win\\sangoutils.behaviours_win.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.behaviours_win\\sangoutils.behaviours_win.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|solutionrelative:sangoutils.behaviours_win\\sangoutils.behaviours_win.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.behaviours_win\\imagesops\\imagesops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}|SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj|solutionrelative:sangoutils.behaviours_win\\imagesops\\imagesops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.behaviours\\fileops\\formatsops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|solutionrelative:sangoutils.behaviours\\fileops\\formatsops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours\\fileops\\audiofileops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|solutionrelative:sangoutils.behaviours\\fileops\\audiofileops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\fileops\\textureop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\fileops\\textureop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\fileops\\audioclipfileop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\fileops\\audioclipfileop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.behaviours_unity\\uguiops\\uipointerlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\uguiops\\uipointerlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\uguiops\\uguispriteframeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\uguiops\\uguispriteframeanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\uguiops\\uguigameobjectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\uguiops\\uguigameobjectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\poolsops\\objectpoolsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\poolsops\\objectpoolsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\gameobjectops\\gameobjectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\gameobjectops\\gameobjectextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours\\registryops\\registryop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|solutionrelative:sangoutils.behaviours\\registryops\\registryop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours\\extensions\\datetimeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|solutionrelative:sangoutils.behaviours\\extensions\\datetimeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.engines_unity\\services\\netservice_websockets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|solutionrelative:sangoutils.engines_unity\\services\\netservice_websockets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.engines_unity\\services\\netservice_sockets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|solutionrelative:sangoutils.engines_unity\\services\\netservice_sockets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_bases_unityengine\\structs\\transformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|solutionrelative:sangoutils_bases_unityengine\\structs\\transformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_bases_unityengine\\sangoutils.bases_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|solutionrelative:sangoutils_bases_unityengine\\sangoutils.bases_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\videoplayerops\\videoplayerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\videoplayerops\\videoplayerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\videoplayerops\\videoplayersample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\videoplayerops\\videoplayersample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\videoplayerops\\videoplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\videoplayerops\\videoplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\sangoutils.behaviours_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\sangoutils.behaviours_unity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours_unity\\sangoutils.behaviours_unity.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{38662486-6C7D-4812-AB95-E5BB2D38AFB1}|SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj|solutionrelative:sangoutils.behaviours_unity\\sangoutils.behaviours_unity.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.behaviours\\sangoutils.behaviours.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A22001D2-2AA1-4126-82DA-B78BC54FC430}|SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj|solutionrelative:sangoutils.behaviours\\sangoutils.behaviours.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_bases_universal\\sangoutils.bases.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj|solutionrelative:sangoutils_bases_universal\\sangoutils.bases.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_bases_unityengine\\bases\\unitysingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|solutionrelative:sangoutils_bases_unityengine\\bases\\unitysingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_fsm\\fsmstaterclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_fsm\\fsmstaterclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|solutionrelative:sangoutils_fsm\\fsmstaterclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_fsm\\fsmlinkedstater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_fsm\\fsmlinkedstater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|solutionrelative:sangoutils_fsm\\fsmlinkedstater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_fsm\\fsmstaterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_fsm\\fsmstaterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|solutionrelative:sangoutils_fsm\\fsmstaterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_fsm\\fsmstater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_fsm\\fsmstater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A95CC1CC-0FE1-44C5-A13F-BCBAAC0F633D}|SangoUtils_FSM\\SangoUtils.FSMs.csproj|solutionrelative:sangoutils_fsm\\fsmstater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_event\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_event\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|solutionrelative:sangoutils_event\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_event\\eventmessagemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_event\\eventmessagemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|solutionrelative:sangoutils_event\\eventmessagemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_event\\eventcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_event\\eventcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|solutionrelative:sangoutils_event\\eventcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_event\\eventcallbackhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_event\\eventcallbackhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|solutionrelative:sangoutils_event\\eventcallbackhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_event\\eventlistenerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_event\\eventlistenerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F75ECEC-8206-43C5-A3C9-41107262F102}|SangoUtils_Event\\SangoUtils.Events.csproj|solutionrelative:sangoutils_event\\eventlistenerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_extensions_unityengine\\objectpools\\objectpoolsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\objectpools\\objectpoolsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\anim\\uianimationsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\anim\\uianimationsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\anim\\sangouianimationpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\anim\\sangouianimationpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\anim\\sangouianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\anim\\sangouianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\anim\\sangouibaseanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\anim\\sangouibaseanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\utils\\videoplayer\\videoplayersample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\utils\\videoplayer\\videoplayersample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\utils\\videoplayer\\videoplayerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\utils\\videoplayer\\videoplayerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\utils\\videoplayer\\videoplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\utils\\videoplayer\\videoplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\structs\\transformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\structs\\transformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_bases_universal\\bases\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BED06BC-6900-4A01-B007-F40A83D4D083}|SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj|solutionrelative:sangoutils_bases_universal\\bases\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\utils\\playerprefs\\playerprefsutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\utils\\playerprefs\\playerprefsutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_extensions_unityengine\\core\\input\\typeinbasesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D6CCA90-31E3-48A8-886D-7F229B7DF359}|SangoUtils_Extensions_UnityEngine\\SangoUtils.Extensions_Unity.csproj|solutionrelative:sangoutils_extensions_unityengine\\core\\input\\typeinbasesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56EB783B-0489-4FF5-93B0-98507A366007}|SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_bases_unityengine\\utilitys\\componentshelperutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -145,10 +229,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.engines_unity\\utilities\\methodsdesc_unity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|solutionrelative:sangoutils.engines_unity\\utilities\\methodsdesc_unity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils.engines_unity\\services\\netservice_websockets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}|SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj|solutionrelative:sangoutils.engines_unity\\services\\netservice_websockets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}|SangoUtils_Task\\SangoUtils.Tasks.csproj|D:\\SangoUtils\\SangoUtils.Extensions\\sangoutils_task\\tasktimer\\taskasynctimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -238,7 +318,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 157,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -259,437 +339,296 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FSMStaterClass.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterClass.cs",
-              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMStaterClass.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterClass.cs",
-              "RelativeToolTip": "SangoUtils_FSM\\FSMStaterClass.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAnwEkAAAAoAAAA",
+              "Title": "WebViewService.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Services\\WebViewService.cs",
+              "RelativeDocumentMoniker": "SangoServers.Bases_ASPNet\\Services\\WebViewService.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Services\\WebViewService.cs",
+              "RelativeToolTip": "SangoServers.Bases_ASPNet\\Services\\WebViewService.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAuwBgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:58:52.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FSMStaterBase.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterBase.cs",
-              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMStaterBase.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterBase.cs",
-              "RelativeToolTip": "SangoUtils_FSM\\FSMStaterBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:58:50.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FSMStater.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStater.cs",
-              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMStater.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStater.cs",
-              "RelativeToolTip": "SangoUtils_FSM\\FSMStater.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:58:45.277Z",
+              "WhenOpened": "2024-06-21T08:15:13.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FSMLinkedStater.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMLinkedStater.cs",
-              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMLinkedStater.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMLinkedStater.cs",
-              "RelativeToolTip": "SangoUtils_FSM\\FSMLinkedStater.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Title": "EndPointService.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Services\\EndPointService.cs",
+              "RelativeDocumentMoniker": "SangoServers.Bases_ASPNet\\Services\\EndPointService.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Services\\EndPointService.cs",
+              "RelativeToolTip": "SangoServers.Bases_ASPNet\\Services\\EndPointService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:58:40.544Z",
+              "WhenOpened": "2024-06-21T08:15:11.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitySingleton.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
-              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "ApplicationService.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Services\\ApplicationService.cs",
+              "RelativeDocumentMoniker": "SangoServers.Bases_ASPNet\\Services\\ApplicationService.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Services\\ApplicationService.cs",
+              "RelativeToolTip": "SangoServers.Bases_ASPNet\\Services\\ApplicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:11:28.33Z",
+              "WhenOpened": "2024-06-21T08:15:10.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EventCache.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCache.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Event\\EventCache.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCache.cs",
-              "RelativeToolTip": "SangoUtils_Event\\EventCache.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "IWebView.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Interfaces\\IWebView.cs",
+              "RelativeDocumentMoniker": "SangoServers.Bases_ASPNet\\Interfaces\\IWebView.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Interfaces\\IWebView.cs",
+              "RelativeToolTip": "SangoServers.Bases_ASPNet\\Interfaces\\IWebView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:28:27.353Z",
+              "WhenOpened": "2024-06-21T08:15:09.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventService.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Event\\EventService.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventService.cs",
-              "RelativeToolTip": "SangoUtils_Event\\EventService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAAAnAAAA",
+              "Title": "IEndPoint.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Interfaces\\IEndPoint.cs",
+              "RelativeDocumentMoniker": "SangoServers.Bases_ASPNet\\Interfaces\\IEndPoint.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\Interfaces\\IEndPoint.cs",
+              "RelativeToolTip": "SangoServers.Bases_ASPNet\\Interfaces\\IEndPoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T07:34:39.588Z",
+              "WhenOpened": "2024-06-21T08:15:08.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "EventMessageMap.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventMessageMap.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Event\\EventMessageMap.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventMessageMap.cs",
-              "RelativeToolTip": "SangoUtils_Event\\EventMessageMap.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAgwF4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T07:34:37.953Z",
+              "Title": "SangoServers.Bases_ASPNet",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
+              "RelativeDocumentMoniker": "SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
+              "RelativeToolTip": "SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T08:13:29.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventCallBackHandler.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCallBackHandler.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Event\\EventCallBackHandler.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCallBackHandler.cs",
-              "RelativeToolTip": "SangoUtils_Event\\EventCallBackHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "WebRequestOP.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\NetOPs\\WebRequestOP.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Win\\NetOPs\\WebRequestOP.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\NetOPs\\WebRequestOP.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Win\\NetOPs\\WebRequestOP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:28:28.147Z",
+              "WhenOpened": "2024-06-21T08:07:47.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SangoUtils.Behaviours_Win",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "RelativeToolTip": "SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T08:12:43.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormatsOPs.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\FileOPs\\FormatsOPs.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours\\FileOPs\\FormatsOPs.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\FileOPs\\FormatsOPs.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours\\FileOPs\\FormatsOPs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T08:05:45.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "EventListenerHandler.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventListenerHandler.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Event\\EventListenerHandler.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventListenerHandler.cs",
-              "RelativeToolTip": "SangoUtils_Event\\EventListenerHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ImagesOPs.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\ImagesOPs\\ImagesOPs.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Win\\ImagesOPs\\ImagesOPs.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\ImagesOPs\\ImagesOPs.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Win\\ImagesOPs\\ImagesOPs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T07:34:29.391Z",
+              "WhenOpened": "2024-06-21T08:01:51.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SangoUtils.Behaviours_Win",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "RelativeToolTip": "SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T08:01:14.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "SangoUIAnimationPack.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimationPack.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimationPack.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimationPack.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimationPack.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "TextureOP.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\FileOPs\\TextureOP.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\FileOPs\\TextureOP.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\FileOPs\\TextureOP.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\FileOPs\\TextureOP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:31:41.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SangoUIAnimator.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimator.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimator.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimator.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIAnimator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:31:47.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UIAnimationSample.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\UIAnimationSample.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Anim\\UIAnimationSample.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\UIAnimationSample.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Anim\\UIAnimationSample.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:41:59.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ObjectPoolSample.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\ObjectPools\\ObjectPoolSample.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\ObjectPools\\ObjectPoolSample.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\ObjectPools\\ObjectPoolSample.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\ObjectPools\\ObjectPoolSample.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:35:40.186Z",
+              "WhenOpened": "2024-06-21T03:25:52.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SangoUIBaseAnimation.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIBaseAnimation.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIBaseAnimation.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIBaseAnimation.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Anim\\SangoUIBaseAnimation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "AudioClipFileOP.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\FileOPs\\AudioClipFileOP.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\FileOPs\\AudioClipFileOP.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\FileOPs\\AudioClipFileOP.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\FileOPs\\AudioClipFileOP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:41:57.09Z"
+              "WhenOpened": "2024-06-21T03:25:50.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AudioFileOPs.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\FileOPs\\AudioFileOPs.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours\\FileOPs\\AudioFileOPs.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\FileOPs\\AudioFileOPs.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours\\FileOPs\\AudioFileOPs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:24:46.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "VideoPlayerSample.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerSample.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerSample.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerSample.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerSample.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Title": "UGUISpriteFrameAnimation.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUISpriteFrameAnimation.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUISpriteFrameAnimation.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUISpriteFrameAnimation.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUISpriteFrameAnimation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:33:17.381Z"
+              "WhenOpened": "2024-06-21T03:37:14.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "VideoPlayerConfig.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerConfig.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerConfig.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerConfig.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Title": "UGUIGameObjectExtension.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUIGameObjectExtension.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUIGameObjectExtension.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUIGameObjectExtension.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\UGUIOPs\\UGUIGameObjectExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:33:00.329Z"
+              "WhenOpened": "2024-06-21T03:57:13.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "VideoPlayerController.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerController.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerController.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerController.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Utils\\VideoPlayer\\VideoPlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ObjectPoolSample.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\PoolsOPs\\ObjectPoolSample.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\PoolsOPs\\ObjectPoolSample.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\PoolsOPs\\ObjectPoolSample.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\PoolsOPs\\ObjectPoolSample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:33:01.259Z"
+              "WhenOpened": "2024-06-21T03:42:16.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UIPointerListener.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\UGUIOPs\\UIPointerListener.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\UGUIOPs\\UIPointerListener.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\UGUIOPs\\UIPointerListener.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\UGUIOPs\\UIPointerListener.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:47:30.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "TransformData.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Structs\\TransformData.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Structs\\TransformData.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Structs\\TransformData.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Structs\\TransformData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Title": "GameObjectExtension.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\GameObjectOPs\\GameObjectExtension.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\GameObjectOPs\\GameObjectExtension.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\GameObjectOPs\\GameObjectExtension.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\GameObjectOPs\\GameObjectExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:32:29.069Z"
+              "WhenOpened": "2024-06-21T03:47:32.122Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Singleton.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
-              "RelativeToolTip": "SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "RegistryOP.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\RegistryOPs\\RegistryOP.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours\\RegistryOPs\\RegistryOP.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\RegistryOPs\\RegistryOP.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours\\RegistryOPs\\RegistryOP.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA7wAUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:15:50.9Z"
+              "WhenOpened": "2024-06-21T03:50:29.195Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "PlayerPrefsUtils.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\PlayerPrefs\\PlayerPrefsUtils.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Utils\\PlayerPrefs\\PlayerPrefsUtils.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Utils\\PlayerPrefs\\PlayerPrefsUtils.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Utils\\PlayerPrefs\\PlayerPrefsUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Title": "DateTimeExtension.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\Extensions\\DateTimeExtension.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours\\Extensions\\DateTimeExtension.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\Extensions\\DateTimeExtension.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours\\Extensions\\DateTimeExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T09:37:49.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TypeInBaseSystem.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Core\\Input\\TypeInBaseSystem.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Extensions_UnityEngine\\Core\\Input\\TypeInBaseSystem.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Extensions_UnityEngine\\Core\\Input\\TypeInBaseSystem.cs",
-              "RelativeToolTip": "SangoUtils_Extensions_UnityEngine\\Core\\Input\\TypeInBaseSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T08:47:22.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "InteractableObjectSession.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAIwAoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T02:09:58.442Z"
+              "WhenOpened": "2024-06-21T03:51:53.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "ComponentsHelperUtils.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
-              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAADwvwQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T06:08:55.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "InteractableObjectAttributes.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
-              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T06:13:37.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Coroutines.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T02:03:29.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CoroutineHandler.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAywAMAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T02:03:27.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CoroutineDriver.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T02:03:26.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MethodsAttributes.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T02:03:33.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SessionsHelperEditor.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T08:51:39.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MethodCollectedOnInspectorSampleInspector.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T01:50:06.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "MethodCollectedOnInspectorSample.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T01:49:49.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "TaskTickTimer.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
-              "RelativeDocumentMoniker": "SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
-              "RelativeToolTip": "SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:39:05.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "MethodsUtils_Unity.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAswCIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:38:28.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MethodsDesc_Unity.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
-              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
-              "RelativeToolTip": "SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
+              "Title": "NetService_Sockets.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Services\\NetService_Sockets.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Services\\NetService_Sockets.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Services\\NetService_Sockets.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Services\\NetService_Sockets.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:38:27.252Z"
+              "WhenOpened": "2024-06-21T03:46:22.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 23,
+              "Title": "TransformData.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Structs\\TransformData.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Structs\\TransformData.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Structs\\TransformData.cs",
+              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Structs\\TransformData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:45:43.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "NetService_WebSockets.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Services\\NetService_WebSockets.cs",
               "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Services\\NetService_WebSockets.cs",
@@ -701,7 +640,394 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VideoPlayerConfig.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerConfig.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerConfig.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerConfig.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:26:40.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VideoPlayerSample.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerSample.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerSample.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerSample.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerSample.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAFQAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:26:44.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SangoUtils.Bases_Unity.csproj",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T03:11:49.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VideoPlayerController.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerController.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerController.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerController.cs",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\VideoPlayerOPs\\VideoPlayerController.cs",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAUwOAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T03:26:43.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SangoUtils.Behaviours_Unity.csproj",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T03:25:56.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SangoUtils.Behaviours_Unity",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "RelativeToolTip": "SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T03:23:23.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SangoUtils.Behaviours",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
+              "RelativeDocumentMoniker": "SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
+              "RelativeToolTip": "SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T03:22:04.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SangoUtils.Bases.csproj",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj",
+              "RelativeToolTip": "SangoUtils_Bases_Universal\\SangoUtils.Bases.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T03:07:11.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FSMLinkedStater.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMLinkedStater.cs",
+              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMLinkedStater.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMLinkedStater.cs",
+              "RelativeToolTip": "SangoUtils_FSM\\FSMLinkedStater.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:58:40.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FSMStater.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStater.cs",
+              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMStater.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStater.cs",
+              "RelativeToolTip": "SangoUtils_FSM\\FSMStater.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:58:45.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FSMStaterBase.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterBase.cs",
+              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMStaterBase.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterBase.cs",
+              "RelativeToolTip": "SangoUtils_FSM\\FSMStaterBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:58:50.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UnitySingleton.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
+              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Bases\\UnitySingleton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:11:28.33Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 33,
+              "Title": "FSMStaterClass.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterClass.cs",
+              "RelativeDocumentMoniker": "SangoUtils_FSM\\FSMStaterClass.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_FSM\\FSMStaterClass.cs",
+              "RelativeToolTip": "SangoUtils_FSM\\FSMStaterClass.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAnwEkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:58:52.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EventCache.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCache.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Event\\EventCache.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCache.cs",
+              "RelativeToolTip": "SangoUtils_Event\\EventCache.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:28:27.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventService.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Event\\EventService.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventService.cs",
+              "RelativeToolTip": "SangoUtils_Event\\EventService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:34:39.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EventMessageMap.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventMessageMap.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Event\\EventMessageMap.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventMessageMap.cs",
+              "RelativeToolTip": "SangoUtils_Event\\EventMessageMap.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAgwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:34:37.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EventCallBackHandler.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCallBackHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Event\\EventCallBackHandler.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventCallBackHandler.cs",
+              "RelativeToolTip": "SangoUtils_Event\\EventCallBackHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:28:28.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EventListenerHandler.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventListenerHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Event\\EventListenerHandler.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Event\\EventListenerHandler.cs",
+              "RelativeToolTip": "SangoUtils_Event\\EventListenerHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:34:29.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
+              "RelativeToolTip": "SangoUtils_Bases_Universal\\Bases\\Singleton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:15:50.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "InteractableObjectSession.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Sessions\\InteractableObjectSession.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAIwAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:09:58.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ComponentsHelperUtils.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
+              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Utilitys\\ComponentsHelperUtils.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvwQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:08:55.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "InteractableObjectAttributes.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
+              "RelativeToolTip": "SangoUtils_Bases_UnityEngine\\Core\\InteractableObjectAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:13:37.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Coroutines.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Runner\\Coroutines.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:03:29.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CoroutineHandler.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Runner\\CoroutineHandler.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAywAMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:03:27.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CoroutineDriver.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Runner\\CoroutineDriver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:03:26.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MethodsAttributes.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Core\\MethodsAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T02:03:33.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SessionsHelperEditor.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\ComponentsHelpers\\SessionsHelperEditor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T08:51:39.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MethodCollectedOnInspectorSampleInspector.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:50:06.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MethodCollectedOnInspectorSample.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T01:49:49.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TaskTickTimer.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "RelativeToolTip": "SangoUtils_Task\\TaskTimer\\TaskTickTimer.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:39:05.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MethodsUtils_Unity.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Utilities\\MethodsUtils_Unity.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAswCIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:38:28.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MethodsDesc_Unity.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity\\Utilities\\MethodsDesc_Unity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:38:27.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "TaskTimerSample.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\Tests\\TaskTimerSample.cs",
               "RelativeDocumentMoniker": "SangoUtils_Task\\Tests\\TaskTimerSample.cs",
@@ -713,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 58,
               "Title": "SangoUtils.Tasks.csproj",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj",
               "RelativeDocumentMoniker": "SangoUtils_Task\\SangoUtils.Tasks.csproj",
@@ -721,11 +1047,12 @@
               "RelativeToolTip": "SangoUtils_Task\\SangoUtils.Tasks.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T09:35:25.77Z"
+              "WhenOpened": "2024-06-14T09:35:25.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 57,
               "Title": "TaskAsyncTimer.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\TaskTimer\\TaskAsyncTimer.cs",
               "RelativeDocumentMoniker": "SangoUtils_Task\\TaskTimer\\TaskAsyncTimer.cs",
@@ -737,7 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 59,
               "Title": "UnityWebRequestService.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebRequestService.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebRequestService.cs",
@@ -749,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 62,
               "Title": "UnityWebRequestClient.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebRequestClient.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebRequestClient.cs",
@@ -761,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 60,
               "Title": "UnityWebRequestPack.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebRequestPack.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebRequestPack.cs",
@@ -773,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 65,
               "Title": "BaseUnityWebRequest_Http.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\BaseUnityWebRequest_Http.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\BaseUnityWebRequest_Http.cs",
@@ -785,7 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 64,
               "Title": "BaseUnityWebRequestHttpAPIData.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\BaseUnityWebRequestHttpAPIData.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\BaseUnityWebRequestHttpAPIData.cs",
@@ -797,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 63,
               "Title": "UnityWebRequestClient.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebRequestClient.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebRequestClient.cs",
@@ -809,7 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "UnityWebRequestHttpAPIAttribute.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebRequestHttpAPIAttribute.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebRequestHttpAPIAttribute.cs",
@@ -821,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 66,
               "Title": "RecognizableObjectSession.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Sessions\\RecognizableObjectSession.cs",
               "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Sessions\\RecognizableObjectSession.cs",
@@ -833,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 69,
               "Title": "NetSyncComponentSession.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Sessions\\NetSyncComponentSession.cs",
               "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Sessions\\NetSyncComponentSession.cs",
@@ -845,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 68,
               "Title": "TrackableComponentSession.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\Sessions\\TrackableComponentSession.cs",
               "RelativeDocumentMoniker": "SangoUtils.Engines_Unity\\Sessions\\TrackableComponentSession.cs",
@@ -857,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 67,
               "Title": "CharUtilsSango.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\Converter\\CharUtilsSango.cs",
               "RelativeDocumentMoniker": "SangoUtils_Converter\\Converter\\CharUtilsSango.cs",
@@ -869,7 +1196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 70,
               "Title": "UnityWebResourceBasePack.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebResourceBasePack.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebResourceBasePack.cs",
@@ -881,7 +1208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 71,
               "Title": "UnityWebResourceBasePack.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebResourceBasePack.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebResourceBasePack.cs",
@@ -893,18 +1220,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 75,
               "Title": "SangoUtils.WebRequests_Unity",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\SangoUtils.WebRequests_Unity.csproj",
               "RelativeDocumentMoniker": "WebRequests_Unity\\SangoUtils.WebRequests_Unity.csproj",
               "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\SangoUtils.WebRequests_Unity.csproj",
               "RelativeToolTip": "WebRequests_Unity\\SangoUtils.WebRequests_Unity.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-27T08:53:56.249Z"
+              "WhenOpened": "2024-05-27T08:53:56.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 72,
               "Title": "UnityWebRequestHttpAPIAttribute.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebRequestHttpAPIAttribute.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebRequestHttpAPIAttribute.cs",
@@ -916,7 +1244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 73,
               "Title": "BaseUnityWebRequestHttpAPIData.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\BaseUnityWebRequestHttpAPIData.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\BaseUnityWebRequestHttpAPIData.cs",
@@ -928,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 74,
               "Title": "BaseUnityWebRequest_Http.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\BaseUnityWebRequest_Http.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\BaseUnityWebRequest_Http.cs",
@@ -940,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 76,
               "Title": "UnityWebResourceLoader_RawImage.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\UnityWebResourceLoader_RawImage.cs",
               "RelativeDocumentMoniker": "WebRequests_Unity\\UnityWebResourceLoader_RawImage.cs",
