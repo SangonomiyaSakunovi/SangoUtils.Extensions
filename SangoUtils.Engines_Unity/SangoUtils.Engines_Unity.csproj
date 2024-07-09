@@ -318,4 +318,8 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Sessions\" />
+  </ItemGroup>
+
 </Project>

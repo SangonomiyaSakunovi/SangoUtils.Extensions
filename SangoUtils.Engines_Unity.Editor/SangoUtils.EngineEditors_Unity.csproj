@@ -376,4 +376,8 @@
     </ProjectReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ComponentsHelpers\" />
+  </ItemGroup>
+
 </Project>
