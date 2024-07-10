@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SanogonomiyaSakunovi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58e24ebd6c845149b2d420f41c9cb13e977d7e92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e287df2f4cf9b0856c185b4d2da9b03bb86b648a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils.NetOperationsClassic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

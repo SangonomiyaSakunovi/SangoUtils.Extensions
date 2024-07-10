@@ -9,51 +9,35 @@ namespace SangoUtils.Bases_Unity.Utils
         public static void AddComponentsHelper<T>(this GameObject gameObject) where T : MonoBehaviour
         {
             Component component = gameObject.AddComponent<T>();
-            if (typeof(IComponentsHelper).IsAssignableFrom(typeof(T)))
+            if (component is IComponentsHelper meta)
             {
-                IComponentsHelper? meta = component as IComponentsHelper;
-                if (meta != null)
-                {
-                    meta.OnInitialize();
-                }
+                meta.OnInitialize();
             }
         }
 
         public static void AddComponentsHelper(this GameObject gameObject, Type type)
         {
             Component component = gameObject.AddComponent(type);
-            if (typeof(IComponentsHelper).IsAssignableFrom(type))
+            if (component is IComponentsHelper meta)
             {
-                IComponentsHelper? meta = component as IComponentsHelper;
-                if (meta != null)
-                {
-                    meta.OnInitialize();
-                }
+                meta.OnInitialize();
             }
         }
 
         public static void RemoveComponentsHelper<T>(this GameObject gameObject) where T : MonoBehaviour
         {
-            Component component = gameObject.GetComponent<T>();
-            if (component != null)
+            if (gameObject.TryGetComponent<T>(out var component))
             {
-                if (typeof(IComponentsHelper).IsAssignableFrom(typeof(T)))
+                if (component is IComponentsHelper meta)
                 {
-                    IComponentsHelper? meta = component as IComponentsHelper;
-                    if (meta != null)
+                    Type[] types = meta.GetReleventComponents();
+                    MonoBehaviour.DestroyImmediate(component);
+                    foreach (var type in types)
                     {
-                        Type[] types = meta.GetReleventComponents();
-                        MonoBehaviour.DestroyImmediate(component);
-                        if (types != null)
+                        var componentNeighbor = gameObject.GetComponent(type);
+                        if (componentNeighbor != null)
                         {
-                            foreach (var type in types)
-                            {
-                                var componentNeighbor = gameObject.GetComponent(type);
-                                if (componentNeighbor != null)
-                                {
-                                    MonoBehaviour.DestroyImmediate(componentNeighbor);
-                                }
-                            }
+                            MonoBehaviour.DestroyImmediate(componentNeighbor);
                         }
                     }
                 }
@@ -65,23 +49,16 @@ namespace SangoUtils.Bases_Unity.Utils
             Component component = gameObject.GetComponent(type);
             if (component != null)
             {
-                if (typeof(IComponentsHelper).IsAssignableFrom(type))
+                if (component is IComponentsHelper meta)
                 {
-                    IComponentsHelper? meta = component as IComponentsHelper;
-                    if (meta != null)
+                    Type[] types = meta.GetReleventComponents();
+                    MonoBehaviour.DestroyImmediate(component);
+                    foreach (var childType in types)
                     {
-                        Type[] types = meta.GetReleventComponents();
-                        MonoBehaviour.DestroyImmediate(component);
-                        if (types != null)
+                        var componentNeighbor = gameObject.GetComponent(childType);
+                        if (componentNeighbor != null)
                         {
-                            foreach (var childType in types)
-                            {
-                                var componentNeighbor = gameObject.GetComponent(childType);
-                                if (componentNeighbor != null)
-                                {
-                                    MonoBehaviour.DestroyImmediate(componentNeighbor);
-                                }
-                            }
+                            MonoBehaviour.DestroyImmediate(componentNeighbor);
                         }
                     }
                 }
