@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NDctnomCyB9kpkfd19cZLeFLFmYdryApvgCm/SMgiT6WLR4me0whUdHHbt2cbaDBGIvPAda6VBrWHaUD+blg1g==",
+  "dgSpecHash": "AE+EgEVlBvs=",
   "success": true,
   "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\WebRequests_Unity\\SangoUtils.WebRequests_Unity.csproj",
   "expectedPackageFiles": [
@@ -10,19 +10,8 @@
     "C:\\Users\\16022\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\16022\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\16022\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 8.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -55,9 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours", "Sa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_Unity", "SangoUtils.Behaviours_Unity\SangoUtils.Behaviours_Unity.csproj", "{38662486-6C7D-4812-AB95-E5BB2D38AFB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.Behaviours_Win", "SangoUtils.Behaviours_Win\SangoUtils.Behaviours_Win.csproj", "{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_Win", "SangoUtils.Behaviours_Win\SangoUtils.Behaviours_Win.csproj", "{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoServers.Bases_ASPNet", "SangoServers.Bases_ASPNet\SangoServers.Bases_ASPNet.csproj", "{DF67FBE7-E2FD-4A61-8665-35106152D502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoServers.Bases_ASPNet", "SangoServers.Bases_ASPNet\SangoServers.Bases_ASPNet.csproj", "{DF67FBE7-E2FD-4A61-8665-35106152D502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.UnitySourceGenerators", "SangoUtils.UnitySourceGenerators\SangoUtils.UnitySourceGenerators.csproj", "{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{DF67FBE7-E2FD-4A61-8665-35106152D502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF67FBE7-E2FD-4A61-8665-35106152D502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF67FBE7-E2FD-4A61-8665-35106152D502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
