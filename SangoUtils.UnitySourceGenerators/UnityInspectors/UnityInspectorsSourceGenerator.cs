@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace SangoUtils.UnitySourceGenerators.Inspectors
+namespace SangoUtils.UnitySourceGenerators.UnityInspectors
 {
     [Generator()]
-    internal sealed class InspectorsSourceGenerator : ISourceGenerator
+    internal sealed class UnityInspectorsSourceGenerator : ISourceGenerator
     {
         public const string UnityInspectorAttributeName = "UnityInspector";
 
@@ -21,18 +21,18 @@ namespace SangoUtils.UnitySourceGenerators.Inspectors
                 Debugger.Launch();
             }
 #endif
-            context.RegisterForSyntaxNotifications(delegate { return new InspectorsSyntaxReceiver(); });
+            context.RegisterForSyntaxNotifications(delegate { return new UnityInspectorsSyntaxReceiver(); });
         }
 
         public void Execute(GeneratorExecutionContext context)
         {
-            string UnityInspectorAttribute = Def.Dom_Declaration +
+            string UnityInspectorAttributeSourceText = Def.Dom_Declaration +
 $@"
 using System;
 
 namespace {Def.Dom_Generateds}
 {{
-    [AttributeUsage(AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public sealed class {UnityInspectorAttributeName}Attribute : Attribute
     {{
     }}
@@ -44,10 +44,10 @@ namespace {Def.Dom_Generateds}
             if (moduleName.StartsWith(Def.Dom_UnityEditor + Def.Sym_Dot)) return;
             if (moduleName.StartsWith(Def.Dom_Unity + Def.Sym_Dot)) return;
 
-            var sourceText0 = SourceText.From(UnityInspectorAttribute, Encoding.UTF8);
+            var sourceText0 = SourceText.From(UnityInspectorAttributeSourceText, Encoding.UTF8);
             context.AddSource(UnityInspectorAttributeName + Def.Key_Attribute + Def.Ext_gcs, sourceText0);
 
-            var syntaxReceiver = context.SyntaxReceiver as InspectorsSyntaxReceiver;
+            var syntaxReceiver = context.SyntaxReceiver as UnityInspectorsSyntaxReceiver;
             if (syntaxReceiver.CandidateWorkItems.Count == 0) return;
 
             var codeWriter = new CodeWriter();
@@ -111,8 +111,14 @@ namespace {Def.Dom_Generateds}
             var fieldName = workItem.PropertyDeclarationSyntax.Identifier.ValueText;
             
             var privateFieldName = Def.Sym_Underline + fieldName;
-            codeWriter.AppendLine(Def.Atr_SerializeField);
             stringBuilder
+                .Append(Def.Fil_Tab)
+                .Append(Def.Atr_SerializeField);
+            codeWriter.AppendLine(stringBuilder.ToString());
+            stringBuilder.Clear();
+
+            stringBuilder
+                .Append(Def.Fil_Tab)
                 .Append(Def.Key_Private)
                 .Append(Def.Fil_Space)
                 .Append(fieldType)

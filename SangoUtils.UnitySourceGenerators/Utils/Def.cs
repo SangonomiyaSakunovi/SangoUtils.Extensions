@@ -26,6 +26,11 @@
         public const string Sym_Close = ")";
 
         public const string Fil_Space = " ";
+        public const string Fil_Tab = "\t";
+        public const string Fil_Line = "\n";
+
+        public const string Quo_Double = "\"";
+        public const string Quo_Single = "\'";
 
         public const string Key_Namespace = "namespace";
         public const string Key_Attribute = "Attribute";
@@ -34,6 +39,7 @@
         public const string Key_Internal = "internal";
         public const string Key_Static = "static";
         public const string Key_Void = "void";
+        public const string Key_Const = "const";
         public const string Key_Where = "where";
         public const string Key_New = "new";
         public const string Key_Partial = "partial";
@@ -43,6 +49,11 @@
         public const string Key_UnityEvent = "UnityEvent";
 
         public const string Atr_SerializeField = "[SerializeField]";
+
+        public const string Typ_Int = "int";
+        public const string Typ_String = "string";
+        public const string Typ_Float = "float";
+        public const string Typ_Long = "long";
 
         public const string Ext_gcs = ".g.cs";
     }

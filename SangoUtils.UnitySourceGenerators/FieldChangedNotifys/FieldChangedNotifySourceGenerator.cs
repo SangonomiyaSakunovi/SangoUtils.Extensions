@@ -26,13 +26,13 @@ namespace SangoUtils.UnitySourceGenerators.FieldChangedNotifys
 
         public void Execute(GeneratorExecutionContext context)
         {
-            string FieldChangedNotifyAttribute = Def.Dom_Declaration +
+            string FieldChangedNotifyAttributeSourceText = Def.Dom_Declaration +
 $@"
 using System;
 
 namespace {Def.Dom_Generateds}
 {{
-    [AttributeUsage(AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public sealed class {FieldChangedNotifyAttributeName}Attribute : Attribute
     {{       
     }}
@@ -44,7 +44,7 @@ namespace {Def.Dom_Generateds}
             if (moduleName.StartsWith(Def.Dom_UnityEditor + Def.Sym_Dot)) return;
             if (moduleName.StartsWith(Def.Dom_Unity + Def.Sym_Dot)) return;
 
-            var sourceText0 = SourceText.From(FieldChangedNotifyAttribute, System.Text.Encoding.UTF8);
+            var sourceText0 = SourceText.From(FieldChangedNotifyAttributeSourceText, System.Text.Encoding.UTF8);
             context.AddSource(FieldChangedNotifyAttributeName + Def.Key_Attribute + Def.Ext_gcs, sourceText0);
 
             var syntaxRecevier = context.SyntaxReceiver as FieldChangedNotifySyntaxReceiver;
@@ -113,6 +113,7 @@ namespace {Def.Dom_Generateds}
             
             var privateFieldName = Def.Sym_Underline + fieldName;
             stringBuilder
+                .Append(Def.Fil_Tab)
                 .Append(Def.Key_Private)
                 .Append(Def.Fil_Space)
                 .Append(fieldType)
@@ -125,6 +126,7 @@ namespace {Def.Dom_Generateds}
 
             var privateEventName = "On" + fieldName + "Changed";
             stringBuilder
+                .Append(Def.Fil_Tab)
                 .Append(Def.Key_Private)
                 .Append(Def.Fil_Space)
                 .Append(Def.Key_UnityEvent)

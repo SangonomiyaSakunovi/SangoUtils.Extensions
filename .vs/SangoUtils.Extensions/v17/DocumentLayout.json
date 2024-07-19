@@ -3,36 +3,63 @@
   "WorkspaceRootPath": "D:\\SangoUtils\\SangoUtils.Extensions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\assemblyinfos\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\assemblyinfos\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\ARs\\Experiments\\Demo_RokidTest\\Packages\\com.sangoutils.unitycodegenerator\\Template~\\Tags.template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\fieldchangednotifys\\fieldchangednotifysourcegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\fieldchangednotifys\\fieldchangednotifysourcegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_editors_unityengine\\editors\\editorwindows\\baseeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|solutionrelative:sangoutils_editors_unityengine\\editors\\editorwindows\\baseeditorwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\fieldchangednotifys\\fieldchangednotifysyntaxreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\fieldchangednotifys\\fieldchangednotifysyntaxreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_editors_unityengine\\editors\\editorwindows\\editorwindowreflectionutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|solutionrelative:sangoutils_editors_unityengine\\editors\\editorwindows\\editorwindowreflectionutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\utils\\typedeclarationsyntaxhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\utils\\typedeclarationsyntaxhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_editors_unityengine\\core\\editorwindowattributes\\editorbuttonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|solutionrelative:sangoutils_editors_unityengine\\core\\editorwindowattributes\\editorbuttonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\utils\\propertyworkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\utils\\propertyworkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_editors_unityengine\\core\\editorwindowattributes\\editorobjectfieldattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|solutionrelative:sangoutils_editors_unityengine\\core\\editorwindowattributes\\editorobjectfieldattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\utils\\fieldworkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\utils\\fieldworkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils_editors_unityengine\\core\\editorwindowattributes\\editortextfieldattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}|SangoUtils_Editors_UnityEngine\\SangoUtils.CustomEditors_Unity.csproj|solutionrelative:sangoutils_editors_unityengine\\core\\editorwindowattributes\\editortextfieldattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\utils\\def.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\utils\\def.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\unityinspectors\\unityinspectorssourcegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\unityinspectors\\unityinspectorssourcegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\utils\\fieldworkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\utils\\fieldworkitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\utils\\codewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\utils\\codewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}|SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.engines_unity.editor\\samples\\methodcollectedoninspectorsampleinspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}|SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj|solutionrelative:sangoutils.engines_unity.editor\\samples\\methodcollectedoninspectorsampleinspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}|SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.engines_unity.editor\\samples\\methodcollectedoninspectorsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}|SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj|solutionrelative:sangoutils.engines_unity.editor\\samples\\methodcollectedoninspectorsample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\animatorviews\\animatorparameterviewsourcegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\animatorviews\\animatorparameterviewsourcegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\animatorviews\\animatorviewsyntaxreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\animatorviews\\animatorviewsyntaxreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|d:\\sangoutils\\sangoutils.extensions\\sangoutils.unitysourcegenerators\\unityinspectors\\unityinspectorssyntaxreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}|SangoUtils.UnitySourceGenerators\\SangoUtils.UnitySourceGenerators.csproj|solutionrelative:sangoutils.unitysourcegenerators\\unityinspectors\\unityinspectorssyntaxreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,89 +69,89 @@
       "DocumentGroups": [
         {
           "DockedHeight": 157,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FieldChangedNotifySyntaxReceiver.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySyntaxReceiver.cs",
-              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySyntaxReceiver.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySyntaxReceiver.cs",
-              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySyntaxReceiver.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwA8AAAA9AAAA",
+              "DocumentIndex": 3,
+              "Title": "EditorButtonAttribute.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorButtonAttribute.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorButtonAttribute.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorButtonAttribute.cs",
+              "RelativeToolTip": "SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorButtonAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:24:54.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FieldChangedNotifySourceGenerator.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySourceGenerator.cs",
-              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySourceGenerator.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySourceGenerator.cs",
-              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\FieldChangedNotifys\\FieldChangedNotifySourceGenerator.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAIwI4AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:24:46.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\AssemblyInfos\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\AssemblyInfos\\AssemblyInfo.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\AssemblyInfos\\AssemblyInfo.cs",
-              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\AssemblyInfos\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T08:45:21.588Z",
+              "WhenOpened": "2024-07-19T09:13:26.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PropertyWorkItem.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\PropertyWorkItem.cs",
-              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\Utils\\PropertyWorkItem.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\PropertyWorkItem.cs",
-              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\Utils\\PropertyWorkItem.cs",
+              "Title": "EditorObjectFieldAttribute.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorObjectFieldAttribute.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorObjectFieldAttribute.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorObjectFieldAttribute.cs",
+              "RelativeToolTip": "SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorObjectFieldAttribute.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T08:37:43.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TypeDeclarationSyntaxHelper.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\TypeDeclarationSyntaxHelper.cs",
-              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\Utils\\TypeDeclarationSyntaxHelper.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\TypeDeclarationSyntaxHelper.cs",
-              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\Utils\\TypeDeclarationSyntaxHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T06:28:51.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CodeWriter.cs",
-              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
-              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
-              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
-              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T06:28:03.142Z",
+              "WhenOpened": "2024-07-19T09:13:25.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "EditorTextFieldAttribute.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorTextFieldAttribute.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorTextFieldAttribute.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorTextFieldAttribute.cs",
+              "RelativeToolTip": "SangoUtils_Editors_UnityEngine\\Core\\EditorWindowAttributes\\EditorTextFieldAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:13:24.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEditorWindow.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\BaseEditorWindow.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\BaseEditorWindow.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\BaseEditorWindow.cs",
+              "RelativeToolTip": "SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\BaseEditorWindow.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:10:43.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditorWindowReflectionUtils.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\EditorWindowReflectionUtils.cs",
+              "RelativeDocumentMoniker": "SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\EditorWindowReflectionUtils.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\EditorWindowReflectionUtils.cs",
+              "RelativeToolTip": "SangoUtils_Editors_UnityEngine\\Editors\\EditorWindows\\EditorWindowReflectionUtils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:13:17.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tags.template.cs",
+              "DocumentMoniker": "D:\\Projects\\ARs\\Experiments\\Demo_RokidTest\\Packages\\com.sangoutils.unitycodegenerator\\Template~\\Tags.template.cs",
+              "RelativeDocumentMoniker": "..\\..\\Projects\\ARs\\Experiments\\Demo_RokidTest\\Packages\\com.sangoutils.unitycodegenerator\\Template~\\Tags.template.cs",
+              "ToolTip": "D:\\Projects\\ARs\\Experiments\\Demo_RokidTest\\Packages\\com.sangoutils.unitycodegenerator\\Template~\\Tags.template.cs",
+              "RelativeToolTip": "..\\..\\Projects\\ARs\\Experiments\\Demo_RokidTest\\Packages\\com.sangoutils.unitycodegenerator\\Template~\\Tags.template.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:04:10.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FieldWorkItem.cs",
               "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\FieldWorkItem.cs",
               "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\Utils\\FieldWorkItem.cs",
@@ -132,7 +159,7 @@
               "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\Utils\\FieldWorkItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T06:27:52.5Z",
+              "WhenOpened": "2024-07-19T02:54:40.885Z",
               "EditorCaption": ""
             },
             {
@@ -143,9 +170,100 @@
               "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\Utils\\Def.cs",
               "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\Def.cs",
               "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\Utils\\Def.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAD4vxkAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T06:26:52.71Z",
+              "WhenOpened": "2024-07-19T02:54:20.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CodeWriter.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
+              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
+              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\Utils\\CodeWriter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:53:08.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MethodCollectedOnInspectorSampleInspector.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSampleInspector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T01:57:53.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MethodCollectedOnInspectorSample.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "RelativeDocumentMoniker": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "RelativeToolTip": "SangoUtils.Engines_Unity.Editor\\Samples\\MethodCollectedOnInspectorSample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T01:57:52.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnityInspectorsSourceGenerator.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSourceGenerator.cs",
+              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSourceGenerator.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSourceGenerator.cs",
+              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSourceGenerator.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAgwHUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:36:31.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnityInspectorsSyntaxReceiver.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSyntaxReceiver.cs",
+              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSyntaxReceiver.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSyntaxReceiver.cs",
+              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\UnityInspectors\\UnityInspectorsSyntaxReceiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:36:30.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AnimatorParameterViewSourceGenerator.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorParameterViewSourceGenerator.cs",
+              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorParameterViewSourceGenerator.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorParameterViewSourceGenerator.cs",
+              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorParameterViewSourceGenerator.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADwv0UAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T09:16:17.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AnimatorViewSyntaxReceiver.cs",
+              "DocumentMoniker": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorViewSyntaxReceiver.cs",
+              "RelativeDocumentMoniker": "SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorViewSyntaxReceiver.cs",
+              "ToolTip": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorViewSyntaxReceiver.cs",
+              "RelativeToolTip": "SangoUtils.UnitySourceGenerators\\AnimatorViews\\AnimatorViewSyntaxReceiver.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAgwEUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T07:29:46.574Z",
               "EditorCaption": ""
             },
             {

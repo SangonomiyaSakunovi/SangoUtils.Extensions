@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SangoUtils.UnitySourceGenerators.Inspectors
+namespace SangoUtils.UnitySourceGenerators.UnityInspectors
 {
-    internal sealed class InspectorsSyntaxReceiver : ISyntaxReceiver
+    internal sealed class UnityInspectorsSyntaxReceiver : ISyntaxReceiver
     {
         public Dictionary<string, List<PropertyWorkItem>> CandidateWorkItems { get; } = new Dictionary<string, List<PropertyWorkItem>>();
 
@@ -40,10 +40,10 @@ namespace SangoUtils.UnitySourceGenerators.Inspectors
                     var attributeName = attribute.Name.ToString();
                     switch (attributeName)
                     {
-                        case var name when name == InspectorsSourceGenerator.UnityInspectorAttributeName ||
-                                           name == InspectorsSourceGenerator.UnityInspectorAttributeName + Def.Key_Attribute ||
-                                           name == Def.Dom_Generateds + Def.Sym_Dot + InspectorsSourceGenerator.UnityInspectorAttributeName ||
-                                           name == Def.Dom_Generateds + Def.Sym_Dot + InspectorsSourceGenerator.UnityInspectorAttributeName + Def.Key_Attribute:
+                        case var name when name == UnityInspectorsSourceGenerator.UnityInspectorAttributeName ||
+                                           name == UnityInspectorsSourceGenerator.UnityInspectorAttributeName + Def.Key_Attribute ||
+                                           name == Def.Dom_Generateds + Def.Sym_Dot + UnityInspectorsSourceGenerator.UnityInspectorAttributeName ||
+                                           name == Def.Dom_Generateds + Def.Sym_Dot + UnityInspectorsSourceGenerator.UnityInspectorAttributeName + Def.Key_Attribute:
                             item.SetIsExist(true);
                             break;
                     }
