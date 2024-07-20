@@ -41,9 +41,9 @@ namespace SangoUtils.UnitySourceGenerators.FieldChangedNotifys
                     switch (attributeName)
                     {
                         case var name when name == FieldChangedNotifySourceGenerator.FieldChangedNotifyAttributeName ||
-                                           name == FieldChangedNotifySourceGenerator.FieldChangedNotifyAttributeName + Def.Key_Attribute ||
-                                           name == Def.Dom_Generateds + Def.Sym_Dot + FieldChangedNotifySourceGenerator.FieldChangedNotifyAttributeName ||
-                                           name == Def.Dom_Generateds + Def.Sym_Dot + FieldChangedNotifySourceGenerator.FieldChangedNotifyAttributeName + Def.Key_Attribute:
+                                           name == FieldChangedNotifySourceGenerator.FieldChangedNotifyAttributeName + "Attribute" ||
+                                           name == Def.Dom_Generateds + "." + FieldChangedNotifySourceGenerator.FieldChangedNotifyAttributeName ||
+                                           name == Def.Dom_Generateds + "." + FieldChangedNotifySourceGenerator.FieldChangedNotifyAttributeName + "Attribute":
                             item.SetIsExist(true);
                             break;
                     }
@@ -53,13 +53,12 @@ namespace SangoUtils.UnitySourceGenerators.FieldChangedNotifys
                 {
                     var typeDeclarationSyntax = item.PropertyDeclarationSyntax.Parent as TypeDeclarationSyntax;
                     var typeName = new StringBuilder()
-                        .Append(Def.Key_Partial)
-                        .Append(Def.Fil_Space)
+                        .Append("partial ")
                         .Append(typeDeclarationSyntax.Keyword.ValueText)
-                        .Append(Def.Fil_Space)
+                        .Append(" ")
                         .Append(typeDeclarationSyntax.Identifier.ToString())
                         .Append(typeDeclarationSyntax.TypeParameterList)
-                        .Append(Def.Fil_Space)
+                        .Append(" ")
                         .Append(typeDeclarationSyntax.ConstraintClauses.ToString());
                     item.SetTypeName(typeName.ToString());
                     workItem = item;

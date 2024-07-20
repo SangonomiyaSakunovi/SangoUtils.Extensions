@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g8rl8VJRYmk=",
+  "dgSpecHash": "sdlMPP18PjWgQLZF+ELOdxAu2V1m+eBv7snJzNFn5MBt6JMNwynCBCHTDsv+CIRbWhUVuDCh9zp0jdiFTHnuhQ==",
   "success": true,
-  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
+  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

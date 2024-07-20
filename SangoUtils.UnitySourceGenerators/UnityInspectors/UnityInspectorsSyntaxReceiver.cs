@@ -41,9 +41,9 @@ namespace SangoUtils.UnitySourceGenerators.UnityInspectors
                     switch (attributeName)
                     {
                         case var name when name == UnityInspectorsSourceGenerator.UnityInspectorAttributeName ||
-                                           name == UnityInspectorsSourceGenerator.UnityInspectorAttributeName + Def.Key_Attribute ||
-                                           name == Def.Dom_Generateds + Def.Sym_Dot + UnityInspectorsSourceGenerator.UnityInspectorAttributeName ||
-                                           name == Def.Dom_Generateds + Def.Sym_Dot + UnityInspectorsSourceGenerator.UnityInspectorAttributeName + Def.Key_Attribute:
+                                           name == UnityInspectorsSourceGenerator.UnityInspectorAttributeName + "Attribute" ||
+                                           name == Def.Dom_Generateds + "." + UnityInspectorsSourceGenerator.UnityInspectorAttributeName ||
+                                           name == Def.Dom_Generateds + "." + UnityInspectorsSourceGenerator.UnityInspectorAttributeName + "Attribute":
                             item.SetIsExist(true);
                             break;
                     }
@@ -53,13 +53,12 @@ namespace SangoUtils.UnitySourceGenerators.UnityInspectors
                 {
                     var typeDeclarationSyntax = item.PropertyDeclarationSyntax.Parent as TypeDeclarationSyntax;
                     var typeName = new StringBuilder()
-                        .Append(Def.Key_Partial)
-                        .Append(Def.Fil_Space)
+                        .Append("partial ")
                         .Append(typeDeclarationSyntax.Keyword.ValueText)
-                        .Append(Def.Fil_Space)
+                        .Append(" ")
                         .Append(typeDeclarationSyntax.Identifier.ToString())
                         .Append(typeDeclarationSyntax.TypeParameterList)
-                        .Append(Def.Fil_Space)
+                        .Append(" ")
                         .Append(typeDeclarationSyntax.ConstraintClauses.ToString());
                     item.SetTypeName(typeName.ToString());
                     workItem = item;

@@ -59,7 +59,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_Win",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoServers.Bases_ASPNet", "SangoServers.Bases_ASPNet\SangoServers.Bases_ASPNet.csproj", "{DF67FBE7-E2FD-4A61-8665-35106152D502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SangoUtils.UnitySourceGenerators", "SangoUtils.UnitySourceGenerators\SangoUtils.UnitySourceGenerators.csproj", "{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.UnitySourceGenerators", "SangoUtils.UnitySourceGenerators\SangoUtils.UnitySourceGenerators.csproj", "{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

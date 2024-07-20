@@ -9,3 +9,14 @@ D:\SangoUtils\SangoUtils.Extensions\SangoUtils.UnitySourceGenerators\obj\Release
 D:\SangoUtils\SangoUtils.Extensions\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.sourcelink.json
 D:\SangoUtils\SangoUtils.Extensions\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.dll
 D:\SangoUtils\SangoUtils.Extensions\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\bin\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.deps.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\bin\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\bin\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.pdb
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.csproj.AssemblyReference.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.AssemblyInfoInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.AssemblyInfo.cs
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.csproj.CoreCompileInputs.cache
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.sourcelink.json
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.dll
+D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.UnitySourceGenerators\obj\Release\netstandard2.0\SangoUtils.UnitySourceGenerators.pdb

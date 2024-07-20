@@ -413,11 +413,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
+      "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
       "projectName": "SangoUtils.Behaviours",
-      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
+      "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Behaviours\\SangoUtils.Behaviours.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-      "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours\\obj\\",
+      "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Behaviours\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -477,7 +477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

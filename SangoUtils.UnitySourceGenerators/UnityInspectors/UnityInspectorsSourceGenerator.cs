@@ -8,19 +8,13 @@ using System.Text;
 
 namespace SangoUtils.UnitySourceGenerators.UnityInspectors
 {
-    [Generator()]
+    [Generator]
     internal sealed class UnityInspectorsSourceGenerator : ISourceGenerator
     {
         public const string UnityInspectorAttributeName = "UnityInspector";
 
         public void Initialize(GeneratorInitializationContext context)
         {
-#if DEBUG
-            if (!Debugger.IsAttached)
-            {
-                Debugger.Launch();
-            }
-#endif
             context.RegisterForSyntaxNotifications(delegate { return new UnityInspectorsSyntaxReceiver(); });
         }
 
@@ -40,12 +34,12 @@ namespace {Def.Dom_Generateds}
 ";
 
             var moduleName = context.Compilation.SourceModule.Name;
-            if (moduleName.StartsWith(Def.Dom_UnityEngine + Def.Sym_Dot)) return;
-            if (moduleName.StartsWith(Def.Dom_UnityEditor + Def.Sym_Dot)) return;
-            if (moduleName.StartsWith(Def.Dom_Unity + Def.Sym_Dot)) return;
+            if (moduleName.StartsWith("UnityEngine.")) return;
+            if (moduleName.StartsWith("UnityEditor.")) return;
+            if (moduleName.StartsWith("Unity.")) return;
 
             var sourceText0 = SourceText.From(UnityInspectorAttributeSourceText, Encoding.UTF8);
-            context.AddSource(UnityInspectorAttributeName + Def.Key_Attribute + Def.Ext_gcs, sourceText0);
+            context.AddSource(UnityInspectorAttributeName + "Attribute.g.cs", sourceText0);
 
             var syntaxReceiver = context.SyntaxReceiver as UnityInspectorsSyntaxReceiver;
             if (syntaxReceiver.CandidateWorkItems.Count == 0) return;
@@ -60,12 +54,13 @@ namespace {Def.Dom_Generateds}
                 {
                     string typeName = TypeDeclarationSyntaxHelper.WriteTypeName(semanticModel,
                         workItem.PropertyDeclarationSyntax.Parent as TypeDeclarationSyntax);
-                    string namespaceName = typeSymbol.ContainingNamespace.IsGlobalNamespace ?
-                        string.Empty : typeSymbol.ContainingNamespace.ToString();
+
+                    string namespaceName = NamespaceHelper.GetNamespacePath(typeSymbol.ContainingNamespace);
+
                     var sourceTextStr = AppendClassBody(codeWriter, semanticModel,
                         namespaceName, typeName, workItems);
                     var sourceText1 = SourceText.From(sourceTextStr, Encoding.UTF8);
-                    context.AddSource(typeSymbol.Name + Def.Ext_gcs, sourceText1);
+                    context.AddSource(typeSymbol.Name + ".g.cs", sourceText1);
                     codeWriter.Clear();
                 }
             }
@@ -76,11 +71,11 @@ namespace {Def.Dom_Generateds}
         {
             codeWriter.AppendLine(Def.Dom_Declaration);
             codeWriter.AppendLine();
-            codeWriter.AppendLine(Def.Key_Using + Def.Fil_Space + Def.Dom_UnityEngine + Def.Sym_Semicolon);
+            codeWriter.AppendLine("using UnityEngine;");
             codeWriter.AppendLine();
             if (!string.IsNullOrEmpty(namespaceName))
             {
-                codeWriter.AppendLine(Def.Key_Namespace + Def.Fil_Space + namespaceName);
+                codeWriter.AppendLine("namespace " + namespaceName);
                 codeWriter.BeginBlock();
             }
 
@@ -91,7 +86,6 @@ namespace {Def.Dom_Generateds}
             {
                 AppendPrivateField(codeWriter, semanticModel,
                     workItem);
-                codeWriter.AppendLine();
             }
 
             codeWriter.EndBlock();
@@ -106,28 +100,15 @@ namespace {Def.Dom_Generateds}
         private static void AppendPrivateField(in CodeWriter codeWriter, in SemanticModel semanticModel,
             PropertyWorkItem workItem)
         {
-            var stringBuilder = new StringBuilder();
             var fieldType = semanticModel.GetTypeInfo(workItem.PropertyDeclarationSyntax.Type).Type.ToDisplayString();
             var fieldName = workItem.PropertyDeclarationSyntax.Identifier.ValueText;
-            
-            var privateFieldName = Def.Sym_Underline + fieldName;
-            stringBuilder
-                .Append(Def.Fil_Tab)
-                .Append(Def.Atr_SerializeField);
-            codeWriter.AppendLine(stringBuilder.ToString());
-            stringBuilder.Clear();
 
-            stringBuilder
-                .Append(Def.Fil_Tab)
-                .Append(Def.Key_Private)
-                .Append(Def.Fil_Space)
-                .Append(fieldType)
-                .Append(Def.Fil_Space)
-                .Append(privateFieldName)
-                .Append(Def.Sym_Semicolon);
-            codeWriter.AppendLine(stringBuilder.ToString());
-            codeWriter.AppendLine();
-            stringBuilder.Clear();
+            var sourceText = 
+$@"
+        [SerializeField]
+        private {fieldType} _{fieldName};
+";
+            codeWriter.AppendLine(sourceText);
         }
     }
 }

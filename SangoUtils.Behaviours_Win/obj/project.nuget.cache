@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rwCyqWAp0xo=",
+  "dgSpecHash": "hvZOlvtHwm9O4dVoXOtY6iNMpSFOiH1zQ8NJorHmQPVnhp2NZ92FNvSxlft878huSYnzlRy1kudl8AU1o7p61Q==",
   "success": true,
-  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
+  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Behaviours_Win\\SangoUtils.Behaviours_Win.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\16022\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.drawing.common\\8.0.6\\system.drawing.common.8.0.6.nupkg.sha512"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rfcfiA4jqXY=",
+  "dgSpecHash": "Oq6t4BpDO3q7DiFiGNNQQmVLSrIscRQJVOWaBZ2ln1ZHOPw2opc7aPMdnyokTc6i8pJPb83H6OhzjctqGmYMFQ==",
   "success": true,
-  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj",
+  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

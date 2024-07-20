@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj": {}
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj": {}
   },
   "projects": {
-    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj": {
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
+        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
         "projectName": "SangoUtils.NetAdapters",
-        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
+        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\obj\\",
+        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetAdapter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

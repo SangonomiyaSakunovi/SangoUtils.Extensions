@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\00TestConsoleProject\\00TestConsoleProject.csproj",
+      "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\00TestConsoleProject\\00TestConsoleProject.csproj",
       "projectName": "00TestConsoleProject",
-      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\00TestConsoleProject\\00TestConsoleProject.csproj",
+      "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\00TestConsoleProject\\00TestConsoleProject.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-      "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\00TestConsoleProject\\obj\\",
+      "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\00TestConsoleProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

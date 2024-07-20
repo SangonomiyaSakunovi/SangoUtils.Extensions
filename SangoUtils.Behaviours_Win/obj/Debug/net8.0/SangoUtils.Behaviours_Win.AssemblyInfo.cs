@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SangonomiyaSakunvi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4800478a3a7f409b85fff6666e0a92ffdb339f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c767b178d42c0813a39101cb44aa2023723f65b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SangoUtils.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SangoUtils.Behaviours_Win")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

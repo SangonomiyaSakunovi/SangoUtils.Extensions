@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj": {}
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj": {}
   },
   "projects": {
-    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj": {
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
+        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
         "projectName": "SangoServers.Bases_ASPNet",
-        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
+        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\obj\\",
+        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoServers.Bases_ASPNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

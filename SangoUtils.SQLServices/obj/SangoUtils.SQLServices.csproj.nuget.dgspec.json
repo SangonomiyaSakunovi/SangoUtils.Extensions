@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj": {}
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj": {}
   },
   "projects": {
-    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj": {
+    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj",
+        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj",
         "projectName": "SangoUtils.SQLServices",
-        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj",
+        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\obj\\",
+        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SQLServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
