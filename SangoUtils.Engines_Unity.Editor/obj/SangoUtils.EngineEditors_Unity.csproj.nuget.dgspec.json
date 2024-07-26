@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj",
         "projectName": "SangoUtils.EngineEditors_Unity",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity.Editor\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj"
               }
             }
           }
@@ -69,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
         "projectName": "SangoUtils.Engines_Unity",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.Engines_Unity\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,14 +102,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj"
               },
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj"
               },
-              "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Task\\SangoUtils.Tasks.csproj": {
-                "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Task\\SangoUtils.Tasks.csproj"
+              "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj": {
+                "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj"
               }
             }
           }
@@ -144,18 +144,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
         "projectName": "SangoUtils.Bases_Unity",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\SangoUtils.Bases_Unity.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Bases_UnityEngine\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Bases_UnityEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -209,18 +209,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj",
         "projectName": "SangoUtils.Sockets",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\SangoUtils.Sockets.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\SangoUtils.Sockets.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Socket\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Socket\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -274,18 +274,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Task\\SangoUtils.Tasks.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Task\\SangoUtils.Tasks.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj",
         "projectName": "SangoUtils.Tasks",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Task\\SangoUtils.Tasks.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Task\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -339,7 +339,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

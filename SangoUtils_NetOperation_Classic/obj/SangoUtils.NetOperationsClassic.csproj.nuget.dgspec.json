@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
         "projectName": "SangoUtils.NetOperationsClassic",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation_Classic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

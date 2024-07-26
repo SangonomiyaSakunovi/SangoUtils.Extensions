@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3NbLFF38yKUomNdYbJYomYSZgiL93XL7daltovLmjfpRg7vQ/73l/LOoZloD89u5xQmsLuIbYbZS+cSckBUkhQ==",
+  "dgSpecHash": "N9IQUyFbNXI=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Converter\\SangoUtils.Converters.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

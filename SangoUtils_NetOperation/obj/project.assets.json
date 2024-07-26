@@ -555,11 +555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
       "projectName": "SangoUtils.NetOperations",
-      "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\SangoUtils.NetOperations.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation\\obj\\",
+      "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -623,20 +623,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 8.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

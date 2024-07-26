@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qLa+HnrHKIVfB+V4s6uL10Y4KIAgKnDK9rI3s6Wwd4r0I7YcKiymwp+iedLIMldmmC8nRnt6A2XK7a+jfKmJ3w==",
+  "dgSpecHash": "P7mD9sQw37Q=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

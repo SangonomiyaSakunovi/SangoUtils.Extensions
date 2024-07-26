@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JHtMX/PjIc83QeCRIjU/78ynWvMHrMG307clhOiScSc9EfaXLse9+4KR4r+8TDwivQVtr07MUB9i/jBTjrFisQ==",
+  "dgSpecHash": "ubJ54DTcRIs=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_Task\\SangoUtils.Tasks.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_Task\\SangoUtils.Tasks.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

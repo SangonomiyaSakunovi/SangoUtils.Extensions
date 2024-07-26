@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
         "projectName": "SangoUtils.HolographySpace_Unity",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\SangoUtils.HolographySpace_Unity.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.SangoHolographySpace\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SangoHolographySpace\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 is_global = true
 build_property.RootNamespace = SangoUtils.Physics_Unity
-build_property.ProjectDir = D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils_Physics\
+build_property.ProjectDir = D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Physics\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

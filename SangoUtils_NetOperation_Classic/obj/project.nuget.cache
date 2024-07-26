@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UKg65VYq4aKz77Bup7sNTjT9zswYyoAGxYy0tJESgpNHhVS8fRgoZnyjjCNkqo3VPimlvoFXK6ezW/8PJpTppA==",
+  "dgSpecHash": "hJU0jIwFE7w=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetOperation_Classic\\SangoUtils.NetOperationsClassic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\16022\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -13,16 +13,5 @@
     "C:\\Users\\16022\\.nuget\\packages\\system.text.json\\8.0.2\\system.text.json.8.0.2.nupkg.sha512",
     "C:\\Users\\16022\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-hh2w-p6rv-4g7w",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "logs": []
 }

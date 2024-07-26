@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fan9VNY2vf0+eML03Ddh2ihTlmw8OGVtOtL3ancc+KREEmBUCwa+t4xNn9vbc7FuqSmJ1oNhHZV4AQRUFMlcdw==",
+  "dgSpecHash": "6SyPYz/MSpo=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_IOCP\\SangoUtils.IOCPs.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

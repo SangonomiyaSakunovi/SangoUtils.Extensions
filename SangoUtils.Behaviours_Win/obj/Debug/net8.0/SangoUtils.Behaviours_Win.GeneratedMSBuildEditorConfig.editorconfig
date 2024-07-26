@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SangoUtils.Behaviours_Win
-build_property.ProjectDir = D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.Behaviours_Win\
+build_property.ProjectDir = D:\SangoUtils\SangoUtils.Extensions\SangoUtils.Behaviours_Win\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

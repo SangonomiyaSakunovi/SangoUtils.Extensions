@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2MddbpLJt3nWpUR3Uli6wiub/pxm0FrN423elzsRLcD8e0JSCbqeJ8lib81VoYcnjmBmZ2uvQJY/FmKDOV8F7Q==",
+  "dgSpecHash": "64wyffVWtZE=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\00TestConsoleProject\\00TestConsoleProject.csproj",
+  "projectFilePath": "D:\\SangoUtils\\SangoUtils.Extensions\\00TestConsoleProject\\00TestConsoleProject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

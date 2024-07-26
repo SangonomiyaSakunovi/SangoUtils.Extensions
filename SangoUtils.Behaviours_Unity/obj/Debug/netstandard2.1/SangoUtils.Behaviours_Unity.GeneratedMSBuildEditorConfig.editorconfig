@@ -1,5 +1,5 @@
 is_global = true
 build_property.RootNamespace = SangoUtils.Behaviours_Unity
-build_property.ProjectDir = D:\Projects\SangoUtils\SangoUtils_Server\SangoUtils.Behaviours_Unity\
+build_property.ProjectDir = D:\SangoUtils\SangoUtils.Extensions\SangoUtils.Behaviours_Unity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

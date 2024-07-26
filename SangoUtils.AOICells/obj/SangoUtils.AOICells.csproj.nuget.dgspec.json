@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj": {}
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj": {
+    "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj",
+        "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj",
         "projectName": "SangoUtils.AOICells",
-        "projectPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj",
+        "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.AOICells\\SangoUtils.AOICells.csproj",
         "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\SangoUtils\\SangoUtils_Server\\SangoUtils.AOICells\\obj\\",
+        "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.AOICells\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
