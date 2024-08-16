@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = SangoUtils.Behaviours.Debugs
+build_property.ProjectDir = D:\SangoUtils\SangoUtils.Extensions\SangoUtils_NetAdapter\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

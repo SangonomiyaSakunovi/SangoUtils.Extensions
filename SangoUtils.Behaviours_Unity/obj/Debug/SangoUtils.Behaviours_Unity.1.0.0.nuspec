@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SangoUtils.Behaviours_Unity</id>
+    <version>1.0.0</version>
+    <authors>SangonomiyaSakunovi</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="2a88b0570b58cdd0c0e3f4fe4455b26c0d4fd2d6" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\SangoUtils\SangoUtils.Extensions\SangoUtils.Behaviours_Unity\bin\Debug\netstandard2.1\SangoUtils.Behaviours_Unity.dll" target="lib\netstandard2.1\SangoUtils.Behaviours_Unity.dll" />
+  </files>
+</package>

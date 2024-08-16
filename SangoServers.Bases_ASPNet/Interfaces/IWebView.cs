@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace SangoServers.Bases_ASPNet
+namespace SangoUtils.Behaviours_ASPNet
 {
     public interface IWebView
     {

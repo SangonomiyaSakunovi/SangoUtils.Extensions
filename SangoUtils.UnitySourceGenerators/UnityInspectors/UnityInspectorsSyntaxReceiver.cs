@@ -1,7 +1,9 @@
 ﻿using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using SangoUtils.UnitySourceGenerators.Utils;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -61,6 +63,7 @@ namespace SangoUtils.UnitySourceGenerators.UnityInspectors
                         .Append(" ")
                         .Append(typeDeclarationSyntax.ConstraintClauses.ToString());
                     item.SetTypeName(typeName.ToString());
+
                     workItem = item;
                     return true;
                 }

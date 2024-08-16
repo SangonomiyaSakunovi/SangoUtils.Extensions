@@ -17,35 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.FSMs", "SangoUti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Tasks", "SangoUtils_Task\SangoUtils.Tasks.csproj", "{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.NetOperations", "SangoUtils_NetOperation\SangoUtils.NetOperations.csproj", "{4EFA37FE-7B26-489E-9858-55A68FDB7C69}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.UDPClients", "SangoUtils_UDP\SangoUtils.UDPClients.csproj", "{A9CD4BE2-2C3F-4E92-8774-6F221F842452}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.NetAdapters", "SangoUtils_NetAdapter\SangoUtils.NetAdapters.csproj", "{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Bases_Unity", "SangoUtils_Bases_UnityEngine\SangoUtils.Bases_Unity.csproj", "{56EB783B-0489-4FF5-93B0-98507A366007}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Bases", "SangoUtils_Bases_Universal\SangoUtils.Bases.csproj", "{8BED06BC-6900-4A01-B007-F40A83D4D083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours.Debugs", "SangoUtils_NetAdapter\SangoUtils.Behaviours.Debugs.csproj", "{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Converters", "SangoUtils_Converter\SangoUtils.Converters.csproj", "{08EED031-E32B-41A3-A37F-54BEA11E6FE7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Sockets", "SangoUtils_Socket\SangoUtils.Sockets.csproj", "{9D779539-AFDD-4072-B756-529E30F69C3D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.NetOperationsClassic", "SangoUtils_NetOperation_Classic\SangoUtils.NetOperationsClassic.csproj", "{34666924-FE30-4A87-AAB4-159377087B4B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.CustomEditors_Unity", "SangoUtils_Editors_UnityEngine\SangoUtils.CustomEditors_Unity.csproj", "{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Engines_Unity", "SangoUtils.Engines_Unity\SangoUtils.Engines_Unity.csproj", "{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.HolographySpace_Unity", "SangoUtils.SangoHolographySpace\SangoUtils.HolographySpace_Unity.csproj", "{6F91D711-B146-439F-B5DB-2207816795E6}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.EngineEditors_Unity", "SangoUtils.Engines_Unity.Editor\SangoUtils.EngineEditors_Unity.csproj", "{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.BasesEditor_Unity", "SangoUtils.BasesEditor_Unity\SangoUtils.BasesEditor_Unity.csproj", "{5A5986F8-90E7-4DAF-AE97-52ADC58F6A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_Unity.Editor", "SangoUtils.Engines_Unity.Editor\SangoUtils.Behaviours_Unity.Editor.csproj", "{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.AOICells", "SangoUtils.AOICells\SangoUtils.AOICells.csproj", "{3607B967-39EF-4B3C-A250-98E108016463}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.SQLServices", "SangoUtils.SQLServices\SangoUtils.SQLServices.csproj", "{406DFCE0-F0D4-4D34-B539-40FE17170457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_SQL", "SangoUtils.SQLServices\SangoUtils.Behaviours_SQL.csproj", "{406DFCE0-F0D4-4D34-B539-40FE17170457}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.WebRequests_Unity", "WebRequests_Unity\SangoUtils.WebRequests_Unity.csproj", "{A9CCA632-4305-4F87-93A7-4247A6E245E1}"
 EndProject
@@ -57,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_Unity
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_Win", "SangoUtils.Behaviours_Win\SangoUtils.Behaviours_Win.csproj", "{24C518AD-5B1E-4EBD-B1A1-75F24961A32D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoServers.Bases_ASPNet", "SangoServers.Bases_ASPNet\SangoServers.Bases_ASPNet.csproj", "{DF67FBE7-E2FD-4A61-8665-35106152D502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.Behaviours_ASPNet", "SangoServers.Bases_ASPNet\SangoUtils.Behaviours_ASPNet.csproj", "{DF67FBE7-E2FD-4A61-8665-35106152D502}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SangoUtils.UnitySourceGenerators", "SangoUtils.UnitySourceGenerators\SangoUtils.UnitySourceGenerators.csproj", "{FB5B3221-B1AF-4F9D-B4C6-E8F74EDDC2CB}"
 EndProject
@@ -95,10 +81,6 @@ Global
 		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B8A203-D0EF-4AEB-B11B-75B6C14BD780}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EFA37FE-7B26-489E-9858-55A68FDB7C69}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9CD4BE2-2C3F-4E92-8774-6F221F842452}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -107,14 +89,6 @@ Global
 		{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D24A0ED-7B2B-4A08-AD27-A9E46C47A5D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56EB783B-0489-4FF5-93B0-98507A366007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56EB783B-0489-4FF5-93B0-98507A366007}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56EB783B-0489-4FF5-93B0-98507A366007}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56EB783B-0489-4FF5-93B0-98507A366007}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BED06BC-6900-4A01-B007-F40A83D4D083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BED06BC-6900-4A01-B007-F40A83D4D083}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BED06BC-6900-4A01-B007-F40A83D4D083}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BED06BC-6900-4A01-B007-F40A83D4D083}.Release|Any CPU.Build.0 = Release|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08EED031-E32B-41A3-A37F-54BEA11E6FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -123,30 +97,14 @@ Global
 		{9D779539-AFDD-4072-B756-529E30F69C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D779539-AFDD-4072-B756-529E30F69C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D779539-AFDD-4072-B756-529E30F69C3D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34666924-FE30-4A87-AAB4-159377087B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34666924-FE30-4A87-AAB4-159377087B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34666924-FE30-4A87-AAB4-159377087B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34666924-FE30-4A87-AAB4-159377087B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98BA5CC7-FF2B-4F8C-AAD1-B42788934F0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E66631AA-1832-4A56-A9E7-87AF1C6FEA82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F91D711-B146-439F-B5DB-2207816795E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F91D711-B146-439F-B5DB-2207816795E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F91D711-B146-439F-B5DB-2207816795E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F91D711-B146-439F-B5DB-2207816795E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D60EC4C2-E3B4-48F7-88FB-DC1357F73805}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A5986F8-90E7-4DAF-AE97-52ADC58F6A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A5986F8-90E7-4DAF-AE97-52ADC58F6A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A5986F8-90E7-4DAF-AE97-52ADC58F6A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A5986F8-90E7-4DAF-AE97-52ADC58F6A78}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3607B967-39EF-4B3C-A250-98E108016463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3607B967-39EF-4B3C-A250-98E108016463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3607B967-39EF-4B3C-A250-98E108016463}.Release|Any CPU.ActiveCfg = Release|Any CPU

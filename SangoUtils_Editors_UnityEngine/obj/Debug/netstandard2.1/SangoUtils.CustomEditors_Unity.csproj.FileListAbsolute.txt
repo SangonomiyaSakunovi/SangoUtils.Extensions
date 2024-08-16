@@ -1,0 +1,11 @@
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.csproj.AssemblyReference.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.GeneratedMSBuildEditorConfig.editorconfig
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.AssemblyInfoInputs.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.AssemblyInfo.cs
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.csproj.CoreCompileInputs.cache
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.sourcelink.json
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\bin\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.deps.json
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\bin\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.dll
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\bin\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.pdb
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.dll
+D:\SangoUtils\SangoUtils.Extensions\SangoUtils_Editors_UnityEngine\obj\Debug\netstandard2.1\SangoUtils.CustomEditors_Unity.pdb

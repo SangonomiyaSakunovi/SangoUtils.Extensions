@@ -2,78 +2,28 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "SangoUtils.Bases_Unity/1.0.0": {
+      "SangoUtils.Behaviours_Unity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
-          "bin/placeholder/SangoUtils.Bases_Unity.dll": {}
+          "bin/placeholder/SangoUtils.Behaviours_Unity.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SangoUtils.Bases_Unity.dll": {}
-        }
-      },
-      "SangoUtils.Engines_Unity/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "dependencies": {
-          "SangoUtils.Bases_Unity": "1.0.0",
-          "SangoUtils.Sockets": "1.0.0",
-          "SangoUtils.Tasks": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SangoUtils.Engines_Unity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SangoUtils.Engines_Unity.dll": {}
-        }
-      },
-      "SangoUtils.Sockets/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "compile": {
-          "bin/placeholder/SangoUtils.Sockets.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SangoUtils.Sockets.dll": {}
-        }
-      },
-      "SangoUtils.Tasks/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
-        "compile": {
-          "bin/placeholder/SangoUtils.Tasks.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SangoUtils.Tasks.dll": {}
+          "bin/placeholder/SangoUtils.Behaviours_Unity.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SangoUtils.Bases_Unity/1.0.0": {
+    "SangoUtils.Behaviours_Unity/1.0.0": {
       "type": "project",
-      "path": "../SangoUtils_Bases_UnityEngine/SangoUtils.Bases_Unity.csproj",
-      "msbuildProject": "../SangoUtils_Bases_UnityEngine/SangoUtils.Bases_Unity.csproj"
-    },
-    "SangoUtils.Engines_Unity/1.0.0": {
-      "type": "project",
-      "path": "../SangoUtils.Engines_Unity/SangoUtils.Engines_Unity.csproj",
-      "msbuildProject": "../SangoUtils.Engines_Unity/SangoUtils.Engines_Unity.csproj"
-    },
-    "SangoUtils.Sockets/1.0.0": {
-      "type": "project",
-      "path": "../SangoUtils_Socket/SangoUtils.Sockets.csproj",
-      "msbuildProject": "../SangoUtils_Socket/SangoUtils.Sockets.csproj"
-    },
-    "SangoUtils.Tasks/1.0.0": {
-      "type": "project",
-      "path": "../SangoUtils_Task/SangoUtils.Tasks.csproj",
-      "msbuildProject": "../SangoUtils_Task/SangoUtils.Tasks.csproj"
+      "path": "../SangoUtils.Behaviours_Unity/SangoUtils.Behaviours_Unity.csproj",
+      "msbuildProject": "../SangoUtils.Behaviours_Unity/SangoUtils.Behaviours_Unity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "SangoUtils.Engines_Unity >= 1.0.0"
+      "SangoUtils.Behaviours_Unity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -83,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj",
-      "projectName": "SangoUtils.EngineEditors_Unity",
-      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.EngineEditors_Unity.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.Behaviours_Unity.Editor.csproj",
+      "projectName": "SangoUtils.Behaviours_Unity.Editor",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\SangoUtils.Behaviours_Unity.Editor.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
       "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity.Editor\\obj\\",
       "projectStyle": "PackageReference",
@@ -109,8 +59,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj": {
-              "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Engines_Unity\\SangoUtils.Engines_Unity.csproj"
+            "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj": {
+              "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.Behaviours_Unity\\SangoUtils.Behaviours_Unity.csproj"
             }
           }
         }

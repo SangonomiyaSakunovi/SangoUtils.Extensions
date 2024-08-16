@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj",
-      "projectName": "SangoUtils.SQLServices",
-      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.SQLServices.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.Behaviours_SQL.csproj",
+      "projectName": "SangoUtils.Behaviours_SQL",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\SangoUtils.Behaviours_SQL.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
       "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils.SQLServices\\obj\\",
       "projectStyle": "PackageReference",

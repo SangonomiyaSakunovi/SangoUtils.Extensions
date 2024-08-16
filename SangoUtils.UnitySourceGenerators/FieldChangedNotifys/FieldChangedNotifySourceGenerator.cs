@@ -33,9 +33,8 @@ namespace {Def.Dom_Generateds}
 ";
 
             var moduleName = context.Compilation.SourceModule.Name;
-            if (moduleName.StartsWith("UnityEngine.")) return;
-            if (moduleName.StartsWith("UnityEditor.")) return;
-            if (moduleName.StartsWith("Unity.")) return;
+            bool isMouoduleNameValid = Validator.IsMouduleNameStartsValid(moduleName);
+            if (!isMouoduleNameValid) return;
 
             var sourceText0 = SourceText.From(FieldChangedNotifyAttributeSourceText, System.Text.Encoding.UTF8);
             context.AddSource(FieldChangedNotifyAttributeName  + "Attribute.g.cs", sourceText0);

@@ -1,4 +1,4 @@
-﻿namespace SangoUtils.SQLServices.MongoDBs
+﻿namespace SangoUtils.Behaviours_SQL.MongoDBs
 {
 #if MongoDB
     public class MongoDBService : BaseService<MongoDBService>

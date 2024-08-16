@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Reflection;
 
-namespace SangoServers.Bases_ASPNet.Services
+namespace SangoUtils.Behaviours_ASPNet.Services
 {
     public class WebViewService
     {

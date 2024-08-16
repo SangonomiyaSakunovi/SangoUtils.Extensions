@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
-      "projectName": "SangoServers.Bases_ASPNet",
-      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoServers.Bases_ASPNet.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoUtils.Behaviours_ASPNet.csproj",
+      "projectName": "SangoUtils.Behaviours_ASPNet",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\SangoUtils.Behaviours_ASPNet.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
       "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoServers.Bases_ASPNet\\obj\\",
       "projectStyle": "PackageReference",

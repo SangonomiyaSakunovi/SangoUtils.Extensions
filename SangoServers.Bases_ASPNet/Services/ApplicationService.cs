@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace SangoServers.Bases_ASPNet.Services
+namespace SangoUtils.Behaviours_ASPNet.Services
 {
     public class ApplicationService
     {

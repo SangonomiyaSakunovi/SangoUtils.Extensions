@@ -34,9 +34,8 @@ namespace {Def.Dom_Generateds}
 ";
 
             var moduleName = context.Compilation.SourceModule.Name;
-            if (moduleName.StartsWith("UnityEngine.")) return;
-            if (moduleName.StartsWith("UnityEditor.")) return;
-            if (moduleName.StartsWith("Unity.")) return;
+            bool isMouoduleNameValid = Validator.IsMouduleNameStartsValid(moduleName);
+            if (!isMouoduleNameValid) return;
 
             var sourceText0 = SourceText.From(UnityInspectorAttributeSourceText, Encoding.UTF8);
             context.AddSource(UnityInspectorAttributeName + "Attribute.g.cs", sourceText0);
@@ -103,11 +102,12 @@ namespace {Def.Dom_Generateds}
             var fieldType = semanticModel.GetTypeInfo(workItem.PropertyDeclarationSyntax.Type).Type.ToDisplayString();
             var fieldName = workItem.PropertyDeclarationSyntax.Identifier.ValueText;
 
-            var sourceText = 
+            string sourceText =
 $@"
         [SerializeField]
         private {fieldType} _{fieldName};
 ";
+            
             codeWriter.AppendLine(sourceText);
         }
     }

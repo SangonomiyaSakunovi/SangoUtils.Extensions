@@ -1,4 +1,4 @@
-﻿using SangoUtils.Engines_Unity.Utilities;
+﻿using SangoUtils.Behaviours_Unity.Utilities;
 using UnityEngine;
 
 namespace SangoUtils.EngineEditors_Unity.Samples

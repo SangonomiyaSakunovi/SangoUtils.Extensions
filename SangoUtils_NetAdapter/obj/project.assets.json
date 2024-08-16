@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
-      "projectName": "SangoUtils.NetAdapters",
-      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.NetAdapters.csproj",
+      "projectUniqueName": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.Behaviours.Debugs.csproj",
+      "projectName": "SangoUtils.Behaviours.Debugs",
+      "projectPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\SangoUtils.Behaviours.Debugs.csproj",
       "packagesPath": "C:\\Users\\16022\\.nuget\\packages\\",
       "outputPath": "D:\\SangoUtils\\SangoUtils.Extensions\\SangoUtils_NetAdapter\\obj\\",
       "projectStyle": "PackageReference",
